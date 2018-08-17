@@ -80,12 +80,15 @@ Spanish, English, Portuguese.
 - Coordination and Creation of User Generated Content systems (Node.js, Sencha Touch and MongoDB)
 
 
+#### Contact Me
 <form action="https://formspree.io/spam-filter@beecoss.com">
     
-   Name: <input />
-   Email: <input />
-   Message: <textarea>
+   Name: <input name="Name" placeholder="Your Name" />
+   Email: <input name="_replyto" placeholder="Your Email" />
+   Message: <textarea name="message" placeholder="Type your message"></textarea>
     <input type="submit" value="Send">
+    <input type="hidden" name="_subject" value="Contact form">
+    <input type="hidden" name="_next" value="thanks.md">
 </form>
 
 [usach]: http://www.usach.cl​

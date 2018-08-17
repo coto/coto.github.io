@@ -70,3 +70,5 @@ Computer Engineer, Electronics Technician, Diploma in Finance and Investments. e
 #### Betazeta -​ ​www.betazeta.com Ago, 2011 - May 2012 
 ##### » Software Engineer
 - Coordination and Creation of User Generated Content systems (Node.js, Sencha Touch and MongoDB)
+
+{% include footer.html %}

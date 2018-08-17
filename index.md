@@ -14,23 +14,24 @@ Computer Engineer, Electronics Technician, Diploma in Finance and Investments. e
 - Hardware Programming (Assembly, C, Python, JavaScript)
 
 
+### ACADEMIC BACKGROUNDS
+
 | Year | Institution | Price |
 | --- | --- | ---: |
-| 2014 – 2014 | item1 description | 1.00 |
+| 2014 – 2014 | [Universidad de Chile]​(​http://www.fen.uchile.cl)​ | 1.00 |
 |  | item1 description | 1.00 |
-| 2014 – 2014 | item1 description | 1.00 |
+| 2014 – 2014 | [Santiago University Chile](​http://www.usach.cl​) | 1.00 |
 |  | item1 description | 1.00 |
-| 2014 – 2014 | item1 description | 1.00 |
+| 2014 – 2014 | [Santiago University Chile](​http://www.usach.cl​) | 1.00 |
 |  | item1 description | 1.00 |
-| 2014 – 2014 | item1 description | 1.00 |
+| 2014 – 2014 | [Federico Santa Maria University]​(​http://www.utfsm.cl​) | 1.00 |
 |  | item1 description | 1.00 |
-| 2014 – 2014 | item1 description | 1.00 |
+| 2014 – 2014 | Diego de Almeida High School | 1.00 |
 |  | item1 description | 1.00 |
 {:.mbtablestyle}
 
 
 
-### ACADEMIC BACKGROUNDS
 | Year | Institution |
 |------|-------------|
 | 2014 – 2014 | [Universidad de Chile]​(​http://www.fen.uchile.cl)​|

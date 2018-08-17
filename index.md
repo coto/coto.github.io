@@ -13,7 +13,7 @@ title: Coto Augosto
 
 ### COMPETENCES
 
-- Lead Technology Teams (Software and Hardware).
+- Lead Technical and Non-Technical Teams (Software and Hardware).
 - Programming [Cryptocurrencies or Blockchains](http://bit.ly/cryptocurrency_programming).
 - [Programming Google Scripts](http://bit.ly/google_script_programming) as plugins for Google Spreadsheet, Docs and Forms.
 - [Android and iOS Apps](http://bit.ly/mob_apps_programming) programming React, VUE, Angular or similars.
@@ -47,12 +47,12 @@ Spanish, English, Portuguese.
 ### EXPERIENCE
 
 #### Hardware Industry Apr, 2017 - present 
-##### » CTO
+##### » COO
 
-- Planning and budgeting of technology projects including software and hardware.
+- Planning and budgeting technology projects including software and hardware.
 - Execution and leadership of multidisciplinary teams.
 - Management and Coordination of research teams (Engineers, Docs and Postdocs)
-
+- Investors releantions.
 
 #### Fintech Industry Feb, 2008 - Abr. 2017 
 ##### » CTO

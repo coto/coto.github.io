@@ -82,15 +82,15 @@ Spanish, English, Portuguese.
 
 ## Contact Me
 <form class="contact-form" method="post" action="https://formspree.io/spam-filter@beecoss.com">
-   Name: <input name="Name" placeholder="Your Name" /><br/>
-   Email: <input name="_replyto" placeholder="Your Email" /><br/>
+   <p>Name: <input name="Name" placeholder="Your Name" /></p>
+   <p>Email: <input name="_replyto" placeholder="Your Email" /></p>
    <p>Message: <br><textarea name="message" placeholder="Type your message"></textarea> </p>
     <input type="submit" value="Send">
     <input type="hidden" name="_subject" value="Contact form">
     <input type="hidden" name="_next" value="thanks.md">
 </form>
 
-`This contact form uses a third party service that is not under my control.
+`This contact form uses a third party service that is not under my control.`
 
 [usach]: http://www.usach.cl​
 [usm]: http://www.utfsm.cl​

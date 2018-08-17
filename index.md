@@ -1,9 +1,3 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/coto/coto.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
 ### SUMMARY
 
 Computer Engineer, Electronics Technician, Diploma in Finance and Investments. experience in Technological Project Management in different multinational companies. Experience in ITIL, Design Thinking, cost analysis, budget, relational and documentary databases, programming in Python and JavaScript at an advanced level. I have participated in the implementation of various technological projects, from the improvement of security processes for the financial industry, to hardware creation and programming projects, technological transformation initiatives, creating value by meeting objectives within expected deadlines and costs.

@@ -39,7 +39,8 @@ Syntax highlighted code block
 ```
 
 ### ACADEMIC BACKGROUNDS
-
+| Year | Institution |
+|------|-------------|
 | 2014 – 2014 |  [Universidad de Chile]​(​www.fen.uchile.cl)​|
 |			| Diploma in Finance and Investments|
 | 2009 – 2010 | [Santiago University -  Chile](​www.usach.cl​) |

@@ -7,9 +7,11 @@ title: Coto Augosto
 
 <img src="https://pbs.twimg.com/profile_images/867001529508782081/d2EPjhxf_400x400.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Computer Engineer, Electronics Technician, Diploma in Finance and Investments. experience in Technological Project Management in different multinational companies. Design Thinking, cost analysis, Financial Projections, relational and documentary databases. I am the kind of professional that translates the non-technical language into technical, able to understand the user and the Engineer. I have participated in IT security projects for the financial industry, have led development teams of software and hardware applications. If it's about programming, my best weapons are Python and JavaScript at an advanced level, if it's about hardware, I can understand from how he transistor works. If it's about people, I love design simple user interfaces and create employment opportunities.
 
-[<img src="/twitter.ico" width="16" height="16" style="float: left; margin-right: 10px;"/> @coto][t_coto] 
+<img src="/twitter.ico" width="16" height="16" style="float: left; margin-right: 10px;"/> [@coto][t_coto] 
 
-[<img src="/github.png" width="16" height="16" style="float: left; margin-right: 10px;"/> coto][g_coto]
+<img src="/github.png" width="16" height="16" style="float: left; margin-right: 10px;"/> [coto][g_coto]
+
+<img src="/quora.png" width="16" height="16" style="float: left; margin-right: 10px;"/> [coto][quora]
 
 ### COMPETENCES
 
@@ -21,7 +23,7 @@ title: Coto Augosto
 - Program automated emails, notification or tasks according SpreadSheet rules.
 - Deploy, Maintenance and improvements in the use of Google Cloud services.
 - Hardware Programming (Assembly, C, Python, JavaScript)
-- [Scrapping][quora]
+- [Scrapping][quora_s]
 
 
 ### ACADEMIC BACKGROUNDS
@@ -91,4 +93,5 @@ Spanish, English, Portuguese.
 [fen]: http://www.fen.uchile.cl
 [t_coto]: https://www.twitter.com/coto
 [g_coto]: https://www.github.com/coto
-[quora]: https://www.quora.com/What-is-the-coolest-thing-you-have-ever-created-alone-as-a-programmer/answer/Coto-Augosto
+[quora_s]: https://www.quora.com/What-is-the-coolest-thing-you-have-ever-created-alone-as-a-programmer/answer/Coto-Augosto
+[quora]: https://www.quora.com/Coto-Augosto

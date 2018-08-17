@@ -87,7 +87,7 @@ Spanish, English, Portuguese.
    <p>Message: <br><textarea name="message" placeholder="Type your message"></textarea> </p>
     <input type="submit" value="Send">
     <input type="hidden" name="_subject" value="Contact form">
-    <input type="hidden" name="_next" value="thanks.md">
+    <input type="hidden" name="_next" value="thanks.html">
 </form>
 
 `This contact form uses a third party service that is not under my control.`

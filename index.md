@@ -1,7 +1,7 @@
 ### SUMMARY
 
 
-<img src="https://pbs.twimg.com/profile_images/867001529508782081/d2EPjhxf_400x400.jpg" width="160" height="160" style="float: left; margin-left: 15px;"/> Computer Engineer, Electronics Technician, Diploma in Finance and Investments. experience in Technological Project Management in different multinational companies. Experience in ITIL, Design Thinking, cost analysis, budget, relational and documentary databases, programming in Python and JavaScript at an advanced level. I have participated in the implementation of various technological projects, from the improvement of security processes for the financial industry, to hardware creation and programming projects, technological transformation initiatives, creating value by meeting objectives within expected deadlines and costs.
+<img src="https://pbs.twimg.com/profile_images/867001529508782081/d2EPjhxf_400x400.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Computer Engineer, Electronics Technician, Diploma in Finance and Investments. experience in Technological Project Management in different multinational companies. Experience in ITIL, Design Thinking, cost analysis, budget, relational and documentary databases, programming in Python and JavaScript at an advanced level. I have participated in the implementation of various technological projects, from the improvement of security processes for the financial industry, to hardware creation and programming projects, technological transformation initiatives, creating value by meeting objectives within expected deadlines and costs.
 
 
 ### COMPETENCES

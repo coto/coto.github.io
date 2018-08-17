@@ -10,13 +10,20 @@ Computer Engineer, Electronics Technician, Diploma in Finance and Investments. e
 
 ### COMPETENCES
 
-● Programming ​Cryptocurrencies or Blockchains​.
-● Programming Google Scripts​ as plugins for Google Spreadsheet, Docs and Forms.
-● Android and iOS Apps​ programming React, VUE, Angular or similars.
-● Rest Services (JSON)​ layer programming in Python.
-● Program automated emails, notification or tasks according SpreadSheet rules.
-● Deploy, Maintenance and improvements in the use of Google Cloud services.
-● Hardware Programming (Assembly, C, Python, JavaScript)
+- Programming [Cryptocurrencies or Blockchains](http://bit.ly/cryptocurrency_programming).
+- [Programming Google Scripts](http://bit.ly/google_script_programming) as plugins for Google Spreadsheet, Docs and Forms.
+- [Android and iOS Apps](http://bit.ly/mob_apps_programming) programming React, VUE, Angular or similars.
+- [Rest Services (JSON)](http://bit.ly/rest_programming) layer programming in Python.
+- Program automated emails, notification or tasks according SpreadSheet rules.
+- Deploy, Maintenance and improvements in the use of Google Cloud services.
+- Hardware Programming (Assembly, C, Python, JavaScript)
+
+
+| Item | Description | Price |
+| --- | --- | ---: |
+| item1 | item1 description | 1.00 |
+| item2 | item2 description | 100.00 |
+{:.mbtablestyle}
 
 ```markdown
 Syntax highlighted code block
@@ -35,6 +42,10 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
+
+### ACADEMIC BACKGROUNDS
+
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 

@@ -4,9 +4,19 @@ You can use the [editor on GitHub](https://github.com/coto/coto.github.io/edit/m
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### SUMMARY
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Computer Engineer, Electronics Technician, Diploma in Finance and Investments. experience in Technological Project Management in different multinational companies. Experience in ITIL, Design Thinking, cost analysis, budget, relational and documentary databases, programming in Python and JavaScript at an advanced level. I have participated in the implementation of various technological projects, from the improvement of security processes for the financial industry, to hardware creation and programming projects, technological transformation initiatives, creating value by meeting objectives within expected deadlines and costs.
+
+### COMPETENCES
+
+● Programming ​Cryptocurrencies or Blockchains​.
+● Programming Google Scripts​ as plugins for Google Spreadsheet, Docs and Forms.
+● Android and iOS Apps​ programming React, VUE, Angular or similars.
+● Rest Services (JSON)​ layer programming in Python.
+● Program automated emails, notification or tasks according SpreadSheet rules.
+● Deploy, Maintenance and improvements in the use of Google Cloud services.
+● Hardware Programming (Assembly, C, Python, JavaScript)
 
 ```markdown
 Syntax highlighted code block

@@ -38,7 +38,7 @@ title: Coto Augosto
 |  | Computer Scientist and Engineer, Software Development |
 | 2014 – 2014 | [Federico Santa Maria University][usm] |
 |  | Electronics Technician |
-| 2014 – 2014 | Diego de Almeida High School |
+| 2014 – 2014 | [Diego de Almeida High School][lda] |
 |  | Computer Programmer |
 {:.mbtablestyle}
 
@@ -99,3 +99,4 @@ Spanish, English, Portuguese.
 [g_coto]: https://www.github.com/coto
 [quora_s]: https://www.quora.com/What-is-the-coolest-thing-you-have-ever-created-alone-as-a-programmer/answer/Coto-Augosto
 [quora]: https://www.quora.com/Coto-Augosto
+[lda]: http://fees.cl/lda/

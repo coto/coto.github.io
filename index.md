@@ -17,7 +17,7 @@ Computer Engineer, Electronics Technician, Diploma in Finance and Investments. e
 ### ACADEMIC BACKGROUNDS
 
 | Year | Institution |
-| --- | ---: |
+| --- | --- |
 | 2014 – 2014 | [Universidad de Chile]​(​http://www.fen.uchile.cl)​ |
 |  | item1 description |
 | 2014 – 2014 | [Santiago University Chile](​http://www.usach.cl​) |

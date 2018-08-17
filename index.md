@@ -21,13 +21,13 @@ Computer Engineer, Electronics Technician, Diploma in Finance and Investments. e
 
 | Year | Institution |
 | --- | --- |
-| 2014 – 2014 | [Universidad de Chile]​(​http://www.fen.uchile.cl)​ |
+| 2014 – 2014 | [Universidad de Chile]​[fen]​ |
 |  | item1 description |
-| 2014 – 2014 | [Santiago University Chile](​http://www.usach.cl​) |
+| 2014 – 2014 | [Santiago University Chile][usach] |
 |  | item1 description |
-| 2014 – 2014 | [Santiago University Chile](​http://www.usach.cl​) |
+| 2014 – 2014 | [Santiago University Chile][usach] |
 |  | item1 description |
-| 2014 – 2014 | [Federico Santa Maria University]​(​http://www.utfsm.cl​) |
+| 2014 – 2014 | [Federico Santa Maria University]​[usm] |
 |  | item1 description |
 | 2014 – 2014 | Diego de Almeida High School |
 |  | item1 description |
@@ -69,3 +69,9 @@ Spanish, English, Portuguese.
 #### Betazeta -​ ​www.betazeta.com Ago, 2011 - May 2012 
 ##### » Software Engineer
 - Coordination and Creation of User Generated Content systems (Node.js, Sencha Touch and MongoDB)
+
+
+[usach]: http://www.usach.cl​
+[usm]: http://www.utfsm.cl​
+[fen]: http://www.fen.uchile.cl
+

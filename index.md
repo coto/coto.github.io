@@ -57,21 +57,26 @@ Syntax highlighted code block
 
 ### EXPERIENCE
 
-Hardware Industry Apr, 2017 - present » CTO
-● Planning and budgeting of technology projects including software and hardware.
-● Execution and leadership of multidisciplinary teams.
-● Management and Coordination of research teams (Engineers, Docs and Postdocs)
-Fintech Industry Feb, 2008 - Abr. 2017 » CTO
-● Design and planning of Architecture and Systems for multi-layered banking applications. (ISO 20000)
-● Partnership manager for Google Cloud and a Chilean company.
-● Evaluation of services for improvements (ITIL) to improve customer experience.
-● Management and leadership of research and development teams.
-● Project management in various latest technologies in Software and Security.
+#### Hardware Industry Apr, 2017 - present » CTO
+
+- Planning and budgeting of technology projects including software and hardware.
+- Execution and leadership of multidisciplinary teams.
+- Management and Coordination of research teams (Engineers, Docs and Postdocs)
+
+
+#### Fintech Industry Feb, 2008 - Abr. 2017 » CTO
+- Design and planning of Architecture and Systems for multi-layered banking applications. (ISO 20000)
+- Partnership manager for Google Cloud and a Chilean company.
+- Evaluation of services for improvements (ITIL) to improve customer experience.
+- Management and leadership of research and development teams.
+- Project management in various latest technologies in Software and Security.
 » Software Engineer Mobile Platforms
-● Creation of a framework in JavaScript for the development of mobile applications, when most of the frameworks (such as Sencha Touch, jQuery Mobile, Angular, React) did not exist.
-● Creation of a mobile application for authentication for a Chilean Bank with OTP security tokens. » Risk Analyst Engineer
-● Construction of operational risk control projects.
-StarTechConf -​ ​www.startechconf.com Ene, 2011 - Dic 2015 » Creator and Co-Organizer
-● Creation and coordination of one an important conferences in South America for technology. Constituted non-profit and with more than a thousand attendees from around the world. Exponents of companies such as Google, Apple, Microsoft, among others, in one place.
-Betazeta -​ ​www.betazeta.com Ago, 2011 - May 2012 » Software Engineer
-● Coordination and Creation of User Generated Content systems (Node.js, Sencha Touch and MongoDB)
+- Creation of a framework in JavaScript for the development of mobile applications, when most of the frameworks (such as Sencha Touch, jQuery Mobile, Angular, React) did not exist.
+- Creation of a mobile application for authentication for a Chilean Bank with OTP security tokens. » Risk Analyst Engineer
+- Construction of operational risk control projects.
+
+#### StarTechConf -​ ​www.startechconf.com Ene, 2011 - Dic 2015 » Creator and Co-Organizer
+- Creation and coordination of one an important conferences in South America for technology. Constituted non-profit and with more than a thousand attendees from around the world. Exponents of companies such as Google, Apple, Microsoft, among others, in one place.
+
+#### Betazeta -​ ​www.betazeta.com Ago, 2011 - May 2012 » Software Engineer
+- Coordination and Creation of User Generated Content systems (Node.js, Sencha Touch and MongoDB)

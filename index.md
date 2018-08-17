@@ -11,7 +11,7 @@ title: Coto Augosto
 
 <img src="/github.png" width="16" height="16" style="float: left; margin-right: 10px;"/> [coto][g_coto]
 
-<img src="/quora.png" width="16" height="16" style="float: left; margin-right: 10px;"/> [coto][quora]
+<img src="/quora.jpg" width="16" height="16" style="float: left; margin-right: 10px;"/> [coto][quora]
 
 ### COMPETENCES
 

@@ -18,7 +18,14 @@ Computer Engineer, Electronics Technician, Diploma in Finance and Investments. e
 | --- | --- | ---: |
 | 2014 – 2014 | item1 description | 1.00 |
 |  | item1 description | 1.00 |
-| item2 | item2 description | 100.00 |
+| 2014 – 2014 | item1 description | 1.00 |
+|  | item1 description | 1.00 |
+| 2014 – 2014 | item1 description | 1.00 |
+|  | item1 description | 1.00 |
+| 2014 – 2014 | item1 description | 1.00 |
+|  | item1 description | 1.00 |
+| 2014 – 2014 | item1 description | 1.00 |
+|  | item1 description | 1.00 |
 {:.mbtablestyle}
 
 
@@ -38,7 +45,9 @@ Computer Engineer, Electronics Technician, Diploma in Finance and Investments. e
 |             | Computer Programer |
 
     
-**LANGUAGES*​* : Spanish, English, Portuguese.
+### LANGUAGES
+
+Spanish, English, Portuguese.
 
 ### EXPERIENCE
 

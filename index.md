@@ -8,7 +8,7 @@ Computer Engineer, Electronics Technician, Diploma in Finance and Investments. e
 - Programming [Cryptocurrencies or Blockchains](http://bit.ly/cryptocurrency_programming).
 - [Programming Google Scripts](http://bit.ly/google_script_programming) as plugins for Google Spreadsheet, Docs and Forms.
 - [Android and iOS Apps](http://bit.ly/mob_apps_programming) programming React, VUE, Angular or similars.
-- [Rest Services (JSON)](http://bit.ly/rest_programming) layer programming in Python.
+- [Rest Services JSON](http://bit.ly/rest_programming) layer programming in Python.
 - Program automated emails, notification or tasks according SpreadSheet rules.
 - Deploy, Maintenance and improvements in the use of Google Cloud services.
 - Hardware Programming (Assembly, C, Python, JavaScript)

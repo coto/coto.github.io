@@ -30,21 +30,6 @@ Computer Engineer, Electronics Technician, Diploma in Finance and Investments. e
 |  | item1 description |
 {:.mbtablestyle}
 
-
-
-| Year | Institution |
-|------|-------------|
-| 2014 – 2014 | [Universidad de Chile]​(​http://www.fen.uchile.cl)​|
-|             | Diploma in Finance and Investments|
-| 2009 – 2010 | [Santiago University Chile](​http://www.usach.cl​) |
-|             | Bachelor of Applied Engineering Sciences |
-| 2004 – 2009 | [Santiago University Chile](​http://www.usach.cl​) |
-|             | Computing Science Engineer |
-| 1999 – 2001 | [Federico Santa Maria University]​(​http://www.utfsm.cl​) |
-|             | Electronic Technician |
-| 1995 – 1998 | ​Diego de Almeida High School |
-|             | Computer Programer |
-
     
 ### LANGUAGES
 

@@ -90,7 +90,7 @@ Spanish, English, Portuguese.
     <input type="hidden" name="_next" value="thanks.md">
 </form>
 
-* This contact form uses a third party service that is not under my control.
+`This contact form uses a third party service that is not under my control.
 
 [usach]: http://www.usach.cl​
 [usm]: http://www.utfsm.cl​

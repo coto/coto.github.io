@@ -1,6 +1,5 @@
 ---
 title: Coto Augosto
-layout: post
 ---
 
 ### SUMMARY

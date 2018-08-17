@@ -24,13 +24,13 @@ Computer Engineer, Electronics Technician, Diploma in Finance and Investments. e
 | 2014 – 2014 | [Universidad de Chile]​[fen]​ |
 |  | item1 description |
 | 2014 – 2014 | [Santiago University Chile][usach] |
-|  | item1 description |
+|  | Bachelor of Computer Science |
 | 2014 – 2014 | [Santiago University Chile][usach] |
-|  | item1 description |
+|  | Computer Scientist and Engineer, Software Development |
 | 2014 – 2014 | [Federico Santa Maria University]​[usm] |
-|  | item1 description |
+|  | Electronics Technician |
 | 2014 – 2014 | Diego de Almeida High School |
-|  | item1 description |
+|  | Computer Programmer |
 {:.mbtablestyle}
 
     

@@ -20,13 +20,13 @@
 
 | Year | Institution |
 | --- | --- |
-| 2014 – 2014 | [Universidad de Chile]​[fen "hola"]​ |
+| 2014 – 2014 | [Universidad de Chile][fen]​ |
 |  | Finance and Investing Diploma |
 | 2014 – 2014 | [Santiago University Chile][usach] |
 |  | Bachelor of Computer Science |
 | 2014 – 2014 | [Santiago University Chile][usach] |
 |  | Computer Scientist and Engineer, Software Development |
-| 2014 – 2014 | [Federico Santa Maria University]​[usm] |
+| 2014 – 2014 | [Federico Santa Maria University][usm] |
 |  | Electronics Technician |
 | 2014 – 2014 | Diego de Almeida High School |
 |  | Computer Programmer |

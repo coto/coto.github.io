@@ -84,7 +84,7 @@ Spanish, English, Portuguese.
 <form class="contact-form" method="post" action="https://formspree.io/spam-filter@beecoss.com">
    Name: <input name="Name" placeholder="Your Name" /><br/>
    Email: <input name="_replyto" placeholder="Your Email" /><br/>
-   Message: <textarea name="message" placeholder="Type your message"></textarea> <br/>
+   <p>Message: <br><textarea name="message" placeholder="Type your message"></textarea> </p>
     <input type="submit" value="Send">
     <input type="hidden" name="_subject" value="Contact form">
     <input type="hidden" name="_next" value="thanks.md">

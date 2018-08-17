@@ -21,8 +21,8 @@ Computer Engineer, Electronics Technician, Diploma in Finance and Investments. e
 
 | Year | Institution |
 | --- | --- |
-| 2014 – 2014 | [Universidad de Chile]​[fen]​ |
-|  | item1 description |
+| 2014 – 2014 | [Universidad de Chile]​[fen "hola"]​ |
+|  | Finance and Investing Diploma |
 | 2014 – 2014 | [Santiago University Chile][usach] |
 |  | Bachelor of Computer Science |
 | 2014 – 2014 | [Santiago University Chile][usach] |

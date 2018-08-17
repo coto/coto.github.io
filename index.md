@@ -21,6 +21,7 @@ title: Coto Augosto
 - Program automated emails, notification or tasks according SpreadSheet rules.
 - Deploy, Maintenance and improvements in the use of Google Cloud services.
 - Hardware Programming (Assembly, C, Python, JavaScript)
+- [Scrapping][quora]
 
 
 ### ACADEMIC BACKGROUNDS
@@ -82,4 +83,4 @@ Spanish, English, Portuguese.
 [fen]: http://www.fen.uchile.cl
 [t_coto]: https://www.twitter.com/coto
 [g_coto]: https://www.github.com/coto
-
+[quora]: https://www.quora.com/What-is-the-coolest-thing-you-have-ever-created-alone-as-a-programmer/answer/Coto-Augosto

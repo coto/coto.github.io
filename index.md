@@ -81,8 +81,7 @@ Spanish, English, Portuguese.
 
 
 #### Contact Me
-<form action="https://formspree.io/spam-filter@beecoss.com">
-    
+<form method="post" action="https://formspree.io/spam-filter@beecoss.com">
    Name: <input name="Name" placeholder="Your Name" /><br/>
    Email: <input name="_replyto" placeholder="Your Email" /><br/>
    Message: <textarea name="message" placeholder="Type your message"></textarea>
@@ -90,6 +89,8 @@ Spanish, English, Portuguese.
     <input type="hidden" name="_subject" value="Contact form">
     <input type="hidden" name="_next" value="thanks.md">
 </form>
+
+* This contact form uses a third party service that is not under my control.
 
 [usach]: http://www.usach.cl​
 [usm]: http://www.utfsm.cl​

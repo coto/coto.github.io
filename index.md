@@ -81,7 +81,7 @@ Spanish, English, Portuguese.
 
 
 ## Contact Me
-<form method="post" action="https://formspree.io/spam-filter@beecoss.com">
+<form class="contact-form" method="post" action="https://formspree.io/spam-filter@beecoss.com">
    Name: <input name="Name" placeholder="Your Name" /><br/>
    Email: <input name="_replyto" placeholder="Your Email" /><br/>
    Message: <textarea name="message" placeholder="Type your message"></textarea> <br/>

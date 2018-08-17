@@ -14,9 +14,10 @@ Computer Engineer, Electronics Technician, Diploma in Finance and Investments. e
 - Hardware Programming (Assembly, C, Python, JavaScript)
 
 
-| Item | Description | Price |
+| Year | Institution | Price |
 | --- | --- | ---: |
-| item1 | item1 description | 1.00 |
+| 2014 – 2014 | item1 description | 1.00 |
+|  | item1 description | 1.00 |
 | item2 | item2 description | 100.00 |
 {:.mbtablestyle}
 
@@ -70,5 +71,3 @@ Computer Engineer, Electronics Technician, Diploma in Finance and Investments. e
 #### Betazeta -​ ​www.betazeta.com Ago, 2011 - May 2012 
 ##### » Software Engineer
 - Coordination and Creation of User Generated Content systems (Node.js, Sencha Touch and MongoDB)
-
-{% include footer.html %}

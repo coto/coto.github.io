@@ -9,7 +9,7 @@ title: Coto Augosto
 
 [<img src="/twitter.ico" width="16" height="16" style="float: left; margin-right: 10px;"/> @coto][t_coto] 
 
-[<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="16" height="16" style="float: left; margin-right: 10px;"/> coto][g_coto]
+[<img src="/github.png" width="16" height="16" style="float: left; margin-right: 10px;"/> coto][g_coto]
 
 ### COMPETENCES
 

@@ -1,11 +1,11 @@
 ---
-title: Coto Augosto
+title: Rodrigo Augosto
 ---
 
 ### SUMMARY
 
 
-<img src="https://pbs.twimg.com/profile_images/867001529508782081/d2EPjhxf_400x400.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Computer Engineer, Electronics Technician, Diploma in Finance and Investments. experience in Technological Project Management in different multinational companies. Design Thinking, cost analysis, Financial Projections, relational and documentary databases. I am the kind of professional that translates the non-technical language into technical, able to understand the user and the Engineer. I have participated in IT security projects for the financial industry, have led development teams of software and hardware applications. If it's about programming, my best weapons are Python and JavaScript at an advanced level, if it's about hardware, I can understand from how the transistor works. If it's about people, I love design simple user interfaces and create employment opportunities.
+<img src="https://pbs.twimg.com/profile_images/867001529508782081/d2EPjhxf_400x400.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Hardware and Software Engineering, Diploma in Finance and Investments. Experience in Technological Project Management in different multinational companies. Design Thinking, Cost Analysis, Financial Projections, different types of database management systems. the kind of professional that translates the non-technical language into technical, able to understand the user and the machine. I have participated in IT security projects for the financial industry, have led development teams of software and hardware applications. Advanced level programming in Python and JavaScript, Circuit Design with complex transistor applications. I love design simple user interfaces and create employment opportunities.
 
 <img src="/twitter.ico" width="16" height="16" style="float: left; margin-right: 10px;"/> [twitter/@coto][t_coto] 
 
@@ -32,13 +32,13 @@ title: Coto Augosto
 | --- | --- |
 | 2014 – 2014 | [Universidad de Chile][fen]​ |
 |  | Finance and Investing Diploma |
-| 2014 – 2014 | [Santiago University Chile][usach] |
+| 2009 – 2010 | [Santiago University Chile][usach] |
 |  | Bachelor of Computer Science |
-| 2014 – 2014 | [Santiago University Chile][usach] |
+| 2004 – 2009 | [Santiago University Chile][usach] |
 |  | Computer Scientist and Engineer, Software Development |
-| 2014 – 2014 | [Federico Santa Maria University][usm] |
+| 1999 – 2001 | [Federico Santa Maria University][usm] |
 |  | Electronics Technician |
-| 2014 – 2014 | [Diego de Almeida High School][lda] |
+| 1995 – 1998 | [Diego de Almeida High School][lda] |
 |  | Computer Programmer |
 {:.mbtablestyle}
 
@@ -68,6 +68,7 @@ Spanish, English, Portuguese.
 ##### » Software Engineer Mobile Platforms
 - Creation of a framework in JavaScript for the development of mobile applications, when most of the frameworks (such as Sencha Touch, jQuery Mobile, Angular, React) did not exist.
 - Creation of a mobile application for authentication for a Chilean Bank with OTP security tokens. 
+
 ##### » Risk Analyst Engineer
 - Construction of operational risk control projects.
 

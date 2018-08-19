@@ -1,3 +1,6 @@
 title: Coto Augosto
 
 theme: jekyll-theme-leap-day
+
+exclude:
+  - assets/javascript/anchor-js

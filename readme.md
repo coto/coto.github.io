@@ -4,9 +4,12 @@ sudo gem install  -n /usr/local/bin bundler jekyll
 
 bundle init
 
+bundle install --path vendor/bundle
+
+
 ## Local Run
 
-bundle install --path vendor/bundle
+bundle exec jekyll serve
 
 ## Deploy 
 

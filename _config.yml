@@ -30,6 +30,9 @@ twitter_username: coto
 github_username:  coto
 quora_username:  Coto-Augosto
 
+disqus:
+  shortname: beecoss
+
 # Build settings
 markdown: kramdown
 theme: minima

@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "La guia definitiva para evitar el Spam"
+comments: true
 date:   2018-08-22 14:17:20 -0300
 categories: coto recommendations
+tags: mailchimp spam guia
 ---
 Si bien Gmail revolucionó el correo electrónico de distintas maneras. Una de las que más llama la atención es el trabajo realizado para combatir el spam.
 

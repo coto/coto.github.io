@@ -18,3 +18,5 @@ permalink: /about/
 - Deploy, Maintenance and improvements in the use of Google Cloud services.
 - Hardware Programming (Assembly, C, Python, JavaScript)
 - [Scrapping][quora_s]
+
+[quora_s]: https://www.quora.com/What-is-the-coolest-thing-you-have-ever-created-alone-as-a-programmer/answer/Coto-Augosto

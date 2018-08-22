@@ -8,7 +8,7 @@ Si bien Gmail revolucionó el correo electrónico de distintas maneras. Una de l
 
 Los filtros de spam de Gmail cada vez mejoran, sin embargo existen personas que estarán a la caza de tu correo electrónico con la intención de incomodarte con promociones, newsletters, marketing, etc.
 
-Aquí les comparto 3 consejos para ser el <b>rey del no spam</b>.
+Aquí les comparto algunos consejos para ser el <b>rey del no spam</b>.
 
 <ol>
 	<li>

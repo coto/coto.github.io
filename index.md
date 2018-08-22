@@ -1,17 +1,14 @@
 ---
-title: Rodrigo Augosto
----
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
+layout: home
+---
 ### SUMMARY
 
 
 <img src="https://pbs.twimg.com/profile_images/867001529508782081/d2EPjhxf_400x400.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Hardware and Software Engineering, Diploma in Finance and Investments. Experience in Technological Project Management in different multinational companies. Design Thinking, Cost Analysis, Financial Projections, different types of database management systems. the kind of professional that translates the non-technical language into technical, able to understand the user and the machine. I have participated in IT security projects for the financial industry, have led development teams of software and hardware applications. Advanced level programming in Python and JavaScript, Circuit Design with complex transistor applications. I love design simple user interfaces and create employment opportunities.
 
-<img src="/twitter.ico" width="16" height="16" style="float: left; margin-right: 10px;"/> [twitter/@coto][t_coto] 
-
-<img src="/github.png" width="16" height="16" style="float: left; margin-right: 10px;"/> [github/@coto][g_coto]
-
-<img src="/quora.jpg" width="16" height="16" style="float: left; margin-right: 10px;"/> [quora/Coto-Augosto][quora]
 
 ### COMPETENCES
 
@@ -80,18 +77,6 @@ Spanish, English, Portuguese.
 ##### » Software Engineer
 - Coordination and Creation of User Generated Content systems (Node.js, Sencha Touch and MongoDB)
 
-
-## Contact Me
-<form class="contact-form" method="post" action="https://formspree.io/spam-filter@beecoss.com">
-   <p>Name: <input name="Name" placeholder="Your Name" /></p>
-   <p>Email: <input name="_replyto" placeholder="Your Email" /></p>
-   <p>Message: <br><textarea name="message" placeholder="Type your message"></textarea> </p>
-    <input type="submit" value="Send">
-    <input type="hidden" name="_subject" value="Contact form">
-    <input type="hidden" name="_next" value="thanks.html">
-</form>
-
-`This contact form uses a third party service that is not under my control.`
 
 [usach]: http://www.usach.cl​
 [usm]: http://www.utfsm.cl​

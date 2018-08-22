@@ -3,7 +3,6 @@ layout: post
 title:  "iPad Air 2 y iPad Mini 3: esta vez ha sido Apple la filtradora de sus nuevos productos"
 comments: true
 date:   2014-10-01 14:17:20 -0300
-categories: coto post
 tags: ipad mini
 ---
 Parece mentira hablando de Apple, pero a la compañía de Cupertino se le habrían podido escapar los nombres y apariencia de sus próximos tablets, a presentar de manera oficial mañana.

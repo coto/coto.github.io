@@ -3,7 +3,6 @@ layout: post
 title:  "5 relojes inteligentes que ya puedes comprar"
 comments: true
 date:   2014-10-15 17:51:00 -0300
-categories: coto post
 tags: smartwatch reloj inteligente
 ---
 <h3>Los relojes inteligentes parece que serán lo próximo en tecnología pero hay algunas marcas que ya tienen su modelo en el mercado. Aquí tienes 5 ejemplos.</h3>

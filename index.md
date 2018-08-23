@@ -4,7 +4,7 @@ layout: home
 
 <img src="/assets/coto.jpg" width="120" height="120" style="float: left; margin-right: 15px;"/> Hey, I'm Coto (Rodrigo Augosto Cancino). This is my personal site, includes a [Free Topics Blog Posts][blog]{:target="_blank"} with undetermined update frequency. All the content is my own and has no relation to third parties.
 
-I do not read my email or use cellphone frequently[^freedom], if you consider this and would like to reach me, please use this [Contact Form][contact]{:target="_blank"}. Read this footnote[^encrypt] for encryption.
+I do not read my email or use cellphone frequently[^freedom], if you consider this and would like to reach me, please use this [Contact Form][contact]{:target="_blank"}. In case you would mind to encrypt an email to send me, please use [this Key][pgp_key]{:target="_blank"}.
 
 ### Who am I?
 
@@ -22,7 +22,6 @@ No religions. No Politics.
 
 
 [^reils]: Reils: A term used to refer Rails + Veins.
-[^encrypt]: In case you would mind to encrypt an email to send me, please use [this Key][pgp_key]{:target="_blank"}
 [^freedom]: This is called freedom. Very recommended.
 
 [quora_s]: https://www.quora.com/What-is-the-coolest-thing-you-have-ever-created-alone-as-a-programmer/answer/Coto-Augosto

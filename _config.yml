@@ -31,7 +31,7 @@ github_username:  coto
 quora_username:  Coto-Augosto
 
 disqus:
-  shortname: beecoss
+  shortname: coto
 
 # Build settings
 markdown: kramdown

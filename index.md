@@ -4,7 +4,7 @@ layout: home
 
 <img src="/assets/coto.jpg" width="120" height="120" style="float: left; margin-right: 15px;"/> Hey, I'm Coto (Rodrigo Augosto Cancino). This is my personal site, includes a [Free Topics Blog Posts][blog]{:target="_blank"} with undetermined update frequency. All the content is my own and has no relation to third parties.
 
-I do not read my email or use cellphone frequently[^freedom], if you consider this and would like to reach me, please use this [Contact Form][contact]{:target="_blank"}. In case you would mind to encrypt an email to send me, please use [this Key][pgp_key]{:target="_blank"}.
+I do not read my email or use cellphone frequently[^freedom], if you consider this and would like to reach me, please use this [Contact Form][contact]{:target="_blank"}. In case you would mind to encrypt it, use [this Key][pgp_key]{:target="_blank"}.
 
 ### Who am I?
 

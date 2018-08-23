@@ -4,6 +4,8 @@ title: Contact
 permalink: /contact/
 ---
 
+If you would like to reach me, please use this Contact Form. In case you would mind to encrypt it, use [this Key][pgp_key]{:target="_blank"}.
+
 
 <form class="contact-form" method="post" action="https://formspree.io/spam-filter@beecoss.com">
    <p>Name: <input name="Name" placeholder="Your Name" /></p>
@@ -21,3 +23,5 @@ permalink: /contact/
 <small class="warn">
 This contact form is delidered by formspree.io and is not under my control.
 </small>
+
+[pgp_key]: https://pgp.key-server.io/pks/lookup?op=get&fingerprint=on&search=0xC92E223E3F366DB1

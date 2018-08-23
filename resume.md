@@ -2,9 +2,9 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: Resume
-layout: home
+layout: page
 ---
-## Rodrigo Augosto Cancino
+### Rodrigo Augosto Cancino
 
 <img src="/assets/coto.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Hardware and Software Engineering, Diploma in Finance and Investments. Experience in Technological Project Management in multinational companies. Design Thinking, Cost Analysis, Financial Projections, different types of database management systems. the kind of professional that translates the non-technical language into technical, able to understand the user and the machine. I have participated in IT security projects for the financial industry, have led development teams of software and hardware applications. Advanced level programming in Python and JavaScript, Circuit Design with complex transistor applications. I love design simple user interfaces and create employment opportunities.
 
@@ -44,7 +44,7 @@ Spanish, English, Portuguese.
 
 ### EXPERIENCE
 
-#### Wireless Energy and Hardware Industry Jun, 2016 - present 
+#### Wireless Energy and Hardware Industry (Jun 2016 - present & future)
 ##### » COO
 
 - Planning and budgeting projects.
@@ -53,29 +53,35 @@ Spanish, English, Portuguese.
 - Manager of research teams (Engineers, Docs and Postdocs)
 - Investors releantions.
 
-#### Fintech Industry Feb, 2008 - Abr. 2017 
+#### Fintech Industry (Feb 2008 - Apr 2017)
 ##### » CTO
 - Design and planning of Architecture and Systems for multi-layered banking applications. (ISO 20000)
-- Partnership manager for Google Cloud and a Chilean company.
-- Evaluation of services for improvements (ITIL) to improve customer experience.
+- Partnership conection with Google Cloud.
+- Evaluation of services to improve customer experience.
 - Management and leadership of research and development teams.
-- Project management in various latest technologies in Software and Security.
+- Project management for latest technologies in Security and Software.
 
 ##### » Software Engineer Mobile Platforms
-- Creation of a framework in JavaScript for the development of mobile applications, when most of the frameworks (such as Sencha Touch, jQuery Mobile, Angular, React) did not exist.
+- Creation of a framework in JavaScript for the development of mobile applications[^framework].
 - Creation of a mobile application for authentication for a Chilean Bank with OTP security tokens. 
+
+#### StarTechConf -​ ​www.startechconf.com (Jan 2011 - Dec 2015)
+##### » Creator and Co-Organizer
+- Creation and coordination of one an important conferences for technology. Non-profit and with more than a thousand attendees from around the world. Exponents of companies such as Google, Apple, Microsoft, among others.
+- I just participated in the first 3 editions.
+
+#### Software Industry (Jan 2001 - May 2012)
+##### » Software Engineer
+- Coordination and Creation of User Generated Content systems (Node.js, Sencha Touch and MongoDB)
+
+##### » Programmer
+- Mostly in Python and JavaScript.
 
 ##### » Risk Analyst Engineer
 - Construction of operational risk control projects.
 
-#### StarTechConf -​ ​www.startechconf.com Ene, 2011 - Dic 2015 
-##### » Creator and Co-Organizer
-- Creation and coordination of one an important conferences in South America for technology. Constituted non-profit and with more than a thousand attendees from around the world. Exponents of companies such as Google, Apple, Microsoft, among others, in one place.
 
-#### Betazeta -​ ​www.betazeta.com Ago, 2011 - May 2012 
-##### » Software Engineer
-- Coordination and Creation of User Generated Content systems (Node.js, Sencha Touch and MongoDB)
-
+[^framework]: it was when most of the frameworks (such as Sencha Touch, jQuery Mobile, Angular, React and other) did not exists.
 
 [usach]: http://www.usach.cl​
 [usm]: http://www.utfsm.cl​

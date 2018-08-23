@@ -6,11 +6,11 @@ date:   2018-08-22 14:17:20 -0300
 categories: coto blog recommendations ln-es
 tags: mailchimp spam guia
 ---
-Gmail revolucionó el correo electrónico de distintas maneras. Una de las que más podría llamar la atención es lo realizado para combatir el spam.
+Gmail revolucionó el correo electrónico de distintas maneras, una de las que más llama la atención es lo realizado para combatir el spam.
 
-Los filtros de spam de Gmail cada vez mejoran, sin embargo hay quienes están a la caza de un correo electrónico para sumar a su base de datos que logran pasar los filtros de la máquina con promociones, newsletters, marketing, etc.
+Los filtros de spam de Gmail son buenos y continuamente mejoran, sin embargo alguien siempre buscará tu correo electrónico para sumarlo a alguna base de datos para spam. 
 
-Aquí les comparto 3 pequeños, y espero valiosos consejos para <u><b>evitar el spam</b></u>.
+Estos 3 pequeños, y espero valiosos, consejos te provean de una protección definitiva contra el Spam:
 
 <ol>
 	<li>

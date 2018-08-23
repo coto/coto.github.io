@@ -4,36 +4,37 @@
 title: Resume
 layout: home
 ---
+## Rodrigo Augosto Cancino
 
 <img src="/assets/coto.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Hardware and Software Engineering, Diploma in Finance and Investments. Experience in Technological Project Management in different multinational companies. Design Thinking, Cost Analysis, Financial Projections, different types of database management systems. the kind of professional that translates the non-technical language into technical, able to understand the user and the machine. I have participated in IT security projects for the financial industry, have led development teams of software and hardware applications. Advanced level programming in Python and JavaScript, Circuit Design with complex transistor applications. I love design simple user interfaces and create employment opportunities.
 
 
-### COMPETENCES
+### SKILFULNESS
 
 - Lead Technical and Non-Technical Teams (Software and Hardware).
-- Programming [Cryptocurrencies or Blockchains](http://bit.ly/cryptocurrency_programming).
-- [Programming Google Scripts](http://bit.ly/google_script_programming) as plugins for Google Spreadsheet, Docs and Forms.
-- [Android and iOS Apps](http://bit.ly/mob_apps_programming) programming React, VUE, Angular or similars.
-- [Rest Services JSON](http://bit.ly/rest_programming) layer programming in Python.
+- Programming [Cryptocurrencies or Blockchains](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
+- [Programming Google Scripts](http://bit.ly/google_script_programming){:target="_blank"} as plugins for Google Spreadsheet, Docs and Forms.
+- [Android and iOS Apps](http://bit.ly/mob_apps_programming){:target="_blank"} programming React, VUE, Angular or similars.
+- [Rest Services JSON](http://bit.ly/rest_programming){:target="_blank"} layer programming in Python.
 - Program automated emails, notification or tasks according SpreadSheet rules.
 - Deploy, Maintenance and improvements in the use of Google Cloud services.
 - Hardware Programming (Assembly, C, Python, JavaScript)
-- [Scrapping][quora_s]
+- [Scrapping][quora_s]{:target="_blank"}.
 
 
 ### ACADEMIC BACKGROUNDS
 
 | Year | Institution |
 | --- | --- |
-| 2014 – 2014 | [Universidad de Chile][fen]​ |
+| 2014 – 2014 | [Universidad de Chile][fen]​  |
 |  | Finance and Investing Diploma |
-| 2009 – 2010 | [Santiago University Chile][usach] |
+| 2009 – 2010 | [Santiago University Chile][usach]{:target="_blank"} |
 |  | Bachelor of Computer Science |
-| 2004 – 2009 | [Santiago University Chile][usach] |
+| 2004 – 2009 | [Santiago University Chile][usach]{:target="_blank"} |
 |  | Computer Scientist and Engineer, Software Development |
-| 1999 – 2001 | [Federico Santa Maria University][usm] |
+| 1999 – 2001 | [Federico Santa Maria University][usm]{:target="_blank"} |
 |  | Electronics Technician |
-| 1995 – 1998 | [Diego de Almeida High School][lda] |
+| 1995 – 1998 | [Diego de Almeida High School][lda]{:target="_blank"} |
 |  | Computer Programmer |
 {:.mbtablestyle}
 

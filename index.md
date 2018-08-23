@@ -45,12 +45,13 @@ Spanish, English, Portuguese.
 
 ### EXPERIENCE
 
-#### Hardware Industry Apr, 2017 - present 
+#### Wireless Energy and Hardware Industry Jun, 2016 - present 
 ##### » COO
 
-- Planning and budgeting technology projects including software and hardware.
+- Planning and budgeting projects.
 - Execution and leadership of multidisciplinary teams.
-- Management and Coordination of research teams (Engineers, Docs and Postdocs)
+- Financial Projections.
+- Manager of research teams (Engineers, Docs and Postdocs)
 - Investors releantions.
 
 #### Fintech Industry Feb, 2008 - Abr. 2017 

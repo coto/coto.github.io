@@ -2,23 +2,27 @@
 layout: home
 ---
 
-<img src="/assets/coto.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Hey, I'm Coto (Rodrigo Augosto). This is my personal site, including a [Blog][blog]{:target="_blank"} where I post some personal or technical articles depending on my mood. Of course all the content in this site is my own and has no relation to opinions of my companies or jobs where I have worked.
-
-
-To contact me it's not that easy, sorry. I'm not slave of my email or cellphone and there are times when I don't read my email or use cellphone for weeks. You have to try it. It's amazing. 
-However if you would like to write me, please use this [Contact Form][contact]{:target="_blank"} to reach me. If you would like to encrypt your email, use this key ID [0xC92E223E3F366DB1][pgp_key]{:target="_blank"}.
-
+<img src="/assets/coto.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Hey, I'm Coto (Rodrigo Augosto Cancino). This is my personal site, includes a [Free Topics Blog Posts][blog]{:target="_blank"} with undetermined update frequency. All the content is my own and has no relation to third parties.
 
 #### Who am I?
 
-I'm those kind of person who prefer to enjoy the life instead of being in a office.
+King of my freedom. Technology-maker. I understand technology very well, from how the silicon entrails works (hardware) to information that runs through their reils[^reils] (software). I am good programming (mostly Python and JavaScript).
 
-I love technology and I understand it very well, from the operation of its silicon entrails to the software that runs through the veins of a computer. My favorite languages are Python and JavaScript in all its flavors and levels. I use hardware platforms like Raspberry or Arduino for building electronics projects, but mostly I create my own PCBs.
+I am able to set up a high-level technology infrastructures into the cloud, maybe you have used some of them.
 
-I have set up high-level technology infrastructures in the cloud for large companies in the world, maybe you have used some of them.
+Last but not least, my life project is bringing [innocuous wireless charging solutions][neahtid]{:target="_blank"} to those who need it, enjoying meeting new cultures, traveling around the world at the same time.
 
-Last but not least, My Life Project (work in progress) is to bring to the world the technology for [wireless electrical charging][neahtid]{:target="_blank"}.
+No religions. No Politics.
 
+
+
+I do not read my email or use cellphone frequently[^freedom], if you consider this and would like to reach me, please use this [Contact Form][contact]{:target="_blank"}[^encrypt].
+
+
+
+[^reils]: Reils: A term used by me to refer Rails + Veins.
+[^encrypt]: In case you would mind to encrypt an email, use [this Key][pgp_key]{:target="_blank"}
+[^freedom]: This is called freedom. Very recommended.
 
 [quora_s]: https://www.quora.com/What-is-the-coolest-thing-you-have-ever-created-alone-as-a-programmer/answer/Coto-Augosto
 [blog]: https://feeds.feedburner.com/coto

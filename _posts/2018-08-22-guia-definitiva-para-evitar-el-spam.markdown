@@ -15,10 +15,10 @@ Los filtros de spam de Gmail son buenos y continuamente mejoran, sin embargo alg
 		<b>No te registres con tu cuenta de correo oficial.</b> Si posees una cuenta de correo con Google Suites u otra que te permita crear alias, utilizalos para registrarte en sitios desconocidos. Personalmente creo cerca de 3 alias en al año, pero con 1 basta. En la base de datos del spamer quedará un email que al cabo de un tiempo nunca más funcionará, pero estará en tus manos recuperarlo.
 	</li>
 	<li>
-		<b>Utiliza el <a target="_blank" href="https://support.google.com/mail/answer/1366858?co=GENIE.Platform%3DiOS&hl=en" target="_blank">Report Spam</a> o <a target="_blank" href="https://support.google.com/mail/answer/8253?hl=en" target="_blank">Report Phising</a> de Gmail</b>, Nunca hagas click un link que venga dentro del spam sospechoso, no olvides utilizar los botones de Spam y Phishing oficiales del lector de correo (e.g Gmail, Office, etc). Si cargas imágenes o haces click  en algún link del posible spam, seguro lo registrarán para validar que alguien lo leyó. Es mejor siempre dejarlos con la duda!
+		<b>Utiliza el <a target="_blank" href="https://support.google.com/mail/answer/1366858?co=GENIE.Platform%3DiOS&hl=en" target="_blank">Report Spam</a> o <a target="_blank" href="https://support.google.com/mail/answer/8253?hl=en" target="_blank">Report Phising</a> de Gmail</b>, Nunca hagas click un link que venga dentro del spam sospechoso, no olvides utilizar los botones de Spam y Phishing oficiales del lector de correo (e.g Gmail, Office, etc). Si cargas imágenes o haces click  en algún link del posible spam, seguro el spamer lo registró para validar el email. Es mejor siempre dejarlos con la duda!
 	</li>
 	<li>
-		<b>Imágenes sólo de sitios confiales[^confiable]</b>. Al cargar las imágenes de un correo electrónico, éstas dejan huellas en el servidor del spammer lo envió. Herramientas como Mailchimp, Hubspot, entre otras, la utilizan a diario (aunque no tenga sentido escribir "a diario").
+		<b>Carga sólo imágenes de sitios confiales[^confiable]</b>. Al cargar las imágenes de un correo electrónico, éstas dejan huellas en el servidor del spammer lo envió. Herramientas como Mailchimp, Hubspot, entre otras, la utilizan a diario (aunque no tenga sentido escribir "a diario").
 	</li>
 </ol>
 

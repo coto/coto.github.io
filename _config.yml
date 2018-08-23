@@ -39,6 +39,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
+#permalink: /:categories/:year/:month/:day/:title:output_ext
 
 
 google_analytics: "UA-47489500-1"

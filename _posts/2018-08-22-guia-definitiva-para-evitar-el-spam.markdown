@@ -3,7 +3,8 @@ layout: post
 title:  "Guía para evitar el Spam (Correo No Deseado)"
 comments: true
 date:   2018-08-22 14:17:20 -0300
-categories: coto blog recommendations ln-es
+categories: coto blog recommendations
+lang: esp
 tags: mailchimp spam guia
 ---
 Gmail revolucionó el correo electrónico de distintas maneras, una de las que más llama la atención es lo realizado para combatir el spam.
@@ -12,7 +13,9 @@ Los filtros de spam de Gmail son buenos y continuamente mejoran, sin embargo alg
 
 <ol>
 	<li>
-		<b>No te registres con tu cuenta de correo oficial.</b> Si posees una cuenta de correo con Google Suites u otra que te permita crear alias, utilizalos para registrarte en sitios desconocidos. Personalmente creo cerca de 3 alias en al año, pero con 1 basta. En la base de datos del spamer quedará un email que al cabo de un tiempo nunca más funcionará, pero estará en tus manos recuperarlo.
+		<b>No te registres con tu cuenta de correo oficial.</b> Si usas una cuenta de correo de Google Suites y eres el admin, puedes crear y eliminar alias de correo cada cierto tiempo para registrarte en sitios nuevos o sospechosos. (alrededor de 4 alias al año lo considero razonable). 
+
+		La regla importante es que elimines los alias que generaste cada 3 y 4 meses.
 	</li>
 	<li>
 		<b>Utiliza el <a target="_blank" href="https://support.google.com/mail/answer/1366858?co=GENIE.Platform%3DiOS&hl=en" target="_blank">Report Spam</a> o <a target="_blank" href="https://support.google.com/mail/answer/8253?hl=en" target="_blank">Report Phising</a> de Gmail</b>, No hagas click en ningún link dentro del email sospechoso de spam. Utiliza los botones de Spam y Phishing oficiales del lector de correo (e.g Gmail, Office, etc) para eliminar estos mensajes. Si cargas imágenes o haces click  en algún link del posible spam, seguro el spamer lo registrará para validar tu email. Es mejor siempre dejarlos con la duda!

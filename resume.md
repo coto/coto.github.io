@@ -11,15 +11,14 @@ layout: home
 
 ### SKILFULNESS
 
-- Lead Technical and Non-Technical Teams (Software and Hardware).
-- Programming [Cryptocurrencies or Blockchains](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
-- [Programming Google Scripts](http://bit.ly/google_script_programming){:target="_blank"} as plugins for Google Spreadsheet, Docs and Forms.
-- [Android and iOS Apps](http://bit.ly/mob_apps_programming){:target="_blank"} programming React, VUE, Angular or similars.
-- [Rest Services JSON](http://bit.ly/rest_programming){:target="_blank"} layer programming in Python.
-- Program automated emails, notification or tasks according SpreadSheet rules.
-- Deploy, Maintenance and improvements in the use of Google Cloud services.
+- Lead Technical and Non-Technical Teams.
+- Create [Cryptocurrencies or Blockchains](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
+- Automate Google Spreadsheets, Docs, Emails or Forms with [Google Scripts](http://bit.ly/google_script_programming){:target="_blank"} as plugins.
+- Create [Android and iOS Apps](http://bit.ly/mob_apps_programming){:target="_blank"} with React Native, VUE, Angular or similars.
+- Fast creation of [RestFul Web Services](http://bit.ly/rest_programming){:target="_blank"}.
+- Years of Experience with Google Cloud Platform.
 - Hardware Programming (Assembly, C, Python, JavaScript)
-- [Scrapping][quora_s]{:target="_blank"}.
+- Automate [Scrapping][quora_s]{:target="_blank"}.
 
 
 ### ACADEMIC BACKGROUNDS

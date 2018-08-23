@@ -8,9 +8,7 @@ tags: mailchimp spam guia
 ---
 Gmail revolucionó el correo electrónico de distintas maneras, una de las que más llama la atención es lo realizado para combatir el spam.
 
-Los filtros de spam de Gmail son buenos y continuamente mejoran, sin embargo alguien siempre buscará tu correo electrónico para sumarlo a alguna base de datos para spam. 
-
-Estos 3 pequeños, y espero valiosos, consejos te provean de una protección definitiva contra el Spam:
+Los filtros de spam de Gmail son buenos y continuamente mejoran, sin embargo alguien siempre buscará tu correo electrónico para sumarlo a alguna base de datos para spam y aquí te comparto 3 consejos para prevenir el spam:
 
 <ol>
 	<li>

@@ -20,7 +20,7 @@ Aquí les comparto 3 pequeños, y espero valiosos consejos para <u><b>evitar el 
 		<b>Utiliza el <a target="_blank" href="https://support.google.com/mail/answer/1366858?co=GENIE.Platform%3DiOS&hl=en" target="_blank">Report Spam</a> o <a target="_blank" href="https://support.google.com/mail/answer/8253?hl=en" target="_blank">Report Phising</a> de Gmail</b>, Nunca hagas click un link que venga dentro del spam sospechoso, no olvides utilizar los botonoes de Spam y Phishing oficiales del lector de correo (e.g Gmail, Office, etc). Si cargas imágenes o haces click  en algún link del posible spam, seguro lo registrarán para validar que alguien lo leyó. Es mejor siempre dejarlos con la duda!
 	</li>
 	<li>
-		<b>Imágenes sólo de sitios confiales[^confiable]</b>. Al cargar las imágenes de un correo electrónico, éstas dejan huellas en el servidor del spammer lo envió. Herramientas como Mailchimp, Hubspot, entre otras, la utlizan a diario (considerando la curva exponencial que sublleva la HumanKind, hoy no tiene sentido escribir "a diario").
+		<b>Imágenes sólo de sitios confiales[^confiable]</b>. Al cargar las imágenes de un correo electrónico, éstas dejan huellas en el servidor del spammer lo envió. Herramientas como Mailchimp, Hubspot, entre otras, la utilizan a diario (aunque no tenga sentido escribir "a diario").
 	</li>
 </ol>
 

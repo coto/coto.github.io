@@ -6,7 +6,7 @@ layout: home
 ---
 ## Rodrigo Augosto Cancino
 
-<img src="/assets/coto.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Hardware and Software Engineering, Diploma in Finance and Investments. Experience in Technological Project Management in different multinational companies. Design Thinking, Cost Analysis, Financial Projections, different types of database management systems. the kind of professional that translates the non-technical language into technical, able to understand the user and the machine. I have participated in IT security projects for the financial industry, have led development teams of software and hardware applications. Advanced level programming in Python and JavaScript, Circuit Design with complex transistor applications. I love design simple user interfaces and create employment opportunities.
+<img src="/assets/coto.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Hardware and Software Engineering, Diploma in Finance and Investments. Experience in Technological Project Management in multinational companies. Design Thinking, Cost Analysis, Financial Projections, different types of database management systems. the kind of professional that translates the non-technical language into technical, able to understand the user and the machine. I have participated in IT security projects for the financial industry, have led development teams of software and hardware applications. Advanced level programming in Python and JavaScript, Circuit Design with complex transistor applications. I love design simple user interfaces and create employment opportunities.
 
 
 ### SKILFULNESS

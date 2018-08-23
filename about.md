@@ -19,7 +19,7 @@ I love technology and I understand it very well, from the operation of its silic
 
 I have set up high-level technology infrastructures in the cloud for large companies in the world, maybe you have used some of them.
 
-Last but not least, My Life Project (work in progress) is to bring to the world the technology for [wireless electrical charging][neahtid].
+Last but not least, My Life Project (work in progress) is to bring to the world the technology for [wireless electrical charging][neahtid]{:target="_blank"}.
 
 
 [quora_s]: https://www.quora.com/What-is-the-coolest-thing-you-have-ever-created-alone-as-a-programmer/answer/Coto-Augosto

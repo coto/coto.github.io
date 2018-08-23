@@ -15,9 +15,11 @@ div.page-content {
 }
 
 .contact-form input {
-        margin: 15px 0;
-        width: 200px;
-        display: block;
+    border: 1px solid #999999;
+    padding: 5px 5px;
+    margin: 15px 0;
+    width: 200px;
+    display: block;
 }
 
 .contact-form textarea {

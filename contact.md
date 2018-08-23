@@ -5,10 +5,6 @@ permalink: /contact/
 ---
 
 
-<small class="warn">
-This contact form uses a third party service that is not under my control.
-</small>
-
 <form class="contact-form" method="post" action="https://formspree.io/spam-filter@beecoss.com">
    <p>Name: <input name="Name" placeholder="Your Name" /></p>
    <p>Email: <input name="_replyto" placeholder="Your Email" /></p>
@@ -19,3 +15,9 @@ This contact form uses a third party service that is not under my control.
     <input type="hidden" name="_subject" value="Contact form">
     <input type="hidden" name="_next" value="thanks.html">
 </form>
+
+
+
+<small class="warn">
+This contact form is delidered by formspree.io and is not under my control.
+</small>

@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-<img src="/assets/coto.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Hey, I'm Coto (Rodrigo Augosto). This is my personal site, including a [Blog][blog] where I post some personal or technical articles depending on my mood. Of course all the content in this site is my own and has no relation to opinions of my companies or jobs where I have worked.
+<img src="/assets/coto.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Hey, I'm Coto (Rodrigo Augosto). This is my personal site, including a [Blog][blog]{:target="_blank"} where I post some personal or technical articles depending on my mood. Of course all the content in this site is my own and has no relation to opinions of my companies or jobs where I have worked.
 
 
 To contact me it's not that easy, sorry. I'm not slave of my email or cellphone and there are times when I don't read my email or use cellphone for weeks. You have to try it. It's amazing. 
-However if you would like to write me, please use this [Contact Form][contact] to reach me. If you would like to encrypt your email, use this key ID [0xC92E223E3F366DB1][pgp_key].
+However if you would like to write me, please use this [Contact Form][contact]{:target="_blank"} to reach me. If you would like to encrypt your email, use this key ID [0xC92E223E3F366DB1][pgp_key]{:target="_blank"}.
 
 
 #### Who am I?

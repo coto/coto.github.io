@@ -1,6 +1,5 @@
 ---
 layout: home
-permalink: /about/
 ---
 
 <img src="/assets/coto.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Hey, I'm Coto (Rodrigo Augosto). This is my personal site, including a [Blog][blog]{:target="_blank"} where I post some personal or technical articles depending on my mood. Of course all the content in this site is my own and has no relation to opinions of my companies or jobs where I have worked.

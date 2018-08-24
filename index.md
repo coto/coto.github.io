@@ -12,7 +12,7 @@ King of my freedom. Technology-er. I understand technology from how the silicon 
 
 I am able to set up a high-demand technology infrastructures into the cloud, maybe you have used some of them.
 
-My life project is create [innocuous wireless charging solutions][neahtid]{:target="_blank"}, enjoy meeting new cultures and traveling around the world.
+My life project is create [innocuous wireless charging solutions][neahtid]{:target="_blank"}. Enjoy meeting new cultures and traveling around the world.
 
 No religions. No Politics.
 

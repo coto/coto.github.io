@@ -8,7 +8,7 @@ I do not read my email or use cellphone frequently[^freedom], if you consider th
 
 ### Who am I?
 
-King of my freedom. Technology-er. I understand technology from how the silicon entrails works (hardware) to how the electrical signals circulates through their reils[^reils] (software). I am good in hardware and programming (mostly Python and JavaScript).
+King of my freedom. Technology-er. I understand technology from how the silicon entrails works (hardware) to how the electrical signals circulates through their reils[^reils] (software). I am good in hardware and programming automated scripts with Python and JavaScript.
 
 I am able to set up a high-demand technology infrastructures into the cloud, maybe you have used some of them.
 

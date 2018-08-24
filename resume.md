@@ -14,11 +14,11 @@ layout: page
 - Lead Technical and Non-Technical Teams.
 - Design and Create [Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
 - Create [Automated Scripts](http://bit.ly/google_script_programming){:target="_blank"} for Google Spreadsheets, Docs, Emails or Forms.
-- Create [Android and iOS Apps](http://bit.ly/mob_apps_programming){:target="_blank"} with JavaScript Framworks.
+- Create [Android and iOS Apps](http://bit.ly/mob_apps_programming){:target="_blank"} with JavaScript Frameworks.
 - Fast creation of [Web Services](http://bit.ly/rest_programming){:target="_blank"}.
 - Years of Experience with Google Cloud Platform.
 - Hardware Programming (Assembly, C, Python, JavaScript)
-- Automate [Scrapping][quora_s]{:target="_blank"}.
+- Automated [Scrapping][quora_s]{:target="_blank"}.
 
 
 ### ACADEMIC BACKGROUNDS

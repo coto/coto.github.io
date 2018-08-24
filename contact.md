@@ -28,4 +28,4 @@ This contact form is delidered by formspree.io and is not under my control.
 
 [^tip]: If you are able to use the Key to encrypt, you are able to use the other way.
 
-[pgp_key]: https://pgp.key-server.io/pks/lookup?op=get&fingerprint=on&search=0xC92E223E3F366DB1
+[pgp_key]: /public-key/

@@ -28,4 +28,4 @@ No religions. No Politics.
 [blog]: https://feeds.feedburner.com/coto
 [contact]: /contact/
 [neahtid]: https://www.neahtid.com
-[pgp_key]: https://pgp.key-server.io/pks/lookup?op=get&fingerprint=on&search=0xC92E223E3F366DB1
+[pgp_key]: /public-key/

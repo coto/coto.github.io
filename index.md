@@ -8,11 +8,11 @@ I do not read my email or use cellphone frequently[^freedom], if you consider th
 
 ### Who am I?
 
-King of my freedom. Technology-er. I understand technology from how the silicon entrails works (hardware) to how the information circulates through their reils[^reils] (software). I am good programming (mostly Python and JavaScript).
+King of my freedom. Technology-er. I understand technology from how the silicon entrails works (hardware) to how the electrical signals circulates through their reils[^reils] (software). I am good in hardware and programming (mostly Python and JavaScript).
 
-I am able to set up a high-level technology infrastructures into the cloud, maybe you have used some of them.
+I am able to set up a high-demand technology infrastructures into the cloud, maybe you have used some of them.
 
-Last but not least, my life project is bringing [innocuous wireless charging solutions][neahtid]{:target="_blank"} to those who need it, enjoying meeting new cultures and traveling around the world at the same time.
+My life project is create [innocuous wireless charging solutions][neahtid]{:target="_blank"}, enjoy meeting new cultures and traveling around the world.
 
 No religions. No Politics.
 

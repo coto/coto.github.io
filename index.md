@@ -2,7 +2,7 @@
 layout: home
 ---
 
-<img src="/assets/coto.jpg" width="120" height="120" style="float: left; margin-right: 15px;"/> Hey, I'm Coto (Rodrigo Augosto Cancino). This is my personal site, includes a [Free Topics Blog Posts][blog]{:target="_blank"} with undetermined update frequency. All the content is my own and has no relation to third parties.
+<img src="/assets/coto.jpg" width="120" height="120" style="float: left; margin-right: 15px;"/> Hey, I'm Coto (Rodrigo Augosto Cancino). This is my personal site, it includes [Blog Posts of Free Topics][blog]{:target="_blank"} with undetermined update frequency. All the content is my own and has no relation to third parties.
 
 I do not read my email or use cellphone frequently[^freedom], if you consider this and would like to reach me, please use this [Contact Form][contact]{:target="_blank"}. In case you would mind to encrypt it, use [this Key][pgp_key]{:target="_blank"}.
 
@@ -12,7 +12,7 @@ King of my freedom. Technology-er. I understand technology from how the silicon 
 
 I am able to set up a high-demand technology infrastructures into the cloud, maybe you have used some of them.
 
-My life project is create [innocuous wireless charging solutions][neahtid]{:target="_blank"}. Enjoy meeting new cultures and traveling around the world.
+My life project is create [innocuous wireless charging solutions][neahtid]{:target="_blank"}. I Enjoy meeting new cultures and traveling the world.
 
 No religions. No Politics.
 

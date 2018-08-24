@@ -6,7 +6,7 @@ layout: page
 ---
 ### Rodrigo Augosto Cancino
 
-<img src="/assets/coto.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Hardware and Software Engineering, Diploma in Finance and Investments. Experience in Technological Project Management in multinational companies. Design Thinking, Cost Analysis, Financial Projections, different types of database management systems. I'm able to translate the non-technical language into technical, able to understand the user and the machine. I have participated in IT projects for financial industry, have led different kind of teams. I am good designing hardware and software applications. I create & design valuable solutions with simple user interfaces.
+<img src="/assets/coto.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Hardware and Software Engineering, Diploma in Finance and Investments. Experience in Technological Project Management in multinational companies. Design Thinking, Cost Analysis, Financial Projections, different types of database management systems. I'm able to translate the non-technical language into technical, able to understand the user and the machine. I have participated in IT projects for financial industry, have led different kind of teams. I am good in physics and math and creating hardware and software applications with simple user interfaces.
 
 
 ### SKILFULNESS

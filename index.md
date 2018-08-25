@@ -12,7 +12,7 @@ King of my freedom. Technology-er. I understand technology from how the silicon 
 
 My life project is create [innocuous wireless charging technologies][neahtid]{:target="_blank"}. I Enjoy meeting new cultures and traveling the world.
 
-No religions. No Politics.
+Free of religions and Politics.
 
 
 

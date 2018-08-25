@@ -1,24 +1,23 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: Resume
 layout: page
 ---
 ### Rodrigo Augosto Cancino
 
-<img src="/assets/coto.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Hardware and Software Engineering, Diploma in Finance and Investments. Experience in Technological Project Management in multinational companies. Design Thinking, Cost Analysis, Financial Projections, different types of database management systems. I'm able to translate the non-technical language into technical, able to understand the user and the machine. I have participated in IT projects for financial industry, have led different kind of teams. I am good in physics and math and creating hardware and software applications with simple user interfaces.
+<img src="/assets/coto.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Hardware and Software Engineering, Diploma in Finance and Investments. Experience in Technological Project Management in multinational companies. Design Thinking, Cost Analysis, Financial Projections, different types of database management systems. I'm able to translate the non-technical language into technical, able to understand the user and the machine. I have participated in different technology projects and have led different Multidisciplinary teams. I am good in Physics, Maths, creating valuable applications with simple user interfaces and setting up high-demand technology infrastructures.
 
 
 ### SKILFULNESS
 
-- Lead Technical and Non-Technical Teams.
-- Design and Create [Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
 - Create [Automated Scripts](http://bit.ly/google_script_programming){:target="_blank"} for Google Spreadsheets, Docs, Emails or Forms.
 - Create [Android and iOS Apps](http://bit.ly/mob_apps_programming){:target="_blank"} with JavaScript Frameworks.
-- Fast creation of [Web Services](http://bit.ly/rest_programming){:target="_blank"}.
-- Years of Experience with Google Cloud Platform.
-- Hardware Programming (Assembly, C, Python, JavaScript)
 - Automated [Scrapping][quora_s]{:target="_blank"}.
+- Years of Experience with Google Cloud Platform.
+- Lead Technical and Non-Technical Teams.
+- Design and Create [Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
+- Fast creation of [Web Services](http://bit.ly/rest_programming){:target="_blank"}.
+- Hardware Programming.
+- WPT.
 
 
 ### ACADEMIC BACKGROUNDS
@@ -47,23 +46,22 @@ Spanish, English, Portuguese.
 #### Wireless Energy and Hardware Industry (Jun 2016 - present & future)
 ##### » COO
 
-- Planning and budgeting projects.
-- Execution and leadership of multidisciplinary teams.
-- Financial Projections.
+- Budgets & Financial Projections.
+- R&D Lead.
 - Manager of research teams (Engineers, Docs and Postdocs)
-- Investors releantions.
+- Investors relations.
 
 #### Fintech Industry (Feb 2008 - Apr 2017)
 ##### » CTO
 - Design and planning of Architecture and Systems for multi-layered banking applications. (ISO 20000)
-- Partnership conection with Google Cloud.
+- Partnership connection with Google Cloud.
 - Evaluation of services to improve customer experience.
 - Management and leadership of research and development teams.
 - Project management for latest technologies in Security and Software.
 
 ##### » Software Engineer Mobile Platforms
-- Creation of a framework in JavaScript for the development of mobile applications[^framework].
-- Creation of a mobile application for authentication for a Chilean Bank with OTP security tokens. 
+- Creation of a JavaScript framework[^framework] for mobile applications development.
+- Creation of an authentication system for a Chilean Bank with OTP security tokens. 
 
 #### StarTechConf -​ ​www.startechconf.com (Jan 2011 - Dec 2015)
 ##### » Creator and Co-Organizer

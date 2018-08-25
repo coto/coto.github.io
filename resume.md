@@ -4,20 +4,20 @@ layout: page
 ---
 ### Rodrigo Augosto Cancino
 
-<img src="/assets/coto.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Hardware and Software Engineering, Diploma in Finance and Investments. Experience in Technological Project Management in multinational companies. Design Thinking, Cost Analysis, Financial Projections, different types of database management systems. I'm able to translate the non-technical language into technical, able to understand the user and the machine. I have participated in different technology projects and have led different Multidisciplinary teams. I am good in Physics, Maths, creating valuable applications with simple user interfaces and setting up high-demand technology infrastructures.
+<img src="/assets/coto.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Hardware and Software Engineering, Diploma in Finance and Investments. Experience in Technological Project Management in multinational companies. Design Thinking, Cost Analysis, Financial Projections, different types of database management systems. I'm able to translate the non-technical language into technical, able to understand the user and the machine. I have participated in different technology projects and led Multidisciplinary teams. I am good in Physics, Maths, creating valuable applications with simple user interfaces and setting up high-demand technology infrastructures.
 
 
 ### SKILFULNESS
 
+- WPT.
+- Lead Technical and Non-Technical Teams.
+- Years of Experience with Google Cloud Platform.
+- Create [Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
 - Create [Automated Scripts](http://bit.ly/google_script_programming){:target="_blank"} for Google Spreadsheets, Docs, Emails or Forms.
 - Create [Android and iOS Apps](http://bit.ly/mob_apps_programming){:target="_blank"} with JavaScript Frameworks.
-- Automated [Scrapping][quora_s]{:target="_blank"}.
-- Years of Experience with Google Cloud Platform.
-- Lead Technical and Non-Technical Teams.
-- Design and Create [Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
-- Fast creation of [Web Services](http://bit.ly/rest_programming){:target="_blank"}.
 - Hardware Programming.
-- WPT.
+- Automated [Scrapping][quora_s]{:target="_blank"}.
+- Fast creation of [Web Services](http://bit.ly/rest_programming){:target="_blank"}.
 
 
 ### ACADEMIC BACKGROUNDS

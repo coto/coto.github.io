@@ -3,7 +3,11 @@ title: Resume
 layout: page
 ---
 ### Rodrigo Augosto Cancino
+<a href="/assets/resume-rodrigo-augosto-en.pdf" style="float: right;" target="_blank"><img src="assets/download-pdf-file-button.gif">English PDF</a>
 
+<a href="/assets/resume-rodrigo-augosto-es.pdf" style="float: right; margin-right: 10px;" target="_blank"><img src="assets/download-pdf-file-button.gif">Español PDF</a>
+<div style="clear: both;">
+</div>
 <img src="/assets/coto.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Hardware and Software Engineering, Diploma in Finance and Investments. Experience in Technological Project Management in multinational companies. Design Thinking, Cost Analysis, Financial Projections, different types of database management systems. I'm able to translate the non-technical language into technical, able to understand the user and the machine. I have participated in different technology projects and led Multidisciplinary teams. I am good in Physics, Maths, creating valuable applications with simple user interfaces and setting up high-demand technology infrastructures.
 
 

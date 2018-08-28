@@ -14,14 +14,16 @@ layout: page
 ### SKILFULNESS
 
 - WPT.
+- Physics & Maths Applications.
 - Lead Technical and Non-Technical Teams.
-- Years of Experience with Google Cloud Platform.
-- Create [Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
-- Create [Automated Scripts](http://bit.ly/google_script_programming){:target="_blank"} for Google Spreadsheets, Docs, Emails or Forms.
-- Create [Android and iOS Apps](http://bit.ly/mob_apps_programming){:target="_blank"} with JavaScript Frameworks.
+- Skilled programming with Python and JavaScript.
+- Long Experience with Google Cloud Platforms.
+- [Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
+- [Plugins and Automated Scripts](http://bit.ly/google_script_programming){:target="_blank"} for Google Spreadsheets, Docs, Emails or Forms.
+- [Android and iOS Apps](http://bit.ly/mob_apps_programming){:target="_blank"} with JavaScript Frameworks.
 - Hardware Programming.
 - Automated [Scrapping][quora_s]{:target="_blank"}.
-- Fast creation of [Web Services](http://bit.ly/rest_programming){:target="_blank"}.
+- High demand [Web Services](http://bit.ly/rest_programming){:target="_blank"}.
 
 
 ### ACADEMIC BACKGROUNDS

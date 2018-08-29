@@ -53,6 +53,13 @@ header.site-header {
 }
 * a {
   text-decoration: underline;
+  &:hover{
+    text-decoration: none;
+  }
+  &:active {
+    text-decoration: underline;
+    color: #283A90;
+  }
 }
 
 * b {

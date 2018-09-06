@@ -31,10 +31,10 @@ permalink: /resume/
 ### ACADEMIC BACKGROUNDS
 
 | 2014 – 2014 | **[Universidad de Chile][fen]​**  <br> Finance and Investing Diploma |
-| 2009 – 2010 | [Santiago University Chile][usach]{:target="_blank"} <br> Bachelor of Computer Science |
-| 2004 – 2009 | [Santiago University Chile][usach]{:target="_blank"} <br> Computer Scientist and Engineer, Software Development |
-| 1999 – 2001 | [Federico Santa Maria University][usm]{:target="_blank"} <br> Electronics Technician |
-| 1995 – 1998 | [Diego de Almeida High School][lda]{:target="_blank"} <br> Computer Programmer |
+| 2009 – 2010 | [Santiago University Chile][usach]{:target="_blank"} <br> Graduated as Bachelor of Computer Science |
+| 2004 – 2009 | [Santiago University Chile][usach]{:target="_blank"} <br> Graduated as Computer Scientist and Engineer, Software Development |
+| 1999 – 2001 | [Federico Santa Maria University][usm]{:target="_blank"} <br> Graduated as Electronics Technician |
+| 1995 – 1998 | [Diego de Almeida High School][lda]{:target="_blank"} <br> Graduated as Computer Programmer |
 {:.mbtablestyle}
 
     

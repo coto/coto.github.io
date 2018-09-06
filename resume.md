@@ -3,7 +3,7 @@ title: Resume
 layout: page
 permalink: /resume/
 ---
-I'm Open to Remote or Part Time Projects 
+
 ### Rodrigo Augosto Cancino
 <a href="/assets/resume-rodrigo-augosto-en.pdf" style="float: right;" target="_blank"><img src="/assets/download-pdf-file-button.gif">English PDF</a>
 

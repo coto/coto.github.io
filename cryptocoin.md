@@ -4,7 +4,7 @@ title: Cryptocoin
 permalink: /cryptocoin/
 ---
 
-This a project (under development) that use Blockchain technology in different dimensions at the same time.
+This a project (under development) that uses Blockchain technology in different dimensions at the same time.
 
 Any comment or you would like to contribute, please [contact me][contact_url]{:target="_blank"}.
 

@@ -73,11 +73,11 @@ Spanish, English, Portuguese.
 ##### » Software Engineer
 - Coordination and Creation of User Generated Content systems (Node.js, Sencha Touch and MongoDB)
 
-##### » Programmer
-- Mostly in Python and JavaScript.
+##### » Front End Developer
+- Different projects with different Front End technologies (Angular, React, Node JS, SASS, etc.)
 
 ##### » Risk Analyst Engineer
-- Construction of operational risk control projects.
+- Construction of operational risk control projects. Stored Procedures.
 
 
 [^framework]: it was when most of the frameworks (such as Sencha Touch, jQuery Mobile, Angular, React and other) did not exists.

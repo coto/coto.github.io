@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Cryptocoin
 ---
 
 This a project (under development) that uses Blockchain technology in different dimensions at the same time.

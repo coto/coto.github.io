@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-If you would like to reach me, please use this Contact Form [^encrypt]. 
+If you would like to reach me, please use this Contact Form. In case you would mind to encrypt any information, use [this Key][pgp_key]{:target="_blank"}. 
 
 
 <form class="contact-form" method="post">
@@ -16,6 +16,5 @@ If you would like to reach me, please use this Contact Form [^encrypt].
     <input type="submit" value="Send">
 </form>
 
-[^encrypt]: In case you would mind to encrypt any information, use [this Key][pgp_key]{:target="_blank"}.
 
 [pgp_key]: /public-key/

@@ -15,7 +15,8 @@ permalink: /resume/
 
 ### SKILFULNESS
 
-- WPT.
+- Wireless Power Transfer.
+- Hardware Development and Programming (AI/ML).
 - Physics & Maths Applications.
 - Lead Technical and Non-Technical Teams.
 - Skilled programming with Python and JavaScript.
@@ -23,7 +24,6 @@ permalink: /resume/
 - [Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
 - [Plugins and Automated Scripts](http://bit.ly/google_script_programming){:target="_blank"} for Google Spreadsheets, Docs, Emails or Forms.
 - [Android and iOS Apps](http://bit.ly/mob_apps_programming){:target="_blank"} with JavaScript Frameworks.
-- Hardware Programming.
 - Automated [Scrapping][quora_s]{:target="_blank"}.
 - High demand [Web Services](http://bit.ly/rest_programming){:target="_blank"}.
 
@@ -54,7 +54,7 @@ Spanish, English, Portuguese.
 
 #### Fintech Industry (Feb 2008 - Apr 2017)
 ##### » CTO
-- Design and planning of Architecture and Systems for multi-layered banking applications. (ISO 20000)
+- Design and planning of Architecture and Systems for multi-layered banking applications.
 - Partnership connection with Google Cloud.
 - Evaluation of services to improve customer experience.
 - Management and leadership of research and development teams.

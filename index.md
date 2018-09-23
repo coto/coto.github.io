@@ -10,7 +10,7 @@ If you would like to reach me, use this [Contact Form][contact]{:target="_blank"
 
 Born in Chile, King of my freedom. Technology-er. I am good in Physics, Maths, creating valuable applications with simple user interfaces and seeting up high-demand technology infrastructures. I understand from how the silicon entrails works (hardware) to how the electrical signals circulates through their reils[^reils] (software). I specialize in Wireless Power Transfer. 
 
-My life project is creating [innocuous wireless charging technologies][neahtid]{:target="_blank"}. I Enjoy meeting different cultures and traveling the world.
+My life project is creating [harmless wireless charging technologies][neahtid]{:target="_blank"}. I Enjoy meeting different cultures and traveling the world.
 
 Free of religions and Politics.
 

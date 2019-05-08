@@ -5,30 +5,30 @@ permalink: /resume/
 ---
 
 ### Rodrigo Augosto Cancino
-<a href="/assets/resume-rodrigo-augosto-en.pdf" style="float: right;" target="_blank"><img src="/assets/download-pdf-file-button.gif">English PDF</a>
+<!--a href="/assets/resume-rodrigo-augosto-en.pdf" style="float: right;" target="_blank"><img src="/assets/download-pdf-file-button.gif">English PDF</a>
 
 <a href="/assets/resume-rodrigo-augosto-es.pdf" style="float: right; margin-right: 10px;" target="_blank"><img src="/assets/download-pdf-file-button.gif">Español PDF</a>
-<div style="clear: both;">
+<div style="clear: both;"-->
 </div>
-<img src="/assets/coto.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Hardware and Software Engineer, I have Diploma in Finance and Investments. Experience in Technological Projects. Design Thinking, Cost Analysis, Financial Projections, different types of database management systems. I am able to translate the non-technical language into technical, able to understand the user and the machine. I have participated in different technology projects and led Multidisciplinary teams. I am good in Physics, Maths, creating valuable applications with simple user interfaces and setting up high-demand technology infrastructures.
+<img src="/assets/coto.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Hardware and Software Engineer, Diploma in Finance and Investments. I have work on different kind of technological projects. I like to translate non-technical into technical language and vice verza. 
+I like Physics, Maths and create high-demand technology infrastructures with simple user interfaces.
 
 
 ### SKILFULNESS
 
-- Wireless Power Transfer.
-- Hardware Development and Programming (AI/ML).
+- Hardware Development and Programming.
 - Physics & Maths Applications.
-- Lead Technical and Non-Technical Teams.
-- Skilled programming with Python and JavaScript.
-- Long Experience with Google Cloud Platforms.
+- Wireless Power Transfer.
+- Work with technical and non-technical teams.
+- Many years programming in Python & JavaScript.
+- Experience with Google Cloud Platforms.
 - [Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
-- [Plugins and Automated Scripts](http://bit.ly/google_script_programming){:target="_blank"} for Google Spreadsheets, Docs, Emails or Forms.
+- [Automated scripts](http://bit.ly/google_script_programming){:target="_blank"} for Google Spreadsheets, Docs, Emails or Forms.
 - [Android and iOS Apps](http://bit.ly/mob_apps_programming){:target="_blank"} with JavaScript Frameworks.
 - Automated [Scrapping][quora_s]{:target="_blank"}.
-- High demand [Web Services](http://bit.ly/rest_programming){:target="_blank"}.
 
 
-### ACADEMIC BACKGROUNDS
+### BACKGROUNDS
 
 | 2014 – 2014 | **[Universidad de Chile][fen]​**  <br> Finance and Investing Diploma |
 | 2009 – 2010 | [Santiago University Chile][usach]{:target="_blank"} <br> Graduated as Bachelor of Computer Science |
@@ -40,19 +40,19 @@ permalink: /resume/
     
 ### LANGUAGES
 
-Spanish, English, Portuguese.
+Spanish, English, Portuguese (good turists level).
 
 ### EXPERIENCE
 
-#### Wireless Energy and Hardware Industry (Jun 2016 - present & future)
+#### Research & Technology Industry (2016/)
 ##### » COO
 
 - Budgets & Financial Projections.
 - R&D Lead.
-- Manager of research teams (Engineers, Docs and Postdocs)
-- Investors relations.
+- Work with research and developments teams (Engineers, Docs and Postdocs)
 
-#### Fintech Industry (Feb 2008 - Apr 2017)
+
+#### Fintech Industries (2008/2017)
 ##### » CTO
 - Design and planning of Architecture and Systems for multi-layered banking applications.
 - Partnership connection with Google Cloud.
@@ -64,12 +64,12 @@ Spanish, English, Portuguese.
 - Creation of a JavaScript framework[^framework] for mobile applications development.
 - Creation of an authentication system for a Chilean Bank with OTP security tokens. 
 
-#### StarTechConf -​ ​www.startechconf.com (Jan 2011 - Dec 2015)
+#### StarTechConf -​ ​www.startechconf.com (2011/2015)
 ##### » Creator and Co-Organizer
 - Creation and coordination of one an important conferences for technology. Non-profit and with more than a thousand attendees from around the world. Exponents of companies such as Google, Apple, Microsoft, among others.
 - I just participated in the first 3 editions.
 
-#### Software Industry (Jan 2001 - May 2012)
+#### Software Industry (2001/2012)
 ##### » Software Engineer
 - Coordination and Creation of User Generated Content systems (Node.js, Sencha Touch and MongoDB)
 

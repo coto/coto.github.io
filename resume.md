@@ -40,19 +40,33 @@ I like Physics, Maths and create high-demand technology infrastructures with sim
     
 ### LANGUAGES
 
-Spanish, English, Portuguese (good turists level).
+Spanish, English, Portuguese (survival level).
 
 ### EXPERIENCE
 
-#### Research & Technology Industry (2016/)
-##### » COO
+#### Software Industry (2001 - present)
+##### » Senior Software Engineer
+- Full Stack programming for an important Bank in Chile, creation of Database Stored Procedures in SQL, Restful API Services with C#, Web Applications with Angular. 
+
+##### » Software Engineer
+- Coordination and Creation of User Generated Content systems (Node.js, Sencha Touch and MongoDB)
+
+##### » Front End Developer
+- Different projects with different Front End technologies (Angular, React, Node JS, SASS, etc.)
+
+##### » Risk Analyst Engineer
+- Construction of operational risk control projects. Stored Procedures.
+
+
+#### Research & Technology Industry (2016 - present)
+##### » CTO
 
 - Budgets & Financial Projections.
 - R&D Lead.
 - Work with research and developments teams (Engineers, Docs and Postdocs)
 
 
-#### Fintech Industries (2008/2017)
+#### Fintech Industries (2008 - 2017)
 ##### » CTO
 - Design and planning of Architecture and Systems for multi-layered banking applications.
 - Partnership connection with Google Cloud.
@@ -64,26 +78,16 @@ Spanish, English, Portuguese (good turists level).
 - Creation of a JavaScript framework[^framework] for mobile applications development.
 - Creation of an authentication system for a Chilean Bank with OTP security tokens. 
 
-#### StarTechConf -​ ​www.startechconf.com (2011/2015)
+#### StarTechConf (2011 - 2015)
 ##### » Creator and Co-Organizer
 - Creation and coordination of one an important conferences for technology. Non-profit and with more than a thousand attendees from around the world. Exponents of companies such as Google, Apple, Microsoft, among others.
 - I just participated in the first 3 editions.
 
-#### Software Industry (2001/2012)
-##### » Software Engineer
-- Coordination and Creation of User Generated Content systems (Node.js, Sencha Touch and MongoDB)
-
-##### » Front End Developer
-- Different projects with different Front End technologies (Angular, React, Node JS, SASS, etc.)
-
-##### » Risk Analyst Engineer
-- Construction of operational risk control projects. Stored Procedures.
-
 
 [^framework]: it was when most of the frameworks (such as Sencha Touch, jQuery Mobile, Angular, React and other) did not exists.
 
-[usach]: http://www.usach.cl​
-[usm]: http://www.utfsm.cl​
+[usach]: http://www.usach.cl
+[usm]: http://www.utfsm.cl
 [fen]: http://www.fen.uchile.cl
 [t_coto]: https://www.twitter.com/coto
 [g_coto]: https://www.github.com/coto

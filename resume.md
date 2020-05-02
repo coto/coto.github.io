@@ -25,7 +25,9 @@ I like Physics, Maths and create high-demand technology infrastructures with sim
 - [Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
 - [Automated scripts](http://bit.ly/google_script_programming){:target="_blank"} for Google Spreadsheets, Docs, Emails or Forms.
 - [Android and iOS Apps](http://bit.ly/mob_apps_programming){:target="_blank"} with JavaScript Frameworks.
-- Automated [Scrapping][quora_s]{:target="_blank"}.
+- Automated [Scraping][quora_s]{:target="_blank"}.
+- High demand RESTful Services.
+
 
 
 ### BACKGROUNDS

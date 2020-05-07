@@ -14,25 +14,25 @@ permalink: /resume/
 I like Physics, Maths and create high-demand technology infrastructures with simple user interfaces.
 
 
-### SKILFULNESS
+## SKILFULNESS
 
-- Hardware Development and Programming.
+- Hardware & Software Development.
 - Physics & Maths Applications.
-- Wireless Power Transfer.
-- Work with technical and non-technical teams.
+- Wireless Power Transfer Research.
+- Lead technical and non-technical teams.
 - Many years programming in Python & JavaScript.
 - Experience with Google Cloud Platforms.
 - [Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
-- [Automated scripts](http://bit.ly/google_script_programming){:target="_blank"} for Google Spreadsheets, Docs, Emails or Forms.
+- [Google scripts Applications](http://bit.ly/google_script_programming){:target="_blank"} that integrate Google Spreadsheets, Docs, Forms and Gmail.
 - [Android and iOS Apps](http://bit.ly/mob_apps_programming){:target="_blank"} with JavaScript Frameworks.
-- Automated [Scraping][quora_s]{:target="_blank"}.
+- Develop Automated [Scripts][quora_s]{:target="_blank"}.
 - High demand RESTful Services.
 
 
 
-### BACKGROUNDS
+## BACKGROUNDS
 
-| 2014 – 2014 | **[Universidad de Chile][fen]​**  <br> Finance and Investing Diploma |
+| 2014 – 2014 | **[Universidad de Chile][fen]**  <br> Finance and Investing Diploma |
 | 2009 – 2010 | [Santiago University Chile][usach]{:target="_blank"} <br> Graduated as Bachelor of Computer Science |
 | 2004 – 2009 | [Santiago University Chile][usach]{:target="_blank"} <br> Graduated as Computer Scientist and Engineer, Software Development |
 | 1999 – 2001 | [Federico Santa Maria University][usm]{:target="_blank"} <br> Graduated as Electronics Technician |
@@ -40,53 +40,53 @@ I like Physics, Maths and create high-demand technology infrastructures with sim
 {:.mbtablestyle}
 
     
-### LANGUAGES
+## LANGUAGES
 
 Spanish, English, Portuguese (survival level).
 
-### EXPERIENCE
+## EXPERIENCE
 
-#### Software Industry (2001 - present)
-##### » Senior Software Engineer
-- Full Stack programming for an important Bank in Chile, creation of Database Stored Procedures in SQL, Restful API Services with C#, Web Applications with Angular. 
+### Software Industry
+#### » Senior Software Engineer  (2019 - present)
+- Full Stack programming for a Bank, creation of Database Stored Procedures in SQL, Restful API Services with C#, Web Applications with Angular. 
 
-##### » Software Engineer
-- Coordination and Creation of User Generated Content systems (Node.js, Sencha Touch and MongoDB)
+#### » CTO (2011 - 2017)
+- Design and planning of Architecture and Systems for multi-layered banking applications.
+- Manage Partnership with Google Cloud.
+- Evaluation of services to improve customer experience.
+- Lead development teams.
+- Lead Security and Software projects.
 
-##### » Front End Developer
-- Different projects with different Front End technologies (Angular, React, Node JS, SASS, etc.)
+#### » Software Engineer (2010 - 2011)
+- Created a User Generated Content systems (Node.js, Sencha Touch and MongoDB)
 
-##### » Risk Analyst Engineer
-- Construction of operational risk control projects. Stored Procedures.
+#### » Risk Analyst Engineer (2009 - 2010)
+- Build Operational risk control applications. SQL Stored Procedures.
+
+#### » Software Engineer Mobile Platforms (2008 - 2009)
+- Build a JavaScript framework[^framework] for mobile applications development.
+- Build OTP (authentication system) Application for a Chilean Bank. 
+
+#### » Front End Developer (2001 - 2007)
+- Bank website www.santander.cl 
 
 
-#### Research & Technology Industry (2016 - present)
-##### » CTO
+
+### Research & Technology Industry
+#### » Founder & Investor (2016 - present)
 
 - Budgets & Financial Projections.
 - R&D Lead.
-- Work with research and developments teams (Engineers, Docs and Postdocs)
+- Lead research and developments teams (Engineers, Docs and Postdocs).
 
 
-#### Fintech Industries (2008 - 2017)
-##### » CTO
-- Design and planning of Architecture and Systems for multi-layered banking applications.
-- Partnership connection with Google Cloud.
-- Evaluation of services to improve customer experience.
-- Management and leadership of research and development teams.
-- Project management for latest technologies in Security and Software.
-
-##### » Software Engineer Mobile Platforms
-- Creation of a JavaScript framework[^framework] for mobile applications development.
-- Creation of an authentication system for a Chilean Bank with OTP security tokens. 
-
-#### StarTechConf (2011 - 2015)
-##### » Creator and Co-Organizer
-- Creation and coordination of one an important conferences for technology. Non-profit and with more than a thousand attendees from around the world. Exponents of companies such as Google, Apple, Microsoft, among others.
-- I just participated in the first 3 editions.
+#### Non-profit Activities 
+##### » Software Developer Conference (www.startechconf.com) Creator and Co-Organizer (2011, 2013 and 2015)
+- StarTechConf was a Software Developer Conference with around a thousand attendees, interesting speakers from companies like Github,  Google, Apple, Microsoft, among others. Non-profit project that provided me expirience managing budgets, timelines and team organization.
+- After 2015 edition, I quit the organization, transfered the rights to third parties, the conference was renamed to www.starsconf.com.
 
 
-[^framework]: it was when most of the frameworks (such as Sencha Touch, jQuery Mobile, Angular, React and other) did not exists.
+[^framework]: At that time, JavaScript frameworks like Sencha, jQuery, Angular, React and others, did not exist.
 
 [usach]: http://www.usach.cl
 [usm]: http://www.utfsm.cl

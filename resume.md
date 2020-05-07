@@ -71,14 +71,12 @@ Spanish, English, Portuguese (survival level).
 - Bank website www.santander.cl 
 
 
-
 ### Research & Technology Industry
 #### » Founder & Investor (2016 - present)
 
 - Budgets & Financial Projections.
 - R&D Lead.
 - Lead research and developments teams (Engineers, Docs and Postdocs).
-
 
 ### Non-profit Activities 
 #### » Software Developer Conference (www.startechconf.com) (2011, 2013 and 2015)

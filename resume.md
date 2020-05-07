@@ -81,8 +81,8 @@ Spanish, English, Portuguese (survival level).
 
 
 #### Non-profit Activities 
-##### » Software Developer Conference (www.startechconf.com) Creator and Co-Organizer (2011, 2013 and 2015)
-- StarTechConf was a Software Developer Conference with around a thousand attendees, interesting speakers from companies like Github,  Google, Apple, Microsoft, among others. Non-profit project that provided me expirience managing budgets, timelines and team organization.
+##### » Software Developer Conference (www.startechconf.com) (2011, 2013 and 2015)
+- Creator and Co-Organizer of StarTechConf, a Software Developer Conference with around a thousand attendees in its 3 editions (2011, 2013 and 2015), interesting speakers from companies like Github, Google, Apple, Microsoft, among others. Non-profit project that provided me expirience managing budgets, timelines and team organization.
 - After 2015 edition, I quit the organization, transfered the rights to third parties, the conference was renamed to www.starsconf.com.
 
 

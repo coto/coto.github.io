@@ -24,9 +24,8 @@ I like Physics, Maths and create high-demand technology infrastructures with sim
 - Python (Django & Flask), C# & JavaScript (Angular, Vue, jQuery) programming.
 - Long Experience with Google Cloud Platforms.
 - [Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"} integrations.
-- [Google scripts Applications](http://bit.ly/google_script_programming){:target="_blank"} that integrate Google Spreadsheets, Docs, Forms and Gmail.
 - [Android and iOS Apps](http://bit.ly/mob_apps_programming){:target="_blank"} with JavaScript Frameworks.
-- Automated [Scripts Applications][quora_s]{:target="_blank"}.
+- Automated [Scripts Applications][quora_s]{:target="_blank"} integrated with Spreadsheets, Docs, Forms and other.
 - Build High demand API RESTful Services.
 - Database Modeling and Scripting (MySQL & MS-SQL).
 - Hardware and Software Security.

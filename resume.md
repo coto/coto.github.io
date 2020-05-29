@@ -16,17 +16,20 @@ I like Physics, Maths and create high-demand technology infrastructures with sim
 
 ## SKILFULNESS
 
+- Product Managment.
 - Hardware & Software Development.
 - Physics & Maths Applications.
 - Wireless Power Transfer Research.
 - Lead technical and non-technical teams.
-- Many years programming in Python & JavaScript.
-- Experience with Google Cloud Platforms.
-- [Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
+- Python (Django & Flask), C# & JavaScript (Angular, Vue, jQuery) programming.
+- Long Experience with Google Cloud Platforms.
+- [Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"} integrations.
 - [Google scripts Applications](http://bit.ly/google_script_programming){:target="_blank"} that integrate Google Spreadsheets, Docs, Forms and Gmail.
 - [Android and iOS Apps](http://bit.ly/mob_apps_programming){:target="_blank"} with JavaScript Frameworks.
-- Develop Automated [Scripts][quora_s]{:target="_blank"}.
-- High demand RESTful Services.
+- Automated [Scripts Applications][quora_s]{:target="_blank"}.
+- Build High demand API RESTful Services.
+- Database Modeling and Scripting (MySQL & MS-SQL).
+- Hardware and Software Security.
 
 
 
@@ -84,7 +87,7 @@ Spanish, English, Portuguese (survival level).
 - After 2015 edition, I quit the organization, transfered the rights to third parties, the conference was renamed to www.starsconf.com.
 
 
-[^framework]: At that time, JavaScript frameworks like Sencha, jQuery, Angular, React and others, did not exist.
+[^framework]: At that time, JavaScript frameworks like Sencha, jQuery, Angular, React and others did not exist.
 
 [usach]: http://www.usach.cl
 [usm]: http://www.utfsm.cl

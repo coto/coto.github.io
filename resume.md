@@ -11,24 +11,24 @@ permalink: /resume/
 <div style="clear: both;">
 </div>
 <img src="/assets/coto.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Hardware and Software Engineer, Diploma in Finance and Investments. I have work on different kind of technological projects. I like to translate non-technical into technical language and vice verza. 
-I like Physics, Maths and create high-demand technology infrastructures with simple user interfaces.
+I like Physics, Maths, programming and create high-demand technology infrastructures with simple user interfaces.
 
 
 ## SKILFULNESS
 
 - Product Managment.
 - Hardware & Software Development.
+- Hardware and Software Security.
 - Physics & Maths Applications.
 - Wireless Power Transfer Research.
 - Lead technical and non-technical teams.
 - Python (Django & Flask), C# & JavaScript (Angular, Vue, jQuery) programming.
-- Long Experience with Google Cloud Platforms.
-- [Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"} integrations.
+- Google Cloud Platforms.
+- [Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
 - [Android and iOS Apps](http://bit.ly/mob_apps_programming){:target="_blank"} with JavaScript Frameworks.
-- Automated [Scripts Applications][quora_s]{:target="_blank"} integrated with Spreadsheets, Docs, Forms and other.
-- Build High demand API RESTful Services.
+- [Scripts integrations with Spreadsheets, Docs, Forms and other process flows][quora_s]{:target="_blank"}.
+- High demand API RESTful Services.
 - Database Modeling and Scripting (MySQL & MS-SQL).
-- Hardware and Software Security.
 
 
 
@@ -50,13 +50,13 @@ Spanish, English, Portuguese (survival level).
 
 ### Software Industry
 #### » Senior Software Engineer  (2019 - present)
-- Full Stack programming for a Bank, creation of Database Stored Procedures in SQL, Restful API Services with C#, Web Applications with Angular. 
+- Full Stack programming for Bank Industry, Database Stored Procedures in SQL, Restful API Services with C#, Web Applications with Angular. 
 
 #### » CTO (2011 - 2017)
 - Design and planning of Architecture and Systems for multi-layered banking applications.
-- Manage Partnership with Google Cloud.
-- Evaluation of services to improve customer experience.
-- Lead development teams.
+- Partnership with Google Cloud.
+- Improve customer experience.
+- Lead IT teams.
 - Lead Security and Software projects.
 
 #### » Software Engineer (2010 - 2011)
@@ -83,7 +83,7 @@ Spanish, English, Portuguese (survival level).
 ### Non-profit Activities 
 #### » Software Developer Conference (www.startechconf.com) (2011, 2013 and 2015)
 - Creator and Co-Organizer of StarTechConf, a Software Developer Conference with around a thousand attendees in its 3 editions (2011, 2013 and 2015), interesting speakers from companies like Github, Google, Apple, Microsoft, among others. Non-profit project that provided me expirience managing budgets, timelines and team organization.
-- After 2015 edition, I quit the organization, transfered the rights to third parties, the conference was renamed to www.starsconf.com.
+- After 2015 edition, I quit the organization, transfered the rights to third parties, and it was renamed to www.starsconf.com.
 
 
 [^framework]: At that time, JavaScript frameworks like Sencha, jQuery, Angular, React and others did not exist.

@@ -16,20 +16,17 @@ I like Physics, Maths, programming and create high-demand technology infrastruct
 
 ## SKILFULNESS
 
-- Product Managment.
-- Hardware & Software Development.
+- Product Managment. Lead technical and non-technical teams.
+- Hardware and Software Development.
 - Hardware and Software Security.
-- Physics & Maths Applications.
-- Wireless Power Transfer Research.
-- Lead technical and non-technical teams.
-- Python (Django & Flask), C# & JavaScript (Angular, Vue, jQuery) programming.
-- Google Cloud Platforms.
+- Wireless Power Transfer Research. Physics and Maths Applications.
+- Python, JavaScript (Angular, Vue, jQuery) programming.
+- Google Cloud Platforms. High demand API RESTful Services.
 - [Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
-- [Android and iOS Apps](http://bit.ly/mob_apps_programming){:target="_blank"} with JavaScript Frameworks.
-- [Scripts integrations with Spreadsheets, Docs, Forms and other process flows][quora_s]{:target="_blank"}.
-- High demand API RESTful Services.
+- [PWA Apps](http://bit.ly/mob_apps_programming){:target="_blank"}.
+- [Scripts integrations with Spreadsheets, Docs, Forms and flow processes][quora_s]{:target="_blank"}.
 - Database Modeling and Scripting (MySQL & MS-SQL).
-
+- UI/UX, CSS and HTML technologies.
 
 
 ## BACKGROUNDS
@@ -51,6 +48,9 @@ Spanish, English, Portuguese (survival level).
 ### Software Industry
 #### » Senior Software Engineer  (2019 - present)
 - Full Stack programming for Bank Industry, Database Stored Procedures in SQL, Restful API Services with C#, Web Applications with Angular. 
+
+#### » Open Source (2018 - 2019)
+- Regular Expresions to migrate format of [Fluentd Documentation](https://docs.fluentd.org/), an open source data collector of Linux Fundation and graduated project of Cloud Native Computing Foundation (CNCF).
 
 #### » CTO (2011 - 2017)
 - Design and planning of Architecture and Systems for multi-layered banking applications.

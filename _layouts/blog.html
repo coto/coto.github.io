@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+  <p>This blog has an undetermined update frequency. All the content is my own and has no relation to third parties.</p>
+  <p>Posts in <em class="esp">Spanish</em> or <em class="eng">English</em></p>
+
+  {%- if site.posts.size > 0 -%}
+    <hr/>
+    <h3 class="post-list-heading">{{ page.list_title | default: "Latest Posts" }}</h3>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          <em class="{{ post.lang }}"></em>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a target="_blank" href="{{ site.rss | relative_url }}">via RSS</a></p>
+  {%- endif -%}
+
+</div>

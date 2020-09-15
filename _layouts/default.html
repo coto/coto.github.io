@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+  <script src="/assets/js/jquery-3.3.1.min.js"></script>
+  <script src="/assets/js/jquery.viewportchecker.min.js"></script>
+  <script src="/assets/js/formConfirmation.js?v=201707221115"></script>
+  <script src="/assets/js/script.js?v=201708221114"></script>
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+      async defer>
+
+</html>

@@ -7,7 +7,9 @@ sudo gem install  -n /usr/local/bin bundler jekyll
 
 bundle init
 
-bundle install --path vendor/bundle
+bundle config set path 'vendor/bundle'
+
+bundle install
 
 
 ## Local Run

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "¿Qué está pasando en Chile y por qué podría ser un ejemplo a nivel mundial?"
+title:  "¿Qué está pasando en Chile, por qué podría ser un ejemplo a nivel mundial y Qué debería un Chileno tener en consideración para el plebiscito de Octubre?"
 comments: true
 date:   2020-09-18 17:51:00 -0300
 categories: coto blog chile

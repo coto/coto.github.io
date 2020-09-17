@@ -80,6 +80,10 @@ Estoy seguro que los estudiantes no fueron quienes cometieron las destrucciones,
 
 3. **El cambio de constitución está planeado sólo para entregar más poder político a los mismos políticos actuales**, si no me cree, contabilice por su cuenta las veces que han cambiado de Constitución Francia, Noruega vs Argentina y Venezuela por ejemplo y considere además lo antes mencionado para evitar independientes en el camino.
 
+<video width="480" height="320" controls="controls">
+  <source src="/assets/chavez_caso.mp4" type="video/mp4">
+</video>
+
 4. **Es mentira que los problemas de Chile se resuelven cambiando la actual constitución**, pero es miserable no entender que $30.000.000.000 (treinta mil millones) hubiesen sido de gran ayuda a personas que lo están pasando mal en esta Pandemia y que se podría postergar para otro momento sin exponer a sus ciudadnos.
 
 5. **Vaya a las hurnas bien protegido y en calma**, si es posible utilice guantes, su propio lapiz y protector facial además de la mascarilla y no tocarse la cara. Utilice antes, durante y después su alcohol gel o spray de mezclas de alcohol con agua. Recuerde desinfectar la suela de sus zapatos al regresar a su hogar y lavarse las manos.

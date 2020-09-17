@@ -53,7 +53,7 @@ En Chile con el tiempo, los beneficios en Educación sólo han mejorado, gracias
 3. Supervisar de manera sin precedentes al Poder Judicial completo y tener medios eficientes para sancionar Corrupción, Tráfico de Influencias y Operadores Políticos.
 4. Fomentar una economía que impulse el emprendimiento evitando que grandes empresas atenten contra los pequeños con prácticas como el Dumping, por ejemplo.
 5. Entender que el Estado debe preocuparse de las **Pensiones**, con una mirada de gratitud hacia nuestros ancestros, de **Salud**, **Educación**, **Seguridad**, con una mirada de justicia hacia sus ciudadanos y por sobre todo **Fomentar la producción y emprendimiento** para que éstos sean libres y puedan vivir acorde al fruto de su propio trabajo.
-6. Exigir a los empleados de empresas públicas que sean tan efectivos como lo es la empresa privada, y esto se logra eliminando la burocracia que solo reina en el sector público. Además de vigilar que los sindicatos estén alejados de la política y persiguen ideas de sentido común,  donde sea la productividad el eje para generar más trabajo digno y mejor calidad de vida.
+6. Exigir a los empleados de empresas públicas que sean tan efectivos como lo es la empresa privada, y esto se logra eliminando la burocracia que solo reina en el sector público. Además de vigilar que los sindicatos estén alejados de la política y trabajen en ideas de sentido común, donde sea la productividad el eje para generar más trabajo digno y de mejor calidad.
 
 ### ¿Cómo entender la Política para tomar una buena decisión para votar en el plebiscito del 25 de Octubre?
 
@@ -80,9 +80,9 @@ Estoy seguro que los estudiantes no fueron quienes cometieron las destrucciones,
 
 3. **El cambio de constitución está planeado sólo para entregar más poder político a los mismos políticos actuales**, si no me cree, contabilice por su cuenta las veces que han cambiado de Constitución Francia, Noruega vs Argentina y Venezuela por ejemplo y considere además lo antes mencionado para evitar independientes en el camino.
 
-    <video width="480" height="320" controls="controls">
-      <source src="https://github.com/coto/coto.github.io/blob/master/assets/chavez_caso.mp4" type="video/mp4">
-    </video>
+      <video width="480" height="320" controls="controls">
+        <source src="https://github.com/coto/coto.github.io/blob/master/assets/chavez_caso.mp4" type="video/mp4">
+      </video>
 
 4. **Es mentira que los problemas de Chile se resuelven cambiando la actual constitución**, pero es miserable no entender que $30.000.000.000 (treinta mil millones) hubiesen sido de gran ayuda a personas que lo están pasando mal en esta Pandemia y que se podría postergar para otro momento sin exponer a sus ciudadnos.
 

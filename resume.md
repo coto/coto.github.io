@@ -54,7 +54,8 @@ Spanish, English, Portuguese (survival level).
 - R&D Lead.
 
 <hr>
-### Software Industry
+
+### Software Development "Software Industry"
 #### » Senior Software Engineer  (2019)
 - Full Stack programming for Bank Industry, Database Stored Procedures in SQL, Restful API Services with C#, Web Applications with Angular. 
 
@@ -81,8 +82,8 @@ Spanish, English, Portuguese (survival level).
 #### » Front End Developer (2001 - 2007)
 - Bank website www.santander.cl 
 
-
 <hr>
+
 ### Non-profit Activities 
 #### » Software Developer Conference (www.startechconf.com) (2011, 2013 and 2015)
 - Creator and Co-Organizer of StarTechConf, a Software Developer Conference with around a thousand attendees in its 3 editions (2011, 2013 and 2015), interesting speakers from companies like Github, Google, Apple, Microsoft, among others. Non-profit project that provided me expirience managing budgets, timelines and team organization.

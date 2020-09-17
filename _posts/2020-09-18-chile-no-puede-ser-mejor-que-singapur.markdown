@@ -28,7 +28,7 @@ Aquí te dejo un enlace a los 6 puntos principales, dado que el total del artíc
 
 Este artículo lo escribo desde un punto de vista imparcial, como un Chileno desapegado de clases políticas o sociales. Soy a quien no puedes llamar ni facho ni comunacho, mis opiniones son objetivas, basada en números y experiencias personales, va como regalo para mis compatriotas en una fecha tan importante como lo es el 18 de Septiembre, fecha que representa el inicio de algo que todos los Chilenos nos sentimos orgullosos, nuestra libertad.
 
-Soy un Chileno, nacido en la región de Atacama, hijo de Rosario Cancino y junto a mi hermana mayor por 7 años, Valeska compusimos los inicios de lo que fue mi familia inicial, de origen humilde y que al día de hoy continúa cosechando frutos y disfrutando una vida tranquila a través del trabajo honesto, equilibrado y digno que nos ha dado como ejemplo mi Madre.
+Soy un Chileno, nacido en la región de Atacama, junto a mi madre, Rosario Cancino y mi hermana mayor por 7 años, Valeska, compusimos los inicios de lo que fue mi familia inicial, de origen humilde y que al día de hoy continúa cosechando frutos y disfrutando una vida tranquila a través del trabajo honesto, equilibrado y digno que nos ha dado como ejemplo mi Madre.
 
 Como Chileno, Hoy en plena pandemia, me pregunto ¿Estaría un Chileno dispuesto a vivir con la represión y falta de libertad con la que se vive en Singapur, China o Alemania? Es cierto que alguno de esos países están muy lindos y representan la cara de un país que ha sabido llevar de buena manera la billetera y política del país, que es lo que al fin y al cabo resuelve los problemas, pero en términos de la libertad que existe en esos Países, un verdadero Chileno no sería capaz de tolerar mucho tiempo la falta de libertad, salvo que el costo le valga la pena y vaya con su personalidad y extrañando mucho a Chile, un país, que además de ser avanzado, es libre y eso es lo que lo hace mejor que Alemania, decían mis amigos alemanes a quienes recibí unos meses en Chile a principios de 2019.
 
@@ -71,18 +71,20 @@ En Chile con el tiempo, los beneficios en Educación sólo han mejorado, gracias
 
 Les contaré una historia que tuve cercana a la política en el año 2000, un compañero de Universidad me invitó a un asado organizado por juventud RN (partido político de derecha en Chile), participé a pesar de que no tengo ninguna afinidad o aversión contra ese partido político u otro, además en época de estudiante se agradece una invitación a un asado. En la reunión me uní a la conversación de un grupo, la cual fue algo así:
 
-- Persona 1 : ¡Oye, supieron que estamos ganando las encuestas en La Calera! (Se refería al candidato de su partido que representaba a la ciudad de La Calera).
-- Yo: ¿Cómo se llama el candidato?
-- Persona 1: ¡No me recuerdo! Alguien se acuerda del nombre? - preguntó a viva voz.
-- Persona 2: No! Creo que 'persona 3' (que estaba a pocos metros en otro grupo) debe saber!
-- Persona 2: ¡Oye! - le pregunta en voz alta a Persona 3 - ¿Cómo se llama el candidato de La Calera?
+- Persona 1 : ¡Oye, supieron que gana nuestro candidato en La Calera!
+- "Todos celebraron"
+- Yo: ¿Cómo se llama el candidato? - pregunte inocentemente.
+- "Silencio de algunos segundos"
+- Persona 1: ¡No me recuerdo! ¿Cómo se llama el de La Calera? - preguntó a viva voz.
+- Persona 2: No se! creo que 'persona 3' (que estaba a pocos metros en otro grupo) debe saber!
+- Persona 2: ¡Oye! - le pregunta viva voz a Persona 3 - ¿Cómo se llama el candidato de La Calera?
 - Persona 3: Se llama 'x'.
 
-Perdón que no recuerde el nombre de las personas, fue la primera y única vez que los veía y los nombres no influyen en lo que les quiero contar, ya que lo que me sorprendió no fue que varios no supieran el nombre del candidato de La Calera estando en Viña del Mar, sino que sin importar quién es, qué tan honesto o corrupto sea, cuales son sus capacidades de administración, sólo lo celebraban por ser de su mismo partido. Un fanatismo irracional sólo comparable al de las barras bravas en el fútbol y que estoy seguro aplica tanto en partidos políticos de Izquierda, Centro y Derecha.
+Perdón que no recuerde el nombre de las personas, fue la primera y única vez que los veía y los nombres no influyen en lo que les quiero contar, ya que lo que me sorprendió no fue que varios no supieran el nombre del candidato de La Calera estando en Viña del Mar, sino que sin importar quién es, qué tan honesto o corrupto sea, cuales son sus capacidades de administración, lo celebraban simplemente por ser de su mismo partido. Un fanatismo irracional sólo comparable al de las barras bravas en el fútbol y que seguro aplica en partidos políticos de Izquierda, Centro y Derecha.
 
 El día 16 de Octubre de 2019, en Chile, comenzó un movimiento organizado, mucho más organizado de lo que algunos se han dado cuenta, los primeros en mover las piezas iban a ser las ovejas más fáciles de mover, los estudiantes. Dos días después, quienes están organizando (principalmente políticos de izquierda), coordinaron protestas destructivas y delictuales, llegando a quemar estaciones del Metro de Santiago de forma coordinada, entre otros daños a la propiedad pública y privada en varios lugares del país. No es que los Chilenos seamos weones y cuando protestamos destruimos todo a nuestro paso, lo que ocurrió es que no nos dimos cuenta que esto venía articulado política y criminalmente y lo que se vió en la TV fue como si los Chilenos hicieran eso, pero no fue así.
 
-Estoy seguro que los estudiantes no fueron quienes cometieron las destrucciones, porque los estudiantes nos movilizamos como un modo sano de expresar las molestias o quejas por el sistema, pero el límite está en que un verdadero estudiante no va a destruir propiedad de otro, sin embargo la movilización de estudiantes era necesaria para dar paso a esa segunda fase de destrucción coordinada, para luego forzar al ejecutivo, como tercer paso, para que hiciera lo mismo que Hugo Chavez hizo al principio de su Gobierno en Venezuela poco más de una década atrás, exigir, incluso a través de la violencia, una nueva Constitución, ya que eso sería la cura de todos los males.
+Estoy seguro que los estudiantes no fueron quienes cometieron las destrucciones, porque los estudiantes nos movilizamos como un modo sano de expresar las molestias o quejas por el sistema, pero el límite está en que un verdadero estudiante no va a destruir propiedad de otro, sin embargo la movilización de estudiantes era necesaria para dar paso a esa segunda fase de destrucción coordinada, para luego forzar al ejecutivo, como tercer paso, que hiciera lo mismo que Hugo Chavez hizo al principio de su Gobierno en Venezuela poco más de una década atrás, proponer una nueva Constitución, ya que eso sería la cura de todos los males.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ghakxsYg0cE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

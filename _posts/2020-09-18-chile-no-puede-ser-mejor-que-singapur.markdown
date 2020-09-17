@@ -48,11 +48,11 @@ En Chile con el tiempo, los beneficios en Educación sólo han mejorado, gracias
 
 ### ¿Cómo mejorar las Pensiones, Salud, Justicia y otros ejes principales de preocupación de un Estado?
 
-1. Cambiando a los políticos malos y filtrando a los nuevos según sus capacidades técnicas y altruistas.
+1. Cambiando a los empleados públicos y políticos malos y filtrando a los nuevos según capacidades técnicas y altruistas.
 2. Supervisar de manera sin precedentes al Poder Legislativo completo y tener medios eficientes para sancionar Corrupción, Nepotismo y Falta de Capacidades para su labor.
 3. Supervisar de manera sin precedentes al Poder Judicial completo y tener medios eficientes para sancionar Corrupción, Tráfico de Influencias y Operadores Políticos.
 4. Fomentar una economía que impulse el emprendimiento evitando que grandes empresas atenten contra los pequeños con prácticas como el Dumping, por ejemplo.
-5. Entender que el Estado debe preocuparse de las <b>Pensiones</b>, con una mirada de gratitud hacia nuestros ancestros, de <b>Salud</b>, <b>Educación</b>, <b>Seguridad</b>, con una mirada de justicia hacia sus ciudadanos y por sobre todo <b>Fomentar la producción y emprendimiento</bb> para que éstos sean libres y puedan vivir acorde al fruto de su propio trabajo.
+5. Entender que el Estado debe preocuparse de las <b>Pensiones</b>, con una mirada de gratitud hacia nuestros ancestros, de <b>Salud</b>, <b>Educación</b>, <b>Seguridad</b>, con una mirada de justicia hacia sus ciudadanos y por sobre todo <b>Fomentar la producción y emprendimiento</b> para que sus ciudadanos sean libres y puedan vivir acorde al fruto de su propio trabajo.
 6. Exigir a los empleados de empresas públicas que sean tan efectivos como lo es la empresa privada, y esto se logra eliminando la burocracia que solo reina en el sector público. Además de vigilar que los sindicatos estén alejados de la política y trabajen en ideas de sentido común, donde sea la productividad el eje para generar más trabajo digno y de mejor calidad.
 
 ### ¿Cómo entender la Política para tomar una buena decisión para votar en el plebiscito del 25 de Octubre?

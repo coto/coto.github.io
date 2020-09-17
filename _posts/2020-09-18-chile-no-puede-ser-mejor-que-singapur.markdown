@@ -1,0 +1,99 @@
+---
+layout: post
+title:  "¿Qué está pasando en Chile, por qué podría ser un ejemplo a nivel mundial y Qué debería un Chileno tener en consideración para el plebiscito de Octubre?"
+comments: true
+date:   2020-09-18 17:51:00 -0300
+categories: coto blog chile
+lang: esp
+tags: blog chile singapur plebiscito apruebo rechazo político política udi comunista marxista capitalismo neoliberalismo
+author: "Coto"
+---
+ 
+## TL;TR
+
+Chile vive una realidad que me gustaría expresar en primera persona a mis amigos extranjeros, el 16 de Octubre pasado comenzó un movimiento social que se nos fue de las manos, pasando de momentos de mucha confusión e ignorancia respecto a lo que estaba pasando, y con eso generar bastante miedo y daño al propio país. A principios de este año 2020 se sumó el no menor problema de la Pandemia que compartimos mundialmente, y que a pesar de ser una población pequeña y aparentemente inteligente (según visiones externas respecto a cómo hemos construido nuestra sociedad) estamos dentro de los países más contagiados, y sumado a lo anterior, este 25 de Octubre los Chilenos nos enfrentamos a lo que algunos intelectuales definen como cambio de sociedad a una tercera generación o equivocarnos y entregarle más poder a los Políticos actuales.
+
+## ¿Quien soy yo y por que me permito entregar algunos humildes tips para mejorar la Educación?
+
+Quise escribir este artículo para contarles a mis amigos fuera de Chile, qué es lo que está pasando, desde un punto de vista imparcial y de un Chileno desapegado de clases políticas o sociales, y como regalo para mis compatriotas en una fecha tan importante como lo es el 18 de Septiembre, fecha que representa el inicio de algo que todos los Chilenos nos sentimos orgullosos, nuestra libertad.
+
+Soy un Chileno, nacido en la región de Atacama, hijo de Rosario Cancino y junto a mi hermana mayor por 7 años, Valeska compusimos los inicios de lo que fue mi familia, de origen humilde y que al día de hoy continúa cosechando frutos y disfrutando una vida tranquila a través del trabajo honesto, equilibrado y digno que nos ha dado como ejemplo mi Madre.
+
+Como Chileno, Hoy en plena pandemia, me pregunto ¿Estaría un Chileno dispuesto a vivir con la represión y falta de libertad con la que se vive en Singapur, China o Alemania? Es cierto que esos países están muy lindos y representan la cara de un país que ha sabido llevar de buena manera la billetera y política del país, que es lo que al fin y al cabo resuelve los problemas, pero en términos de libertad que existe en esos Países, un verdadero Chileno no sería capaz de tolerar mucho tiempo la falta de libertad, salvo que el costo le valga la pena y vaya con su personalidad. Chile es un país libre y eso es lo que más le enorgullece a un chileno.
+
+Sin embargo, hay cosas que el Estado de Chile debe mejorar y me gustaría compartir algunas ideas de qué y cómo Chile debe mejorar en Educación, y la idea fundamental para mejorar la Salud, Pensiones y otros ejes fundamentales de un Estado.
+
+### ¿Cómo mejorar la Educación en Chile?
+
+En la educación básica y media, nunca fui el mejor de la clase, tampoco el peor, de hecho recuerdo que siempre estaba en el tercer o cuarto lugar de notas del curso. Tampoco me preocupaba mucho ser primero. En cuarto medio, a los 17 años recibí del orientador vocacional del Liceo, señor Patricio Jorquiera, un libro de la Universidad Santa María. Me cambió la vida, lo único que quería en ese momento era estudiar en esa Universidad, no sabía qué estudiar, pero si sabía dónde y estaba entusiasmado sin importar que no teníamos los recursos para cubrir mis estudios.
+
+Pocos meses antes de que comenzaran las inscripciones para la Prueba nacional de acceso a las Universidades, en su momento la PAA y Actual PSU, recibí del mismo Orientador Vocacional, una de las becas que el Ministerio de Educación repartía para rendir la prueba exento de pago; el mismo Señor Jorquiera, también me motivó para contactar a las Asistentes Sociales de la Universidad para conocer las alternativas disponibles para estudiar. Gracias Profesor Jorquiera. De ahí todo quedó en mis manos.
+
+Cuento corto, a principios del año 2000, el estado de Chile me pagó el 95% de mi primera carrera a través de Beca Mineduc, recibía mensualmente cerca de $30.000 pesos Chilenos cómo Beca Presidente de la República y además, de parte de la Universidad Santa María, una beca de alimentación de 3 días a la semana en su valorado casino, y una ayuda económica para pagar la pensión donde vivía en la quinta región (a unos 900 kilómetros de donde vivía). A cambio, sabía que tenía que aprobar las asignaturas, es decir, dedicarme a estudiar y no a weviar. Reconozco si, que fui a todas las fiestas que organizaban las federaciones estudiantiles en el último año de carrera, ya cuando los ramos más importantes los había aprobados y tenía mayor certeza que iba a terminar muy pronto mi carrera.
+
+Hoy le devuelvo la mano al Estado siendo un contribuyente que paga gratamente sus impuestos y busco formas de además pagar esos impuestos generados cuando creas empleo. Y sobre todo siendo un ciudadano que supervisa el buen uso de los recursos fiscales.
+
+Por lo tanto le puedo decir a la cara a muchos políticos que **Es mentira que en Chile no hay acceso a la educación de calidad si no tienes los medios**. De forma pragmática doy fe que desde hace muchos años, si un Chileno quiere estudiar, puede hacerlo y en buenas Universidades. Otra cosa son los estudiantes que piden tener educación gratuita como en Países vecinos, donde dado que es gratis, muchos alumnos toman más de 10 años en terminar sus carreras, desangrando la billetera del estado e ignorando las consecuencias que eso toma para el país en el mediano y largo plazo. En Chile también existe una minoría de estudiantes que no entienden el peligro social que conlleva vivir de la teta del estado como un Derecho _in aeternum_ (por la eternidad).
+
+Dado que después de terminar mi primera carrera, terminé por mis medios estudios en distintas Universidades, puedo decir que conozco de cerca la realidad que se vive en ellas. Te puedo decir a ciencia cierta que el Chileno es muy humilde en general y no hace alarde de la calidad de la Educación que tiene, pero la verdad es que adelantamos a  países vecinos en cerca de 10 años gracias a la infraestructura académica que posee el país, si no me cree le invito a darse una vuelta por algunas instituciones como el Campus Beauchef de la Universidad de Chile, o la mítica Universidad de Concepción en el Sur de Chile, ni hablar de algunas Universidades privadas, yo mientras tanto escribiré una lista de lo que, en mi humilde opinión, si se debería mejorar en la Educación en Chile:
+
+1. **Prohibir a dirigentes estudiantiles que pertenezcan a partidos políticos.** Los estudiantes de bien en las Universidades están preocupados de rendir bien académicamente, y no pueden estar preocupados de lo que hacen los dirigentes estudiantiles, que generalmente son los estudiantes de peor rendimiento o que simplemente están más preocupados de hacer carrera política en vez de académica.  La mayoría de los estudiantes son bastante inteligentes como para darse cuenta que la política está demasiado desprestigiada y ha causado mucho daño, cómo para además permitir que sea ella quien los represente mientras se enfocan en estudiar. Existen unos pocos estudiantes que van a la Universidad sólo a hacer carrera política y mover masas y dicha realidad, se expresa en actuales Diputados como Camila Vallejo, Giorgio Jackson, Karol Cariola, entre otros.
+2. **Obligar a las federaciones de estudiantes a tomar un rol solidario.** Sería mucho más noble la labor de las federaciones apoyando colectivamente a los estudiantes que estén pasando por alguna necesidad de cualquier tipo. No se puede permitir que las funciones de una federación estudiantil se limiten a movilizar paros, tomas y fiestas, llegando incluso a dañar a sus compañeros perdiendo un año académico completo en algunos casos (Un año de su vida desperdiciado en causas innecesarias o de interés político).
+3. **Los Dirigentes Estudiantiles que dirijan las Federaciones deben mantener una tasa de aprobación de ramos dentro de los 2 mejores quintiles.** En palabras simples, que el dirigente estudiantil que te va a representar, le interese, también y por sobretodo, estudiar.
+4. **Por Obligación se debe enseñar 3 idiomas.** Chino, porque inevitable y afortunadamente el futuro es integrado con el otro lado del planeta; Algún idioma originario, en el caso de Chile por ejemplo Mapudungun para conectar a la sociedad con sus orígenes, e Inglés que ha sido y será por algunas décadas más la lengua internacional.
+5. **La Comisión Nacional de Acreditación (CNA) debe corregir la exigencia de baja tasa de reprobación en carreras.** Es absurdo no entender que mejorar la calidad de la educación justamente consiste en entregar buenos profesionales y para ello se debe reprobar a quienes no tengan las capacidades para luego orientarlos a distintas áreas profesionales.
+6. **Entender como ciudadanos que a mejor billetera fiscal, mejores beneficios y educación para sus ciudadanos** El país debe ser capaz de producir recursos, evitar que sus frutos se vayan del país o se manejen de manera criminal o corrupta.
+
+En Chile con el tiempo, los beneficios en Educación sólo han mejorado, gracias a que en las últimas décadas además la economía Chilena creció constantemente, excepto en el último de los dos Gobiernos de la ex-Presidenta Bachelet, donde Bachelet implementó políticas comunistas que dañaron fuerte a la economía del país. No es una opinión personal, lo dicen los números. Sin embargo la cosa es mejor que antes, para que te hagas una idea, en pleno 2020, Universidades emblemáticas como la Universidad de Santiago de Chile, entre otras, en un lapso de tan solo 2 semanas entregaron computadores y conexión a internet a todos los alumnos que no tuviesen, mientras duren las clases online producto de la Pandemia.
+
+### ¿Cómo mejorar las Pensiones, Salud, Justicia y otros ejes principales de preocupación de un Estado?
+
+1. Cambiando a los políticos malos y filtrando a los nuevos según sus capacidades técnicas y altruistas.
+2. Supervisar de manera sin precedentes al Poder Legislativo completo y tener medios eficientes para sancionar Corrupción, Nepotismo y Falta de Capacidades para su labor.
+3. Supervisar de manera sin precedentes al Poder Judicial completo y tener medios eficientes para sancionar Corrupción, Tráfico de Influencias y Operadores Políticos.
+4. Fomentar una economía que impulse el emprendimiento evitando que grandes empresas atenten contra los pequeños con prácticas como el Dumping, por ejemplo.
+5. Entender que el Estado debe preocuparse de las **Pensiones**, con una mirada de gratitud hacia nuestros ancestros, de **Salud**, **Educación**, **Seguridad**, con una mirada de justicia hacia sus ciudadanos y por sobre todo **Fomentar la producción y emprendimiento** para que éstos sean libres y puedan vivir acorde al fruto de su propio trabajo.
+6. Exigir a los empleados de empresas públicas que sean tan efectivos como lo es la empresa privada, y esto se logra eliminando la burocracia que solo reina en el sector público. Además de vigilar que los sindicatos estén alejados de la política y persiguen ideas de sentido común,  donde sea la productividad el eje para generar más trabajo digno y mejor calidad de vida.
+
+### ¿Cómo entender la Política para tomar una buena decisión para votar en el plebiscito del 25 de Octubre?
+
+Les contaré una historia que tuve cercana a la política en el año 2000, un compañero de Universidad me invitó a un asado organizado por juventud RN (partido político de derecha en Chile), participé a pesar de que no tengo ninguna afinidad o aversión contra ese partido político u otro, además en época de estudiante se agradece una invitación a un asado. En la reunión me uní a la conversación de un grupo, la cual fue algo así:
+
+- Persona 1 : ¡Oye, supieron que estamos ganando las encuestas en La Calera! (Se refería al candidato de su partido que representaba a la ciudad de La Calera).
+- Yo: ¿Cómo se llama el candidato?
+- Persona 1: ¡No me recuerdo! Alguien se acuerda del nombre? - preguntó a viva voz.
+- Persona 2: No! Creo que 'persona 3' - que estaba a pocos metros en otro grupo - debe saber!
+- Persona 2: Oye! - le pregunta en voz alta a Persona 3 - ¿Cómo se llama el candidato de La Calera?
+- Persona 3: Se llama 'x'.
+
+Perdón que no recuerde el nombre de las personas, fue la primera y única vez que los veía y los nombres no influyen en lo que les quiero contar, ya que lo que me sorprendió no fue que varios no supieran el nombre del candidato de La Calera que celebraban, sino que sin importar quién es, qué tan honesto o corrupto sea, cuales son sus capacidades de administración, sólo celebraban que fuese de su mismo partido. Un fanatismo irracional que sólo comparable al de las barras bravas en el fútbol y que estoy seguro aplica tanto en partidos políticos de Izquierda, Centro y Derecha.
+
+El día 16 de Octubre de 2019, en Chile, comenzó un movimiento organizado, mucho más organizado de lo que algunos se han dado cuenta, los primeros en mover las piezas iban a ser las ovejas más fáciles de mover, los estudiantes. Dos días después, quienes están organizando la violencia (principalmente adherentes políticos de izquierda), coordinaron protestas destructivas y delictuales, llegando a quemar estaciones del Metro de Santiago, entre otros daños a la propiedad pública y privada en varios lugares del país. No es que los Chilenos seamos weones y cuando protestamos destruimos todo a nuestro paso, lo que ocurrió es que no nos dimos cuenta que esto venía articulado política y criminalmente y lo que se vió en la TV como si los Chilenos hicieran eso, pero no fue así.
+
+Estoy seguro que los estudiantes no fueron quienes cometieron las destrucciones, porque los estudiantes nos movilizamos, a esa edad es sano expresar tus molestias y quejarte por el sistema, pero el límite está en que un verdadero estudiante no va a destruir propiedad de otro, sin embargo la movilización de estudiantes era necesaria para dar paso a la siguiente fase de destrucción organizada en manos de delincuentes, para luego forzar al ejecutivo que hiciera lo mismo que Hugo Chavez hizo al principio de su Gobierno en Venezuela poco más de una decada atrás, exigir una nueva Constitución, ya que eso sería la cura de todos los males.
+
+### ¿Qué debería tener en cuenta un Chileno antes de Votar?
+
+1. **Solo los políticos escribirían una nueva Constitución.** Existen algunas personas que ignoran que un ciudadano de pie no puede participar en escribir la constitución. Los políticos tienen aparataje armado para evitar que un independiente sea electo para estos casos, esos Chilenos deben urgente conocer que ningún independiente podría llegar a escribir la Constitución, ya que no solo debes competir con no recibir los millones de pesos para gastar en campaña que sí recibirán los que pertenecen a partidos políticos, sino además olvidarte de poner propaganda política en vía pública, ya que el político (concejal, core, alcalde) de turno en la alcaldía respectiva, se encargará de quitarla y multarte, y por si fuera poco y no menos importante, debes ganar no solo siendo mayoría, sino además sumar más que el total de votos que sumen los políticos de un mismo partido, algo así como una pandilla electoral que suma sus votos para eliminar a los independientes. ¿Conocías esa realidad de Chile? Yo tampoco solo hasta este plebiscito, pero me la esperaba de los políticos.
+
+2. **La mayoría de los Chilenos queremos Rechazo.** En Chile existen miles de personas que si participamos en protestas pacíficas pero nos callamos nuestro voto hasta que llegue el momento de las hurnas, ya que entendemos existen irracionales que si no les gusta lo que piensas, responden con violencia y dado que en una democracia mandan los votos, preferimos vivir en Paz y hablar en las hurnas. También somos millones de Chilenos quienes estendemos que tanto la mayoría de los medios, como las encuentas han sido propiedad de esos mismos poderes políticos que les gustaría una nueva constitución. Por eso estoy tranquilo, ya que sin conocer los números, estoy seguro que la archi mayoría de los Chilenos hace mucho que preferimos el consumo de Canales de Youtube u otro sitio de nuestra elección, en vez de los medios de TV o prensa sesgados por política.
+
+3. **El cambio de constitución está planeado sólo para entregar más poder político a los mismos políticos actuales**, si no me cree, contabilice por su cuenta las veces que han cambiado de Constitución Francia, Noruega vs Argentina y Venezuela por ejemplo y considere además lo antes mencionado para evitar independientes en el camino.
+
+  <video width="480" height="320" controls="controls">
+    <source src="https://github.com/coto/coto.github.io/blob/master/assets/chavez_caso.mp4" type="video/mp4">
+  </video>
+
+  <p><video id="scenario-1" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto" width="640" height="480" data-setup='{}'>
+  <source src="http://idratherbetellingstories.com/podcasts/ontariochapterpresentation/ontariochapterv4.mp4" type='video/mp4'>
+</video></p>
+
+4. **Es mentira que los problemas de Chile se resuelven cambiando la actual constitución**, pero es miserable no entender que $30.000.000.000 (treinta mil millones) hubiesen sido de gran ayuda a personas que lo están pasando mal en esta Pandemia y que se podría postergar para otro momento sin exponer a sus ciudadnos.
+
+5. **Vaya a las hurnas bien protegido y en calma**, si es posible utilice guantes, su propio lapiz y protector facial además de la mascarilla y no tocarse la cara. Utilice antes, durante y después su alcohol gel o spray de mezclas de alcohol con agua. Recuerde desinfectar la suela de sus zapatos al regresar a su hogar y lavarse las manos.
+
+6. **En la Hurna marque claramente una línea en el #Rechazo**, "el político entenderá esto como rechazo  a la idea de entregarle más poder".
+
+7. **Respecto al otro voto de Cómo se escribiría una nueva Carta Magna, déjelo en Blanco** De esta manera se asegura que su voto sea válido. Ese Blanco además representa el siguiente mensaje para el político .... "hagamos reformas Constitucionales en el futuro, cuando las arcas fiscales estén pasando por mejores momentos económicos, pero esa futura reforma, la haremos para dejar claro que si eres un servidor público o político, vas a trabajar para la ciudadanía de forma eficiente, por lo cual serás remunerado según nuevas reglas, además deberás tener cualificaciones técnicas para escribir leyes que gobiernen nuestro territorio, sobretodo de una manera honesta, transparente y al servicio de la ciudadanía".
+
+8. **Cuando gane el Rechazo**, no participe de protestas violentas, con el fin de que las fuerzas de orden hagan su trabajo más fácil separando al que protesta del delincuente.

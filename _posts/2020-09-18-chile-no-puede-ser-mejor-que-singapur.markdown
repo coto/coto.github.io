@@ -13,7 +13,7 @@ Chile vive una realidad que me gustaría expresar en primera persona a mis amigo
 
 ## TL;TR
 
-Aquí te dejo un enlace a los 6 puntos que abordo:
+Aquí te dejo un enlace a los 6 puntos principales, dado que el total del artículo tiene un tiempo estimado de lectura de 15 minutes debido a sus argumentos.
 
 * <a href="#1">¿Quien soy yo y por qué me permito entregar algunos humildes tips para mejorar temas como la Educación?</a>
 * <a href="#2">¿Cómo mejorar la Educación en Chile?</a>

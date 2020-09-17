@@ -45,6 +45,7 @@ Spanish, English, Portuguese (survival level).
 
 ## EXPERIENCE
 
+<hr>
 
 ### Research & Development - Technology Industry
 #### » Founder & Investor (2016 - present)

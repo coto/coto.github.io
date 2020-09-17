@@ -98,7 +98,7 @@ Estoy seguro que los estudiantes no fueron quienes cometieron las destrucciones,
 
 ## <span id="6">¿Cómo debería votar un Chileno?</span>
 
-1. <b>Vaya a las hurnas bien protegido y en calma.</b> Si es posible utilice guantes, su propio lapiz y protector facial además de la obligatoria mascarilla y no tocarse la cara. Utilice antes, durante y después su alcohol gel o spray de mezclas de alcohol con agua. Recuerde desinfectar la suela de sus zapatos al regresar a su hogar y lavarse las manos.
+1. <b>Vaya a las hurnas bien protegido y en calma.</b> Si es posible utilice guantes, su propio lapiz y protector facial además de la obligatoria mascarilla y no tocarse la cara. Mantenga distancia de otros y utilice antes, durante y después su alcohol gel o spray de mezclas de alcohol con agua. Recuerde desinfectar la suela de sus zapatos al regresar a su hogar y lavar su ropa y manos.
 
 2. <b>En la Hurna marque claramente una línea en el #Rechazo</b>, "el político entenderá esto como rechazo a la idea de entregarle más poder".
 

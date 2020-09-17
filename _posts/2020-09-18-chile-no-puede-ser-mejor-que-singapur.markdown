@@ -5,7 +5,7 @@ comments: true
 date:   2020-09-18 17:51:00 -0300
 categories: coto blog chile
 lang: esp
-tags: blog chile singapur plebiscito apruebo rechazo político política udi comunista marxista capitalismo neoliberalismo
+tags: blog chile singapur plebiscito apruebo rechazo político política udi comunista marxista capitalismo neoliberalismo estudiantes
 author: "Coto Augosto"
 ---
  
@@ -13,7 +13,7 @@ Chile vive una realidad que me gustaría expresar en primera persona a mis amigo
 
 ## TL;TR
 
-Aquí te dejo un enlace a los 6 puntos principales, dado que el total del artículo tiene un tiempo estimado de lectura de 15 minutes debido a sus argumentos.
+Aquí te dejo un enlace a los 6 puntos principales, dado que el total del artículo tiene un tiempo estimado de lectura de 15 minutos debido a sus argumentos.
 
 * <a href="#1">¿Quién soy yo y por qué me permito entregar algunos humildes tips para mejorar temas como la Educación?</a>
 * <a href="#2">¿Cómo mejorar la Educación en Chile?</a>
@@ -26,17 +26,17 @@ Aquí te dejo un enlace a los 6 puntos principales, dado que el total del artíc
 
 ## <span id="1">¿Quién soy yo y por qué me permito entregar algunos humildes tips para mejorar temas como la Educación?</span>
 
-Este artículo lo escribo desde un punto de vista imparcial, como un Chileno desapegado de clases políticas o sociales al cual no puedes llamar ni facho ni comunacho, y como regalo para mis compatriotas en una fecha tan importante como lo es el 18 de Septiembre, fecha que representa el inicio de algo que todos los Chilenos nos sentimos orgullosos, nuestra libertad.
+Este artículo lo escribo desde un punto de vista imparcial, como un Chileno desapegado de clases políticas o sociales al cual no puedes llamar ni facho ni comunacho, mis opiniones son objetivas, basada en números y no subjetividades, va como regalo para mis compatriotas en una fecha tan importante como lo es el 18 de Septiembre, fecha que representa el inicio de algo que todos los Chilenos nos sentimos orgullosos, nuestra libertad.
 
 Soy un Chileno, nacido en la región de Atacama, hijo de Rosario Cancino y junto a mi hermana mayor por 7 años, Valeska compusimos los inicios de lo que fue mi familia, de origen humilde y que al día de hoy continúa cosechando frutos y disfrutando una vida tranquila a través del trabajo honesto, equilibrado y digno que nos ha dado como ejemplo mi Madre.
 
-Como Chileno, Hoy en plena pandemia, me pregunto ¿Estaría un Chileno dispuesto a vivir con la represión y falta de libertad con la que se vive en Singapur, China o Alemania? Es cierto que esos países están muy lindos y representan la cara de un país que ha sabido llevar de buena manera la billetera y política del país, que es lo que al fin y al cabo resuelve los problemas, pero en términos de libertad que existe en esos Países, un verdadero Chileno no sería capaz de tolerar mucho tiempo la falta de libertad, salvo que el costo le valga la pena y vaya con su personalidad. Chile es un país, que además de ser avanzado, es libre y eso es lo que lo hace mejor que Alemania, decían mis amigos alemanes con quienes viví en Chile.
+Como Chileno, Hoy en plena pandemia, me pregunto ¿Estaría un Chileno dispuesto a vivir con la represión y falta de libertad con la que se vive en Singapur, China o Alemania? Es cierto que alguno de esos países están muy lindos y representan la cara de un país que ha sabido llevar de buena manera la billetera y política del país, que es lo que al fin y al cabo resuelve los problemas, pero en términos de libertad que existe en esos Países, un verdadero Chileno no sería capaz de tolerar mucho tiempo la falta de libertad, salvo que el costo le valga la pena y vaya con su personalidad. Chile es un país, que además de ser avanzado, es libre y eso es lo que lo hace mejor que Alemania, decían mis amigos alemanes a quienes recibí unos meses en Chile a principios de 2019.
 
-Sin embargo, hay cosas que el Estado de Chile debe mejorar y me gustaría compartir algunas ideas de qué y cómo Chile debe mejorar en Educación, y la idea fundamental para mejorar ejes fundamentales de un Estado como la Salud, Pensiones.
+Sin embargo, hay cosas que el Estado de Chile debe mejorar y me gustaría compartir algunas ideas de qué y cómo Chile debe mejorar en Educación, y la idea fundamental para mejorar ejes fundamentales de un Estado como la Salud, Pensiones y otros.
 
 ### <span id="2">¿Cómo mejorar la Educación en Chile?</span>
 
-En la educación básica y media, nunca fui el mejor de la clase, tampoco el peor, de hecho recuerdo que siempre estaba en el tercer o cuarto lugar de notas del curso. Tampoco me preocupaba mucho ser primero. En cuarto medio, a los 17 años recibí del orientador vocacional del Liceo, señor Patricio Jorquiera, un libro de la Universidad Técnica Federico Santa María. Me cambió la vida, lo único que quería en ese momento era estudiar en esa Universidad, no sabía qué, pero si sabía dónde y estaba entusiasmado sin importar que no teníamos los recursos para cubrir mis estudios.
+En la educación básica y media, nunca fui el mejor de la clase, tampoco el peor, de hecho recuerdo que siempre estaba en el tercer o cuarto lugar de notas del curso, me agradaba el anonimato de no estar ofreciendo espectativas y nunca me preocupaba mucho ser primero. En cuarto medio, a los 17 años recibí del orientador vocacional del Liceo, señor Patricio Jorquiera, un libro de la Universidad Técnica Federico Santa María. Me cambió la vida, lo único que quería en ese momento era estudiar en esa Universidad, no sabía qué, pero si sabía dónde y estaba entusiasmado sin importar que no teníamos los recursos para cubrir mis estudios.
 
 Pocos meses antes de que comenzaran las inscripciones para la Prueba nacional de acceso a las Universidades, en su momento la PAA y Actual PSU, recibí del mismo Orientador Vocacional, una de las becas que el Ministerio de Educación repartía para rendir la prueba exento de pago; el mismo Señor Jorquiera, también me motivó para contactar a las Asistentes Sociales de la Universidad para conocer las alternativas disponibles para estudiar. Gracias Profesor Jorquiera. De ahí todo quedó en mis manos.
 

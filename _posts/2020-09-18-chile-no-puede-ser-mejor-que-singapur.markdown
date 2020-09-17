@@ -20,7 +20,7 @@ Aquí te dejo un enlace a los 6 puntos principales, dado que el total del artíc
 * <a href="#3">¿Cómo mejorar las Pensiones, Salud, Justicia y otros ejes principales de preocupación de un Estado?</a>
 * <a href="#4">¿Cómo entender la Política para tomar una buena decisión para votar en el plebiscito del 25 de Octubre?</a>
 * <a href="#5">¿Qué debería tener en cuenta un Chileno antes de Votar?</a>
-* <a href="#6">¿Cómo debería votar un Chileno?</a>
+* <a href="#6">¿Cómo debería votar un Chileno este 25 de Octubre?</a>
 
 
 
@@ -96,7 +96,7 @@ Estoy seguro que los estudiantes no fueron quienes cometieron las destrucciones,
 
 4. <b>Es mentira que los problemas de Chile se resuelven cambiando la actual constitución</b>, pero es miserable no entender que $30.000.000.000 (treinta mil millones) que es el costo aproximado de este plebiscito, hubiesen sido de gran ayuda a personas que lo están pasando mal en esta Pandemia y que se podría postergar para otro momento sin exponer a sus ciudadanos.
 
-## <span id="6">¿Cómo debería votar un Chileno?</span>
+## <span id="6">¿Cómo debería votar un Chileno este 25 de Octubre?</span>
 
 1. <b>Vaya a las urnas bien protegido y en calma.</b> Si es posible utilice guantes, su propio lápiz y protector facial además de la obligatoria mascarilla y no tocarse la cara. Mantenga distancia de otros y utilice antes, durante y después su alcohol gel o spray de mezclas de alcohol con agua. Al regresar a su hogar recuerde desinfectar la suela de sus zapatos, su ropa y manos.
 

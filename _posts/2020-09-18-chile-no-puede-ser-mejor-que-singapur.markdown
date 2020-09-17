@@ -13,9 +13,9 @@ author: "Coto"
 
 Chile vive una realidad que me gustaría expresar en primera persona a mis amigos extranjeros, el 16 de Octubre pasado comenzó un movimiento social que se nos fue de las manos, pasando de momentos de mucha confusión e ignorancia respecto a lo que estaba pasando, y con eso generar bastante miedo y daño al propio país. A principios de este año 2020 se sumó el no menor problema de la Pandemia que compartimos mundialmente, y que a pesar de ser una población pequeña y aparentemente inteligente (según visiones externas respecto a cómo hemos construido nuestra sociedad) estamos dentro de los países más contagiados, y sumado a lo anterior, este 25 de Octubre los Chilenos nos enfrentamos a lo que algunos intelectuales definen como cambio de sociedad a una tercera generación o equivocarnos y entregarle más poder a los Políticos actuales.
 
-## ¿Quien soy yo y por que me permito entregar algunos humildes tips para mejorar la Educación?
+## ¿Quien soy yo y por qué me permito entregar algunos humildes tips para mejorar la Educación?
 
-Quise escribir este artículo para contarles a mis amigos fuera de Chile, qué es lo que está pasando, desde un punto de vista imparcial y de un Chileno desapegado de clases políticas o sociales, y como regalo para mis compatriotas en una fecha tan importante como lo es el 18 de Septiembre, fecha que representa el inicio de algo que todos los Chilenos nos sentimos orgullosos, nuestra libertad.
+Quise escribir este artículo para contarles a mis amigos que viven fuera de Chile, qué es lo que está pasando, desde un punto de vista imparcial y de un Chileno desapegado de clases políticas o sociales, y como regalo para mis compatriotas en una fecha tan importante como lo es el 18 de Septiembre, fecha que representa el inicio de algo que todos los Chilenos nos sentimos orgullosos, nuestra libertad.
 
 Soy un Chileno, nacido en la región de Atacama, hijo de Rosario Cancino y junto a mi hermana mayor por 7 años, Valeska compusimos los inicios de lo que fue mi familia, de origen humilde y que al día de hoy continúa cosechando frutos y disfrutando una vida tranquila a través del trabajo honesto, equilibrado y digno que nos ha dado como ejemplo mi Madre.
 

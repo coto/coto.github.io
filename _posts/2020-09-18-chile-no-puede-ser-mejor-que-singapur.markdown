@@ -70,12 +70,11 @@ Perdón que no recuerde el nombre de las personas, fue la primera y única vez q
 
 El día 16 de Octubre de 2019, en Chile, comenzó un movimiento organizado, mucho más organizado de lo que algunos se han dado cuenta, los primeros en mover las piezas iban a ser las ovejas más fáciles de mover, los estudiantes. Dos días después, quienes están organizando (principalmente políticos de izquierda), coordinaron protestas destructivas y delictuales, llegando a quemar estaciones del Metro de Santiago, entre otros daños a la propiedad pública y privada en varios lugares del país. No es que los Chilenos seamos weones y cuando protestamos destruimos todo a nuestro paso, lo que ocurrió es que no nos dimos cuenta que esto venía articulado política y criminalmente y lo que se vió en la TV fue como si los Chilenos hicieran eso, pero no fue así.
 
-Estoy seguro que los estudiantes no fueron quienes cometieron las destrucciones, porque los estudiantes nos movilizamos como un modo sano de expresar las molestias o quejas por el sistema, pero el límite está en que un verdadero estudiante no va a destruir propiedad de otro, sin embargo la movilización de estudiantes era necesaria para dar paso a la segunda fase de destrucción organizada en manos de delincuentes, para luego forzar al ejecutivo, como tercer paso,  que hiciera lo mismo que Hugo Chavez hizo al principio de su Gobierno en Venezuela poco más de una decada atrás, exigir una nueva Constitución, ya que eso sería la cura de todos los males.
+Estoy seguro que los estudiantes no fueron quienes cometieron las destrucciones, porque los estudiantes nos movilizamos como un modo sano de expresar las molestias o quejas por el sistema, pero el límite está en que un verdadero estudiante no va a destruir propiedad de otro, sin embargo la movilización de estudiantes era necesaria para dar paso a la segunda fase de destrucción organizada en manos de delincuentes, para luego forzar al ejecutivo, como tercer paso,  que hiciera lo mismo que Hugo Chavez hizo al principio de su Gobierno en Venezuela poco más de una decada atrás, exigir una nueva Constitución, ya que eso sería la cura de todos los males (ver siguiente video).
 
-
-  <video width="480" height="320" controls="controls">
-    <source src="https://github.com/coto/coto.github.io/blob/master/assets/chavez_caso.mp4" type="video/mp4">
-  </video>
+<video width="480" height="320" controls="controls">
+ <source src="https://github.com/coto/coto.github.io/blob/master/assets/chavez_caso.mp4" type="video/mp4">
+</video>
 
 ### ¿Qué debería tener en cuenta un Chileno antes de Votar?
 

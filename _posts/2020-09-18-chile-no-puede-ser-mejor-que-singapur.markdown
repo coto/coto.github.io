@@ -80,13 +80,9 @@ Estoy seguro que los estudiantes no fueron quienes cometieron las destrucciones,
 
 3. **El cambio de constitución está planeado sólo para entregar más poder político a los mismos políticos actuales**, si no me cree, contabilice por su cuenta las veces que han cambiado de Constitución Francia, Noruega vs Argentina y Venezuela por ejemplo y considere además lo antes mencionado para evitar independientes en el camino.
 
-  <video width="480" height="320" controls="controls">
-    <source src="https://github.com/coto/coto.github.io/blob/master/assets/chavez_caso.mp4" type="video/mp4">
-  </video>
-
-  <p><video id="scenario-1" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto" width="640" height="480" data-setup='{}'>
-  <source src="http://idratherbetellingstories.com/podcasts/ontariochapterpresentation/ontariochapterv4.mp4" type='video/mp4'>
-</video></p>
+    <video width="480" height="320" controls="controls">
+      <source src="https://github.com/coto/coto.github.io/blob/master/assets/chavez_caso.mp4" type="video/mp4">
+    </video>
 
 4. **Es mentira que los problemas de Chile se resuelven cambiando la actual constitución**, pero es miserable no entender que $30.000.000.000 (treinta mil millones) hubiesen sido de gran ayuda a personas que lo están pasando mal en esta Pandemia y que se podría postergar para otro momento sin exponer a sus ciudadnos.
 

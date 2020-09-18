@@ -86,7 +86,7 @@ El día 16 de Octubre de 2019, en Chile, comenzó un movimiento organizado, much
 
 Estoy seguro que los estudiantes no fueron quienes cometieron las destrucciones, porque los estudiantes nos movilizamos como un fin sano de expresar nuestras molestias, nuestras quejas al sistema, pero el límite está en que un verdadero estudiante no va a destruir propiedad de otro ni menos pública, sin embargo la movilización de estudiantes era necesaria para dar paso a la segunda fase de destrucción coordinada, para luego forzar al ejecutivo, como tercer paso, que hiciera lo mismo que Hugo Chavez hizo al principio de su Gobierno en Venezuela poco más de una década atrás, proponer una nueva Constitución, ya que eso sería la cura de todos los males.
 
-Estoy seguro que usted no sabe, ni yo tampoco, cuanto fue el dineral que gastó el poder politico-militar en venezuela en corrupción y narcotráfico. sólo por decir algunos temas seguros. Ya que si lo entendería, estaría haciendo algo para supervisar a sus propios políticos "actuales y futuros.
+Estoy seguro que usted no sabe, ni yo tampoco, cuanto fue el dineral que ha movido el poder politico-militar en venezuela en corrupción y narcotráfico. sólo por decir algunos temas seguros. Ya que si lo entendería, estaría haciendo algo para supervisar a sus propios políticos "actuales y futuros".
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ghakxsYg0cE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

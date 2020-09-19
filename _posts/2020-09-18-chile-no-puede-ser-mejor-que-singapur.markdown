@@ -24,8 +24,6 @@ El artículo tiene un tiempo estimado de lectura de 15 minutos incluyendo argume
 * <a href="#5">¿Qué debería tener en cuenta un Chileno antes de Votar?</a>
 * <a href="#6">¿Cómo debería votar un Chileno este 25 de Octubre?</a>
 
-
-
 ## <span id="1">¿Quién soy yo y por qué me permito entregar algunos humildes tips para mejorar temas como la Educación?</span>
 
 Soy un Chileno, nacido en la región de Atacama, junto a mi madre, Rosario Cancino y mi hermana mayor por 7 años, Valeska, compusimos los inicios de lo que fue mi familia inicial, de origen humilde y que al día de hoy continúa cosechando frutos y disfrutando una vida tranquila a través del trabajo honesto, equilibrado y digno que nos ha dado como ejemplo mi Madre. Hoy trabajo en mi propia empresa enfocada en ciencia y tecnología.
@@ -84,7 +82,7 @@ Perdón que no recuerde el nombre de las personas, fue la primera y única vez q
 
 El día 16 de Octubre de 2019, en Chile, comenzó un movimiento organizado, mucho más organizado de lo que algunos se han dado cuenta, primero, mover las piezas más fáciles de mover, los estudiantes. Dos días después, quienes están organizando (sector político que usted puede imaginar facilmente), coordinaron protestas destructivas y delictuales, llegando a quemar estaciones del Metro de Santiago <b>de forma coordinada</b>, entre otros daños a la propiedad pública y privada en varios lugares del país. No es que los Chilenos seamos weones y cuando protestamos destruimos todo a nuestro paso, lo que ocurrió es que no nos dimos cuenta que esto venía articulado política y criminalmente y lo que se vió en TV fue como si los Chilenos de bien hicieran eso, pero no fue así.
 
-Estoy seguro que los estudiantes no fueron quienes cometieron las destrucciones, porque los estudiantes nos movilizamos como un fin sano de expresar nuestras molestias, nuestras quejas al sistema, pero el límite está en que un verdadero estudiante no va a destruir propiedad de otro ni menos pública, sin embargo la movilización de estudiantes era necesaria para dar paso a la segunda fase de destrucción coordinada, para luego forzar al ejecutivo, como tercer paso, que hiciera lo mismo que Hugo Chavez hizo al principio de su Gobierno en Venezuela poco más de una década atrás, proponer una nueva Constitución, ya que eso sería la cura de todos los males.
+Estoy seguro que los estudiantes no fueron quienes cometieron las destrucciones, porque los estudiantes nos movilizamos como un fin sano de expresar nuestras molestias, nuestras quejas al sistema, pero el límite está en que un verdadero estudiante no va a destruir propiedad de otro ni menos pública, sin embargo la movilización de estudiantes era necesaria para dar paso a la segunda fase de destrucción coordinada, para luego forzar al ejecutivo, como tercer paso, que hiciera lo mismo que Hugo Chavez hizo al principio de su Gobierno en Venezuela poco más de una década atrás, proponer una nueva Constitución.
 
 Estoy seguro que usted no sabe, ni yo tampoco, cuanto fue el dineral que ha movido el poder politico-militar en venezuela en corrupción y narcotráfico. sólo por decir algunos temas seguros. Ya que si lo entendería, estaría haciendo algo para supervisar a sus propios políticos "actuales y futuros".
 
@@ -98,11 +96,13 @@ Estoy seguro que usted no sabe, ni yo tampoco, cuanto fue el dineral que ha movi
 
 3. <b>El cambio de constitución está planeado sólo para entregar más poder político a los mismos políticos</b>, si no me cree, contabilice por su cuenta las veces que han cambiado de Constitución Francia, Noruega vs Argentina y Venezuela, sólo como ejemplo y considere además el secretito antes mencionado para evitar independientes en el camino.
 
-4. <b>Es mentira que los problemas de Chile se resuelven cambiando la actual constitución.</b> <a href="#3">Aquí comparto</a> algunas humildes recomendaciones para resolver los problemas de Chile, pero aún es más absurdo no entender que $30.000.000.000 (treinta mil millones) que es el costo aproximado de este plebiscito, hubiesen sido de gran ayuda a la economía del país y esa ayuda hubiese ido justamente a las personas que lo están pasando mal en esta Pandemia. Esto se podría y debería postergar para otro momento, con mejor econonomía y sin arriesgar a los propios ciudadanos.
+4. <b>Es mentira que los problemas de Chile se resuelven cambiando la actual constitución.</b> <a href="#3">Aquí comparto</a> algunas humildes recomendaciones para resolver los problemas de Chile, los cuales No necesitan de cambios constitucionales. Lo que si es verdad es que los más de $30.000.000.000 (treinta mil millones de pesos) que es el costo aproximado de este plebiscito, hubiesen sido de gran ayuda a la economía del país y esa ayuda hubiese ido justamente a las personas que lo están pasando mal en esta Pandemia.
 
 ## <span id="6">¿Cómo debería votar un Chileno este 25 de Octubre?</span>
 
-1. <b>Entender la importancia de ir a votar.</b> ¿por qué cree que al político le acomoda tanto un plebiscito en pandemia? No quieren que vayan a votar muchos ni menos los adultos mayores. 
+Luego del análisis anterior y al comprobar que este cambio constitucional en el 2020 sólo les sirve a los políticos con claras influencias de la política que se observa en otros paises de Latinoamerica (Venezuela por ejemplo), y que un verdadero cambio constitucional se debería realizar en un futuro, y con una Asamblea con la "mayoría independiente" asegurada. <b>Lo mejor que se puede hacer por Chile este Octubre de 2020</b> es:
+
+1. <b>Entender la importancia de ir a votar.</b> ¿por qué cree que al político le acomoda tanto un plebiscito en pandemia? No quieren que vayan a votar muchos ni menos los adultos mayores.
 
 2. <b>Vaya a las urnas bien protegido y en calma.</b> Si es posible utilice guantes, su propio lápiz y protector facial además de la obligatoria mascarilla y no tocarse la cara. Mantenga distancia de otros y utilice antes, durante y después su alcohol gel o spray de mezclas de alcohol con agua. Al regresar a su hogar recuerde desinfectar la suela de sus zapatos, su ropa y manos.
 
@@ -110,4 +110,4 @@ Estoy seguro que usted no sabe, ni yo tampoco, cuanto fue el dineral que ha movi
 
 4. <b>Respecto al otro voto de Cómo se escribiría una nueva Carta Magna, déjelo en Blanco. </b> De esta manera se asegura que su voto sea válido. Ese Blanco además representa el siguiente mensaje para el político .... "haremos reformas Constitucionales en el futuro, cuando las arcas fiscales estén pasando por mejores momentos económicos, y esa futura reforma, la haremos para dejar claro que si eres un servidor público o político, vas a trabajar para la ciudadanía de forma eficiente, honesta y transparente por lo cual serás remunerado según nuevas reglas, además deberás tener cualificaciones técnicas para escribir leyes que gobiernen nuestro territorio y estar al servicio de la ciudadanía".
 
-5. <b>Cuando gane el Rechazo, no participe de protestas violentas.</b> De esta manera, las fuerzas de orden harán su trabajo más fácil separando al que protesta del violentista y con eso pronto volveremos a tener paz. Siga trabajando y espere un tiempo a que estén mejor las condiciones económicas y sanitarias para volver a enfrentar a los políticos y exigir una Asamblea con la mayoría independiente asegurada.
+5. <b>Cuando gane el Rechazo, no participe de protestas violentas.</b> De esta manera, las fuerzas de orden harán su trabajo más fácil separando al que protesta del violentista y con eso pronto volveremos a tener paz. Siga trabajando y espere un tiempo a que estén mejor las condiciones económicas y sanitarias para volver a enfrentar a los políticos.

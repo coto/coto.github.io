@@ -8,25 +8,26 @@ lang: eng
 tags: blog chile singapur plebiscito apruebo rechazo político política udi comunista marxista capitalismo neoliberalismo estudiantes
 author: "Coto Augosto"
 ---
+<a href="/coto/blog/chile/2020/09/18/chile-no-puede-ser-mejor-que-singapur.html">Spanish</a> | <a href="/coto/blog/chile/2020/09/18/chile-cant-be-better-than-singapur.html">English</a>
 
 Chile lives a reality that I would like to express in first person to my foreign friends and especially to Chileans, on last October 16 a social movement began that got out of hand, going through moments of great confusion and ignorance regarding what was happening, and with that generating a lot of fear and damage to the country itself, then a series of events occurred that allowed us to have greater clarity regarding what was happening. However, at the beginning of 2020, the no lesser problem of the Pandemic that we share worldwide was added, and that despite being a small and apparently intelligent population (according to external visions regarding how we have built our society) we are within more infected countries. In addition to the above, this October 25th, Chileans face what some intellectuals define as a change of society to a next generation or make mistakes and go back several years. Fortunately, the time of confinement made it possible to clarify what is happening and have more clarity regarding what to do.
 
 ## TL; TR
 
-I write this article from an impartial point of view, as a Chilean detached from political or social classes. I am who you cannot call neither facho nor comunacho, my opinions are objective, based on numbers and personal experiences, however at the end of this post, and after an analysis in the proposed solutions, I express which alternative is concluded as better for Chile for the October 25th Plebiscite. This post was written on an important Chilean date as September 18th, a date that represents the beginning of something that all Chileans feel proud, our freedom.
+I write this article from an impartial point of view, as a Chilean detached from political or social classes. I am someone who cannot be called either a fascist or a communist, I hope to express my opinions with respect, objectively, based on my personal experience and economic numbers, however at the end of this post, and after the analysis itself, I indicate which one is my alternative and I consider it better for Chile in the next Plebiscite on October 25th, respecting the winning option. This post was written on an important date for Chileans "September 18", a date that represents the beginning of something that all Chileans are proud of, our freedom.
 
-The article has an estimated reading time of 15 minutes including arguments. Here are links to the 6 main points in which it is separated:
+The article is divided into 6 points, and for easy reading it contains a score of arguments when it refers to recommended improvements, find a quiet 15 minutes to read it, which is also the estimated reading time:
 
-* <a href="#1"> Who am I and why do I allow myself to deliver some humble tips to improve topics like Education? </a>
+* <a href="#1"> Who am I and why do I allow myself to give some humble tips to improve issues such as Education in Chile? </a>
 * <a href="#2"> How to improve Education in Chile? </a>
 * <a href="#3"> How to improve Pensions, Health, Justice and other main areas of concern for a State? </a>
-* <a href="#4"> How to understand politics to make a good decision to vote on October 25th plebiscite? </a>
-* <a href="#5"> What should a Chilean bear in mind before voting on October 25th? </a>
-* <a href="#6"> How should a Chilean vote this October 25th? </a>
+* <a href="#4"> How to understand Politics to make a good decision to vote on October 25th? </a>
+* <a href="#5"> What should a Chilean bear in mind before voting? </a>
+* <a href="#6"> What's better for Chile this October 25? </a>
 
 ## <span id = "1"> Who am I and why do I allow myself to deliver some humble tips to improve topics such as Education? </span>
 
-I am a Chilean, born in the Atacama region, together with my mother, Rosario Cancino and my older sister for 7 years, Valeska, we composed the beginnings of what was my initial family, of humble origin and that to this day continues to harvest fruits and enjoying a quiet life through honest, balanced and dignified work that my Mother has given us as an example. Today I work in my own company focused on science and technology.
+I am a Chilean, born in the Atacama region, together with my mother, Rosario Cancino and my older sister for 7 years, Valeska, we are fortunate to be a small family, of humble origins and that to this day continue to harvest fruits and enjoy a quiet life through honest, balanced and dignified work that my Mother has given us as an example. Today I work on my own focused on science and technology.
 
 As a Chilean, today in the midst of a pandemic, I ask myself: Would a Chilean be willing to live with the repression and lack of freedom of Singapore, China or Germany? It is true that some of these countries are very beautiful and represent the face of a country that has managed to carry the country's wallet and politics in a good way, which is what ultimately solves the problems, but in terms of freedom that exists in those countries, A true Chilean would not be able to tolerate the lack of freedom for long, unless the cost is worth it and it goes with his personality and missing Chile a lot, a country that, in addition to being advanced, is free and that is what it does it better than Germany, said German friends whom I host for a few months in Santiago at the beginning of 2019.
 
@@ -98,16 +99,18 @@ I am sure that you do not know, and neither do I, how much was the fortune that 
 
 4. <b> It is a lie that Chile's problems are solved by changing the current constitution. </b> <a href="#3"> Here I share </a> some humble recommendations to solve Chile's problems, which They do not need constitutional changes. What is true is that the more than USD$ 40,000,000 (forty millions of US Dollars), which is the approximate cost of this plebiscite, would have been of great help to the country's economy and that aid would have gone precisely to the people who need more in this Pandemic.
 
-## <span id = "6"> How should a Chilean vote this October 25th? </span>
+## <span id = "6"> What's better for Chile this October 25th? </span>
 
-After the previous analysis and when verifying that this constitutional change in 2020 only serves politicians with clear influences of Latin American politics (Venezuela for example), and that a true constitutional change should be carried out in a future, and with an Assembly with the "independent majority" assured. <b> The best thing to do for Chile this October 2020 </b> is:
+After the previous analysis and when verifying that this constitutional change in 2020 only serves politicians with clear influences of Latin American politics (Venezuela for example), and that a true constitutional change should be carried out in a near future, under safe and weaslth conditions and with an "independent majority" assured. <b> The best thing to do for Chile this October 2020 </b> is:
 
-1. <b> Understand the importance of going to vote. </b> Why do you think a politician is so accommodating to a plebiscite in a pandemic? They do not want too many to vote, nor that older adults vote.
+1. <b> Understand the importance of going to vote. </b> Why do you think a politician like to do a plebiscite in a pandemic? They do not want too many people vote, nor that older adults vote.
+
+<img src="/assets/posts/referendum-venezuela-1999.png">
 
 2. <b> Go to the polls well protected and in calm. </b> If possible use gloves, your own pencil and face shield in addition to the mandatory mask and do not touch your face. Keep your distance from others and use your alcohol gel or alcohol-water spray before, during and after. When you return home, remember to disinfect the soles of your shoes, clothes, and hands.
 
 3. <b> Inside the Ballot Box, clearly mark a line in the #Rejection </b>, "the politician will understand this as rejection of the idea of ​​giving them more power."
 
-4. <b> Regarding the second vote on 'How would a new Magna Carta be written', leave it Blank. </b> This ensures that your vote is valid. That Target also represents the following message for the politician .... "We will make Constitutional reforms in the future, when the fiscal coffers are going through better economic times, and that future reform, we will do it to make it clear that if you are a public servant or political, you will work for the citizenry in an efficient, honest and transparent way, for which you will be paid according to new rules, you must also have technical qualifications to write laws that govern our territory and be at the service of the citizenry. "
+4. <b> Regarding the second vote on 'How would a new Constitution be written', leave it Blank. </b> Blank ensures that your vote is valid. That Target also represents the following message for the politician .... "We will make Constitutional reforms in the future, when the fiscal coffers are going through better economic times, and that future reform, we will do it to make it clear that if you are a public servant or political, you will work for the citizenry in an efficient, honest and transparent way, for which you will be paid according to new rules, you must also have technical qualifications to write laws that govern our territory and be at the service of the citizenry. "
 
 5. <b> When the Rejection wins, do not participate in violent protests. </b> In this way, the forces of order will make their job easier by separating the protester from the violent and with that we will soon have peace again. Keep working and wait a while for the economic and health conditions to improve to face the politicians again in the near future.

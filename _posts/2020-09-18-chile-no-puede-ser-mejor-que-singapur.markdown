@@ -97,19 +97,19 @@ Estoy seguro que usted no sabe, ni yo tampoco, cuanto fue el dineral que ha movi
 
 3. <b>El cambio de constitución está planeado sólo para entregar más poder político a los mismos políticos</b>, si no me cree, contabilice por su cuenta las veces que han cambiado de Constitución Francia, Noruega vs Argentina y Venezuela, sólo como ejemplo y considere además el secretito antes mencionado para evitar independientes en el camino.
 
-4. <b>Es mentira que los problemas de Chile se resuelven cambiando la actual constitución.</b> <a href="#3">Aquí comparto</a> algunas humildes recomendaciones para resolver los problemas de Chile, los cuales No necesitan de cambios constitucionales. Lo que si es verdad es que los más de $30.000.000.000 (treinta mil millones de pesos) que es el costo aproximado de este plebiscito, hubiesen sido de gran ayuda a la economía del país y esa ayuda hubiese ido justamente a las personas que lo están pasando mal en esta Pandemia.
+4. <b>Es mentira que los problemas de Chile se resuelven cambiando la actual constitución.</b> <a href="#3">Aquí comparto</a> algunas humildes recomendaciones para resolver los problemas de Chile, los cuales No necesitan de cambios constitucionales. Chile tiene un modelo económico bueno y mejorable, a su vez, un modelo político malo y reemplazable en "próximas" aseambleas constituyentes, hacerlo en este momento es Gastar doble dieta parlamantaria (varios millones de dólares) y tener dos congresos en pandemia y crisis, economicamente no es buena idea.
 
 ## <span id="6">¿Cómo debería votar un Chileno este 25 de Octubre?</span>
 
 Luego del análisis anterior y al comprobar que este cambio constitucional en el 2020 sólo les sirve a los políticos con claras influencias de la política que se observa en otros paises de Latinoamerica (Venezuela por ejemplo), y que un verdadero cambio constitucional se debería realizar en un futuro, y con una Asamblea con la "mayoría independiente" asegurada. <b>Lo mejor que se puede hacer por Chile este Octubre de 2020</b> es:
 
-1. <b>Entender la importancia de ir a votar.</b> ¿por qué cree que al político le acomoda tanto un plebiscito en pandemia? No quieren que vayan a votar muchos ni menos los adultos mayores.
+1. <b>Entender la importancia de ir a votar.</b> ¿por qué cree que al político le acomoda tanto un plebiscito en pandemia? No quieren que vayan muchos a votar, ni menos los adultos mayores.
 
-<img src="/assets/posts/referendum-venezuela-1999.png">
+    <img src="/assets/posts/referendum-venezuela-1999.png">
 
 2. <b>Vaya a las urnas bien protegido y en calma.</b> Si es posible utilice guantes, su propio lápiz y protector facial además de la obligatoria mascarilla y no tocarse la cara. Mantenga distancia de otros y utilice antes, durante y después su alcohol gel o spray de mezclas de alcohol con agua. Al regresar a su hogar recuerde desinfectar la suela de sus zapatos, su ropa y manos.
 
-3. <b>Dentro de la Urna marque claramente una línea en el #Rechazo</b>, "el político entenderá esto como rechazo a la idea de entregarle más poder".
+3. <b>Dentro de la Urna marque claramente una línea en el #Rechazo</b>, "quien haya articulado esto, lo entenderá como rechazo a la última carta de poder cambiar el sistema económico".
 
 4. <b>Respecto al otro voto de Cómo se escribiría una nueva Carta Magna, déjelo en Blanco. </b> De esta manera se asegura que su voto sea válido. Ese Blanco además representa el siguiente mensaje para el político .... "haremos reformas Constitucionales en el futuro, cuando las arcas fiscales estén pasando por mejores momentos económicos, y esa futura reforma, la haremos para dejar claro que si eres un servidor público o político, vas a trabajar para la ciudadanía de forma eficiente, honesta y transparente por lo cual serás remunerado según nuevas reglas, además deberás tener cualificaciones técnicas para escribir leyes que gobiernen nuestro territorio y estar al servicio de la ciudadanía".
 

@@ -8,7 +8,7 @@ lang: esp
 tags: blog chile singapur plebiscito apruebo rechazo político política udi comunista marxista capitalismo neoliberalismo estudiantes
 author: "Coto Augosto"
 ---
-<a href="/coto/blog/chile/2020/09/18/chile-no-puede-ser-mejor-que-singapur.html">Spanish</a> | <a href="/coto/blog/chile/2020/09/18/chile-cant-be-better-than-singapur.html">English</a>
+Spanish | <a href="/coto/blog/chile/2020/09/18/chile-cant-be-better-than-singapur.html">English</a>
 
 Chile vive una realidad que me gustaría expresar en primera persona a mis amigos extranjeros y sobre todo a los Chilenos, el 16 de Octubre de 2019 comenzó un movimiento social que se nos fue de las manos, pasando de momentos de mucha confusión e ignorancia respecto a lo que estaba pasando, y con eso generar bastante miedo y daño al propio país, luego ocurrieron una serie de sucesos que permitieron tener mayor claridad respecto a lo que sucedía. Sin embargo, a principios del año 2020 se sumó el no menor problema de la Pandemia que compartimos mundialmente, y que a pesar de ser una población pequeña y aparentemente inteligente (según visiones externas respecto a cómo hemos construido nuestra sociedad) estamos dentro de los países más contagiados. Sumado a lo anterior, este 25 de Octubre los Chilenos nos enfrentamos a lo que algunos intelectuales definen como cambio de sociedad a una tercera generación o equivocarnos y retroceder varios años. Afortunadamente el tiempo de confinamiento permitió aclarar lo que está sucediendo y tener más claridad respecto a qué hacer.
 
@@ -31,7 +31,7 @@ Soy un Chileno, nacido en la región de Atacama, junto a mi madre, Rosario Canci
 
 Como Chileno, hoy en plena pandemia, me pregunto ¿Estaría un Chileno dispuesto a vivir con la represión y falta de libertad con la que se vive en Singapur, China o Alemania? Es cierto que alguno de esos países están muy lindos y representan la cara de un país que ha sabido llevar de buena manera la billetera y política del país, que es lo que al fin y al cabo resuelve los problemas, pero en términos de la libertad que existe en esos Países, un verdadero Chileno no sería capaz de tolerar mucho tiempo la falta de libertad, salvo que el costo le valga la pena y vaya con su personalidad y extrañando mucho a Chile, un país, que además de ser avanzado, es libre y eso es lo que lo hace mejor que Alemania, decían mis amigos alemanes a quienes recibí unos meses en Chile a principios de 2019.
 
-Sin embargo, hay cosas que el Estado de Chile debe mejorar y me gustaría compartir algunas ideas de qué y cómo Chile debe mejorar en Educación, y la idea fundamental para mejorar ejes principales de un Estado como la Salud, Pensiones y otros.
+Sin embargo, hay cosas que el Estado de Chile debe mejorar y me gustaría compartir algunas ideas de qué y cómo Chile debe mejorar en Educación, y la idea fundamental para mejorar ejes principales de un Estado tales como la Salud, Pensiones y otros.
 
 ### <span id="2">¿Cómo mejorar la Educación en Chile?</span>
 
@@ -113,4 +113,4 @@ Luego del análisis anterior y al comprobar que este cambio constitucional en el
 
 4. <b>Respecto al otro voto de Cómo se escribiría una nueva Carta Magna, déjelo en Blanco. </b> De esta manera se asegura que su voto sea válido. Ese Blanco además representa el siguiente mensaje para el político .... "haremos reformas Constitucionales en el futuro, cuando las arcas fiscales estén pasando por mejores momentos económicos, y esa futura reforma, la haremos para dejar claro que si eres un servidor público o político, vas a trabajar para la ciudadanía de forma eficiente, honesta y transparente por lo cual serás remunerado según nuevas reglas, además deberás tener cualificaciones técnicas para escribir leyes que gobiernen nuestro territorio y estar al servicio de la ciudadanía".
 
-5. <b>Cuando gane el Rechazo, no participe de protestas violentas.</b> De esta manera, las fuerzas de orden harán su trabajo más fácil separando al que protesta del violentista y con eso pronto volveremos a tener paz. Siga trabajando y espere un tiempo a que estén mejor las condiciones económicas y sanitarias para volver a enfrentar a los políticos.
+5. <b>Cuando gane el Rechazo, no participe de protestas violentas.</b> De esta manera, las fuerzas de orden harán su trabajo más fácil controlando al violentista, con eso pronto volveremos a tener paz. Siga trabajando y espere un tiempo a que estén mejor las condiciones económicas y sanitarias para volver a enfrentar a los políticos.

@@ -99,7 +99,7 @@ Estoy seguro que usted no sabe, ni yo tampoco, cuanto fue el dineral que ha movi
 
 3. <b>El cambio de constitución está planeado sólo para entregar más poder político a los mismos políticos</b>, si no me cree, contabilice por su cuenta las veces que han cambiado de Constitución Francia, Noruega vs Argentina y Venezuela, sólo como ejemplo y considere además el secretito antes mencionado para evitar independientes en el camino.
 
-4. <b>Es mentira que los problemas de Chile se resuelven cambiando la actual constitución.</b> <a href="#3">Aquí comparto</a> algunas humildes recomendaciones para resolver los problemas de Chile, los cuales No necesitan de cambios constitucionales. Chile tiene un modelo económico bueno y mejorable, a su vez, un modelo político malo y reemplazable en "próximas" asambleas constituyentes, hacerlo en este momento es Gastar doble dieta parlamantaria (varios millones de dólares) y tener dos congresos en pandemia y crisis, económicamente no es buena idea.
+4. <b>Es mentira que los problemas de Chile se resuelven cambiando la actual constitución.</b> <a href="#3">Aquí comparto</a> algunas humildes recomendaciones para resolver los problemas de Chile, los cuales No necesitan de cambios constitucionales inmediatos. Chile tiene un modelo económico bueno y mejorable, a su vez, un modelo político malo y reemplazable en "próximas" asambleas constituyentes, hacerlo en este momento es Gastar doble dieta parlamantaria (varios millones de dólares) y tener dos congresos en pandemia y crisis. Ésto económicamente no es buena idea.
 
 ## <span id="6">¿Cómo debería votar un Chileno este 25 de Octubre?</span>
 

@@ -18,14 +18,14 @@ I write this article from an impartial point of view, as a Chilean detached from
 
 The article is divided into 6 points, and for easy reading it contains a list of arguments when it refers about improvements recommended, find a quiet 15 minutes to read it, which is also the estimated reading time:
 
-* <a href="#1"> Who am I and why do I allow myself to give some humble tips to improve issues such as Education in Chile? </a>
-* <a href="#2"> How to improve Education in Chile? </a>
-* <a href="#3"> How to improve Pensions, Health, Justice and other main areas of concern for a State? </a>
-* <a href="#4"> How to understand Politics to make a good decision to vote on October 25th? </a>
-* <a href="#5"> What should a Chilean bear in mind before voting? </a>
-* <a href="#6"> What's better for Chile this October 25th? </a>
+* <a href="#1">1. Who am I and why do I allow myself to give some humble tips to improve issues such as Education in Chile? </a>
+* <a href="#2">2. How to improve Education in Chile? </a>
+* <a href="#3">3. How to improve Pensions, Health, Justice and other main areas of concern for a State? </a>
+* <a href="#4">4. How to understand Politics to make a good decision to vote on October 25th? </a>
+* <a href="#5">5. What should a Chilean bear in mind before voting? </a>
+* <a href="#6">6. What's better for Chile this October 25th? </a>
 
-## <span id = "1"> Who am I and why do I allow myself to deliver some humble tips to improve topics such as Education? </span>
+## <span id = "1">1. Who am I and why do I allow myself to deliver some humble tips to improve topics such as Education? </span>
 
 I am a Chilean, born in the Atacama region, together with my mother, Rosario and my older sister for 7 years, Valeska, we are fortunate to be a small family, of humble origins and that to this day continue to harvest fruits and enjoy a quiet life through honest, balanced and dignified work that my Mother has given us as an example. Today I work on my own focused on science and technology.
 
@@ -33,7 +33,7 @@ As a Chilean, today in the midst of a pandemic, I ask myself: Would a Chilean be
 
 However, there are things that the State of Chile should improve and I would like to share some ideas of what and how Chile should improve in Education, and the fundamental idea to improve the main axes of a State such as Health, Pensions and others.
 
-### <span id = "2"> How to improve Education in Chile? </span>
+### <span id = "2">2. How to improve Education in Chile? </span>
 
 In my Primary and High Schools, I was never the best in the class, nor the worst, in fact I remember that I was always in the third or fourth place in grades in the course, I liked the anonymity of not offering expectations and it never worried me. At the end of High School, at 17 years old, I received a book about the Federico Santa María Technical University (in Chile) from the High School vocational counselor, Mr. Patricio Jorquiera. It changed my life, the only thing I wanted at that time was to study at that University, I didn't know what to, but I did know where to, even though I didn't have the resources to cover my studies.
 
@@ -57,7 +57,7 @@ Given that after finishing my first degree, I finished, by my means, studies at 
 
 There are many indebted for education in Chile, something that should not happen, and the only solution to avoid it is to have a state with a better financial situation to distribute this wealth in education, despite this, in the last 2 decades the benefits in Education have only improved, thanks to the fact that the Chilean economy grew constantly, except in the last government of Michelle Bachelet, where communist policies were implemented that seriously damaged the country's economy. It is not a personal opinion, the numbers say it. To give you an idea, in the middle of 2020, emblematic public universities such as the University of Santiago de Chile, among others, in a period of just 2 weeks delivered computers and internet connection to all students who did not have, while the online classes due to the Pandemic.
 
-### <span id = "3"> How to improve Pensions, Health, Justice and other main areas of concern of a State? </span>
+### <span id = "3">3. How to improve Pensions, Health, Justice and other main areas of concern of a State? </span>
 
 1. Changing bad public employees and politicians and filtering new ones according to technical and altruistic abilities.
 2. Supervise in an unprecedented way the entire Legislative Power and have efficient procedures to sanction Corruption, Nepotism and Lack of Capacities for its work.
@@ -66,7 +66,7 @@ There are many indebted for education in Chile, something that should not happen
 5. Understand that the State, with help of private sectors (we), must take care of <b> Pensions </b>, with a look of gratitude towards our ancestors; of <b> Health </b>, <b> Education </b>, and <b> Security </b>, with a view of justice towards the citizens, and above all <b> Promote the production and entrepreneurship </b> so that its citizens are free and can live according to the fruit of their own work. Along with recognizing that we all together produces what makes a better country, a better world.
 6. Require to public employees to be as effective as it is in private companies, and this is achieved by eliminating the bureaucracy that prevails mainly in the public sector. In addition to ensuring that unions work on common sense ideas, where productivity is the axis to generate more dignified and better quality work and it is understood that the Union is the company as the Company is the union.
 
-### <span id = "4"> How to understand politics to make a good decision to vote on October 25th? </span>
+### <span id = "4">4. How to understand politics to make a good decision to vote on October 25th? </span>
 
 I will tell you a story that I had close to politics in 2000, a college classmate invited me to a barbecue organized by RN youth (right-wing political party in Chile), I participated even though I have no affinity or aversion against that political party or another, also in student days an invitation to a barbecue is appreciated. At the meeting I joined a group conversation, which went something like this:
 
@@ -91,7 +91,7 @@ I am sure that you do not know, and neither do I, how much was the fortune that 
 
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr">Señores cooperativa 3 observaciones: <br>1) &#39;tienen&#39; en vez de &#39;tenían&#39; <br>2) Ese mismo poder criminal está tirando sus manitos en nuestro querido Chile &#39;Hoy&#39;.<br>3) El informe tuvo que hacerlo una oficina ONU distinta a la de la Sra. Bachelet. <a href="https://t.co/GoGrP6Db7y">https://t.co/GoGrP6Db7y</a></p>&mdash; Coto .🖌 (@coto) <a href="https://twitter.com/coto/status/1308085945208537088?ref_src=twsrc%5Etfw">September 21, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-### <span id = "5"> What should a Chilean bear in mind before voting on October 25th? </span>
+### <span id = "5">5. What should a Chilean bear in mind before voting on October 25th? </span>
 
 1. <b> On This Referendum Only politicians would write a new Constitution. </b> There are some people who are unaware that a Non Political Person, also know as normal person or simple citizen will not be able to participate in writing "THIS" constitution. The politicians have armed apparatus to prevent a normal person from being elected for these cases, which in a month will not be able to be changed, since an non political person will not only have to deal with not receiving millions of pesos to spend on the campaign that those who belong to political parties will, and a normal person should also forget about putting political propaganda on public roads, since the politician of the sector (councilor, core, mayor) will be in charge of removing it and fining him/her, and as if that were not enough and no less important It must win not only by being a majority, but also by adding more than the total votes that politicians from the same party add, something like an electoral gang that adds their votes to eliminate normal people. Did you know that reality of Chile? Neither did I until this Referendum, but I expected it from politicians.
 
@@ -101,7 +101,7 @@ I am sure that you do not know, and neither do I, how much was the fortune that 
 
 4. <b> It is a lie that Chile's problems are solved by changing the current constitution. </b> <a href="#3"> Here I share </a> some humble recommendations to solve Chile's problems and They do not need constitutional changes now. Chile has a very good and improvable economic model, in other side, a bad political model that must be replaced in "next" Constitutions assemblies. To do so Today is to spend a double parliamentary diet (several million of dollars) and to have two congresses under pandemic and crisis, economically it is not a good idea, including the USD$ 40,000,000 (forty millions of dollars) of cost for this referendum.
 
-## <span id = "6"> What's better for Chile this October 25th? </span>
+## <span id = "6">6. What's better for Chile this October 25th? </span>
 
 After the previous analysis and when verifying that this constitutional change in 2020 only serves politicians with clear influences of well-know Latin American politics, and that a constitutional change should be carried out in a near future, under safe and wealthier conditions and written by Majority of Non Related to Politics People. So, <b> The best thing to do for Chile IMHO this October 25th </b> is:
 

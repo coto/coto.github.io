@@ -18,14 +18,14 @@ Escribo este artículo desde un punto de vista imparcial, como un chileno deslig
 
 El artículo está dividido en 6 puntos, y para su fácil lectura contiene un punteo de argumentos cuando se refiere a mejoras recomendadas, busque unos 15 minutes en calma para leerlo, lo cual además es el tiempo estimado de lectura:
 
-* <a href="#1">¿Quién soy yo y por qué me permito entregar algunos humildes tips para mejorar en Chile temas como la Educación?</a>
-* <a href="#2">¿Cómo mejorar la Educación en Chile?</a>
-* <a href="#3">¿Cómo mejorar las Pensiones, Salud, Justicia y otros ejes principales de preocupación de un Estado?</a>
-* <a href="#4">¿Cómo entender la Política para tomar una buena decisión para votar en el plebiscito del 25 de Octubre?</a>
-* <a href="#5">¿Qué debería tener en cuenta un Chileno antes de Votar?</a>
-* <a href="#6">¿Cómo debería votar un Chileno este 25 de Octubre?</a>
+* <a href="#1">1. ¿Quién soy yo y por qué me permito entregar algunos humildes tips para mejorar en Chile temas como la Educación?</a>
+* <a href="#2">2. ¿Cómo mejorar la Educación en Chile?</a>
+* <a href="#3">3. ¿Cómo mejorar las Pensiones, Salud, Justicia y otros ejes principales de preocupación de un Estado?</a>
+* <a href="#4">4. ¿Cómo entender la Política para tomar una buena decisión para votar en el plebiscito del 25 de Octubre?</a>
+* <a href="#5">5. ¿Qué debería tener en cuenta un Chileno antes de Votar?</a>
+* <a href="#6">6. ¿Cómo debería votar un Chileno este 25 de Octubre?</a>
 
-## <span id="1">¿Quién soy yo y por qué me permito entregar algunos humildes tips para mejorar temas como la Educación?</span>
+## <span id="1">1. ¿Quién soy yo y por qué me permito entregar algunos humildes tips para mejorar temas como la Educación?</span>
 
 Soy un Chileno, nacido en la región de Atacama, junto a mi madre, Rosario y mi hermana mayor por 7 años, Valeska, somos afortunados de ser una familia pequeña, de orígenes humildes y que al día de hoy cosecha frutos y continúa disfrutando una vida tranquila a través del trabajo honesto, equilibrado y digno que nos ha dado como ejemplo mi Madre. Hoy trabajo en lo propio enfocado en ciencia y tecnología.
 
@@ -33,7 +33,7 @@ Como Chileno, hoy en plena pandemia, me pregunto ¿Estaría un Chileno dispuesto
 
 Sin embargo, hay cosas que el Estado de Chile debe mejorar y me gustaría compartir algunas ideas de qué y cómo Chile debe mejorar en Educación, y la idea fundamental para mejorar ejes principales de un Estado tales como la Salud, Pensiones y otros.
 
-### <span id="2">¿Cómo mejorar la Educación en Chile?</span>
+### <span id="2">2. ¿Cómo mejorar la Educación en Chile?</span>
 
 En la educación básica y media, nunca fui el mejor de la clase, tampoco el peor, de hecho recuerdo que siempre estaba en el tercer o cuarto lugar de notas del curso, me agradaba el anonimato de no estar ofreciendo expectativas y nunca me preocupaba mucho ser primero. En cuarto medio, a los 17 años recibí del orientador vocacional del Liceo, señor Patricio Jorquiera, un libro de la Universidad Técnica Federico Santa María. Me cambió la vida, lo único que quería en ese momento era estudiar en esa Universidad, no sabía qué, pero si sabía dónde y estaba entusiasmado sin importar que no teníamos los recursos para cubrir mis estudios.
 
@@ -57,7 +57,7 @@ Dado que después de terminar mi primera carrera, terminé, por mis medios, estu
 
 Existen muchos endeudados por educación en Chile, algo que no debería ocurrir, y la única solución a eso es que el Estado mejore sus arcas a través de la productividad en general y la supervisión minuciosa de los recursos, a pesar de ello, en las últimas 2 décadas los beneficios en Educación han mejorado, gracias al crecimiento constante de la economía Chilena, excepto en uno de los gobierno de Michelle Bachelet, donde se implementaron políticas económicas (aumentar los impuestos, por ejemplo) que dañaron fuerte a la economía del país. No es una opinión personal, lo dicen los números. De todos modos y gracias al crecimiento acumulado, en pleno 2020, Universidades públicas emblemáticas como la Universidad de Santiago de Chile, entre otras públicas, en un lapso de tan solo 2 semanas entregaron computadores y conexión a internet a todos los alumnos que no tuviesen, eso además de aumentar el número de beneficiarios de las mismas y mejores becas que yo algún día recibí.
 
-### <span id="3">¿Cómo mejorar las Pensiones, Salud, Justicia y otros ejes principales de preocupación de un Estado?</span>
+### <span id="3">3. ¿Cómo mejorar las Pensiones, Salud, Justicia y otros ejes principales de preocupación de un Estado?</span>
 
 1. Cambiando a los empleados públicos y políticos malos y filtrando a los nuevos según capacidades técnicas y altruistas.
 2. Supervisar de manera sin precedentes al Poder Legislativo completo y tener medios eficientes para sancionar Corrupción, Nepotismo y Falta de Capacidades para su labor.
@@ -66,7 +66,7 @@ Existen muchos endeudados por educación en Chile, algo que no debería ocurrir,
 5. Entender que el Estado debe preocuparse de las <b>Pensiones</b>, con una mirada de gratitud hacia nuestros ancestros; de la <b>Salud</b>, <b>Educación</b>, y <b>Seguridad</b>, con una mirada de justicia hacia sus ciudadanos, y por sobre todo <b>Fomentar la producción y emprendimiento</b> para que sus ciudadanos sean libres y puedan vivir acorde al fruto de su propio trabajo. Junto con reconocer que lo que cada uno produce, sumado entre todos, nos convierte en un mejor País.
 6. Exigir a los empleados de empresas públicas sean tan efectivos como lo es en la empresa privada, y esto se logra eliminando la burocracia que reina principalmente en el sector público. Además de velar que los sindicatos trabajen en ideas de sentido común, donde sea la productividad el eje para generar más trabajo digno y de mejor calidad y se entienda que el Sindicato es la empresa como la Empresa es al sindicato.
 
-### <span id="4">¿Cómo entender la Política para tomar una buena decisión para votar en el plebiscito del 25 de Octubre?</span>
+### <span id="4">4. ¿Cómo entender la Política para tomar una buena decisión para votar en el plebiscito del 25 de Octubre?</span>
 
 Les contaré una historia que tuve cercana a la política en el año 2000, un compañero de Universidad me invitó a un asado organizado por juventud RN (partido político de derecha en Chile), participé a pesar de que no tengo ninguna afinidad o aversión contra ese partido político u otro, además en época de estudiante se agradece una invitación a un asado. En la reunión me uní a la conversación de un grupo, la cual fue algo así:
 
@@ -91,7 +91,7 @@ También estoy seguro que usted no sabe, ni yo tampoco, cuánto fue el dineral q
 
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr">Señores cooperativa 3 observaciones: <br>1) &#39;tienen&#39; en vez de &#39;tenían&#39; <br>2) Ese mismo poder criminal está tirando sus manitos en nuestro querido Chile &#39;Hoy&#39;.<br>3) El informe tuvo que hacerlo una oficina ONU distinta a la de la Sra. Bachelet. <a href="https://t.co/GoGrP6Db7y">https://t.co/GoGrP6Db7y</a></p>&mdash; Coto .🖌 (@coto) <a href="https://twitter.com/coto/status/1308085945208537088?ref_src=twsrc%5Etfw">September 21, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-### <span id="5">¿Qué debería tener en cuenta un Chileno antes de Votar?</span>
+### <span id="5">5. ¿Qué debería tener en cuenta un Chileno antes de Votar?</span>
 
 1. <b>En 2020 Sólo políticos escribirían una nueva Constitución.</b> Existen algunas personas que ignoran que un ciudadano de pie no podrá participar en escribir una constitución. Los políticos tienen aparataje armado para evitar que alguien ajeno a la política sea electo para estos casos, los que en un mes no será corregido, ya que un Ajeno a la Política no solo deberá lidiar con no recibir los millones de pesos para gastar en campaña que Sí recibirán partidarios políticos, además debe olvidarse de poner propaganda política en vía pública, ya que el político (concejal, core, alcalde) de turno en la alcaldía respectiva, se encargará de quitarla y multarlo, y por si fuera poco y no menos importante, debe ganar no solo siendo mayoría, sino además sumar más que el total de votos que sumen los políticos de un mismo partido, algo así como una pandilla electoral que suma sus votos para eliminar a los independientes. ¿Conocías esa realidad de Chile? Yo tampoco hasta este plebiscito, pero me la esperaba de los políticos. Por cierto no se confunda con el concepto 'Independiente', ya que en algunos casos representa a personas que no fueron elegidas en votaciones anteriores pero de todas maneras tienen nexos políticos.
 
@@ -101,7 +101,7 @@ También estoy seguro que usted no sabe, ni yo tampoco, cuánto fue el dineral q
 
 4. <b>Es mentira que los problemas de Chile se resuelven cambiando la actual constitución.</b> <a href="#3">Aquí comparto</a> algunas humildes recomendaciones para resolver los problemas de Chile, los cuales No necesitan de cambios constitucionales inmediatos. Chile tiene un modelo económico bueno y mejorable, a su vez, un modelo político malo y reemplazable en "próximas" asambleas constituyentes, hacerlo en este momento es Gastar doble dieta parlamentaria (varios millones de dólares) y tener dos congresos en pandemia y crisis. Ésto económicamente no es buena idea.
 
-## <span id="6">¿Cómo debería votar un Chileno este 25 de Octubre?</span>
+## <span id="6">6. ¿Cómo debería votar un Chileno este 25 de Octubre?</span>
 
 Luego del análisis anterior y al comprobar que este cambio constitucional en el 2020 sólo les sirve a los políticos con claras influencias de la política Latinoamericana, y que un verdadero cambio constitucional se debería realizar en un futuro, y con una Asamblea con la "mayoría representada por ciudadanos" asegurada (Ojo con los independientes que tienen nexos políticos). <b>Lo mejor que se puede hacer por Chile este 25 de Octubre</b> es:
 

@@ -8,14 +8,13 @@ If you would like to reach me, use this [Contact Form][contact]{:target="_blank"
 
 ### Who am I?
 
-Born in Chile, King of my freedom. Technology-er. I am good in Physics, Maths, creating valuable applications with simple user interfaces and seeting up high-demand technology infrastructures. I understand from how the silicon entrails works (hardware) to how the electrical signals circulates through their reils[^reils] (software). I specialize in Wireless Power Transfer.
+Born in Chile, King of my Freedom. Wanderlust. I am good in Physics, Maths, creating valuable technology applications with simple user interfaces and seeting up high-demand technology infrastructures. I understand from how the silicon entrails works (hardware) to how the electrical signals circulates through their reils[^reils] (software). I specialize in Wireless Power Transfer.
 
 My life project is creating [harmless wireless charging technologies][neahtid]{:target="_blank"}. I Enjoy meeting different cultures and traveling the world.
 
 Free of religions and Politics.
 
-
-[^reils]: Reils: A term used to refer Rails + Veins.
+[^reils]: Reils: A personal term used to refer Rails + Veins.
 
 [quora_s]: https://www.quora.com/What-is-the-coolest-thing-you-have-ever-created-alone-as-a-programmer/answer/Coto-Augosto
 [blog]: https://feeds.feedburner.com/coto

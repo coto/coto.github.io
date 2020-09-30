@@ -63,7 +63,7 @@ Spanish, English, Portuguese (survival level).
 
 #### » Open Source (2018 - 2019)
 
-- Regular Expresions to migrate format of [Fluentd Documentation][fluentd]{:target="_blank"}, an open source data collector of Linux Fundation and graduated project of Cloud Native Computing Foundation (CNCF).
+- Regular Expresions Project migrating [Fluentd Documentation][fluentd]{:target="_blank"}, an open source data collector of Linux Fundation and graduated project of Cloud Native Computing Foundation (CNCF).
 
 #### » CTO (2011 - 2017)
 

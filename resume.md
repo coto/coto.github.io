@@ -45,23 +45,23 @@ Spanish, English, Portuguese (survival level).
 
 <hr>
 
-### Research & Development - Technology Industry
+### "Hardware and Software Industry"
 
 #### » Founder & Investor (2016 - present)
 
-- Lead research and developments teams (Engineers, Docs and Postdocs).
+- Lead Research and Development (Engineers, Docs and Postdocs).
 - Budgets & Financial Projections.
 - R&D Lead.
 
 <hr>
 
-### Software Development "Software Industry"
+### "Software Industry"
 
 #### » Senior Software Engineer  (2019)
 
 - Full Stack programming for Bank Industry, Database Stored Procedures in SQL, Restful API Services with C#, Web Applications with Angular.
 
-#### » Open Source (2018 - 2019)
+#### » Open Source - Linux Fundation (2018 - 2019)
 
 - Regular Expresions Project migrating [Fluentd Documentation][fluentd]{:target="_blank"}, an open source data collector of Linux Fundation and graduated project of Cloud Native Computing Foundation (CNCF).
 
@@ -92,7 +92,7 @@ Spanish, English, Portuguese (survival level).
 
 <hr>
 
-### Non-profit Activities
+### "Non-profit Activities"
 
 #### » Software Developer Conference (www.startechconf.com) (2011, 2013 and 2015)
 

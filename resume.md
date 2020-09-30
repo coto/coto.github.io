@@ -63,7 +63,7 @@ Spanish, English, Portuguese (survival level).
 
 #### » Open Source (2018 - 2019)
 
-- Regular Expresions to migrate format of [Fluentd Documentation](https://docs.fluentd.org/), an open source data collector of Linux Fundation and graduated project of Cloud Native Computing Foundation (CNCF).
+- Regular Expresions to migrate format of [Fluentd Documentation][fluentd]{:target="_blank"}, an open source data collector of Linux Fundation and graduated project of Cloud Native Computing Foundation (CNCF).
 
 #### » CTO (2011 - 2017)
 
@@ -109,3 +109,4 @@ Spanish, English, Portuguese (survival level).
 [quora_s]: https://www.quora.com/What-is-the-coolest-thing-you-have-ever-created-alone-as-a-programmer/answer/Coto-Augosto
 [quora]: https://www.quora.com/Coto-Augosto
 [lda]: http://fees.cl/lda/
+[fluentd]: https://docs.fluentd.org/

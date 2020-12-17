@@ -1,5 +1,5 @@
 <footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <data class="u-url" href="{{ " /" | relative_url }}"></data>
 
   <div class="wrapper">
 
@@ -10,15 +10,15 @@
         <ul class="contact-list">
           <li class="p-name">
             {%- if site.author -%}
-              {{ site.author | escape }}
+            {{ site.author | escape }}
             {%- else -%}
-              {{ site.title | escape }}
+            {{ site.title | escape }}
             {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-            <li><a class="u-email" href="/contact/">Contact</a></li>
+          </li>
+          {%- if site.email -%}
+          <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {%- endif -%}
+          <li><a class="u-email" href="/contact/">Contact</a></li>
         </ul>
       </div>
 
@@ -27,7 +27,17 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+        <p>
+          <script>
+            var foot = [];
+            foot.push('Lo que más me sorprende del hombre occidental, es que pierden la salud para ganar dinero para recuperar su salud. Y por pensar ansiosamente en el futuro no disfrutan el presente, por lo que no viven ni el presente ni el futuro. Y viven como si no tuviesen que morir nunca y mueren como si nunca hubieran vivido. --  Dalai Lama')
+            foot.push('Who are we? We find that we live on an insignificant planet of a humdrum star lost in a galaxy tucked away in some forgotten corner of a universe in which there are far more galaxies than people. -- Carl Sagan');
+            foot.push('La persona que no esté en paz consigo misma, será una persona en guerra con el mundo entero. -- Mahatma Gandhi');
+            const random = Math.floor(Math.random() * foot.length);
+            document.write(foot[random]);
+          </script>
+
+        </p>
       </div>
     </div>
 

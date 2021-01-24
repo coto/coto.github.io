@@ -12,7 +12,7 @@ permalink: /resume/
 <div style="clear: both;">
 </div>
 <img src="/assets/coto.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Hardware and Software Engineer, Diploma in Finance and Investments. I have work on different kind of technological projects. I like to translate non-technical into technical language and vice verza.
-I like Physics, Maths, programming and create high-demand technology infrastructures with simple user interfaces.
+Python, TypeScript, Physics, Maths, but mostly high-demand technology infrastructures with simple user interfaces.
 
 ## SKILFULNESS
 
@@ -21,7 +21,7 @@ I like Physics, Maths, programming and create high-demand technology infrastruct
 - Hardware and Software Security.
 - Wireless Power Transfer Research. Physics and Maths Applications.
 - Python, JavaScript/TypeScript programming.
-- Google Cloud Platforms. High demand API RESTful Services.
+- Cloud Platforms API RESTful Services.
 - [Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
 - [PWA Apps](http://bit.ly/mob_apps_programming){:target="_blank"}.
 - [Flow processes integrations with Spreadsheets, Docs, Forms][quora_s]{:target="_blank"}.
@@ -49,7 +49,7 @@ Spanish, English, Portuguese (survival level).
 
 #### » Founder & Investor (2016 - present)
 
-- Lead Research and Development (Engineers, Docs and Postdocs).
+- Research and Development (Engineers, Docs and Postdocs).
 - Budgets & Financial Projections.
 - R&D Lead.
 
@@ -68,7 +68,7 @@ Spanish, English, Portuguese (survival level).
 #### » CTO (2011 - 2017)
 
 - Design and planning of Architecture and Systems for multi-layered banking applications.
-- Partnership with Google Cloud.
+- Managed partnership with Google Cloud.
 - Improve customer experience.
 - Lead IT teams.
 - Lead Security and Software projects.
@@ -99,7 +99,7 @@ Spanish, English, Portuguese (survival level).
 - Creator and Co-Organizer of StarTechConf, a Software Developer Conference with around a thousand attendees in its 3 editions (2011, 2013 and 2015), interesting speakers from companies like Github, Google, Apple, Microsoft, among others. Non-profit project that provided me expirience managing budgets, timelines and team organization.
 - After 2015 edition, I quit the organization, transfered the rights to third parties, and it was renamed to www.starsconf.com.
 
-[^framework]: At that time, JavaScript frameworks like Sencha, jQuery, Angular, React and others did not exist.
+[^framework]: The structure of an application.
 
 [usach]: http://www.usach.cl
 [usm]: http://www.utfsm.cl

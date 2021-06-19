@@ -16,19 +16,19 @@ Python, TypeScript, Physics, Maths, but mostly high-demand technology infrastruc
 
 ## SKILFULNESS
 
-- Product Managment. Lead technical and non-technical teams.
-- Quality Hardware and Software Development.
+- Product Managment and Lead for technical and non-technical teams.
+- Hardware and Software Quality assurance.
 - Hardware and Software Security.
 - Wireless Power Transfer Research. Physics and Maths Applications.
 - Python, JavaScript/TypeScript programming.
-- Cloud Platforms API RESTful Services.
-- [Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
-- [PWA Apps](http://bit.ly/mob_apps_programming){:target="_blank"}.
-- [Flow processes integrations with Spreadsheets, Docs, Forms][quora_s]{:target="_blank"}.
-- Database Modeling and Scripting (MySQL & MS-SQL).
-- UI/UX, CSS and HTML technologies.
+- API RESTful Services on Cloud Platforms.
+- [Develop with Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
+- [Develop PWA (Progressive Web Applications)](http://bit.ly/mob_apps_programming){:target="_blank"}.
+- [Integrations with Spreadsheets, Docs, Forms and many other services][quora_s]{:target="_blank"}.
+- Database Modeling and Scripting in MySQL & MS-SQL.
+- Years of experience in UI/UX, CSS and HTML technologies.
 
-## BACKGROUNDS
+## ACADEMIC BACKGROUNDS
 
 | 2014 – 2014 | **[Universidad de Chile][fen]**  <br> Finance and Investing Diploma |
 | 2009 – 2010 | [Santiago University Chile][usach]{:target="_blank"} <br> Graduated as Bachelor of Computer Science |
@@ -61,10 +61,13 @@ Spanish, English, Portuguese (survival level).
 
 - Full Stack programming for Bank Industry, Database Stored Procedures in SQL, Restful API Services with C#, Web Applications with Angular.
 
+<hr>
+
 #### » Open Source - Linux Fundation (2018 - 2019)
 
 - Regular Expresions Project migrating [Fluentd Documentation][fluentd]{:target="_blank"}, an open source data collector of Linux Fundation and graduated project of Cloud Native Computing Foundation (CNCF).
 
+<hr>
 #### » CTO (2011 - 2017)
 
 - Design and planning of Architecture and Systems for multi-layered banking applications.
@@ -73,22 +76,26 @@ Spanish, English, Portuguese (survival level).
 - Lead IT teams.
 - Lead Security and Software projects.
 
+<hr>
 #### » Software Engineer (2010 - 2011)
 
 - Created a User Generated Content systems (Node.js, Sencha Touch and MongoDB)
 
+<hr>
 #### » Risk Analyst Engineer (2009 - 2010)
 
 - Build Operational risk control applications. SQL Stored Procedures.
 
+<hr>
 #### » Software Engineer Mobile Platforms (2008 - 2009)
 
 - Build a JavaScript framework[^framework] for mobile applications development.
 - Build OTP (authentication system) Application for a Chilean Bank.
 
+<hr>
 #### » Front End Developer (2001 - 2007)
 
-- Made the front end site for an important multinational Bank.
+- Made the front end site for a multinational Bank.
 
 <hr>
 

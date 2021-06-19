@@ -14,7 +14,7 @@ Chile lives a reality that I would like to express in first person to my foreign
 
 ## TL; TR
 
-I write this article from an impartial point of view, as a Chilean detached from political or social classes. I am someone who cannot be called either a fascist or a communist, I hope to express my opinions with respect, objectively, based on my personal experience and economic numbers, however at the end of this post, and after the analysis itself, I indicate which one is my alternative and I consider it better for Chile in the next Referendum on October 25th, respecting the winning option. This post was written on an important date for Chileans "September 18", a date that represents the beginning of something that all Chileans are proud of, our Freedom.
+I write this article from an impartial point of view, as a Chilean detached from political or social classes. I am someone who cannot be called either a fascist or a communist, I hope to express my opinions with respect, objectively, based on my personal experience and economic numbers, however at the end of this post, and after the analysis itself, I indicate which one is my alternative and I consider it better for Chile in the next Referendum on October 25th, respecting the winning option. This post was written on an important date for Chileans "September 18th", a date that represents the beginning of something that all Chileans are proud of, our Freedom.
 
 The article is divided into 6 points, and for easy reading it contains a list of arguments when it refers about improvements recommended, find a quiet 15 minutes to read it, which is also the estimated reading time:
 

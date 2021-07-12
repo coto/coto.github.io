@@ -16,7 +16,7 @@ Python, TypeScript, Physics, Maths, but mostly high-demand technology infrastruc
 
 ## SKILFULNESS
 
-- Product Managment and Lead for technical and non-technical teams.
+- Product and Project Managment and Lead for technical and non-technical teams.
 - Hardware and Software Quality assurance.
 - Hardware and Software Security.
 - Wireless Power Transfer Research. Physics and Maths Applications.
@@ -24,9 +24,9 @@ Python, TypeScript, Physics, Maths, but mostly high-demand technology infrastruc
 - API RESTful Services on Cloud Platforms.
 - [Develop with Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
 - [Develop PWA (Progressive Web Applications)](http://bit.ly/mob_apps_programming){:target="_blank"}.
-- [Integrations with Spreadsheets, Docs, Forms and many other services][quora_s]{:target="_blank"}.
+- [Automate tasks integrated with Spreadsheets, Docs, Forms and many other services][quora_s]{:target="_blank"}.
 - Database Modeling and Scripting in MySQL & MS-SQL.
-- Years of experience in UI/UX, CSS and HTML technologies.
+- Domani in UI/UX, CSS and HTML technologies.
 
 ## ACADEMIC BACKGROUNDS
 

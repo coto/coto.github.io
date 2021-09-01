@@ -70,11 +70,12 @@ Spanish, English, Portuguese (survival level).
 <hr>
 #### » CTO (2011 - 2017)
 
+- Budget and Projections for Projects.
 - Design and planning of Architecture and Systems for multi-layered banking applications.
-- Managed partnership with Google Cloud.
-- Improve customer experience.
-- Lead IT teams.
-- Lead Security and Software projects.
+- Created partnership with Google Cloud.
+- Created and Deploy projects from zero base.
+- Worked on customer experience.
+- Lead Teams in Security and Software projects.
 
 <hr>
 #### » Software Engineer (2010 - 2011)
@@ -84,18 +85,18 @@ Spanish, English, Portuguese (survival level).
 <hr>
 #### » Risk Analyst Engineer (2009 - 2010)
 
-- Build Operational risk control applications. SQL Stored Procedures.
+- Build Operational risk control applications and SQL Stored Procedures for an investment bank.
 
 <hr>
 #### » Software Engineer Mobile Platforms (2008 - 2009)
 
-- Build a JavaScript framework[^framework] for mobile applications development.
+- Build JavaScript framework[^framework] for mobile applications development.
 - Build OTP (authentication system) Application for a Chilean Bank.
 
 <hr>
 #### » Front End Developer (2001 - 2007)
 
-- Made the front end site for a multinational Bank.
+- Front end for a multinational Bank website.
 
 <hr>
 

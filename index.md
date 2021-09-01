@@ -8,9 +8,7 @@ If you would like to reach me, use this [Contact Form][contact]{:target="_blank"
 
 ### Who am I?
 
-Born in Atacama, Chile, King of my Freedom. Wanderlust. I am good in Physics, Maths, creating valuable technology applications with simple user interfaces and seeting up high-demand technology infrastructures. I understand from how the silicon entrails works (Hardware) to how the electrical signals circulates through their reils[^reils] (Software). I specialize in Wireless Power Transfer.
-
-My life project is creating [harmless wireless charging technologies][neahtid]{:target="_blank"}. I Enjoy meeting different cultures and traveling the world.
+Born in Atacama, Chile, King of my Freedom. Wanderlust. I am good in Physics, Maths, creating valuable technology applications with simple user interfaces and seeting up high-demand technology infrastructures. I understand from how the silicon entrails works (Hardware) to how the electrical signals circulates through their reils[^reils] (Software). My main interests are in Software and Hardware projects and to contribute to development of [harmless wireless charging industry][neahtid]{:target="_blank"}. I Enjoy traveling the world and meeting different cultures.
 
 Free of religions and Politics.
 

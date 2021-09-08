@@ -43,8 +43,6 @@ Spanish, English, Portuguese (survival level).
 
 ## EXPERIENCE
 
-<hr>
-
 ### "Hardware and Software Industry"
 
 #### » Founder & Investor (2016 - present)
@@ -53,7 +51,6 @@ Spanish, English, Portuguese (survival level).
 - Budgets & Financial Projections.
 - R&D Lead.
 
-<hr>
 
 ### "Software Industry"
 

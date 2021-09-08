@@ -62,6 +62,8 @@ Spanish, English, Portuguese (survival level).
 - Industrial and mining projects.
 - PWA technologies.
 
+<hr>
+
 #### » Senior Software Engineer  (2019)
 
 - Full Stack programming for Bank Industry, Database Stored Procedures in SQL, Restful API Services with C#, Web Applications with Angular.
@@ -102,8 +104,6 @@ Spanish, English, Portuguese (survival level).
 #### » Front End Developer (2001 - 2007)
 
 - Front end for a multinational Bank website.
-
-<hr>
 
 ### "Non-profit Activities"
 

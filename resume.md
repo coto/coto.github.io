@@ -22,11 +22,11 @@ Python, TypeScript, Physics, Maths, but mostly high-demand technology infrastruc
 - Wireless Power Transfer Research. Physics and Maths Applications.
 - Python, JavaScript/TypeScript programming.
 - API RESTful Services on Cloud Platforms.
-- [Develop with Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
-- [Develop PWA (Progressive Web Applications)](http://bit.ly/mob_apps_programming){:target="_blank"}.
-- [Automate tasks integrated with Spreadsheets, Docs, Forms and many other services][quora_s]{:target="_blank"}.
+- [Development with Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
+- [Development PWA (Progressive Web Applications)](http://bit.ly/mob_apps_programming){:target="_blank"}.
+- [Automated and Integrated Tasks coordinated with Spreadsheets, Docs, Forms and many other services][quora_s]{:target="_blank"}.
 - Database Modeling and Scripting in MySQL & MS-SQL.
-- Domani in UI/UX, CSS and HTML technologies.
+- Experience` in UI/UX, CSS and HTML technologies.
 
 ## ACADEMIC BACKGROUNDS
 
@@ -85,7 +85,7 @@ Spanish, English, Portuguese (survival level).
 <hr>
 #### » Risk Analyst Engineer (2009 - 2010)
 
-- Build Operational risk control applications and SQL Stored Procedures for an investment bank.
+- Build Operational risk control applications and SQL Stored Procedures for an Investment Bank.
 
 <hr>
 #### » Software Engineer Mobile Platforms (2008 - 2009)

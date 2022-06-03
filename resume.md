@@ -17,18 +17,18 @@ Python, TypeScript, Physics, Maths, and mostly high-demand technology infrastruc
 ## SKILFULNESS
 
 - Product and Project Managment.
-- Technical and non-technical Lead teams.
-- Hardware and Software Quality assurance.
 - Hardware and Software Security.
 - Wireless Power Transfer Research.
 - Physics and Maths R&D Applications.
-- Python, JavaScript/TypeScript programming.
+- Technical and non-technical Lead teams.
+- Hardware and Software Quality Assurance.
+- Python, JavaScript/TypeScript Programming.
+- MySQL & MS-SQL DBA, Database Modeling and Scripting.
 - Cloud Platforms (Data labeling and API RESTful Services).
+- [High Demand Automated and Integrated Tasks coordinated][quora_s]{:target="_blank"}.
 - [Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
 - [PWA (Progressive Web Applications)](http://bit.ly/mob_apps_programming){:target="_blank"}.
-- [High Demand Automated and Integrated Tasks coordinated][quora_s]{:target="_blank"}.
-- MySQL & MS-SQL DBA, Database Modeling and Scripting.
-- overall, a very good taste in UI/UX, CSS and HTML technologies.
+- and, a very good taste in UI/UX, CSS and HTML technologies.
 
 ## ACADEMIC BACKGROUNDS
 

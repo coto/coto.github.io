@@ -12,21 +12,23 @@ permalink: /resume/
 <div style="clear: both;">
 </div>
 <img src="/assets/coto.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Hardware and Software Engineer, Diploma in Finance and Investments. I have work on different kind of technological projects. I like to translate non-technical into technical language and vice verza.
-Python, TypeScript, Physics, Maths, but mostly high-demand technology infrastructures with simple user interfaces.
+Python, TypeScript, Physics, Maths, and mostly high-demand technology infrastructures with simple user interfaces.
 
 ## SKILFULNESS
 
-- Product and Project Managment/Lead for technical and non-technical teams.
+- Product and Project Managment.
+- Technical and non-technical Lead teams.
 - Hardware and Software Quality assurance.
 - Hardware and Software Security.
-- Wireless Power Transfer Research with Physics and Maths Applications.
+- Wireless Power Transfer Research.
+- Physics and Maths R&D Applications.
 - Python, JavaScript/TypeScript programming.
 - Cloud Platforms (Data labeling and API RESTful Services).
-- [Development with Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
-- [Development PWA (Progressive Web Applications)](http://bit.ly/mob_apps_programming){:target="_blank"}.
-- [Automated and Integrated Tasks coordinated with Spreadsheets, Docs, Forms and many other services][quora_s]{:target="_blank"}.
-- Database Modeling and Scripting for MySQL & MS-SQL.
-- Experience in UI/UX, CSS and HTML technologies.
+- [Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
+- [PWA (Progressive Web Applications)](http://bit.ly/mob_apps_programming){:target="_blank"}.
+- [High Demand Automated and Integrated Tasks coordinated][quora_s]{:target="_blank"}.
+- MySQL & MS-SQL DBA, Database Modeling and Scripting.
+- overall, a very good taste in UI/UX, CSS and HTML technologies.
 
 ## ACADEMIC BACKGROUNDS
 
@@ -109,7 +111,7 @@ Spanish, English, Portuguese (survival level).
 - Creator and Co-Organizer of StarTechConf, a Software Developer Conference with around a thousand attendees and 3 editions (2011, 2013 and 2015), interesting speakers from companies like Github, Google, Apple, Microsoft, among others. Non-profit project that provided me expirience managing budgets, timelines and team organization.
 - After 2015 edition, I quit the organization, transfered the rights to third parties, and it was renamed to www.starsconf.com.
 
-[^framework]: The structure of an application.
+[^framework]: Structure of an application.
 
 [usach]: http://www.usach.cl
 [usm]: http://www.utfsm.cl

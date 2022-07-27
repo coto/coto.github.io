@@ -1,15 +1,16 @@
 ---
 layout: post
 title:  "Guía para evitar el Spam (Correo No Deseado)"
-comments: true
+comments: false
 date:   2018-08-22 14:17:20 -0300
 categories: coto blog recommendations
 lang: esp
 tags: mailchimp spam guia
 author: "Coto"
 ---
-<h2>Los filtros de spam de los proveedores de correo hacen su trabajo, y se espera que continuamente mejoren, del mismo modo spamers mejorarán sus prácticas. Las siguientes recomendaciones ayudarán a disminuir el spam en tu correo.
-<h2>
+<h3>
+Los filtros de spam de los proveedores de correo hacen su trabajo, y se espera que continuamente mejoren, pero al mismo tiempo los spamers mejorarán sus prácticas. Las siguientes recomendaciones ayudarán a disminuir el spam en tu correo, y dado a que corresponden a hábitos recurrentes, espero te servirán por siempre.
+</h3>
 
 Es esperable que proveedores de correo electrónico, tales como gmail, hotmail, zoho, entre otros, ofrezcan servicios para protegerte del spam, pero no son suficientes considerando que al mismo tiempo, los spamers mejoran sus prácticas. El punto final **at eternum** corresponde a integrar el hábito de las siguientes prácticas:
 

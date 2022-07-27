@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "5 relojes inteligentes que ya puedes comprar"
-comments: true
+comments: false
 date:   2014-10-15 17:51:00 -0300
 categories: coto blog smartwatch 
 lang: esp

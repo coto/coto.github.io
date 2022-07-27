@@ -23,7 +23,7 @@ Es esperable que proveedores de correo electrónico, tales como gmail, hotmail, 
 		<b>Utiliza el <a target="_blank" href="https://support.google.com/mail/answer/1366858?co=GENIE.Platform%3DiOS&hl=es" target="_blank">Report Spam</a> o <a target="_blank" href="https://support.google.com/mail/answer/8253?hl=es" target="_blank">Report Phishing</a> propio del lector de correo</b> (e.g Gmail, Office, etc) para eliminar estos mensajes. En otras palabras, **nunca te des-subscribas de un email no deseado haciendo click en algún link dentro del email**, ya que un buen spamer registrará ese click para validar que el email existe, por lo tanto, sólo utiliza el botón marcar como Spam o Phishing del lector de correo.
 	</li>
 	<li>
-		<b>No carges las imágenes de los emails</b>. Al cargar las imágenes de un correo electrónico, notificas al spammer que el correo fue leído. Herramientas de "Spam" como Mailchimp, Hubspot, entre otras, utilizan esta técnica, en algunos casos cargando sólo imágenes invisbles para este propósito.
+		<b>No carges las imágenes de los emails</b>. Al cargar las imágenes de un correo electrónico, notificas al spammer que el correo fue leído. Herramientas que realizan "envíos masivos de emails" como Mailchimp, Hubspot, entre otras, utilizan esta técnica, en algunos casos cargando sólo imágenes invisbles cuyo propósito es sólo notificar que has recibido y visto el email.
 	</li>
 </ol>
 

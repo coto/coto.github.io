@@ -11,7 +11,7 @@ permalink: /resume/
 <a href="/assets/resume-rodrigo-augosto-es.pdf" style="float: right; margin-right: 10px;" target="_blank"><img src="/assets/download-pdf-file-button.gif">Español PDF</a-->
 <div style="clear: both;">
 </div>
-<img src="/assets/coto.jpg" width="160" height="160" style="float: left; margin-right: 15px;"/> Hardware and Software Engineer, Diploma in Finance and Investments. I have work on different kind of technological projects. I like to translate non-technical into technical language and vice verza.
+<img src="/assets/coto.jpg" alt="Coto" width="160" height="160" style="float: left; margin-right: 15px;"/> Hardware and Software Engineer, Diploma in Finance and Investments. I have work on different kind of technological projects. I like to translate non-technical into technical language and vice verza.
 Python, TypeScript, Physics, Maths, and mostly high-demand technology infrastructures with simple user interfaces.
 
 ## SKILFULNESS

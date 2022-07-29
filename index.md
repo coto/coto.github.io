@@ -2,7 +2,7 @@
 layout: home
 ---
 
-<img src="/assets/coto.jpg" width="120" height="120" style="float: left; margin-right: 15px;"/> Hey, I'm Coto (Rodrigo Augosto Cancino). This is my personal site, it includes [Blog Posts of Free Topics][blog]{:target="_blank"} with undetermined update frequency. All the content is my own and has no relation to third parties.
+<img src="/assets/coto.jpg" alt="Coto" width="120" height="120" style="float: left; margin-right: 15px;"/> Hey, I'm Coto (Rodrigo Augosto Cancino). This is my personal site, it includes [Blog Posts of Free Topics][blog]{:target="_blank"} with undetermined update frequency. All the content is my own and has no relation to third parties.
 
 If you would like to reach me, use this [Contact Form][contact]{:target="_blank"}. In case you would mind to encrypt the information, please use [this Key][pgp_key]{:target="_blank"}.
 

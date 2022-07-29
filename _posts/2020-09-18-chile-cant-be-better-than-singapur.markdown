@@ -112,7 +112,7 @@ After the previous analysis and when verifying that this constitutional change i
 
 1. <b> Understand the importance of going to vote. </b> Why do you think a politician like to do a Referendum in a pandemic? They do not want too many people vote, nor that older adults vote.
 
-    <img src="/assets/posts/referendum-venezuela-1999.png">
+    <img src="/assets/posts/referendum-venezuela-1999.png" alt="referendum venezuela 1999">
 
 2. <b> Go to Vote well protected and in calm. </b> If possible use gloves, your own pencil and face shield in addition to the mandatory mask, do not touch your face, Keep your distance from others and use your alcohol gel or alcohol-water spray before, during and after. When you return home, remember to disinfect the soles of your shoes, clothes, and hands.
 

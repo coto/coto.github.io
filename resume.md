@@ -20,7 +20,7 @@ Python, TypeScript, Physics, Maths, and mostly high-demand technology infrastruc
 - Hardware and Software Security.
 - Wireless Power Transfer Research.
 - Physics and Maths R&D Applications.
-- Technical and non-technical Lead teams.
+- Lead Technical and non-technical teams.
 - Hardware and Software Quality Assurance.
 - Python, JavaScript/TypeScript Programming.
 - MySQL & MS-SQL DBA, Database Modeling and Scripting.
@@ -51,7 +51,7 @@ Spanish, English, Portuguese (survival level).
 
 - Research and Development (Engineers, Docs and Postdocs).
 - Budgets & Financial Projections.
-- R&D Lead.
+- Lead R&D Team.
 
 
 ### "Software Industry"
@@ -81,7 +81,7 @@ Spanish, English, Portuguese (survival level).
 - Created partnership with Google Cloud.
 - Created and Deploy projects from zero base.
 - Worked on customer experience.
-- Lead Teams in Security and Software projects.
+- Lead Software Security projects.
 
 <hr>
 #### » Software Engineer (2010 - 2011)

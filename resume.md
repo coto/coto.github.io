@@ -106,10 +106,17 @@ Spanish, English, Portuguese (survival level).
 
 ### "Non-profit Activities"
 
-#### » Software Developer Conference (www.startechconf.com) (2011, 2013 and 2015)
+#### » Software Developer Conference
 
-- Creator and Co-Organizer of StarTechConf, a Software Developer Conference with around a thousand attendees and 3 editions (2011, 2013 and 2015), interesting speakers from companies like Github, Google, Apple, Microsoft, among others. Non-profit project that provided me expirience managing budgets, timelines and team organization.
-- After 2015 edition, I quit the organization, transfered the rights to third parties, and it was renamed to www.starsconf.com.
+| **venue** | Federico Santa Maria University, Campus San Joaquin Santiago, Chile. |
+| **original domain** | www.startechconf.com |
+| **editions involved** | 2011, 2013 and 2015. |
+
+
+- Creator and Co-Organizer of StarTechConf, a Software Developer Conference with around a thousand attendees on its 3 first editions (2011, 2013 and 2015).
+- Interesting speakers from Google, founders of Github, Apple, Microsoft, among others.
+- After 2015 edition, I transfered for free the rights to third parties, and they renamed to www.starsconf.com.
+- Interesting expirience got from a Non-profit project with bigger than ussal  budgets, timelines and team organization.
 
 [^framework]: Structure of an application.
 

@@ -11,12 +11,9 @@ permalink: /resume/
 <a href="/assets/resume-rodrigo-augosto-es.pdf" style="float: right; margin-right: 10px;" target="_blank"><img src="/assets/download-pdf-file-button.gif">Español PDF</a-->
 <div style="clear: both;">
 </div>
-<img src="/assets/coto.jpg" alt="Coto" width="160" height="160" style="float: left; margin-right: 15px;"/> Projects and Product Manager, Creative Software and Hardware Engineer,  Diploma in Finance and Investments. Python, TypeScript, Physics & Maths Research and Develop. Builder for high-demand technology Cloud infrastructures with simple UX/UI.
+<img src="/assets/coto.jpg" alt="Coto" width="160" height="160" style="float: left; margin-right: 15px;"/> Projects and Product Manager, Creative Software and Hardware Engineer, Diploma in Finance and Investments. 
 
-Passionate Team Leader and full stack development for different kind of technological project, tackle new challenges and stay up to date on industry trend, technology and security. 
-
-Translator non-technical into technical language and vice versa.
-
+Passionate Team Leader and full stack development for different kind of technological projects. Python, TypeScript, Physics & Maths Research and Develop. Builder for high-demand Cloud infrastructures (Azure, GCP) with good taste and experience in UX/UI.
 
 
 

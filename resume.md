@@ -76,7 +76,7 @@ Spanish, English, Portuguese (survival level).
 
 #### » Open Source - Linux Fundation (2018 - 2019)
 
-- Regular Expresions Project migrating [Fluentd Documentation][fluentd]{:target="_blank"}, an open source data collector of Linux Fundation and graduated project of Cloud Native Computing Foundation (CNCF).
+- Regular Expressions Project migrating [Fluentd Documentation][fluentd]{:target="_blank"}, an open source data collector of Linux Foundation and graduated project of Cloud Native Computing Foundation (CNCF).
 
 <hr>
 #### » CTO (2011 - 2017)

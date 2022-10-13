@@ -11,24 +11,23 @@ permalink: /resume/
 <a href="/assets/resume-rodrigo-augosto-es.pdf" style="float: right; margin-right: 10px;" target="_blank"><img src="/assets/download-pdf-file-button.gif">Español PDF</a-->
 <div style="clear: both;">
 </div>
-<img src="/assets/coto.jpg" alt="Coto" width="160" height="160" style="float: left; margin-right: 15px;"/> Hardware and Software Engineer, Diploma in Finance and Investments. I have work on different kind of technological projects. I like to translate non-technical into technical language and vice verza.
-Python, TypeScript, Physics, Maths, and mostly high-demand technology infrastructures with simple user interfaces.
+<img src="/assets/coto.jpg" alt="Coto" width="160" height="160" style="float: left; margin-right: 15px;"/> Hardware and Software Engineer, Diploma in Finance and Investments. I have worked on different kind of technological projects. I like to translate non-technical into technical language and vice verza.
+Python, TypeScript, Physics & Maths Research, and build high-demand technology infrastructures with simple user interfaces.
 
 ## SKILFULNESS
 
-- Cloud Platforms (Data labeling and API RESTful Services).
-- Hardware and Software Security.
-- [Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
-- Hardware and Software Quality Assurance.
-- [High Demand Automated Applications][quora_s]{:target="_blank"}.
+- Product and Project Managment.
 - Lead Technical and non-technical teams.
+- Cloud Platforms (Data labeling and API RESTful Services).
+- Hardware and Software Security and Quality Assurance.
+- [Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
+- [High Demand Automated Applications][quora_s]{:target="_blank"}.
 - MySQL & MS-SQL DBA, Database Modeling and Data Scripting.
 - Physics and Maths R&D Applications.
-- Product and Project Managment.
 - [PWA (Progressive Web Applications)](http://bit.ly/mob_apps_programming){:target="_blank"}.
 - Python, JavaScript/TypeScript Programming.
 - Wireless Power Transfer R&D.
-- and, good taste in UI/UX, with expirience in SASS/CSS and HTML technologies.
+- and, good taste in UI/UX, and long expirience in SASS/CSS and HTML technologies.
 
 ## ACADEMIC BACKGROUNDS
 
@@ -56,10 +55,13 @@ Spanish, English, Portuguese (survival level).
 
 ### "Software Industry"
 
-#### » Software and Hardware Development Consulting (2020 - present)
+#### » Software and Hardware Engineering Manager Consulting (2020 - present)
 
-- Industrial and mining projects.
-- PWA technologies.
+- Research and Development for PWA technologies.
+- Plan, manage and monitoring team work.
+- Strategic planning for Industrial and mining projects.
+- Communication with PO Lead about strategic business planning.
+- Communicate channel between directors strategy and technical team.
 
 <hr>
 

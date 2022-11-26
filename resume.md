@@ -22,10 +22,9 @@ Proven success developing and launching high-demand infrastructures for Banks an
 - <b>Lead Technical and Non-Technical</b> Teams / <b>Product and Project</b> Management.
 - Long experience with <b>SQL, MySQL</b> and <b>noSQL databases</b> (Redis, MongoDB, Firestore).
 - Deploy high-demand infrastructures in <b>Azure</b> and <b>Google Cloud</b> Platforms with <b>Docker and Kubernetes</b>.
-- Experience developing <b>PWA and API RESTful</b> Services for <b>Bank and Mining</b> industries.
+- Experience developing <b>PWA, Blockchain and API RESTful</b> Services for <b>Bank and Mining</b> industries.
 - <b>Hardware manufacturing</b> and <b>Software development</b> for Science, Physics & Maths Applications.
 - Hardware and Software Security and Quality Assurance.
-- Development with <b>Blockchain</b> Technologies.
 - <b>UI/UX</b> skills and long experience in <b>SASS/CSS and HTML</b> technologies.
 - Collaborate in the creation and maintenance of <b>pleasant work environments</b>.
 

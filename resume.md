@@ -4,7 +4,7 @@ layout: page
 permalink: /resume/
 ---
 
-### Rodrigo Augosto Cancino
+### Rodrigo "Coto" Augosto Cancino
 
 <!--a href="/assets/resume-rodrigo-augosto-en.pdf" style="float: right;" target="_blank"><img src="/assets/download-pdf-file-button.gif">English PDF</a>
 
@@ -43,13 +43,13 @@ Proven success developing and launching high-demand infrastructures for Banks an
 | 1995 – 1998 | [Diego de Almeida High School][lda]{:target="_blank"} <br> Graduated as Computer Programmer |
 {:.mbtablestyle}
 
-## LANGUAGES
+## Language Skills
 
 - <b>English</b> - Fluent Proficiency
 - <b>Portuguese</b> - Professional Proficiency 
 - <b>Spanish</b> - Native
 
-## EXPERIENCE
+## Experience
 
 ### "Hardware and Software Industry"
 
@@ -70,13 +70,11 @@ Proven success developing and launching high-demand infrastructures for Banks an
 - Communicate channel between directors strategy and technical team.
 
 <hr>
-
 #### » Senior Software Engineer  (2019)
 
 - Full Stack programming for Bank Industry, Database Stored Procedures in SQL, Restful API Services with C#, Web Applications with Angular.
 
 <hr>
-
 #### » Open Source - Linux Fundation (2018 - 2019)
 
 - Regular Expressions Project migrating [Fluentd Documentation][fluentd]{:target="_blank"}, an open source data collector of Linux Foundation and graduated project of Cloud Native Computing Foundation (CNCF).

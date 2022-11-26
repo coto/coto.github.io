@@ -19,7 +19,7 @@ Proven success developing and launching high-demand infrastructures for Banks an
 ## Competences
 
 - Skilled programming with <b>Python, JavaScript/TypeScript</b> (Angular, Vue.js, jQuery).
-- <b>Lead Technical and Non-Technical</b> Teams / <b>Product and Project</b> Management.
+- <strong>Lead Technical and Non-Technical</strong> Teams / <b>Product and Project</b> Management.
 - Long experience with <b>SQL, MySQL</b> and <b>noSQL databases</b> (Redis, MongoDB, Firestore).
 - Deploy high-demand infrastructures in <b>Azure</b> and <b>Google Cloud</b> Platforms with <b>Docker and Kubernetes</b>.
 - Experience developing <b>PWA, Blockchain and API RESTful</b> Services for <b>Bank and Mining</b> industries.

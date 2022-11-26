@@ -14,7 +14,7 @@ permalink: /resume/
 <img src="/assets/coto.jpg" alt="Coto" width="160" height="160" style="float: left; margin-right: 15px;"/>
 Projects and Product Manager, Creative Software and Hardware Engineer, Diploma in Finance and Investments. 
 
-Proven success developing and launching high-demand infrastructures for Banks and Mining industry. Technical expertise developing software and manufacturing hardware. Business development and strategic planning. Long experience working with Python, JavaScript, PWA and leading technical and non-technical teams. 
+Proven success developing and launching high-demand infrastructures for Banks and Mining industry. Business development and strategic planning. Long experience working with Python, JavaScript, PWA and leading technical and non-technical teams. 
 
 ## Competences
 
@@ -26,13 +26,13 @@ Proven success developing and launching high-demand infrastructures for Banks an
 - <b>Hardware manufacturing</b> and <b>Software development</b> for Science, Physics & Maths Applications.
 - Hardware and Software Security and Quality Assurance.
 - Development with <b>Blockchain</b> Technologies.
-- <b>Wireless Power Transfer</b> Research and Development.
 - <b>UI/UX</b> skills and long experience in <b>SASS/CSS and HTML</b> technologies.
 - Collaborate in the creation and maintenance of <b>pleasant work environments</b>.
 
 ## Skills
-
+<p style="text-align: center;">
  ⧫ Product and Team Manager  ⧫ Full Web Engineer (PWA, Python, JavaScript, HTML & CSS)  ⧫ Cyber Security  ⧫ Cloud Infrastructure Architect  ⧫ ML & AI  ⧫ SQL & NonSQL  ⧫ Docker  ⧫ Microcontrollers development  ⧫ UX & UI ⧫
+</p>
 
 
 ## Academic Background

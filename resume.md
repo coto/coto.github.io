@@ -45,7 +45,9 @@ Proven success developing and launching high-demand infrastructures for Banks an
 
 ## LANGUAGES
 
-Spanish, English, Portuguese (survival level).
+- <b>English</b> - Fluent Proficiency
+- <b>Portuguese</b> - Professional Proficiency 
+- <b>Spanish</b> - Native
 
 ## EXPERIENCE
 
@@ -56,7 +58,6 @@ Spanish, English, Portuguese (survival level).
 - Research and Development (Engineers, Docs and Postdocs).
 - Budgets & Financial Projections.
 - Lead R&D Team.
-
 
 ### "Software Industry"
 

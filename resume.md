@@ -11,28 +11,31 @@ permalink: /resume/
 <a href="/assets/resume-rodrigo-augosto-es.pdf" style="float: right; margin-right: 10px;" target="_blank"><img src="/assets/download-pdf-file-button.gif">Español PDF</a-->
 <div style="clear: both;">
 </div>
-<img src="/assets/coto.jpg" alt="Coto" width="160" height="160" style="float: left; margin-right: 15px;"/> Projects and Product Manager, Creative Software and Hardware Engineer, Diploma in Finance and Investments. 
+<img src="/assets/coto.jpg" alt="Coto" width="160" height="160" style="float: left; margin-right: 15px;"/>
+Projects and Product Manager, Creative Software and Hardware Engineer, Diploma in Finance and Investments. 
 
-Passionate Team Leader and full stack development for different kind of technological projects. Python, TypeScript, Physics & Maths Research and Develop. Builder for high-demand Cloud infrastructures (Azure, GCP) with good taste and experience in UX/UI.
+Proven success developing and launching high-demand infrastructures for Banks and Mining industry. Technical expertise developing software and manufacturing hardware. Business development and strategic planning. Long experience working with Python, JavaScript, PWA and leading technical and non-technical teams. 
 
+## Competences
 
-
-## SKILFULNESS
-
-- Product and Project Managment.
-- Lead Technical and non-technical teams.
-- Cloud Platforms (Data labeling and API RESTful Services).
+- Skilled programming with <b>Python, JavaScript/TypeScript</b> (Angular, Vue.js, jQuery).
+- <b>Lead Technical and Non-Technical</b> Teams / <b>Product and Project</b> Management.
+- Long experience with <b>SQL, MySQL</b> and <b>noSQL databases</b> (Redis, MongoDB, Firestore).
+- Deploy high-demand infrastructures in <b>Azure</b> and <b>Google Cloud</b> Platforms with <b>Docker and Kubernetes</b>.
+- Experience developing <b>PWA and API RESTful</b> Services for <b>Bank and Mining</b> industries.
+- <b>Hardware manufacturing</b> and <b>Software development</b> for Science, Physics & Maths Applications.
 - Hardware and Software Security and Quality Assurance.
-- [Blockchain Technologies](http://bit.ly/cryptocurrency_programming){:target="_blank"}.
-- [High Demand Automated Applications][quora_s]{:target="_blank"}.
-- MySQL & MS-SQL DBA, Database Modeling and Data Scripting.
-- Physics and Maths R&D Applications.
-- [PWA (Progressive Web Applications)](http://bit.ly/mob_apps_programming){:target="_blank"}.
-- Python, JavaScript/TypeScript Programming.
-- Wireless Power Transfer R&D.
-- and, good taste in UI/UX, and long expirience in SASS/CSS and HTML technologies.
+- Development with <b>Blockchain</b> Technologies.
+- <b>Wireless Power Transfer</b> Research and Development.
+- <b>UI/UX</b> skills and long experience in <b>SASS/CSS and HTML</b> technologies.
+- Collaborate in the creation and maintenance of <b>pleasant work environments</b>.
 
-## ACADEMIC BACKGROUNDS
+## Skills
+
+ ⧫ Product and Team Manager  ⧫ Full Web Engineer (PWA, Python, JavaScript, HTML & CSS)  ⧫ Cyber Security  ⧫ Cloud Infrastructure Architect  ⧫ ML & AI  ⧫ SQL & NonSQL  ⧫ Docker  ⧫ Microcontrollers development  ⧫ UX & UI ⧫
+
+
+## Academic Background
 
 | 2014 – 2014 | **[Universidad de Chile][fen]**  <br> Finance and Investing Diploma |
 | 2009 – 2010 | [Santiago University Chile][usach]{:target="_blank"} <br> Graduated as Bachelor of Computer Science |

@@ -53,7 +53,7 @@ plugins:
 #permalink: /:categories/:year/:month/:day/:title:output_ext
 
 
-google_analytics: "G-KC2TEZ1BCC"
+google_analytics: "G-D74ZJTZ21V"
 ga4: "353152933"
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

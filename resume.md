@@ -14,7 +14,7 @@ permalink: /resume/
 <img src="/assets/coto.jpg" alt="Coto" width="160" height="160" style="float: left; margin-right: 15px;"/>
 Researcher, Software and Hardware Engineer, Projects and Product Manager, Diploma in Finance and Investments. 
 
-Long experience developing with Python, JavaScript and launching high-demand infrastructures for Banks and Mining industry. Business development and strategic planning. Leading technical and non-technical teams. 
+Long experience Leading technical and non-technical teams, programming with Python, JavaScript, and deploying high-demand cloud infrastructures for Banks and Mining industry. Business development and strategic planning. 
 
 ## Competences
 

@@ -12,9 +12,9 @@ permalink: /resume/
 <div style="clear: both;">
 </div>
 <img src="/assets/coto.jpg" alt="Coto" width="160" height="160" style="float: left; margin-right: 15px;"/>
-Projects and Product Manager, Creative Software and Hardware Engineer, Diploma in Finance and Investments. 
+Researcher, Software and Hardware Engineer, Projects and Product Manager, Diploma in Finance and Investments. 
 
-Proven success developing and launching high-demand infrastructures for Banks and Mining industry. Business development and strategic planning. Long experience working with Python, JavaScript, PWA and leading technical and non-technical teams. 
+Long experience developing with Python, JavaScript and launching high-demand infrastructures for Banks and Mining industry. Business development and strategic planning. Leading technical and non-technical teams. 
 
 ## Competences
 
@@ -30,7 +30,7 @@ Proven success developing and launching high-demand infrastructures for Banks an
 
 ## Skills
 <p style="text-align: center;">
- ⧫ Product and Team Manager  ⧫ Full Web Engineer (PWA, Python, JavaScript, HTML & CSS)  ⧫ Cyber Security  ⧫ Cloud Infrastructure Architect  ⧫ ML & AI  ⧫ SQL & NonSQL  ⧫ Docker  ⧫ Microcontrollers development  ⧫ UX & UI ⧫
+⧫ ML & AI ⧫ Research  ⧫ Full Web Engineer (PWA, Python, JavaScript, HTML & CSS) ⧫ Product and Team Manager  ⧫ Cyber Security  ⧫ Cloud Infrastructure Architect   ⧫ SQL & NonSQL  ⧫ Docker  ⧫ Microcontrollers development  ⧫ RESTful APIs ⧫
 </p>
 
 
@@ -55,9 +55,10 @@ Proven success developing and launching high-demand infrastructures for Banks an
 
 #### » Founder & Investor (2016 - present)
 
-- Research and Development (Engineers, Docs and Postdocs).
+- Lead Research and Development team (Engineers, Docs and Postdocs).
 - Budgets & Financial Projections.
-- Lead R&D Team.
+- Plan, manage and monitoring team milestones.
+- PWA developing (Python, mySQL, Docker, advanced JavaScript).
 
 ### "Software Industry"
 

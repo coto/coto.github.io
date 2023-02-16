@@ -12,25 +12,24 @@ permalink: /resume/
 <div style="clear: both;">
 </div>
 <img src="/assets/coto.jpg" alt="Coto" width="160" height="160" style="float: left; margin-right: 15px;"/>
-Researcher, Software and Hardware Engineer, Projects and Product Manager, Diploma in Finance and Investments. 
+Researcher, Software and Hardware Engineer, Diploma in Finance and Investments. Business development and strategic planning.
 
-Long experience Leading technical and non-technical teams, programming with Python, JavaScript, and deploying high-demand cloud infrastructures for Banks and Mining industry. Business development and strategic planning. 
+I have managed critical technology projects, led technical and non-technical teams, and deployed high-demand infrastructures in the cloud for the Banking and Mining industries. My native programming languages are Python and JavaScript. I have managed SQL, noSQL, spreadsheets among other types of databases. 
 
 ## Competences
 
-- Skilled programming with <b>Python, JavaScript/TypeScript</b> (Angular, Vue.js, jQuery).
-- <strong>Lead Technical and Non-Technical</strong> Teams / <b>Product and Project</b> Management.
-- Long experience with <b>SQL, MySQL</b> and <b>noSQL databases</b> (Redis, MongoDB, Firestore).
-- Deploy high-demand infrastructures in <b>Azure</b> and <b>Google Cloud</b> Platforms with <b>Docker and Kubernetes</b>.
-- Experience developing <b>PWA, Blockchain and API RESTful</b> Services for <b>Bank and Mining</b> industries.
-- <b>Hardware manufacturing</b> and <b>Software development</b> for Science, Physics & Maths Applications.
-- Hardware and Software Security and Quality Assurance.
-- <b>UI/UX</b> skills and long experience in <b>SASS/CSS and HTML</b> technologies.
-- Collaborate in the creation and maintenance of <b>pleasant work environments</b>.
+- Advanced programming with **Python, JavaScript/TypeScript** (Angular, Vue.js, jQuery).
+- Long experience with **SQL, MySQL and noSQL** databases (Redis, MongoDB, Firestore).
+- Lead Technical and Non-Technical **Teams** / Product and Project **Management**.
+- Frontend development with **UI/UX** skills and long experience in **SASS/CSS and HTML** technologies.
+- Skilled device integrations with **API RESTful, HTML5 APIs** and Progressive Web Applications (**PWA**).
+- Deploy high-demand cloud containers (**Docker**) in **Azure** and **Google Cloud** Platforms.
+- **Science research** with **Hardware manufacturing** and **Software applications**.
+- **Quality Assurance** for Hardware and Software projects.
 
 ## Skills
 <p style="text-align: center;">
-⧫ ML & AI ⧫ Research  ⧫ Full Web Engineer (PWA, Python, JavaScript, HTML & CSS) ⧫ Product and Team Manager  ⧫ Cyber Security  ⧫ Cloud Infrastructure Architect   ⧫ SQL & NonSQL  ⧫ Docker  ⧫ Microcontrollers development  ⧫ RESTful APIs ⧫
+⧫ AI  Researcher  ⧫ Full Web Engineer (PWA, Python, JavaScript, HTML & CSS) ⧫ Product and Team Manager  ⧫ Cyber Security  ⧫ Cloud Container Infrastructure Architect   ⧫ SQL & NonSQL  ⧫ Docker  ⧫  UX/UI  ⧫ RESTful APIs ⧫
 </p>
 
 
@@ -45,9 +44,9 @@ Long experience Leading technical and non-technical teams, programming with Pyth
 
 ## Language Skills
 
-- <b>English</b> - Fluent Proficiency
-- <b>Portuguese</b> - Professional Proficiency 
-- <b>Spanish</b> - Native
+- <b>English</b> - Fluent Proficiency (C2)
+- <b>Portuguese</b> - Professional Proficiency (B1)
+- <b>Spanish</b> - Native (C2)
 
 ## Experience
 

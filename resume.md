@@ -14,7 +14,7 @@ permalink: /resume/
 <img src="/assets/coto.jpg" alt="Coto" width="160" height="160" style="float: left; margin-right: 15px;"/>
 Researcher, Software and Hardware Engineer, Diploma in Finance and Investments. Business development and strategic planning.
 
-I have managed critical technology projects, led technical and non-technical teams, and deployed high-demand infrastructures in the cloud for the Banking and Mining industries. My native programming languages are Python and JavaScript. I have managed SQL, noSQL, spreadsheets among other types of databases. 
+I have managed critical technology projects, led technical and non-technical teams, and deployed high-demand infrastructures into the cloud for Banking and Mining industries. My native programming languages are Python and JavaScript with several SQL, noSQL databases. My best position is coordinating technical and non-technical teams. 
 
 ## Competences
 

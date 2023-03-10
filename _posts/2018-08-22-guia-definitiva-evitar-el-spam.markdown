@@ -9,7 +9,7 @@ tags: mailchimp spam guia
 author: "Coto"
 ---
 <h3>
-Los filtros de spam de los proveedores de correo hacen su trabajo, y se espera que continuamente mejoren, pero al mismo tiempo los spamers mejorarán sus prácticas. Las siguientes recomendaciones ayudarán a disminuir el spam en tu correo, y dado a que corresponden a hábitos recurrentes, espero te servirán por siempre.
+Los filtros de spam de los proveedores de correo hacen su trabajo, y se espera que continuamente mejoren. Al mismo tiempo los spamers mejorarán sus prácticas. Las siguientes recomendaciones ayudarán a disminuir el spam en tu correo, y dado a que corresponden a hábitos recurrentes, espero te sirvan por siempre.
 </h3>
 
 Es esperable que proveedores de correo electrónico, tales como gmail, hotmail, zoho, entre otros, ofrezcan servicios para protegerte del spam, pero no son suficientes considerando que al mismo tiempo, los spamers mejoran sus prácticas. El punto final **at eternum** corresponde a integrar el hábito de las siguientes prácticas:
@@ -18,13 +18,13 @@ Es esperable que proveedores de correo electrónico, tales como gmail, hotmail, 
 <ol>
 	<li>
 		<b>Utiliza cuentas alias alternativos.</b> Si tu proveedor de correo te permite crear alias de correo para los usuarios y eres el admin, puedes crear y eliminar alias de correo, los cuales son correos que llegan a la bandeja principal, mientras que el remitente solo conoce ese alias. Utiliza los <b>alias de correo</b> para registrarte en sitios nuevos o sospechosos. 
-		La regla importante es <b>eliminar y crear alias periódicamente</b>.
+		La regla importante es <b>eliminar y crear nuevos alias periódicamente</b>.
 	</li>
 	<li>
 		<b>Utiliza el <a target="_blank" href="https://support.google.com/mail/answer/1366858?co=GENIE.Platform%3DiOS&hl=es" target="_blank">Report Spam</a> o <a target="_blank" href="https://support.google.com/mail/answer/8253?hl=es" target="_blank">Report Phishing</a> propio del lector de correo</b> (e.g Gmail, Office, etc) para eliminar estos mensajes. En otras palabras, **nunca te des-subscribas de un email no deseado haciendo click en algún link dentro del email**, ya que un buen spamer registrará ese click para validar que el email existe, por lo tanto, sólo utiliza el botón marcar como Spam o Phishing del lector de correo.
 	</li>
 	<li>
-		<b>No carges las imágenes de los emails</b>. Al cargar las imágenes de un correo electrónico, notificas al spammer que el correo fue leído. Herramientas que realizan "envíos masivos de emails" como Mailchimp, Hubspot, entre otras, utilizan esta técnica, en algunos casos cargando sólo imágenes invisbles cuyo propósito es sólo notificar que has recibido y visto el email.
+		<b>No carges las imágenes de los emails</b>. Al cargar las imágenes de un correo electrónico, notificas al spammer que el correo fue leído. Herramientas que realizan "envíos masivos de emails" utilizan esta técnica, en algunos casos cargando sólo imágenes invisbles cuyo único propósito es notificar al emisor que tu has recibido y mirado el email.
 	</li>
 </ol>
 

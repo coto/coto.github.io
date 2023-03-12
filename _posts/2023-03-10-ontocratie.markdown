@@ -4,7 +4,7 @@ title:  "Ontocratie"
 comments: false
 date:   2023-03-10 12:35:35 -0300
 categories: coto blog society  
-lang: esp
+lang: fra
 tags: système 
 author: "Coto"
 ---

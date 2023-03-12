@@ -8,9 +8,8 @@ lang: esp
 tags: sistema 
 author: "Coto"
 ---
-# Ontocracia
 
-Spanish | <a href="/coto/blog/society/2023/03/10/ontocracia.html">English</a>
+[Español](https://www.beecoss.com/coto/blog/society/2023/03/10/ontocracy.html) | [Inglés](https://www-beecoss-com.translate.goog/coto/blog/society/2023/03/10/ontocracy.html?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) | [Frances](https://www-beecoss-com.translate.goog/coto/blog/society/2023/03/10/ontocracy.html?_x_tr_sl=es&_x_tr_tl=fr&_x_tr_hl=fr&_x_tr_pto=wapp)
 
 ## Abstract
 

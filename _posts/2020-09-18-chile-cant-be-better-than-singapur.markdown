@@ -74,15 +74,15 @@ To understand how god or bad is education and economic in middle of 2020 in Chil
 
 I will tell you a story that I had close to politics in 2000, a college classmate invited me to a barbecue organized by RN youth (right-wing political party in Chile), I participated even though I have no affinity or aversion against any political party, also in student days an invitation to a barbecue is very appreciated. At the meeting I joined a group conversation, which went something like this:
 
-- Person 1: Hey, you knew our candidate won in La Calera! (La Calere is a small town in fifth region Chile)
-- "Everyone celebrated"
-- Me: Sorry! What is the name of the candidate? - I asked innocently.
-- "... few seconds of silence"
-- Person 1: I don't remember! What's the name of La Calera? - he asked loudly.
-- Person 2: I don't know! I think 'person 3' knows! 
-- Person 2: Hey!  (Asks out loud )... What's La Calera candidate?
+* Person 1: Hey, you knew our candidate won in La Calera! (La Calere is a small town in fifth region Chile)
+* "Everyone celebrated"
+* Me: Sorry! What is the name of the candidate? - I asked innocently.
+* "... few seconds of silence"
+* Person 1: I don't remember! What's the name of La Calera? - he asked loudly.
+* Person 2: I don't know! I think 'person 3' knows!
+* Person 2: Hey!  (Asks out loud )... What's La Calera candidate?
 (Person 3 a few meters away in another group)
-- Person 3: He is 'x'.
+* Person 3: He is 'x'.
 
 Sorry I don't remember the names are not important, it was the first and only time I saw them and the names do not influence, since what surprised me was not that several did not know the name of the candidate from La Calera being in Viña del Mar, but regardless of who he is, how honest or corrupt is, what his administration capacities are, they celebrated him simply for being from the same party. An irrational fanaticism only comparable to hooligans in football and that surely applies in all sides (Left, Center and Right).
 
@@ -92,7 +92,7 @@ I am sure that the students were not the ones who committed the destructions, be
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ghakxsYg0cE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-I am sure that you do not know, and neither do I, how much was the fortune that moved political-military power in Venezuela in corruption and drug trafficking. just to say some safe topics. Because if you understood, you would be doing something to supervise his own "current and future" politicians. 
+I am sure that you do not know, and neither do I, how much was the fortune that moved political-military power in Venezuela in corruption and drug trafficking. just to say some safe topics. Because if you understood, you would be doing something to supervise his own "current and future" politicians.
 
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr">Señores cooperativa 3 observaciones: <br>1) &#39;tienen&#39; en vez de &#39;tenían&#39; <br>2) Ese mismo poder criminal está tirando sus manitos en nuestro querido Chile &#39;Hoy&#39;.<br>3) El informe tuvo que hacerlo una oficina ONU distinta a la de la Sra. Bachelet. <a href="https://t.co/GoGrP6Db7y">https://t.co/GoGrP6Db7y</a></p>&mdash; Coto .🖌 (@coto) <a href="https://twitter.com/coto/status/1308085945208537088?ref_src=twsrc%5Etfw">September 21, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -108,18 +108,18 @@ I am sure that you do not know, and neither do I, how much was the fortune that 
 
 ## <span id = "6">6. What's better for Chile this October 25th? </span>
 
-After the previous analysis and when verifying that this constitutional change in 2020 only serves politicians with clear influences of well-know Latin American politics, and that a constitutional change should be carried out in a near future, under safe and wealthier conditions and written by Majority of Non Related to Politics People. So, <b> The best thing to do for Chile IMHO this October 25th </b> is:
+After the previous analysis and when verifying that this constitutional change in 2020 only serves politicians with clear influences of well-know Latin American politics, and that a constitutional change should be carried out in a near future, under safe and wealthier conditions and written by Majority of Non Related to Politics People. So, **The best thing to do for Chile IMHO this October 25th** is:
 
-1. <b> Understand the importance of going to vote. </b> Why do you think a politician like to do a Referendum in a pandemic? They do not want too many people vote, nor that older adults vote.
+1. **Understand the importance of going to vote.** Why do you think a politician like to do a Referendum in a pandemic? They do not want too many people vote, nor that older adults vote.
 
     <img src="/assets/posts/referendum-venezuela-1999.png" alt="referendum venezuela 1999">
 
-2. <b> Go to Vote well protected and in calm. </b> If possible use gloves, your own pencil and face shield in addition to the mandatory mask, do not touch your face, Keep your distance from others and use your alcohol gel or alcohol-water spray before, during and after. When you return home, remember to disinfect the soles of your shoes, clothes, and hands.
+2. **Go to Vote well protected and in calm.** If possible use gloves, your own pencil and face shield in addition to the mandatory mask, do not touch your face, Keep your distance from others and use your alcohol gel or alcohol-water spray before, during and after. When you return home, remember to disinfect the soles of your shoes, clothes, and hands.
 
-3. <b> In your vote, clearly mark a line in the #Rejection </b>, "Whoever has articulated this plebiscite will understand it as a rejection of the last chance to be able to change the economic as to they want."
+3. **In your vote, clearly mark a line in the #Rejection**, "Whoever has articulated this plebiscite will understand it as a rejection of the last chance to be able to change the economic as to they want."
 
-4. <b> Regarding the second vote on 'How would a new Constitution be written', mark both votes, write anything over the vote. </b> BUnderstand that on the other side of the table are people with many skills to cheat (current politicians) ... in the near future, when the fiscal coffers are going through better economic times and the public is not put at risk population, "we will carry out a Constitutional reform", which makes it clear that if you are a `public or political servant`, you are going to work for the citizens in an honest, efficient and transparent way, for which you will be paid according to new rules, and you must also be the best with technical qualifications to lead within our territory and, above all, to be at the service of citizens.
+4. **Regarding the second vote on 'How would a new Constitution be written', mark both votes, write anything over the vote.** BUnderstand that on the other side of the table are people with many skills to cheat (current politicians) ... in the near future, when the fiscal coffers are going through better economic times and the public is not put at risk population, "we will carry out a Constitutional reform", which makes it clear that if you are a `public or political servant`, you are going to work for the citizens in an honest, efficient and transparent way, for which you will be paid according to new rules, and you must also be the best with technical qualifications to lead within our territory and, above all, to be at the service of citizens.
 
-5. <b> When the Rejection wins, do not participate in violent protests. </b> That is where those who articulated the Plebiscite will show their faces and have faith in 'current' intelligence and respect for human rights with which our armed forces and the police will do their job. Soon we will have peace again.
+5. **When the Rejection wins, do not participate in violent protests.** That is where those who articulated the Plebiscite will show their faces and have faith in 'current' intelligence and respect for human rights with which our armed forces and the police will do their job. Soon we will have peace again.
 
-6. <b> Wait a while economic and health conditions </b> to be better, and for normal people without political ties to make changes, wait intelligently to know "What those changes will be" and then, let's face politicians again, this time to change them for · political public servants ·.
+6. **Wait a while economic and health conditions** to be better, and for normal people without political ties to make changes, wait intelligently to know "What those changes will be" and then, let's face politicians again, this time to change them for · political public servants ·.

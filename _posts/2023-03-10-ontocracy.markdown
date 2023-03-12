@@ -1,115 +1,115 @@
 ---
 layout: post
-title:  "Ontocracia"
+title:  "Ontocracy"
 comments: false
 date:   2023-03-10 12:35:35 -0300
 categories: coto blog society  
 lang: esp
-tags: sistema 
+tags: system 
 author: "Coto"
 ---
 
-[Español](https://www.beecoss.com/coto/blog/society/2023/03/10/ontocracy.html) | [Inglés](https://www-beecoss-com.translate.goog/coto/blog/society/2023/03/10/ontocracy.html?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp) | [Frances](https://www-beecoss-com.translate.goog/coto/blog/society/2023/03/10/ontocracy.html?_x_tr_sl=es&_x_tr_tl=fr&_x_tr_hl=fr&_x_tr_pto=wapp)
+[Español](/coto/blog/society/2023/03/10/ontocracia.html) | [Inglés](/coto/blog/society/2023/03/10/ontocracy.html) | [Frances](/coto/blog/society/2023/03/10/ontocratie.html)
 
 ## Abstract
 
-El presente es un ensayo que describe una alternativa de sociedad que habita el planeta, reemplazando a la actual República. Con la llegada de la era de acuario y el acceso a la información amanece una nueva sociedad, donde el animal político que habita el planeta, es capaz de reemplazar y mejorar sistemas heredados del imperio romano o revolución francesa.
+This is an essay that describes an alternative society that inhabits the planet, replacing the current Republic. With the arrival of the age of Aquarius and access to information, a new society dawns, where the political animal that inhabits the planet is capable of replacing and improving systems inherited from the Roman Empire or the French Revolution.
 
-<img src="/assets/images/as-within-is-without.jpeg" alt="Sphinx" style="float: left; margin-right: 15px;"/> 
+<img src="/assets/images/as-within-is-without.jpeg" alt="Sphinx" style="float: left; margin-right: 15px;"/>
 
 ## Intro
 
-Los siguientes síntomas de una sociedad, permiten concluir si ésta se encuentra sana:
+The following symptoms of a society allow us to conclude if it is healthy:
 
-1. Policias incorruptibles.
-2. Ciudadanos generosos y respetuosos en el tránsito vial.
+1. Incorruptible policemen.
+2. Generous and respectful citizens in road traffic.
 
-Los policías son la piel del poder, capaz de interactuar directamente con el ciudadano, mientras que el poder mayor que le ordena, subyace en oficinas de un parlamento o casa de gobierno.
+The police are the skin of power, capable of interacting directly with the citizen, while the greater power that orders them, lies in the offices of a parliament or government house.
 
-Un nuevo sistema se potencia cuando basa su creación en los principales flaquezas del que antecede, y en el caso de la República son la corrupción, la existencia de ciudadanos en extrema pobreza, el mal uso del poder y recursos económicos.
+A new system is strengthened when it bases its creation on the main weaknesses of the previous one, and in the case of the Republic they are corruption, the existence of citizens in extreme poverty, the misuse of power and economic resources.
 
-## Sistema
+## System
 
-En una sociedad donde los ciudadanos son quienes realmente poseen el poder de la nación, el poder se distribuiría de la siguiente manera:
+In a society where citizens are the ones who really own the power of the nation, power would be distributed as follows:
 
-Primero: Los Ciudadanos a través de una ontocracia digital poseerán el absoluto poder de las decisiones de la nación, sobre todo las económicas, apoyados por panel de expertos y campañas de información independientes.
+**First**: Citizens through a digital ontocracy will possess the absolute power of the nation's decisions, especially economic ones, supported by a panel of experts and independent information campaigns.
 
-Segundo: Las decisiones de los ciudadanos, según el lugar que resida, algunas serán obligatorias y otras opcionales, y se llevarán a cabo a nivel nacional, regional o comunal.
+**Second**: The decisions of citizens, depending on where they reside, some will be mandatory and others optional, and will be carried out at the national, regional or community level.
 
-Tercero: No existe un presidente, primer ministro o gobernante a quien culpar por las malas decisiones, ya que todas las tomará el soberano representado por los ciudadanos de la nación habilitados para votar.
+**Third**: There is no president, prime minister or ruler to blame for bad decisions, since they will all be made by the sovereign represented by the nation's citizens empowered to vote.
 
-Cuarto: Existirá un representante de la nación para reuniones y eventos internacionales, el cual es elegido por el soberano, y reemplazará al indicado en punto Tercero en sus actividades protocolares, siendo remunerado por no más de 10 veces el sueldo mínimo de la nación. En el representante recaerá el respeto y orgullo de representar a la nación y debería ser elegido por sus capacidades altruistas, éticas y de cortesía, más no recaerá poder alguno en este representante más que llevar con orgullo el honor de ser el representante que la nación eligió.
+**Fourth**: There will be a representative of the nation for international meetings and events, who is chosen by the sovereign, and will replace the one indicated in point Three in their protocol activities, being paid no more than 10 times the nation's minimum wage. The representative will have the respect and pride of representing the nation and should be chosen for his altruistic, ethical and courteous abilities, but no power will fall on this representative other than to proudly carry the honor of being the representative that the nation chose.
 
-Quinto: El panel de expertos que apoyará a la ciudadanía en tomar las decisiones electorales ocupará el lugar del actual parlamento, y en ellos tampoco recaerá poder, más que el de informar a la ciudadanía en materias técnicas y complejas cuando lo amerite.
+**Fifth**: The panel of experts that will support the citizens in making electoral decisions will occupy the place of the current parliament, and power will not fall on them either, other than to inform the citizens on technical and complex matters when warranted.
 
-Sexto: De modo periódico la ciudadanía elige al panel de expertos, por su dominio, experiencia y sabiduría en materias en las que se deba tomar decisión. Del mismo modo, los ciudadanos deberán evaluar el desempeño de las recomendaciones de los expertos, en indicadores como crecimiento económico, paz y seguridad social e igualdad de derechos y oportunidades. 
+**Sixth**: On a regular basis, the citizens choose the panel of experts, for their mastery, experience and wisdom in matters in which a decision must be made. In the same way, citizens should evaluate the performance of the experts' recommendations, in indicators such as economic growth, peace and social security, and equal rights and opportunities.
 
-Séptimo: El poder judicial continuará y limitará su rol de emitir sentencia acorde a la ley vigente, y será profunda y periódicamente evaluado por la ciudadanía y apoyado por expertos que permitan realizar una evaluación respecto a si las sentencias se ajustan o no a derecho.
+**Seventh**: The judiciary will continue and limit its role of issuing sentences in accordance with current law, and it will be deeply and periodically evaluated by the public and supported by experts that allow an evaluation regarding whether or not the sentences conform to the law.
 
-Octavo: El poder del soberano al no estar interferido por parlamentos o gobernantes, será más amplio y grande que cualquier Empresa Multimillonaria, permitiendo que los fiscales puedan velar porque las empresas y trabajadores actuen de manera ética y colaborativa donde prime dignidad y respeto igualitario.
+**Eighth**: The power of the sovereign, as it is not interfered with by parliaments or rulers, will be broader and bigger than any Multimillion-Dollar Company, allowing prosecutors to ensure that companies and workers act ethically and collaboratively where dignity and equal respect prevail.
 
-Octavo: El poder del soberano al no estar interferido por parlamentos o gobernantes, será más amplio y grande que cualquier Organización criminal, permitiendo que el poder del estado, que yace en sus fuerzas armadas y de orden, siempre esté al servicio y defensa de la nación.
+**Ninth**: The power of the sovereign, as it is not interfered with by parliaments or rulers, will be broader and bigger than any criminal organization, allowing the power of the state, which lies in its armed forces and order, to always be at the service and defense of the nation.
 
-Noveno: Las campañas para elegir al representante de la nación y panel de expertos son llevadas a cabo por ciudadanos habilitados y mejor preparados para votar, de manera libre e independiente, no recibirán subsidio económico público alguno y su apoyo se limitará al de informar a la ciudadanía de de manera igualitaria la experiencia, preparación y antecedentes de todos quienes decidan ser candidatos.
+**Tenth**: The campaigns to elect the representative of the nation and panel of experts are carried out by qualified citizens and better prepared to vote, freely and independently, they will not receive any public economic subsidy and their support will be limited to informing the citizenship of equally the experience, preparation and background of all those who decide to be candidates.
 
-Décimo: Las fuerzas armadas y de orden continuarán siendo instituciones independientes de gestiones políticas. Limitando sus funciones al de proteger y ayudar a la ciudadanía en situaciones extremas, y estar al servicio de la nación, respetando a los ciudadanos de manera igualitaria.
+**Eleventh**: The armed forces and law enforcement will continue to be independent institutions of political management. Limiting its functions to protecting and helping citizens in extreme situations, and being at the service of the nation, respecting citizens equally.
 
-## Señales de Resultado
+## Result Signals
 
-Una sociedad ontocrática es capaz de medir y comparar el resultado de sus decisiones y de la misma manera, una región o comuna dentro de la nación utilizará la misma solución que otra región o comuna haya aplicado exitosamente, ocupando como regla el bienestar del ciudadano versus su costo.
+An ontocratic society is capable of measuring and comparing the result of its decisions and in the same way, a region or commune within the nation will use the same solution that another region or commune has applied successfully, taking as a rule the welfare of the citizen versus his cost.
 
-Es importante que los ciudadanos reciban periódicamente resúmenes o señales de resultados de decisiones tomadas en toda la nación, además de acceder al detalle si así lo quisiesen.
+It is important that citizens periodically receive summaries or signals of the results of decisions made throughout the nation, in addition to accessing the details if they so wish.
 
-Se permite el uso de gastos reservados por parte de las fuerzas armadas y de orden, fomentando la devolución de los recursos remanentes no utilizados.
+The use of reserved expenses by the armed forces and law enforcement is allowed, encouraging the return of the remaining unused resources.
 
-## Mejor preparados
+## Better prepared
 
-Si bien al principio de la Ontocracia los ciudadanos puedan tomar decisiones equivocadas, las cuales podrán evaluarse  objetivamente según las "señales de resultado", corregirse y perdonarse, y de la misma manera que un grupo de personas, incluyendo el presente lector, no se subiría a un autobús conducido por una persona de 16 años, sin experiencia ni licencia de conducir, tampoco debería permitir que ciudadanos sin la preparación mínima sean quienes eligen a representantes, expertos y leyes que estos últimos propongan.
+Although at the beginning of the Ontocracy, citizens can make wrong decisions, which can be objectively evaluated according to the "result signals", corrected and forgiven, and in the same way that a group of people, including the present reader, would not climb to a bus driven by a 16-year-old person, with no experience or driver's license, it should not allow citizens without the minimum preparation to be the ones who elect representatives, experts and laws that the latter propose.
 
-### Preparación mínima:
+### Minimum preparation:
 
-Los ciudadanos habilitados para votar en Ontocracia son:
+The citizens enabled to vote in Ontocracy are:
 
-- Sin importar su edad, personas que se hayan destacado en actividades académicas o intelectuales, y que por sus características de ciudadanos destacados podrán votar sin discriminación etárea.
-- Los ciudadanos mayores a 18 años que no hayan cometido delitos que la nación castigue con la pérdida de la ciudadanía.
+- Regardless of their age, people who have excelled in academic or intellectual activities, and who, due to their characteristics as outstanding citizens, may vote without age discrimination.
+- Citizens who have received the minimum free and compulsory education to be a citizen qualified to vote, made up of civic, financial and universal education.
+- Citizens over 18 years of age who have not committed crimes that the nation punishes with the loss of citizenship will likewise lose the right to vote.
 
-## Seguridad Ciudadana
+## Citizen security
 
-Las fuerzas armadas y de orden, estando al servicio de la nación representada por el soberano, velarán por el orden y seguridad pública, fomentando una actitud solidaria, y ser el único organismo del estado capaz de ejercer la fuerza si fuese necesario.
+The armed forces and law enforcement, being at the service of the nation represented by the sovereign, will ensure public order and safety, fostering an attitude of solidarity, and being the only state body capable of exercising force if necessary.
 
-## Educación
+## Education
 
-Es prioridad de la Ontocracia informar que la educación es un deber y no un derecho. En donde se fomentará la igualdad de acceso y calidad de educación a todos los ciudadanos sin ningún tipo de discriminación, fomentando la libertad de elección del tipo de educación limitado al nucleo familiar y el estado bajo ningún motivo podrá ejercer adoctrinamiento ni sometimiento de culto en los organismos educativos.
+It is a priority of the Ontocracy to inform that education is a duty and not a right. Where equal access and quality of education will be promoted for all citizens without any type of discrimination, promoting freedom of choice of the type of education limited to the family nucleus and the state under no circumstances may exercise indoctrination or submission to worship in the educational bodies.
 
-Los profesores son elegidos por sus conocimientos, capacidades académicas y de docencia, con la misma seriedad que un médico cirujano es evaluado antes de ejercer su profesión, y dado que para ejercer docencia se requerirán de grandes cualidades, los profesores tomarán el mismo reconocimiento social que los expertos y representante que la nación eligió. Llevando a los docentes a ser remunerados tal como representantes y expertos de la nación.
+The professors are chosen for their knowledge, academic and teaching abilities, with the same seriousness that a surgeon is evaluated before practicing his profession, and given that great qualities are required to teach, the professors will receive the same social recognition as the experts and representative that the nation elected. Leading teachers to be paid as representatives and experts of the nation.
 
-El estado tomará un rol fiscalizador en la educación, fomentando una educación libre y sin adoctrinamiento, donde los alumnos puedan seguir caminos profesionales acorde a sus habilidades identificadas en edades tempranas, y los organismos educacionales velarán por detectar habilidades en edades tempranas y derivar para potenciar dichas habilidades o deseos de los estudiantes, permitiendo la existencia de escuelas de especialidades, artes, ciencias y cultura.
+The state will take a supervisory role in education, promoting a free education without indoctrination, where students can follow professional paths according to their skills identified at an early age, and educational organizations will ensure that skills are detected at an early age and referred to promote said skills. abilities or desires of the students, allowing the existence of schools of specialties, arts, sciences and culture.
 
-Todos los organismos educativos deberán enfrentar como base el desafío de enseñar a todos por igual las siguientes materias:
+All educational organizations must face the challenge of teaching everyone equally the following subjects:
 
-- Educación Cívica, donde se enseñe los derechos y obligaciones de los ciudadanos. La ética y generosidad. Destacan en este tipo de educación la entrega de información respecto al costo de los bienes y servicios provistos por el estado o privados, entendiendo la importancia de una correcta administración de los recursos. En educación cívica recae la responsabilidad de educar respecto al sistema electoral de una Ontocracia digital, donde los ciudadanos deberán participar periódicamente, y según su lugar de inscripción electoral, en elecciones obligatorias u opcionales a nivel nacional/federal, regional/estatal y comunal/condados.
-- Educación Financiera, donde se enseñe la importancia del buen uso de recursos, poniendo énfasis en los flujos y balances financieros, que apliquen en personas naturales como jurídicas. La importancia del apoyo a causas altruistas, del ahorro y la inversión.
-- Educación Universal, bajo la premisa de un ser humano primero espiritual, emocional y racional, se enseña la conexión humano planeta como un único ser en su conjunto, aprendiendo a interactuar en sus ciclos, entrando en una relación de respeto y cuidado. Temarios como la descontaminación, reciclaje son fundamentales en esta educación.
+- Civic Education, where the rights and obligations of citizens are taught. Ethics and generosity. Outstanding in this type of education is the delivery of information regarding the cost of goods and services provided by the state or private, understanding the importance of a correct administration of resources. Civic education is responsible for educating about the electoral system of a digital Ontocracy, where citizens must participate periodically, and depending on their place of voter registration, in mandatory or optional elections at the national/federal, regional/state and community/county levels. .
+- Financial Education, where the importance of the proper use of resources is taught, emphasizing financial flows and balances, which apply to natural and legal persons. The importance of supporting altruistic causes, saving and investing.
+- Universal Education, under the premise of a spiritual, emotional and rational human being first, the human planet connection is taught as a single being as a whole, learning to interact in its cycles, entering into a relationship of respect and care. Topics such as decontamination, recycling are fundamental in this education.
 
+## Public services
 
-## Servicios Públicos
+In the same way that feminism is not the solution to machismo, equality is not the solution to inequality, which is why in Ontocracy there is the freedom to start or generate businesses through goods or services that provide value to society, However, whoever does not wish to generate business or investment, under no circumstances may fall into extreme poverty, given that those who do not have the resources to pay for social services or goods, the Ontocracy will ensure the proper use of economic resources to subsidize those who cannot in :
 
-De la misma manera que el feminismo no es la solución al machismo, la igualdad no es la solución de la desigualdad, por lo que en Ontocracia existe la libertad de emprender o generar negocios a través de bienes o servicios que provean valor a la sociedad, sin embargo quien no desee generar negocios o inversiones, bajo ninguna circunstancia podrá caer en pobreza extrema, dado que a quienes no tengan recursos para pagar los servicios o bienes sociales la Ontocracia velará el buen uso de los recursos económicos para subsidiar a quien no pueda en:
+- Education of equal quality to those who can finance it.
+- Health care of equal quality to someone who can finance it.
+- Promotion and subsidies for citizens who choose to start businesses that add value to society.
 
-- Educación de igual calidad de quien la puede financiar.
-- Atención de salud de igual calidad que alguien que la puede financiar.
-- Fomento y subsidios para ciudadanos que elijan emprender negocios que aporten valor a la sociedad.
+## Pensions
 
-## Pensiones
+Every citizen, when making purchases that include payment of value added taxes, at most a quarter of said tax will go to their personal pension account, which will be added to what is saved by other means such as remuneration or voluntary pension savings. Fostering pension savings in citizens with small amounts and from an early age, added to the correct investment of said savings through free competition between public and private systems. This not only makes it possible to provide pensions that are adequate for the nation's cost of living, but also to boost its economy and be able to play a role as a state of solidarity in a sustainable manner.
 
-Todo ciudadano al realizar compras que incluyan pago de impuestos al valor agregado, a lo más una cuarta parte de dicho impuesto irá a su cuenta personal previsional, la cual se sumará a lo ahorrado por otros medios tales como remuneración o ahorro previsional voluntarios. El fomentar en los ciudadanos el ahorro previsional con pequeños montos y desde edades tempranas, sumado a la correcta inversión de dichos ahorros a través de una competencia libre entre sistemas públicos y privados. Esto no solo permite entregar pensiones adecuadas al costo de vida de la nación, sino además impulsar su economía y poder tomar un rol de estado solidario de manera sustentable.
+Every citizen will have the right, during the course of his life, to withdraw up to 30% of his pension savings without return or justification, which will discount proportionally in what he received as retirement in case of not replenishing the funds voluntarily.
 
-Todo ciudadano tendrá derecho, durante el transcurso de su vida, a retirar sin devolución ni justificación hasta el 30% de sus ahorros previsionales, lo que descontará proporcionalmente en lo recibido como jubilación en caso de no reponer los fondos de manera voluntaria.
+Every citizen will have the right to receive up to 20% of their pension savings as a loan and whose funds they must replace without interest, either voluntarily.
 
-Todo ciudadano tendrá derecho a recibir a modo de préstamo, hasta un 20% de su ahorro previsional y cuyos fondos deberá reponer sin interés, ya sea de manera voluntaria .
+It must be known from all citizens with pension savings what their desire is for the use of savings in the event of death and that there are remaining savings, indicating if they wish to give it to a family member, person or cause in particular.
 
-Se deberá conocer de todos los ciudadanos con ahorro previsional cual es su deseo para la utilización de los ahorros en caso de muerte y que existan remanentes de ahorro, indicando si se desea entregar a un familiar, persona o causa en particular.
+The institutions that administer pension funds, whether public or private, will have as their first objective to make profitable the savings in no more than 5 investment funds, where a third of the funds must earn at least inflation, a second third must earn inflation +- 2%, and the last third may rent from -20% or more.
 
-Las instituciones administradoras de fondos previsionales, ya sean públicas o privadas, tendrán como objetivo primero el de rentabilizar los ahorros en no más de 5 fondos de inversión, donde un tercio de los fondos deberán rentar a lo menos inflación, un segundo tercio deberá rentar inflación +- 2%, y el último tercio podrá rentar desde un -20% o más.
-
-Las instituciones administradoras de fondos previsionales, ya sean públicas o privadas, tendrán supervisión ciudadana, a través de servidores públicos pertenecientes o no a organismos estatales.
+The institutions that administer pension funds, whether public or private, will have citizen supervision, through public servants belonging or not to state agencies.

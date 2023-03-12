@@ -9,7 +9,7 @@ tags: système
 author: "Coto"
 ---
 
-[Español](/coto/blog/society/2023/03/10/ontocracia.html) | [Inglés](/coto/blog/society/2023/03/10/ontocracy.html) | [Frances](/coto/blog/society/2023/03/10/ontocratie.html)
+[Español](/coto/blog/society/2023/03/10/ontocracia.html) | [English](/coto/blog/society/2023/03/10/ontocracy.html) | **Français**
 
 ## Abstrait
 
@@ -19,7 +19,7 @@ Il s'agit d'un essai qui décrit une société alternative qui habite la planèt
 
 ## Entrer
 
-Les symptômes suivants d'une société nous permettent de conclure si elle est saine :
+Les symptômes suivants d'une société nous permettent de conclure si elle est saine:
 
 1. Policiers incorruptibles.
 2. Des citoyens généreux et respectueux dans la circulation routière.

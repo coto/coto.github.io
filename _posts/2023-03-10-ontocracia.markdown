@@ -6,10 +6,10 @@ date:   2023-03-10 12:35:35 -0300
 categories: coto blog society  
 lang: esp
 tags: sistema 
-author: "Coto"
+author: "Coto Augosto"
 ---
 
-[Español](/coto/blog/society/2023/03/10/ontocracia.html) | [Inglés](/coto/blog/society/2023/03/10/ontocracy.html) | [Frances](/coto/blog/society/2023/03/10/ontocratie.html)
+**Español** | [English](/coto/blog/society/2023/03/10/ontocracy.html) | [Français](/coto/blog/society/2023/03/10/ontocratie.html)
 
 ## Abstract
 

@@ -9,7 +9,7 @@ tags: system
 author: "Coto"
 ---
 
-[Español](/coto/blog/society/2023/03/10/ontocracia.html) | [Inglés](/coto/blog/society/2023/03/10/ontocracy.html) | [Frances](/coto/blog/society/2023/03/10/ontocratie.html)
+[Español](/coto/blog/society/2023/03/10/ontocracia.html) | **English** | [Français](/coto/blog/society/2023/03/10/ontocratie.html)
 
 ## Abstract
 

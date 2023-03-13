@@ -14,7 +14,6 @@ Free of religions and Politics.
 
 [^reils]: Reils: A personal term used to refer Rails + Veins.
 
-[quora_s]: https://www.quora.com/What-is-the-coolest-thing-you-have-ever-created-alone-as-a-programmer/answer/Coto-Augosto
 [blog]: https://feeds.feedburner.com/coto
 [contact]: /contact/
 [neahtid]: https://www.neahtid.com

@@ -13,7 +13,7 @@ author: "Coto Augosto"
 
 ## Abstract
 
-El presente es un ensayo que describe una alternativa de sociedad que habita el planeta, reemplazando a la actual República. Con la llegada de la era de acuario y el acceso a la información amanece una nueva sociedad, donde el animal político que habita el planeta, es capaz de vivir en un sistema construido a partir de los aprendizajes heredados del imperio romano y revolución francesa.
+El presente es un ensayo que describe una alternativa de sociedad que habita el planeta, reemplazando a la actual República. Con la llegada de la era de acuario y el acceso a la información amanece una nueva sociedad, donde el animal político[^socialanimal] que habita el planeta, es capaz de vivir en un sistema construido a partir de los aprendizajes heredados del imperio romano y revolución francesa.
 
 <img src="/assets/images/as-within-is-without.jpeg" alt="Sphinx" style="float: left; margin-right: 15px;"/>
 | como es adentro es afuera.
@@ -130,3 +130,5 @@ Las instituciones administradoras de fondos previsionales, ya sean públicas o p
 - Fondo 5: rentar **a lo menos** inflación +- 15%.
 
 Las instituciones administradoras de fondos previsionales, ya sean públicas o privadas, tendrán supervisión ciudadana, a través de servidores públicos pertenecientes o no a organismos estatales.
+
+[^socialanimal]: el hombre se diferencia de los animales, entre otras cosas, porque vive en sociedades organizadas políticamente - Aristóteles.

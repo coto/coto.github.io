@@ -16,6 +16,7 @@ author: "Coto Augosto"
 Il s'agit d'un essai qui décrit une société alternative qui habite la planète, en remplacement de la République actuelle. Avec l'arrivée de l'ère du Verseau et de l'accès à l'information, une nouvelle société se lève, où l'animal politique qui habite la planète est capable de vivre dans un système construit à partir des connaissances héritées de l'Empire romain et de la Révolution française.
 
 <img src="/assets/images/as-within-is-without.jpeg" alt="Sphinx" style="float: gauche; marge-droite: 15px ;"/>
+~ comme c'est à l'intérieur donc c'est à l'extérieur
 
 ## Introduction
 
@@ -120,12 +121,12 @@ Chaque citoyen aura le droit de recevoir jusqu'à 20% de son épargne-pension so
 
 Il doit être connu de tous les citoyens disposant d'une épargne-pension quel est leur désir d'utiliser l'épargne en cas de décès et qu'il reste de l'épargne, en indiquant s'ils souhaitent la donner à un membre de la famille, à une personne ou à une cause en particulier.
 
-Les administrateurs de fonds de pension, qu'ils soient publics ou privés, auront d'abord pour objectif de rentabiliser l'épargne à travers pas plus de 5 fonds d'investissement, lorsque les rapports risque/rendement d'un placement des fonds respectent :
+Les administrateurs de fonds de pension, qu'ils soient publics ou privés, auront d'abord pour objectif de rentabiliser l'épargne à travers pas plus de 5 fonds d'investissement, lorsque les rapports risque/rendement d'un placement des fonds respectent:
 
-- Fonds 1 : loyer **au moins** inflation plus 0 % (revenu fixe).
-- Fonds 2 : loyer **au moins** inflation +- 2%.
-- Fonds 3 : loyer **au moins** inflation +- 5%.
-- Fonds 4 : loyer **au moins** inflation +- 10%.
-- Fonds 5 : loyer **au moins** inflation +- 15%.
+- Fonds 1: loyer **au moins** inflation plus 0 % (revenu fixe).
+- Fonds 2: loyer **au moins** inflation +- 2%.
+- Fonds 3: loyer **au moins** inflation +- 5%.
+- Fonds 4: loyer **au moins** inflation +- 10%.
+- Fonds 5: loyer **au moins** inflation +- 15%.
 
 Les institutions qui administrent les fonds de pension, qu'elles soient publiques ou privées, auront un contrôle citoyen, par l'intermédiaire de fonctionnaires appartenant ou non à des agences de l'État.

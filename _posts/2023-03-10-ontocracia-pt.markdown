@@ -9,13 +9,14 @@ tags: sistema
 author: "Coto Augosto"
 ---
 
-**Español** | [English](/coto/blog/society/2023/03/10/ontocracy.html) | [Français](/coto/blog/society/2023/03/10/ontocratie.html) | [Português](/coto/blog/society/2023/03/10/ontocracia-pt.html)
+[Español](/coto/blog/society/2023/03/10/ontocracia.html) | [English](/coto/blog/society/2023/03/10/ontocracy.html) | [Français](/coto/blog/society/2023/03/10/ontocratie.html) | **Português**
 
 ## Abstract
 
 Este é um ensaio que descreve uma sociedade alternativa que habita o planeta, substituindo a atual República. Com a chegada da era de Aquário e o acesso à informação, desponta uma nova sociedade, onde o animal político que habita o planeta é capaz de viver em um sistema construído a partir do aprendizado herdado do Império Romano e da Revolução Francesa.
 
 <img src="/assets/images/as-within-is-without.jpeg" alt="Sphinx" style="float: left; margin-right: 15px;"/>
+| 
 
 ## Introdução
 

@@ -16,6 +16,7 @@ author: "Coto Augosto"
 This is an essay that describes an alternative society that inhabits the planet, replacing the current Republic. With the arrival of the age of Aquarius and access to information, a new society dawns, where the political animal that inhabits the planet is capable of living in a system built from the learning inherited from the Roman Empire and the French Revolution.
 
 <img src="/assets/images/as-within-is-without.jpeg" alt="Sphinx" style="float: left; margin-right: 15px;"/>
+- as it is inside so it is outside
 
 ## Introduction
 

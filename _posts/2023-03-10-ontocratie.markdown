@@ -15,8 +15,9 @@ author: "Coto Augosto"
 
 Il s'agit d'un essai qui décrit une société alternative qui habite la planète, en remplacement de la République actuelle. Avec l'arrivée de l'ère du Verseau et de l'accès à l'information, une nouvelle société se lève, où l'animal politique qui habite la planète est capable de vivre dans un système construit à partir des connaissances héritées de l'Empire romain et de la Révolution française.
 
-<img src="/assets/images/as-within-is-without.jpeg" alt="Sphinx" style="float: gauche; marge-droite: 15px ;"/>
-~ comme c'est à l'intérieur donc c'est à l'extérieur
+| ![Sphinx](/assets/images/as-within-is-without.jpeg "comme c'est à l'intérieur donc c'est à l'extérieur") |
+|:--:|
+| *comme c'est à l'intérieur donc c'est à l'extérieur* |
 
 ## Introduction
 

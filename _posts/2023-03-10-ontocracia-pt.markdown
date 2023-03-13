@@ -15,8 +15,7 @@ author: "Coto Augosto"
 
 Este é um ensaio que descreve uma sociedade alternativa que habita o planeta, substituindo a atual República. Com a chegada da era de Aquário e o acesso à informação, desponta uma nova sociedade, onde o animal político que habita o planeta é capaz de viver em um sistema construído a partir do aprendizado herdado do Império Romano e da Revolução Francesa.
 
-<img src="/assets/images/as-within-is-without.jpeg" alt="Sphinx" style="float: left; margin-right: 15px;"/>
-| 
+![Sphinx](/assets/images/as-within-is-without.jpeg "como está dentro assim está fora")
 
 ## Introdução
 

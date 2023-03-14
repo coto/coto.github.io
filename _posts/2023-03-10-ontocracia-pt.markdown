@@ -5,7 +5,7 @@ comments: false
 date:   2023-03-10 12:35:35 -0300
 categories: coto blog society  
 lang: por
-tags: sistema 
+tags: sistema ontocracia
 author: "Coto Augosto"
 ---
 
@@ -125,9 +125,9 @@ Deve ser do conhecimento de todos os cidadãos com poupanças-reforma qual é o 
 As administradoras de fundos de pensões, sejam elas públicas ou privadas, terão em primeiro lugar o objetivo de rentabilizar a poupança através de, no máximo, 5 fundos de investimento, em que as taxas de risco/retorno de uma aplicação dos fundos respeitem:
 
 - Fundo 1: aluguel **pelo menos** inflação mais 0% (renda fixa).
-- Fundo 2: aluguel **pelo menos** inflação +- 2%.
-- Fundo 3: aluguel **pelo menos** inflação +- 5%.
-- Fundo 4: aluguel **pelo menos** inflação +- 10%.
-- Fundo 5: aluguel **pelo menos** inflação +- 15%.
+- Fundo 2: aluguel **pelo menos** inflação ±2%.
+- Fundo 3: aluguel **pelo menos** inflação ±5%.
+- Fundo 4: aluguel **pelo menos** inflação ±10%.
+- Fundo 5: aluguel **pelo menos** inflação ±15%.
 
 As instituições administradoras de fundos de pensão, sejam elas públicas ou privadas, terão fiscalização cidadã, por meio de servidores públicos pertencentes ou não a órgãos estatais.

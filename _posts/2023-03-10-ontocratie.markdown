@@ -5,7 +5,7 @@ comments: false
 date:   2023-03-10 12:35:35 -0300
 categories: coto blog society  
 lang: fra
-tags: système 
+tags: système ontocratie
 author: "Coto Augosto"
 ---
 
@@ -124,10 +124,10 @@ Il doit être connu de tous les citoyens disposant d'une épargne-pension quel e
 
 Les administrateurs de fonds de pension, qu'ils soient publics ou privés, auront d'abord pour objectif de rentabiliser l'épargne à travers pas plus de 5 fonds d'investissement, lorsque les rapports risque/rendement d'un placement des fonds respectent:
 
-- Fonds 1: loyer **au moins** inflation plus 0 % (revenu fixe).
-- Fonds 2: loyer **au moins** inflation +- 2%.
-- Fonds 3: loyer **au moins** inflation +- 5%.
-- Fonds 4: loyer **au moins** inflation +- 10%.
-- Fonds 5: loyer **au moins** inflation +- 15%.
+- Fonds 1: loyer **au moins** inflation plus 0% (revenu fixe).
+- Fonds 2: loyer **au moins** inflation ±2%.
+- Fonds 3: loyer **au moins** inflation ±5%.
+- Fonds 4: loyer **au moins** inflation ±10%.
+- Fonds 5: loyer **au moins** inflation ±15%.
 
 Les institutions qui administrent les fonds de pension, qu'elles soient publiques ou privées, auront un contrôle citoyen, par l'intermédiaire de fonctionnaires appartenant ou non à des agences de l'État.

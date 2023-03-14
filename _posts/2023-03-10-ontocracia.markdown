@@ -5,7 +5,7 @@ comments: false
 date:   2023-03-10 12:35:35 -0300
 categories: coto blog society  
 lang: esp
-tags: sistema 
+tags: sistema ontocracia
 author: "Coto Augosto"
 ---
 
@@ -125,10 +125,10 @@ Se deberá conocer de todos los ciudadanos con ahorro previsional cual es su des
 Las instituciones administradoras de fondos previsionales, ya sean públicas o privadas, tendrán como objetivo primero el de rentabilizar los ahorros a través de no más de 5 fondos de inversión, donde las tasas riesgo/retorno de una inversión de los fondos cumplen con:
 
 - Fondo 1: rentar **a lo menos** inflación más un 0% (renta fija).
-- Fondo 2: rentar **a lo menos** inflación +- 2%.
-- Fondo 3: rentar **a lo menos** inflación +- 5%.
-- Fondo 4: rentar **a lo menos** inflación +- 10%.
-- Fondo 5: rentar **a lo menos** inflación +- 15%.
+- Fondo 2: rentar **a lo menos** inflación ±2%.
+- Fondo 3: rentar **a lo menos** inflación ±5%.
+- Fondo 4: rentar **a lo menos** inflación ±10%.
+- Fondo 5: rentar **a lo menos** inflación ±15%.
 
 Las instituciones administradoras de fondos previsionales, ya sean públicas o privadas, tendrán supervisión ciudadana, a través de servidores públicos pertenecientes o no a organismos estatales.
 

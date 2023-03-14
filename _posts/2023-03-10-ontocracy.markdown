@@ -5,7 +5,7 @@ comments: false
 date:   2023-03-10 12:35:35 -0300
 categories: coto blog society  
 lang: eng
-tags: system 
+tags: system ontocracy
 author: "Coto Augosto"
 ---
 
@@ -125,9 +125,9 @@ It must be known from all citizens with pension savings what their desire is for
 The pension fund administrators, whether public or private, will first have the objective of making savings profitable through no more than 5 investment funds, where the risk/return rates of an investment of the funds comply with:
 
 - Fund 1: rent **at least** inflation plus 0% (fixed income).
-- Fund 2: rent **at least** inflation +- 2%.
-- Fund 3: rent **at least** inflation +- 5%.
-- Fund 4: rent **at least** inflation +- 10%.
-- Fund 5: rent **at least** inflation +- 15%.
+- Fund 2: rent **at least** inflation ±2%.
+- Fund 3: rent **at least** inflation ±5%.
+- Fund 4: rent **at least** inflation ±10%.
+- Fund 5: rent **at least** inflation ±15%.
 
 The institutions that administer pension funds, whether public or private, will have citizen supervision, through public servants belonging or not to state agencies.

@@ -14,17 +14,17 @@ permalink: /resume/
 <img src="/assets/coto.jpg" alt="Coto" width="160" height="160" style="float: left; margin-right: 15px;"/>
 Researcher, Software and Hardware Engineer, Diploma in Finance and Investments. Business development and strategic planning.
 
-I have developed critical technology projects, led technical and non-technical teams, and deployed high-demand infrastructures into the cloud in Banking and Mining industry. My native programming languages are Python and JavaScript with several SQL, noSQL databases, with that backround I am better leading and coordinating technical and non-technical teams. 
+I have developed critical technology projects, led technical and non-technical teams, and deployed high-demand infrastructures into the cloud in Banking and Mining industry. My native programming languages are Python and JavaScript with several SQL, noSQL databases.
 
 ## Competences
 
+- **Science research** with **Hardware manufacturing** and **Software applications**.
+- **Quality Assurance** for Hardware and Software projects.
 - **Python** and **JavaScript/TypeScript (Angular, Vue.js, jQuery, etc.)** programming.
 - **SQL, MySQL and noSQL** databases (Redis, MongoDB, Firestore) implmented projects.
 - **UI/UX** skills and long experience with **SASS/CSS and HTML** technologies.
-- Integrations with **API RESTful, HTML5 APIs** and Progressive Web Applications (**PWA**).
+- Integrations to **API RESTful, HTML5 APIs** and Progressive Web Applications (**PWA**).
 - High-demand **deployments** into cloud containers (**Docker**) for **Azure** or **Google Cloud** Platforms.
-- **Science research** with **Hardware manufacturing** and **Software applications**.
-- **Quality Assurance** for Hardware and Software projects.
 
 ## Skills
 <p style="text-align: center;">
@@ -119,7 +119,7 @@ I have developed critical technology projects, led technical and non-technical t
 
 
 - Creator and Co-Organizer of StarTechConf, a Software Developer Conference with around a thousand attendees on its 3 first editions (2011, 2013 and 2015) with some speakers from Google, Github's founders, Apple, Microsoft, among others.
-- Interesting expirience for a Non-profit project with bigger than ussal  budgets, timelines and teams.
+- Non-profit project with budgets, timelines and teams bigger than ussal  .
 - After 2015 edition, I transfered for free the rights to third parties, and they renamed to www.starsconf.com.
 
 [^framework]: Structure of an application.

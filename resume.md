@@ -18,13 +18,14 @@ I have developed critical technology projects, led technical and non-technical t
 
 ## Competences
 
+- Advanced programming with **Python, C#, .NET Core, JavaScript/TypeScript** (Angular, Vue.js, jQuery).
+- Experience with **SQL and noSQL databases** (MySQL, MS-SQL, PostgreSQL, Redis, MongoDB, Firestore).
+- Lead Technical and Non-Technical Teams / Product and Project Management.
+- Frontend development with **UI/UX skills** and long experience in **SASS/CSS and HTML** technologies.
+- Skilled device integrations with **API RESTful,  HTML5 APIs and PWA** (Progressive Web Applications).
+- High-demand **deployments** into cloud containers (**Docker**) for **Azure** or **Google Cloud** Platforms.
 - **Science research** with **Hardware manufacturing** and **Software applications**.
 - **Quality Assurance** for Hardware and Software projects.
-- **Python** and **JavaScript/TypeScript (Angular, Vue.js, jQuery, etc.)** programming.
-- **SQL, MySQL and noSQL** databases (Redis, MongoDB, Firestore) implmented projects.
-- **UI/UX** skills and long experience with **SASS/CSS and HTML** technologies.
-- Integrations to **API RESTful, HTML5 APIs** and Progressive Web Applications (**PWA**).
-- High-demand **deployments** into cloud containers (**Docker**) for **Azure** or **Google Cloud** Platforms.
 
 ## Skills
 <p style="text-align: center;">
@@ -89,12 +90,12 @@ I have developed critical technology projects, led technical and non-technical t
 - Lead Software Security projects.
 
 <hr>
-#### » Software Engineer (2010 - 2011)
+#### » Senior Full Stack Developer (2010 - 2011)
 
 - Created a User Generated Content systems (Node.js, Sencha Touch and MongoDB)
 
 <hr>
-#### » Risk Analyst Engineer (2009 - 2010)
+#### » Full Stack Developer | Risk Analyst Engineer (2009 - 2010)
 
 - Build Operational risk control applications and SQL Stored Procedures for an Investment Bank.
 
@@ -118,9 +119,9 @@ I have developed critical technology projects, led technical and non-technical t
 | **editions involved** | 2011, 2013 and 2015. |
 
 
-- Creator and Co-Organizer of StarTechConf, a Software Developer Conference with around a thousand attendees on its 3 first editions (2011, 2013 and 2015) with some speakers from Google, Github's founders, Apple, Microsoft, among others.
-- Non-profit project with budgets, timelines and teams bigger than ussal  .
-- After 2015 edition, I transfered for free the rights to third parties, and they renamed to www.starsconf.com.
+- Creator and Co-Organizer of StarTechConf, a Software Developer Conference with around a thousand attendees from different parts of the globe on its 3 first editions (2011, 2013 and 2015) with some speakers from companies like Google, Github's founders, Apple, Microsoft, among others.
+- Non-profit projects with budgets, timelines and teams bigger than usual.
+- After the 2015 edition, I handed over the rights to third parties for free, and they renamed it to www.starsconf.com.
 
 [^framework]: Structure of an application.
 

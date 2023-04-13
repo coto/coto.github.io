@@ -83,9 +83,8 @@ I have developed critical technology projects, led technical and non-technical t
 #### » CTO (2011 - 2017)
 
 - Budget and Projections for Projects.
-- Design and planning of Architecture and Systems for multi-layered banking applications.
-- Created partnership with Google Cloud.
-- Created and Deploy projects from zero base.
+- Participate on Design and planning Architecture and Systems for multi-layered banking applications.
+- Create and Deploy projects from zero base.
 - Worked on customer experience.
 - Lead Software Security projects.
 

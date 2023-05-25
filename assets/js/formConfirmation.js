@@ -36,6 +36,7 @@ function postForm(form) {
 	var email = $("input#form-field-email", form).val();
 	var name = $("input#form-field-name", form).val();
 	var message = $("#form-field-message", form).val();
+	var source = "beecoss.com";
 
 	if (email == "") {
 		alert("Insert your email addrees before sending.");
@@ -56,7 +57,8 @@ function postForm(form) {
 		data: {
 			"entry.1155430950": email,
 			"entry.545860963": name,
-			"entry.1997542075": message
+			"entry.1997542075": message,
+			"entry.26006045": source
 		},
 		type: "POST",
 		dataType: "xml",

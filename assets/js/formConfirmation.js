@@ -1,4 +1,8 @@
 function ValidateEmail(email) {
+	if(str.indexOf("@agenciasubido.com") >= 0) {
+		alert("spam detected.");
+		return false;
+	}
 	if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,})+$/.test(email)) {
 		return (true)
 	}

@@ -14,22 +14,22 @@ permalink: /resume/
 <img src="/assets/coto.jpg" alt="Coto" width="160" height="160" style="float: left; margin-right: 15px;"/>
 Researcher, Software and Hardware Engineer, Diploma in Finance and Investments. Business development and strategic planning.
 
-I have developed critical technology projects, led technical and non-technical teams, and deployed high-demand infrastructures into the cloud in Banking and Mining industry. My native programming languages are Python and JavaScript with several SQL, noSQL databases.
+I have developed critical technology projects, led technical and non-technical teams, and deployed high-demand infrastructures into the cloud in Banking and Mining industry. My native programming languages are Python and TypeScript/JavaScript with several SQL, noSQL databases.
 
 ## Competences
 
-- Advanced programming with **Python, C#, .NET Core, JavaScript/TypeScript** (Angular, Vue.js, jQuery).
+- Advanced programming with **Python, C#, .NET Core, Node, TypeScript/JavaScript/** (Angular, Vue.js, jQuery).
 - Experience with **SQL and noSQL databases** (MySQL, MS-SQL, PostgreSQL, Redis, MongoDB, Firestore).
 - Lead Technical and Non-Technical Teams / Product and Project Management.
 - Frontend development with **UI/UX skills** and long experience in **SASS/CSS and HTML** technologies.
 - Skilled device integrations with **API RESTful,  HTML5 APIs and PWA** (Progressive Web Applications).
-- High-demand **deployments** into cloud containers (**Docker**) for **Azure** or **Google Cloud** Platforms.
-- **Science research** with **Hardware manufacturing** and **Software applications**.
+- High-demand **deployments** into **Azure** or **Google Cloud** containers (**Docker**).
+- **Science research** with **Hardware manufacturing** and **Software development**.
 - **Quality Assurance** for Hardware and Software projects.
 
 ## Skills
 <p style="text-align: center;">
-⧫ AI  Researcher  ⧫ Full Web Engineer (PWA, Python, JavaScript, HTML & CSS) ⧫ Product and Team Manager  ⧫ Cyber Security  ⧫ Cloud Container Infrastructure Architect   ⧫ SQL & NonSQL  ⧫ Docker  ⧫  UX/UI  ⧫ RESTful APIs ⧫
+⧫ AI  Researcher  ⧫ Full Web Engineer (PWA, Python, TypeScript, HTML & CSS) ⧫ Product and Team Manager  ⧫ Cyber Security  ⧫ Cloud Container Infrastructure Architect  ⧫ SQL & NonSQL ⧫ Docker ⧫ UX/UI  ⧫ RESTful APIs ⧫
 </p>
 
 
@@ -44,7 +44,7 @@ I have developed critical technology projects, led technical and non-technical t
 
 ## Language Skills
 
-- <b>English</b> - Fluent Proficiency (C2)
+- <b>English</b> - Advanced (C1)
 - <b>Portuguese</b> - Professional Proficiency (B1)
 - <b>Spanish</b> - Native (C2)
 
@@ -52,7 +52,7 @@ I have developed critical technology projects, led technical and non-technical t
 
 ### "Hardware and Software Industry"
 
-#### » Founder & Investor (2016 - present)
+#### » Founder & Investor (2016)
 
 - Lead Research and Development team (Engineers, Docs and Postdocs).
 - Budgets & Financial projections.
@@ -61,7 +61,7 @@ I have developed critical technology projects, led technical and non-technical t
 
 ### "Software Industry"
 
-#### » Software and Hardware Engineering Manager Consulting (2020 - present)
+#### » Software and Hardware Engineering Consulting (2020 - present)
 
 - Research and Development for PWA technologies.
 - Plan, manage and monitoring team work.

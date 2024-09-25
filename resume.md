@@ -120,10 +120,10 @@ I have developed critical technology projects, led technical and non-technical t
 
 ## Licenses & Certifications
 
-- <b>[C1 Advanced - English EF SET Certificate](https://github.com/coto/coto.github.io/blob/c2ed45ca2fefa42fece922d73b7218b3c1136608/_includes/C1_Advanced-English_EF_SET_Certificate.pdf "")</b><br>
+- <b>[C1 Advanced - English EF SET Certificate](https://cert.efset.org/ochWnB)</b><br>
     Issued 27 Jul 2023<br>
-    Credential ID: ochWnB<br>
-    **Skills**: Python in Azure · Python (Programming Language)
+    Credential ID: [ochWnB](https://github.com/coto/coto.github.io/blob/c2ed45ca2fefa42fece922d73b7218b3c1136608/_includes/C1_Advanced-English_EF_SET_Certificate.pdf)<br>
+    **Skills**: English
 ---
 - <b>[Python Certificate](https://www.studysection.com/users/socialMedia/NjU5NDAx/cm9kcmlnby55dHVib0BnbWFpbC5jb20=)</b><br>
     Issued May 2023<br>

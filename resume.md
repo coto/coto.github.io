@@ -114,7 +114,7 @@ I have developed critical technology projects, led technical and non-technical t
 | **editions involved** | 2011, 2013 and 2015. |
 
 
-- Creator and Co-Organizer of StarTechConf, a Software Developer Conference with around a thousand attendees from different parts of the globe on its 3 first editions (2011, 2013 and 2015) with some speakers from companies like Google, Github's founders, Apple, Microsoft, among others.
+- Creator and Co-Organizer of StarTechConf, a Software Developer Conference with around a thousand attendees from different parts of the globe on its 3 first editions (2011, 2013 and 2015) with some speakers from companies like Google, Github's founders, Mozilla, Apple, Microsoft, among others.
 - Non-profit projects with budgets, timelines and teams bigger than usual.
 - After the 2015 edition, I handed over the rights to third parties for free, and they renamed it to www.starsconf.com.
 
@@ -125,19 +125,16 @@ I have developed critical technology projects, led technical and non-technical t
     Credential ID: [ochWnB][cert_etf_english_pdf]{:target="_blank"}<br>
     **Skills**: English
 <hr>
-
 - <b>[Python Certificate][cert_ss_python]{:target="_blank"}</b><br>
     Issued May 2023<br>
     Credential ID: 659401<br>
     **Skills**: Python in Azure · Python (Programming Language)
 <hr>
-
 - <b>[C Sharp .NET Full Stack Developer Diploma Certificate (Advanced)][cert_ss_csharp]{:target="_blank"}</b><br>
     Issued May 2023<br>
     Credential ID: 659399<br>
     **Skills**: C#
 <hr>
-
 - <b>[PHP Programming (Foundation)][cert_ss_php]{:target="_blank"}</b><br>
     Issued May 2023<br>
     Credential ID: 659393<br>
@@ -145,17 +142,17 @@ I have developed critical technology projects, led technical and non-technical t
 
 [^framework]: Structure of an application.
 
-[usach]: http://www.usach.cl
-[usm]: http://www.utfsm.cl
-[fen]: http://www.fen.uchile.cl
+[usach]: https://www.usach.cl/
+[usm]: https://usm.cl/
+[fen]: https://fen.uchile.cl
 [t_coto]: https://www.twitter.com/coto
 [g_coto]: https://www.github.com/coto
 [quora_s]: https://www.quora.com/What-is-the-coolest-thing-you-have-ever-created-alone-as-a-programmer/answer/Coto-Augosto
 [quora]: https://www.quora.com/Coto-Augosto
-[lda]: http://fees.cl/lda/
+[lda]: https://admision.mineduc.cl/vitrina-vue/establecimiento/392
 [fluentd]: https://docs.fluentd.org/
 [cert_etf_english]: https://cert.efset.org/ochWnB
-[cert_etf_english_pdf]: /_includes/C1_Advanced-English_EF_SET_Certificate.pdf
+[cert_etf_english_pdf]: /assets/C1_Advanced-English_EF_SET_Certificate.pdf
 [cert_ss_python]: https://www.studysection.com/users/socialMedia/NjU5NDAx/cm9kcmlnby55dHVib0BnbWFpbC5jb20=
 [cert_ss_csharp]: https://www.studysection.com/users/socialMedia/NjU5Mzk5/cm9kcmlnby55dHVib0BnbWFpbC5jb20=
 [cert_ss_php]: https://www.studysection.com/users/socialMedia/NjU5Mzkz/cm9kcmlnby55dHVib0BnbWFpbC5jb20=

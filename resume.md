@@ -23,7 +23,7 @@ I have developed critical technology projects, led technical and non-technical t
 - Experience with **SQL and noSQL databases** (MySQL, MS-SQL, PostgreSQL, Redis, MongoDB, Firestore).
 - Lead Technical and Non-Technical Teams / Product and Project Management.
 - Frontend development with **UI/UX skills** and long experience in **SASS/CSS and HTML** technologies.
-- Skilled device integrations with **API RESTful,  HTML5 APIs and PWA** (Progressive Web Applications).
+- Skilled device integrations with **API RESTful, HTML5 APIs and PWA** (Progressive Web Applications).
 - High-demand **deployments** into **Azure** or **Google Cloud** containers (**Docker**).
 - **Science research** with **Hardware manufacturing** and **Software development**.
 - **Quality Assurance** for Hardware and Software projects.
@@ -31,7 +31,7 @@ I have developed critical technology projects, led technical and non-technical t
 
 ## Academic Background
 
-| 2014 – 2014 | **[Universidad de Chile][fen]**  <br> Finance and Investing Diploma |
+| 2014 – 2014 | [Universidad de Chile][fen]{:target="_blank"} <br> Finance and Investing Diploma |
 | 2009 – 2010 | [Santiago University Chile][usach]{:target="_blank"} <br> Graduated as Bachelor of Computer Science |
 | 2004 – 2009 | [Santiago University Chile][usach]{:target="_blank"} <br> Graduated as Computer Scientist and Engineer, Software Development |
 | 1999 – 2001 | [Federico Santa Maria University][usm]{:target="_blank"} <br> Graduated as Electronics Technician |

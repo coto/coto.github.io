@@ -124,22 +124,19 @@ I have developed critical technology projects, led technical and non-technical t
     Issued 27 Jul 2023<br>
     Credential ID: [ochWnB](https://github.com/coto/coto.github.io/blob/c2ed45ca2fefa42fece922d73b7218b3c1136608/_includes/C1_Advanced-English_EF_SET_Certificate.pdf)<br>
     **Skills**: English
-
---
+<hr>
 
 - <b>[Python Certificate](https://www.studysection.com/users/socialMedia/NjU5NDAx/cm9kcmlnby55dHVib0BnbWFpbC5jb20=)</b><br>
     Issued May 2023<br>
     Credential ID: 659401<br>
     **Skills**: Python in Azure · Python (Programming Language)
-
---
+<hr>
 
 - <b>[C Sharp .NET Full Stack Developer Diploma Certificate (Advanced)](https://www.studysection.com/users/socialMedia/NjU5Mzk5/cm9kcmlnby55dHVib0BnbWFpbC5jb20=)</b><br>
     Issued May 2023<br>
     Credential ID: 659399<br>
     **Skills**: C#
-
---
+<hr>
 
 - <b>[PHP Programming (Foundation)](https://www.studysection.com/users/socialMedia/NjU5Mzkz/cm9kcmlnby55dHVib0BnbWFpbC5jb20=)</b><br>
     Issued May 2023<br>

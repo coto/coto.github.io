@@ -120,25 +120,25 @@ I have developed critical technology projects, led technical and non-technical t
 
 ## Licenses & Certifications
 
-- <b>[C1 Advanced - English EF SET Certificate](https://cert.efset.org/ochWnB)</b><br>
+- <b>[C1 Advanced - English EF SET Certificate][cert_etf_english]{:target="_blank"}</b><br>
     Issued 27 Jul 2023<br>
-    Credential ID: [ochWnB](https://github.com/coto/coto.github.io/blob/c2ed45ca2fefa42fece922d73b7218b3c1136608/_includes/C1_Advanced-English_EF_SET_Certificate.pdf)<br>
+    Credential ID: [ochWnB][cert_etf_english_pdf]{:target="_blank"}<br>
     **Skills**: English
 <hr>
 
-- <b>[Python Certificate](https://www.studysection.com/users/socialMedia/NjU5NDAx/cm9kcmlnby55dHVib0BnbWFpbC5jb20=)</b><br>
+- <b>[Python Certificate][cert_ss_python]{:target="_blank"}</b><br>
     Issued May 2023<br>
     Credential ID: 659401<br>
     **Skills**: Python in Azure · Python (Programming Language)
 <hr>
 
-- <b>[C Sharp .NET Full Stack Developer Diploma Certificate (Advanced)](https://www.studysection.com/users/socialMedia/NjU5Mzk5/cm9kcmlnby55dHVib0BnbWFpbC5jb20=)</b><br>
+- <b>[C Sharp .NET Full Stack Developer Diploma Certificate (Advanced)][cert_ss_csharp]{:target="_blank"}</b><br>
     Issued May 2023<br>
     Credential ID: 659399<br>
     **Skills**: C#
 <hr>
 
-- <b>[PHP Programming (Foundation)](https://www.studysection.com/users/socialMedia/NjU5Mzkz/cm9kcmlnby55dHVib0BnbWFpbC5jb20=)</b><br>
+- <b>[PHP Programming (Foundation)][cert_ss_php]{:target="_blank"}</b><br>
     Issued May 2023<br>
     Credential ID: 659393<br>
     **Skills**: PHP, MySQL
@@ -154,3 +154,8 @@ I have developed critical technology projects, led technical and non-technical t
 [quora]: https://www.quora.com/Coto-Augosto
 [lda]: http://fees.cl/lda/
 [fluentd]: https://docs.fluentd.org/
+[cert_etf_english]: https://cert.efset.org/ochWnB
+[cert_etf_english_pdf]: /_includes/C1_Advanced-English_EF_SET_Certificate.pdf
+[cert_ss_python]: https://www.studysection.com/users/socialMedia/NjU5NDAx/cm9kcmlnby55dHVib0BnbWFpbC5jb20=
+[cert_ss_csharp]: https://www.studysection.com/users/socialMedia/NjU5Mzk5/cm9kcmlnby55dHVib0BnbWFpbC5jb20=
+[cert_ss_php]: https://www.studysection.com/users/socialMedia/NjU5Mzkz/cm9kcmlnby55dHVib0BnbWFpbC5jb20=

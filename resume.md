@@ -120,19 +120,24 @@ I have developed critical technology projects, led technical and non-technical t
 
 ## Licenses & Certifications
 
+- <b>[C1 Advanced - English EF SET Certificate](https://cert.efset.org/ochWnB)</b><br>
+    Issued 27 Jul 2023<br>
+    Credential ID: ochWnB<br>
+    **Skills**: Python in Azure · Python (Programming Language)
+---
 - <b>[Python Certificate](https://www.studysection.com/users/socialMedia/NjU5NDAx/cm9kcmlnby55dHVib0BnbWFpbC5jb20=)</b><br>
     Issued May 2023<br>
-    Credential ID 659401<br>
+    Credential ID: 659401<br>
     **Skills**: Python in Azure · Python (Programming Language)
 ---
 - <b>[C Sharp .NET Full Stack Developer Diploma Certificate (Advanced)](https://www.studysection.com/users/socialMedia/NjU5Mzk5/cm9kcmlnby55dHVib0BnbWFpbC5jb20=)</b><br>
     Issued May 2023<br>
-    Credential ID 659399<br>
+    Credential ID: 659399<br>
     **Skills**: C#
 ---
 - <b>[PHP Programming (Foundation)](https://www.studysection.com/users/socialMedia/NjU5Mzkz/cm9kcmlnby55dHVib0BnbWFpbC5jb20=)</b><br>
     Issued May 2023<br>
-    Credential ID 659393<br>
+    Credential ID: 659393<br>
     **Skills**: PHP, MySQL
 
 [^framework]: Structure of an application.

@@ -118,6 +118,21 @@ I have developed critical technology projects, led technical and non-technical t
 - Non-profit projects with budgets, timelines and teams bigger than usual.
 - After the 2015 edition, I handed over the rights to third parties for free, and they renamed it to www.starsconf.com.
 
+## Licenses & Certifications
+
+- <b>[Python Certificate](https://www.studysection.com/users/socialMedia/NjU5NDAx/cm9kcmlnby55dHVib0BnbWFpbC5jb20=)</b><br>
+    Issued May 2023<br>
+    Credential ID 659401<br>
+    **Skills**: Python in Azure · Python (Programming Language)
+- <b>[C Sharp .NET Full Stack Developer Diploma Certificate (Advanced)](https://www.studysection.com/users/socialMedia/NjU5Mzk5/cm9kcmlnby55dHVib0BnbWFpbC5jb20=)</b><br>
+    Issued May 2023<br>
+    Credential ID 659399<br>
+    **Skills**: C#
+- <b>[PHP Programming (Foundation)](https://www.studysection.com/users/socialMedia/NjU5Mzkz/cm9kcmlnby55dHVib0BnbWFpbC5jb20=)</b><br>
+    Issued May 2023<br>
+    Credential ID 659393<br>
+    **Skills**: PHP, MySQL
+
 [^framework]: Structure of an application.
 
 [usach]: http://www.usach.cl

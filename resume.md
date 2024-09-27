@@ -19,7 +19,7 @@ permalink: /resume/
 	I have developed critical technology projects, led technical and non-technical teams, and deployed high-demand infrastructures into the cloud in Banking and Mining industry. My native programming languages are Python and TypeScript/JavaScript with several SQL, noSQL & Vector Databases.
 </p>
 <p>
-	<b>I do not work as Freelancer, avoid impersonators</b> validating [direct contact with me](https://www.beecoss.com/contact/).
+	<b>I do not work as Freelancer, avoid impersonators</b> by validating <a href="https://www.beecoss.com/contact/">direct contact with me</a>.
 </p>
 
 ## Competences

@@ -16,6 +16,7 @@ permalink: /resume/
 Researcher & Developer ⧫ Full Stack & Hardware Engineer ⧫ Project Manager ⧫ Cloud Architect ⧫ Finance & Investments Diploma ⧫ Expertise in RESTful APIs, Python, JavaScript, ML/AI, SQL, NoSQL, & Vector Databases.
 </p>
 I have developed critical technology projects, led technical and non-technical teams, and deployed high-demand infrastructures into the cloud in Banking and Mining industry. My native programming languages are Python and TypeScript/JavaScript with several SQL, noSQL & Vector Databases.
+I do not work as Freelancer, avoid impersonators validating [direct contact with me](https://www.beecoss.com/contact/).
 
 ## Competences
 
@@ -48,7 +49,7 @@ I have developed critical technology projects, led technical and non-technical t
 
 ### » Founder, Investor and Product Manager at Neahtid (2017 - present)
     
-    Technical Skills: Python, Flask, Fast API, Raspberry Pi, PyTorch, MySQL, PostgreSQL, Docker, AWS.
+**Technical Skills**: Python, Flask, Fast API, Raspberry Pi, PyTorch, MySQL, PostgreSQL, Docker, AWS.
 
 - Generate high-dimensional representations (embeddings) for pre-trained LLM.
 - Lead hardware and software teams.
@@ -58,7 +59,7 @@ I have developed critical technology projects, led technical and non-technical t
 
 ### » Lead Full Stack Developer | Project Manager at SACC (Nov, 2020 - May 2023)
     
-    Technical Skills: Python, Django, PHP,  NodeJs, Express.js, MongoDB, Severless.
+**Technical Skills**: Python, Django, PHP,  NodeJs, Express.js, MongoDB, Severless.
 
 - Design Backend Architecture and participated in development for backend and frontend.
 - Planning, budgeting and monitoring projects.
@@ -68,13 +69,16 @@ I have developed critical technology projects, led technical and non-technical t
 
 ### » Regular Expression Engineer - Linux Foundation / Fluentd (Jun, 2018 - Feb 2019)
 
+**Technical Skills**: Regular Expressions.
+
 - Regular Expressions Project migrating [Fluentd Documentation][fluentd]{:target="_blank"}, an open source data collector of Linux Foundation and graduated project of Cloud Native Computing Foundation (CNCF).
 
 
 ### » Different Roles at Bank and Fintech Companies (Jan, 2011 - Jun 2020)
 
-#### CTO
-	Technical Skills: Python, GCP, Docker.
+#### »» CTO
+
+ **Technical Skills**: Python, GCP, Docker.
 
 - Design and planning of Architecture and Systems for multi-layered banking applications. (ISO 20000)
 - Helps team members define clear, small, and testable tasks.
@@ -83,27 +87,31 @@ I have developed critical technology projects, led technical and non-technical t
 - Manager and technical lead for research and development teams.
 - Project management and lead DevOps for Software Security in Financial Applications.
 
-#### Senior Full Stack Developer
-	Technical Skills: C#, .NET MVC4, SqlServer, HTML, Razor, CSS, Javascript, jQuery.
+#### »» Senior Full Stack Developer
+	
+ **Technical Skills**: C#, .NET MVC4, SqlServer, HTML, Razor, CSS, Javascript, jQuery.
  
 - Participate in building an International Money Transfer Application.
 - DBA and Database Stored Procedures in SQL and MySQL databases.
 - Restful API Services and Web Applications with C# and Angular.
 
-### » Different Roles at Bank and Fintech Companies (Jan, 2001 - Jun 2011)
+### »» Different Roles at Bank and Fintech Companies (Jan, 2001 - Jun 2011)
 
-#### Full Stack Developer | Risk Analyst Engineer
-    Technical Skills: C#, SqlServer, .NET.
+#### »» Full Stack Developer | Risk Analyst Engineer
+
+ **Technical Skills**: C#, SqlServer, .NET.
 
 - Built Operational Risk Control Application with C#, SQL (stored procedures and triggers).
 
-#### Software Engineer
-	Technical Skills: Node.js, Angular,  React.js, Vue.js, MongoDB.
+#### »» Software Engineer
+	
+ **Technical Skills**: Node.js, Angular,  React.js, Vue.js, MongoDB.
 
 - Creation of User Generated Content systems.
 
-#### Software Engineer Mobile Platforms
-    Technical Skills: Python, Django. Javascript, Vue. Quasar.
+#### »» Software Engineer Mobile Platforms
+
+ **Technical Skills**: Python, Django. Javascript, Vue. Quasar.
 
 - Developed JavaScript Web Mobile Framework, when famous JavaScript frameworks did not exist.
 - Built OTP Security Mobile Authentication for Bank Applications.
@@ -116,7 +124,6 @@ I have developed critical technology projects, led technical and non-technical t
 | **venue** | Federico Santa Maria University, Campus San Joaquin Santiago, Chile. |
 | **original domain** | www.startechconf.com |
 | **editions involved** | 2011, 2013 and 2015. |
-
 
 - Creator and Co-Organizer of StarTechConf, a Software Developer Conference with around a thousand attendees from different parts of the globe on its 3 first editions (2011, 2013 and 2015) with some speakers from companies like Google, Github's founders, Mozilla, Apple, Microsoft, among others.
 - Non-profit projects with budgets, timelines and teams bigger than usual.

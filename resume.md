@@ -13,10 +13,14 @@ permalink: /resume/
 </div>
 <img src="/assets/coto.jpg" alt="Coto" width="160" height="160" style="float: left; margin-right: 15px;"/>
 <p style="text-align: center;">
-Researcher & Developer ⧫ Full Stack & Hardware Engineer ⧫ Project Manager ⧫ Cloud Architect ⧫ Finance & Investments Diploma ⧫ Expertise in RESTful APIs, Python, JavaScript, ML/AI, SQL, NoSQL, & Vector Databases.
+	Researcher & Developer ⧫ Full Stack & Hardware Engineer ⧫ Project Manager ⧫ Cloud Architect ⧫ Finance & Investments Diploma ⧫ Expertise in RESTful APIs, Python, JavaScript, ML/AI, SQL, NoSQL, & Vector Databases.
 </p>
-<p>I have developed critical technology projects, led technical and non-technical teams, and deployed high-demand infrastructures into the cloud in Banking and Mining industry. My native programming languages are Python and TypeScript/JavaScript with several SQL, noSQL & Vector Databases.</p>
-<p>I do not work as Freelancer, avoid impersonators validating [direct contact with me](https://www.beecoss.com/contact/).</p>
+<p style="text-align: center;">
+	I have developed critical technology projects, led technical and non-technical teams, and deployed high-demand infrastructures into the cloud in Banking and Mining industry. My native programming languages are Python and TypeScript/JavaScript with several SQL, noSQL & Vector Databases.
+</p>
+<p>
+	<b>I do not work as Freelancer, avoid impersonators</b> validating [direct contact with me](https://www.beecoss.com/contact/).
+</p>
 
 ## Competences
 

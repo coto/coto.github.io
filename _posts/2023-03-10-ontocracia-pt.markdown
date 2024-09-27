@@ -6,7 +6,7 @@ date:   2023-03-10 12:35:35 -0300
 categories: coto blog society  
 lang: por
 tags: sistema ontocracia
-author: "Coto Augosto"
+author: "Rodrigo Augosto Cancino"
 ---
 
 [Español](/coto/blog/society/2023/03/10/ontocracia.html) | [English](/coto/blog/society/2023/03/10/ontocracy.html) | [Français](/coto/blog/society/2023/03/10/ontocratie.html) | **Português**

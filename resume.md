@@ -46,64 +46,68 @@ I have developed critical technology projects, led technical and non-technical t
 
 ## Experience
 
-### "Hardware and Software Industry"
+### » Founder, Investor and Product Manager at Neahtid (2017 - present)
+    
+    Technical Skills: Python, Flask, Fast API, Raspberry Pi, PyTorch, MySQL, PostgreSQL, Docker, AWS.
 
-#### » Founder & Investor (2016)
+- Generate high-dimensional representations (embeddings) for pre-trained LLM.
+- Lead hardware and software teams.
+- Data Preprocessing, Model Architecture, Training, Evaluation and Fine-Tuning.
+- Build Automated scripts and scraping applications connected with APIs and Spreadsheets.
+- Hardware manufacturing for wireless charging solutions.
 
-- Lead Research and Development team (Engineers, Docs and Postdocs).
-- Budgets & Financial projections.
-- Plan, manage and monitoring team milestones.
-- PWA developing (Python, mySQL, Docker, advanced JavaScript).
+### » Lead Full Stack Developer | Project Manager at SACC (Nov, 2020 - May 2023)
+    
+    Technical Skills: Python, Django, PHP,  NodeJs, Express.js, MongoDB, Severless.
 
-### "Software Industry"
+- Design Backend Architecture and participated in development for backend and frontend.
+- Planning, budgeting and monitoring projects.
+- Collaborating with your PO to groom backlog and break down stories into small functional slices.
+- Launch new products (PWA with offline support) for the mining industry.
+- Build Bluetooth hardware implementation for employee attendance system.
 
-#### » Software and Hardware Engineering Consulting (2020 - present)
-
-- Research and Development for PWA technologies.
-- Plan, manage and monitoring team work.
-- Strategic planning for Industrial and mining projects.
-- Communication with PO Lead about strategic business planning.
-- Communicate channel between directors strategy and technical team.
-
-<hr>
-#### » Senior Software Engineer  (2019)
-
-- Full Stack programming for Bank Industry, Database Stored Procedures in SQL, Restful API Services with C#, Web Applications with Angular.
-
-<hr>
-#### » Open Source - Linux Fundation (2018 - 2019)
+### » Regular Expression Engineer - Linux Foundation / Fluentd (Jun, 2018 - Feb 2019)
 
 - Regular Expressions Project migrating [Fluentd Documentation][fluentd]{:target="_blank"}, an open source data collector of Linux Foundation and graduated project of Cloud Native Computing Foundation (CNCF).
 
-<hr>
-#### » CTO (2011 - 2017)
 
-- Budget and Projections for Projects.
-- Participate on Design and planning Architecture and Systems for multi-layered banking applications.
-- Create and Deploy projects from zero base.
-- Worked on customer experience.
-- Lead Software Security projects.
+### » Different Roles at Bank and Fintech Companies (Jan, 2011 - Jun 2020)
 
-<hr>
-#### » Senior Full Stack Developer (2010 - 2011)
+#### CTO
+	Technical Skills: Python, GCP, Docker.
 
-- Created a User Generated Content systems (Node.js, Sencha Touch and MongoDB)
+- Design and planning of Architecture and Systems for multi-layered banking applications. (ISO 20000)
+- Helps team members define clear, small, and testable tasks.
+- Manager for the Google Cloud Partnership.
+- Addresses technical debt constantly - escalating when it becomes risky to time or quality.
+- Manager and technical lead for research and development teams.
+- Project management and lead DevOps for Software Security in Financial Applications.
 
-<hr>
-#### » Full Stack Developer | Risk Analyst Engineer (2009 - 2010)
+#### Senior Full Stack Developer
+	Technical Skills: C#, .NET MVC4, SqlServer, HTML, Razor, CSS, Javascript, jQuery.
+ 
+- Participate in building an International Money Transfer Application.
+- DBA and Database Stored Procedures in SQL and MySQL databases.
+- Restful API Services and Web Applications with C# and Angular.
 
-- Build Operational risk control applications and SQL Stored Procedures for an Investment Bank.
+### » Different Roles at Bank and Fintech Companies (Jan, 2001 - Jun 2011)
 
-<hr>
-#### » Software Engineer Mobile Platforms (2008 - 2009)
+#### Full Stack Developer | Risk Analyst Engineer
+    Technical Skills: C#, SqlServer, .NET.
 
-- Build JavaScript framework[^framework] for mobile applications development.
-- Build OTP (authentication system) Application for a Chilean Bank.
+- Built Operational Risk Control Application with C#, SQL (stored procedures and triggers).
 
-<hr>
-#### » Front End Developer (2001 - 2007)
+#### Software Engineer
+	Technical Skills: Node.js, Angular,  React.js, Vue.js, MongoDB.
 
-- Front end for a multinational Bank website.
+- Creation of User Generated Content systems.
+
+#### Software Engineer Mobile Platforms
+    Technical Skills: Python, Django. Javascript, Vue. Quasar.
+
+- Developed JavaScript Web Mobile Framework, when famous JavaScript frameworks did not exist.
+- Built OTP Security Mobile Authentication for Bank Applications.
+- Develop High Demand Application in C#, Python, Vue.js, Angular, jQuery, SQL, MySQL.
 
 ### "Non-profit Activities"
 

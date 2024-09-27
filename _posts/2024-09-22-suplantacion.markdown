@@ -6,7 +6,7 @@ date:   2024-09-22 11:33:11 -0300
 categories: coto blog professional
 lang: esp
 tags: desarrolladores suplantacion latinoamerica
-author: "Rodrigo Augosto"
+author: "Rodrigo Augosto Cancino"
 ---
 
 **Español** | [English](/coto/blog/professional/2024/09/22/impersonation.html) |  

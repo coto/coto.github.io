@@ -1,9 +1,23 @@
 {
   "default": true,
+  "MD010": false,
   "MD013": false,
   "MD026": false,
   "MD041": false,
   "MD033": {
-    "allowed_elements": [ "img", "div", "hr", "br", "p" ]
+    "allowed_elements": [
+      "img",
+      "div",
+      "hr",
+      "br",
+      "p",
+      "a",
+      "b",
+      "embed",
+      "form",
+      "input",
+      "textarea",
+      "label"
+    ]
   }
 }

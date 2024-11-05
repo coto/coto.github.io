@@ -1,0 +1,48 @@
+{
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "problems.decorations.enabled": false,
+    "git.autofetch": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "explorer.confirmDelete": false,
+    "workbench.editor.enablePreview": false,
+    "search.useIgnoreFiles": false,
+    "[scss]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "redhat.telemetry.enabled": false,
+    "git.confirmSync": false,
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "editor.fontSize": 14,
+    "[markdown]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "git.suggestSmartCommit": false,
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "editor.unicodeHighlight.allowedLocales": {
+        "ru": true
+    },
+    "markdownlint.config": {
+        "MD004": {
+            "style": "dash"
+        }
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+}

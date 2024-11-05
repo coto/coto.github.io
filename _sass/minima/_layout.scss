@@ -154,7 +154,7 @@ em.por {
   @include media-query($on-palm) {
     position: absolute;
     top: 9px;
-    right: $spacing-unit / 2;
+    right:  calc($spacing-unit / 2);
     background-color: $background-color;
     border: 1px solid $grey-color-light;
     border-radius: 5px;
@@ -217,7 +217,7 @@ em.por {
 
 .footer-heading {
   @include relative-font-size(1.125);
-  margin-bottom: $spacing-unit / 2;
+  margin-bottom:  calc($spacing-unit / 2);
 }
 
 .contact-list,
@@ -235,8 +235,8 @@ em.por {
 
 .footer-col {
   float: left;
-  margin-bottom: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
+  margin-bottom:  calc($spacing-unit / 2);
+  padding-left:  calc($spacing-unit / 2);
 }
 
 .footer-col-1 {

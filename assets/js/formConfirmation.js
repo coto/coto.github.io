@@ -11,27 +11,6 @@ function ValidateEmail(email) {
 	return false;
 }
 
-verify = new Object();
-verify.valid = false;
-verify.callback = function(response) {
-	console.log("verify.callback");
-	console.log(response);
-	this.valid = response;
-	if (response) {
-		$('#s_but').show();
-	}
-	console.log(this.valid);
-};
-var onloadCallback = function() {
-    if (grecaptcha) {
-	grecaptcha.render('n-recaptcha', {
-		'sitekey': '6LfC2CUUAAAAAMB11iJYlS5QlDhoNRc80P0wvBiZ',
-		'callback': verify.callback,
-		'theme': 'light'
-	});
-    }
-};
-
 function postForm(form) {
 
 	if ($(form).hasClass("contact-form")) {

@@ -229,7 +229,7 @@ em.por {
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
   color: $grey-color;
-  margin-left: -$spacing-unit / 2;
+  margin-left: calc(-1 * #{$spacing-unit} / 2);
   @extend %clearfix;
 }
 

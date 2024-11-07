@@ -3,7 +3,7 @@ name: Jekyll site CI
 on:
   push:
     branches:
-      - main  # Change this to your main branch if it's not 'main'
+      - master  # Change this to your main branch if it's not 'main'
 
 jobs:
   build:

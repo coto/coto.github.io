@@ -1,0 +1,29 @@
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <meta name="description" content="Personal site, it includes Blog Posts of Free Topics with undetermined update frequency.">
+  <meta name="keywords" content="blog, resume, project, contact">
+
+  <meta http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.google.com https://www.gstatic.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https://cdnjs.cloudflare.com; frame-src http://127.0.0.1:4000 https://www.beecoss.com https://www.google.com https://www.gstatic.com; connect-src 'self' https://docs.google.com; font-src 'self' https://fonts.gstatic.com">
+
+  <meta name="msapplication-TileImage" content="/icon_192x192.png">
+  <meta name="msapplication-TileColor" content="#F8D455">
+  <meta name="theme-color" content="#F8D455">
+  <link rel="mask-icon" href="/favicon.svg" color="#F8D455">
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+
+  <link rel="apple-touch-icon" sizes="192x192" href="/icon_192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icon_32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/icon_16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+  {%- include google-analytics.html -%}
+  {%- endif -%}
+</head>

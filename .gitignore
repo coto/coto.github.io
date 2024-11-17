@@ -1,7 +1,118 @@
+# jekyll
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-.bundle
-/vendor
-.DS_Store
+vendor
+Gemfile.lock
+
+# dev
+venv
+app.db
+
+# Publish Web Output
+*.[Pp]ublish.xml
+*.azurePubxml
+
+# Keys
+cert.key
+cert.crt
+cert.pem
+key.pem
+
+
+# IDEs and Editors
+.idea/*
+*.publishproj
+
+# Visual Studio cache files
+# files ending in .cache can be ignored
+*.[Cc]ache
+# but keep track of directories ending in .cache
+!*.[Cc]ache/
+
+# Others
+ClientBin/
+[Ss]tyle[Cc]op.*
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
+node_modules/
+*debug.config
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Bash extensions
+*.sh
+*.bash
+
+# Distribution / packaging
+.Python
+.venv
+.env*
+env/
+venv
+venv/*
+__MACOSX
+.DS_STORE
+uploads
+uploads/*
+build/
+develop-eggs/
+dist/
+public/*
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+*.log
+*.log*
+*/logs/.*
+
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Container stuff
+.mypy_cache/
+.devcontainer

@@ -15,7 +15,7 @@ author: "Rodrigo Cancino A."
 
 This is an essay that describes an alternative society that inhabits the planet, replacing the current Republic. With the arrival of the age of Aquarius and access to information, a new society dawns, where the political animal that inhabits the planet is capable of living in a system built from the learning inherited from the Roman Empire and the French Revolution.
 
-| ![Sphinx](/assets/images/as-within-is-without.jpeg "as it is inside so it is outside") |
+| ![Sphinx](/assets/posts/as-within-is-without.jpeg "as it is inside so it is outside") |
 |:--:|
 | *as it is inside so it is outside* |
 

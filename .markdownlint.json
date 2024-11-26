@@ -12,6 +12,7 @@
   "MD041": false,
   "MD033": {
     "allowed_elements": [
+      "style",
       "section",
       "article",
       "small",

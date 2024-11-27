@@ -1,6 +1,6 @@
 {
-    "name": "{{ site.slogan }}",
-    "short_name": "{{ site.name }}",
+    "name": "Beecoss",
+    "short_name": "Beecoss",
     "icons": [
         {
             "src": "/assets/img/icon-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "{{ site.color_main }}",
+    "theme_color": "#091C99",
     "background_color": "#ffffff",
     "display": "standalone"
 }

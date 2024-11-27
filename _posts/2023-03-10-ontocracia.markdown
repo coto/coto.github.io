@@ -9,7 +9,7 @@ tags: sistema ontocracia
 author: "Rodrigo Cancino A."
 ---
 
-**Español** | [English](/coto/blog/society/2023/03/10/ontocracy.html) | [Français](/coto/blog/society/2023/03/10/ontocratie.html) | [Português](/coto/blog/society/2023/03/10/ontocracia-pt.html)
+**Español** | [English](/coto/blog/society/2023/03/10/ontocracy) | [Français](/coto/blog/society/2023/03/10/ontocratie) | [Português](/coto/blog/society/2023/03/10/ontocracia-pt)
 
 ## Abstract
 

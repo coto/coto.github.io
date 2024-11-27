@@ -51,10 +51,6 @@ __pycache__/
 # C extensions
 *.so
 
-# Bash extensions
-*.sh
-*.bash
-
 # Distribution / packaging
 .Python
 .venv

@@ -53,13 +53,11 @@ function postForm(form) {
 				console.warn("statusCode: 0");
 				$('button[type=submit]', form).disabled = false;
 				$('.fa-inactive', form).removeClass('fa-active');
-				// console.trace();
 			},
 			200: function() {
 				$(form).html('<p class="nea-form-sent">' + thanks + '</p>');
 				$('button[type=submit]', form).disabled = false;
 				$('.fa-inactive', form).removeClass('fa-active');
-				// console.trace();
 			}
 		}
 	});

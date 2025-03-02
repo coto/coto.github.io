@@ -6,13 +6,9 @@ Hey, I'm Rodrigo Cancino Augosto (also know as Coto). This is my personal site, 
 
 If you would like to reach me, use this [Contact Form][contact]. In case you would mind to encrypt the information, please use [this Key][pgp_key]{:target="_blank"}.
 
-<p>
-	<b>I do not work as Freelancer, avoid impersonators</b> by validating <a href="https://www.beecoss.com/contact/">direct contact with me</a>.
-</p>
-
 ### Who am I?
 
-Born in Atacama, Chile, King of my Freedom. Wanderlust. I am good with Physics, Maths, and creating technology applications with simple user interfaces for high-demand infrastructures. I like to get involved from silicon entrails (Hardware) to the electrical signals circulating through their reils[^reils] (Software). My main interests are contribute to [Software and Hardware Solutions][neahtid]{:target="_blank"} through Research and development of high-impact projects. I Enjoy traveling this 🌎 beautiful planet and meeting different cultures.
+Born in Atacama, Chile, King of my Freedom. Wanderlust. I am good with Technology, Physics, Maths, and creating applications with simple user interfaces for high-demand infrastructures. I like to get involved from silicon entrails (Hardware) to the electrical signals circulating through their reils[^reils] (Software). My main interests are contribute to [Software and Hardware Solutions][neahtid]{:target="_blank"} through Research and development of high-impact projects. I Enjoy traveling this 🌎 beautiful planet and meeting different cultures.
 
 Free of religions and Politics.
 

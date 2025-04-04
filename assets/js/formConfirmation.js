@@ -22,10 +22,19 @@ function postForm(form) {
 	var name = $("input#form-field-name", form).val();
 	var message = $("#form-field-message", form).val();
 	var source = "beecoss.com";
+	var href = window.location.href;
+
+	const spam1_re = /Publicaremos tu empresa en más de (\d+)/;
+	const spam1_match = message.match(spam1_re);
+	if (spam1_match) {
+		form.reset();
+		$("input, select, textarea, button", form).prop("disabled", true);
+		let i=20; while(i--) alert("Spam detected. Message not send.");
+		return;
+	}
 
 	if (email == "") {
 		alert("Insert your email addrees before sending.");
-
 		return false;
 	}
 	if (!ValidateEmail(email)) return false;
@@ -36,6 +45,13 @@ function postForm(form) {
 
 	$('.fa-inactive', form).addClass('fa-active');
 	$('button[type=submit]', form).disabled = true;
+
+	message = ` 
+	${message} <br><br>
+	---
+	<hr>
+	<p><b>**Referencia**</b>: ${href}</p>
+	`;
 
 	$.ajax({
 		url: URL,

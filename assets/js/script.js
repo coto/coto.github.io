@@ -147,7 +147,7 @@ function submitFormToGoogleForms(form) {
     ${message} <br><br>
     ---
     <hr>
-    <p><b>**Referencia**</b>: ${href}</p>
+    <p><b>**Reference**</b>: ${href}</p>
     `;
 
     $.ajax({

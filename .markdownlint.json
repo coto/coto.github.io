@@ -9,7 +9,6 @@
   "MD010": false,
   "MD013": false,
   "MD026": false,
-  "MD041": false,
   "MD033": {
     "allowed_elements": [
       "style",
@@ -44,5 +43,7 @@
       "embed"
     ]
   },
+  "MD036": false,
+  "MD041": false,
   "no-hard-tabs": false
 }

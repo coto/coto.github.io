@@ -11,7 +11,8 @@
     "workbench.editor.enablePreview": false,
     "search.useIgnoreFiles": false,
     "[scss]": {
-        "editor.defaultFormatter": "vscode.css-language-features"
+        "editor.defaultFormatter": "vscode.css-language-features",
+        "editor.formatOnSave": false
     },
     "redhat.telemetry.enabled": false,
     "git.confirmSync": false,

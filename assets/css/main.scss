@@ -1,10 +1,11 @@
---- 
-# Only the main Sass file needs front matter (the dashes are enough) 
---- 
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
 @charset "utf-8";
 @use "sass:color";
 
 // Define defaults for each variable.
+
 
 $base-font-family: -apple-system, 'Source Sans Pro', Tahoma, Arial, sans-serif !default;
 $base-font-size: 17px !default;
@@ -14,13 +15,40 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit: 30px !default;
 
-$text-color: #111 !default;
-$background-color: #fdfdfd !default;
-$brand-color: #283A90 !default;
+// Theme variables (CSS custom properties)
+:root {
+  --background-color: #111;
+  --text-color: #fdfdfd;
+  --code-background-color: #181818;
+  --header-border-color: #283A90;
+  --link-color: #4a9eff;
+  --link-visited-color: #ff79c6;
+  --footer-border-color: #333;
+  --grey-color-light: #333;
+  --grey-color-dark: #ccc;
+  --brand-color: #283A90;
+}
+
+[data-theme="light"] {
+  --background-color: #fdfdfd;
+  --text-color: #111;
+  --code-background-color: #eeeeee;
+  --header-border-color: #283A90;
+  --link-color: #1f009f;
+  --link-visited-color: #283A90;
+  --footer-border-color: #eee;
+  --grey-color-light: #eee;
+  --grey-color-dark: #696969;
+  --brand-color: #283A90;
+}
+
+$background-color: var(--background-color) !default;
+$text-color: var(--text-color) !default;
+$brand-color: var(--brand-color) !default;
 
 $grey-color: #696969 !default;
-$grey-color-light: color.scale($grey-color, $lightness: 40%) !default;
-$grey-color-dark: color.scale($grey-color, $lightness: -25%) !default;
+$grey-color-light: var(--grey-color-light) !default;
+$grey-color-dark: var(--grey-color-dark) !default;
 
 $table-text-align: left !default;
 
@@ -31,13 +59,13 @@ $on-palm: 600px !default;
 $on-laptop: 800px !default;
 
 @mixin media-query($device) {
-	@media screen and (max-width: $device) {
-		@content;
-	}
+  @media screen and (max-width: $device) {
+    @content;
+  }
 }
 
 @mixin relative-font-size($ratio) {
-	font-size: $base-font-size * $ratio;
+  font-size: $base-font-size * $ratio;
 }
 
 // ======== BASE
@@ -60,8 +88,8 @@ dd,
 ol,
 ul,
 figure {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /**
@@ -81,7 +109,7 @@ ol,
 dl,
 figure,
 %vertical-rhythm {
-	margin-bottom: calc($spacing-unit / 2);
+  margin-bottom: calc($spacing-unit / 2);
 }
 
 /**
@@ -93,36 +121,36 @@ h3,
 h4,
 h5,
 h6 {
-	font-weight: $base-font-weight;
+  font-weight: $base-font-weight;
 }
 
 /**
  * Wrapper
  */
 .wrapper {
-	max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-	max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
-	margin-right: auto;
-	margin-left: auto;
-	padding-right: $spacing-unit;
-	padding-left: $spacing-unit;
-	@extend %clearfix;
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+  @extend %clearfix;
 
-	@include media-query($on-laptop) {
-		max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-		max-width: calc(#{$content-width} - (#{$spacing-unit}));
-		padding-right: calc($spacing-unit / 2);
-		padding-left: calc($spacing-unit / 2);
-	}
+  @include media-query($on-laptop) {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+    max-width: calc(#{$content-width} - (#{$spacing-unit}));
+    padding-right: calc($spacing-unit / 2);
+    padding-left: calc($spacing-unit / 2);
+  }
 }
 
 /**
  * Clearfix
  */
 %clearfix:after {
-	content: "";
-	display: table;
-	clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 
@@ -132,17 +160,18 @@ h6 {
  */
 
 .svg-icon {
-	width: 16px;
-	height: 16px;
-	display: inline-block;
-	margin-right: 5px;
-	vertical-align: text-top;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: text-top;
+  fill: currentColor;
 }
 
 .social-media-list {
-	li+li {
-		padding-top: 5px;
-	}
+  li+li {
+    padding-top: 5px;
+  }
 }
 
 
@@ -153,115 +182,115 @@ h6 {
 */
 
 table.mbtablestyle {
-	border-collapse: collapse;
+  border-collapse: collapse;
 
-	>table,
-	td,
-	th {
-		border: 0px solid black;
-	}
+  >table,
+  td,
+  th {
+    border: 0px solid black;
+  }
 }
 
 div.page-content {
-	padding: 9px 0;
+  padding: 9px 0;
 
-	h3 {
-		font-weight: 600;
-	}
+  h3 {
+    font-weight: 600;
+  }
 
-	h4 {
-		text-decoration: underline;
-	}
+  h4 {
+    text-decoration: underline;
+  }
 }
 
 header.site-header {
-	border-top-color: #283A90;
+  border-top-color: #283A90;
 }
 
 .contact-form input,
 .contact-form textarea {
-	font-size: 15px;
-	min-height: 40px;
-	padding: 5px 14px;
-	width: 100%;
-	border: 1px solid #818a91;
-	-webkit-border-radius: 3px;
-	border-radius: 3px;
-	outline: 0 none;
+  font-size: 15px;
+  min-height: 40px;
+  padding: 5px 14px;
+  width: 100%;
+  border: 1px solid #818a91;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  outline: 0 none;
 }
 
 .contact-thanks {
-	border: 1px solid #eeeeee;
-	text-align: center;
-	padding: 50px 50px;
+  border: 1px solid #eeeeee;
+  text-align: center;
+  padding: 50px 50px;
 }
 
 .warn {
-	color: gray;
-	text-transform: italic;
+  color: gray;
+  text-transform: italic;
 }
 
 .footnotes {
-	margin-top: 60px;
-	color: #999999;
+  margin-top: 60px;
+  color: #999999;
 
 }
 
 * a {
-	text-decoration: underline;
+  text-decoration: underline;
 
-	&:hover {
-		text-decoration: none;
-	}
+  &:hover {
+    text-decoration: none;
+  }
 
-	&:active {
-		text-decoration: underline;
-		color: #283A90;
-	}
+  &:active {
+    text-decoration: underline;
+    color: #283A90;
+  }
 }
 
 * b {
-	color: blue;
+  color: var(--brand-color);
 }
 
 a.post-link {
-	display: inline;
+  display: inline;
 }
 
 em.esp {
-	padding-right: 20px;
-	margin-right: 10px;
-	// background: url("https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/flags/4x3/cl.svg") center right;
-	background: url("/assets/icons/flag-icon-css/3.1.0/flags/4x3/cl.svg") center right;
-	background-repeat: no-repeat;
-	background-size: 16px 12px;
+  padding-right: 20px;
+  margin-right: 10px;
+  // background: url("https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/flags/4x3/cl.svg") center right;
+  background: url("/assets/icons/flag-icon-css/3.1.0/flags/4x3/cl.svg") center right;
+  background-repeat: no-repeat;
+  background-size: 16px 12px;
 }
 
 em.eng {
-	padding-right: 20px;
-	margin-right: 10px;
-	// background: url("https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/flags/4x3/gb.svg") center right;
-	background: url("/assets/icons/flag-icon-css/3.1.0/flags/4x3/gb.svg") center right;
-	background-repeat: no-repeat;
-	background-size: 16px 12px;
+  padding-right: 20px;
+  margin-right: 10px;
+  // background: url("https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/flags/4x3/gb.svg") center right;
+  background: url("/assets/icons/flag-icon-css/3.1.0/flags/4x3/gb.svg") center right;
+  background-repeat: no-repeat;
+  background-size: 16px 12px;
 }
 
 em.fra {
-	padding-right: 20px;
-	margin-right: 10px;
-	// background: url("https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/flags/4x3/fr.svg") center right;
-	background: url("/assets/icons/flag-icon-css/3.1.0/flags/4x3/fr.svg") center right;
-	background-repeat: no-repeat;
-	background-size: 16px 12px;
+  padding-right: 20px;
+  margin-right: 10px;
+  // background: url("https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/flags/4x3/fr.svg") center right;
+  background: url("/assets/icons/flag-icon-css/3.1.0/flags/4x3/fr.svg") center right;
+  background-repeat: no-repeat;
+  background-size: 16px 12px;
 }
 
 em.por {
-	padding-right: 20px;
-	margin-right: 10px;
-	// background: url("https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/flags/4x3/br.svg") center right;
-	background: url("/assets/icons/flag-icon-css/3.1.0/flags/4x3/br.svg") center right;
-	background-repeat: no-repeat;
-	background-size: 16px 12px;
+  padding-right: 20px;
+  margin-right: 10px;
+  // background: url("https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/flags/4x3/br.svg") center right;
+  background: url("/assets/icons/flag-icon-css/3.1.0/flags/4x3/br.svg") center right;
+  background-repeat: no-repeat;
+  background-size: 16px 12px;
 }
 
 
@@ -269,153 +298,152 @@ em.por {
    * Site header
    */
 .site-header {
-	border-top: 5px solid $grey-color-dark;
-	border-bottom: 1px solid $grey-color-light;
-	min-height: $spacing-unit * 1.865;
+  border-top: 5px solid $grey-color-dark;
+  border-bottom: 1px solid $grey-color-light;
+  min-height: $spacing-unit * 1.865;
 
-	// Positioning context for the mobile navigation icon
-	position: relative;
+  // Positioning context for the mobile navigation icon
+  position: relative;
 }
 
 .site-title {
-	@include relative-font-size(1.625);
-	font-weight: 300;
-	line-height: $base-line-height * $base-font-size * 2.25;
-	letter-spacing: -1px;
-	margin-bottom: 0;
-	float: left;
+  @include relative-font-size(1.625);
+  font-weight: 300;
+  line-height: $base-line-height * $base-font-size * 2.25;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left;
 
-	&,
-	&:visited {
-		color: $grey-color-dark;
-	}
+  &,
+  &:visited {
+    color: $grey-color-dark;
+  }
 }
 
 
 /* navigation */
 .navbar {
-	padding: 0;
+  padding: 0;
 
-	.nav-item {
-		text-align: center;
-	}
+  .nav-item {
+    text-align: center;
+  }
 }
 
 
-.navbar-light .navbar-nav .nav-link,
-.navbar-light .navbar-nav .active>.nav-link {
-	font-size: 17px;
-	padding: 13px 20px;
-	position: relative;
+.navbar .navbar-nav .nav-link,
+.navbar .navbar-nav .active>.nav-link {
+  font-size: 17px;
+  padding: 13px 20px;
+  position: relative;
+  color: var(--text-color);
 }
 
-.navbar-light .navbar-nav .nav-link {
-	-webkit-transition: .3s;
-	-o-transition: .3s;
-	transition: .3s;
+.navbar .navbar-nav .nav-link {
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
 }
 
-.navbar-light .navbar-nav .nav-link:before {
-	display: block;
-	content: ' ';
-	position: absolute;
-	height: 3px;
-	bottom: 0;
-	background-color: #1f009f;
+.navbar .navbar-nav .nav-link:before {
+  display: block;
+  content: ' ';
+  position: absolute;
+  height: 3px;
+  bottom: 0;
+  background-color: #1f009f;
 
-	-webkit-transition: .3s;
-	-o-transition: .3s;
-	transition: .3s;
-	-webkit-transition-timing-function: cubic-bezier(.58, .3, .005, 1);
-	-o-transition-timing-function: cubic-bezier(.58, .3, .005, 1);
-	transition-timing-function: cubic-bezier(.58, .3, .005, 1);
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  -webkit-transition-timing-function: cubic-bezier(.58, .3, .005, 1);
+  -o-transition-timing-function: cubic-bezier(.58, .3, .005, 1);
+  transition-timing-function: cubic-bezier(.58, .3, .005, 1);
 
-	width: 0;
-	left: -10px;
-	opacity: 0;
+  width: 0;
+  left: -10px;
+  opacity: 0;
 }
 
 .navbar-light .navbar-nav .nav-link:visited,
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-item.active .nav-link {
-	color: #1f009f;
+  color: var(--link-color);
 }
 
-.navbar-light .navbar-nav .nav-link:hover:before,
-.navbar-light .navbar-nav .nav-item.active .nav-link:before {
-	width: 100%;
-	left: 0;
-	opacity: 1;
+.navbar-light .navbar-nav .nav-link:before {
+  background-color: var(--link-color);
 }
+
 
 
 /**
    * Site footer
    */
 .site-footer {
-	border-top: 1px solid $grey-color-light;
-	padding: $spacing-unit 0;
+  border-top: 1px solid $grey-color-light;
+  padding: $spacing-unit 0;
 }
 
 .footer-heading {
-	@include relative-font-size(1.125);
-	margin-bottom: calc($spacing-unit / 2);
+  @include relative-font-size(1.125);
+  margin-bottom: calc($spacing-unit / 2);
 }
 
 .contact-list,
 .social-media-list {
-	list-style: none;
-	margin-left: 0;
+  list-style: none;
+  margin-left: 0;
 }
 
 .footer-col-wrapper {
-	@include relative-font-size(0.9375);
-	color: $grey-color;
-	margin-left: calc(-1 * #{$spacing-unit} / 2);
-	@extend %clearfix;
+  @include relative-font-size(0.9375);
+  color: $grey-color;
+  margin-left: calc(-1 * #{$spacing-unit} / 2);
+  @extend %clearfix;
 }
 
 .footer-col {
-	float: left;
-	margin-bottom: calc($spacing-unit / 2);
-	padding-left: calc($spacing-unit / 2);
+  float: left;
+  margin-bottom: calc($spacing-unit / 2);
+  padding-left: calc($spacing-unit / 2);
 }
 
 .footer-col-1 {
-	width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-	width: calc(35% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+  width: calc(35% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-	width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-	width: calc(20% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+  width: calc(20% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-	width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-	width: calc(45% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+  width: calc(45% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
 
-	.footer-col-1,
-	.footer-col-2 {
-		width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-		width: calc(50% - (#{$spacing-unit} / 2));
-	}
+  .footer-col-1,
+  .footer-col-2 {
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width: calc(50% - (#{$spacing-unit} / 2));
+  }
 
-	.footer-col-3 {
-		width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-		width: calc(100% - (#{$spacing-unit} / 2));
-	}
+  .footer-col-3 {
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width: calc(100% - (#{$spacing-unit} / 2));
+  }
 }
 
 @include media-query($on-palm) {
-	.footer-col {
-		float: none;
-		width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-		width: calc(100% - (#{$spacing-unit} / 2));
-	}
+  .footer-col {
+    float: none;
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width: calc(100% - (#{$spacing-unit} / 2));
+  }
 }
 
 
@@ -424,35 +452,35 @@ em.por {
    * Page content
    */
 .page-content {
-	padding: $spacing-unit 0;
-	flex: 1 0 auto;
+  padding: $spacing-unit 0;
+  flex: 1 0 auto;
 }
 
 .page-heading {
-	@include relative-font-size(2);
+  @include relative-font-size(2);
 }
 
 .post-list-heading {
-	@include relative-font-size(1.75);
+  @include relative-font-size(1.75);
 }
 
 .post-list {
-	margin-left: 0;
-	list-style: none;
+  margin-left: 0;
+  list-style: none;
 
-	>li {
-		margin-bottom: $spacing-unit;
-	}
+  >li {
+    margin-bottom: $spacing-unit;
+  }
 }
 
 .post-meta {
-	font-size: $small-font-size;
-	color: $grey-color;
+  font-size: $small-font-size;
+  color: $grey-color;
 }
 
 .post-link {
-	display: block;
-	@include relative-font-size(1.5);
+  display: block;
+  @include relative-font-size(1.5);
 }
 
 
@@ -461,97 +489,156 @@ em.por {
    * Posts
    */
 .post-header {
-	margin-bottom: $spacing-unit;
+  margin-bottom: $spacing-unit;
 }
 
 .post-title,
 .post-content h1 {
-	@include relative-font-size(2.625);
-	letter-spacing: -1px;
-	line-height: 1;
+  @include relative-font-size(2.625);
+  letter-spacing: -1px;
+  line-height: 1;
 
-	@include media-query($on-laptop) {
-		@include relative-font-size(2.25);
-	}
+  @include media-query($on-laptop) {
+    @include relative-font-size(2.25);
+  }
 }
 
 .post-content {
-	margin-bottom: $spacing-unit;
+  margin-bottom: $spacing-unit;
 
-	h2 {
-		@include relative-font-size(2);
+  h2 {
+    @include relative-font-size(2);
 
-		@include media-query($on-laptop) {
-			@include relative-font-size(1.75);
-		}
-	}
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.75);
+    }
+  }
 
-	h3 {
-		@include relative-font-size(1.625);
+  h3 {
+    @include relative-font-size(1.625);
 
-		@include media-query($on-laptop) {
-			@include relative-font-size(1.375);
-		}
-	}
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.375);
+    }
+  }
 
-	h4 {
-		@include relative-font-size(1.25);
+  h4 {
+    @include relative-font-size(1.25);
 
-		@include media-query($on-laptop) {
-			@include relative-font-size(1.125);
-		}
-	}
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.125);
+    }
+  }
 }
 
 
 // ======================
 
 #skilfulness {
-	clear: left;
-	padding-top: 1em;
+  clear: left;
+  padding-top: 1em;
+}
+
+.theme-toggle {
+  background: var(--code-background-color);
+  border: 1px solid var(--grey-color-light);
+  border-radius: 50%;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    color: var(--brand-color);
+    border-color: var(--brand-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  svg {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+  }
+}
+
+
+.sun-icon {
+  display: none;
+}
+
+.moon-icon {
+  display: block;
+}
+
+[data-theme="light"] {
+  .sun-icon {
+    display: block;
+  }
+
+  .moon-icon {
+    display: none;
+  }
 }
 
 body {
-	font-size: 16px;
-	font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+.navbar-toggler-icon {
+  filter: invert(var(--navbar-toggler-invert));
+}
+
+:root {
+  --navbar-toggler-invert: 0.8; // Default dark theme needs white icon
+}
+
+[data-theme="light"] {
+  --navbar-toggler-invert: 0; // Light theme needs dark icon
+}
+
 
 b,
 strong {
-	color: #000;
+  color: inherit;
 }
 
 ul {
-	font-size: 15px;
+  font-size: 15px;
 }
 
 /* Tablets (768px and below) */
 @media only screen and (max-width: 768px) {
 
-	/* Your CSS styles for tablets */
-	body {
-		background-color: #f9ffff;
+  body {
 
-		nav ul.navbar-nav {
-			li {
-				width: 100%;
 
-				a {
-					width: 100%;
-				}
-			}
-		}
-	}
+    nav ul.navbar-nav {
+      li {
+        width: 100%;
+
+        a {
+          width: 100%;
+        }
+      }
+    }
+  }
 
 }
 
 /* Smartphones in Landscape (576px and below) */
 @media only screen and (max-width: 576px) {
 
-	/* Your CSS styles for smartphones in landscape */
-	body {
-		background-color: #fffff9;
-	}
+  /* Your CSS styles for smartphones in landscape */
 
 }
 
@@ -559,9 +646,456 @@ ul {
 /* Smartphones in Portrait (480px and below) */
 @media only screen and (max-width: 480px) {
 
-	/* Your CSS styles for smartphones in portrait */
-	body {
-		background-color: #fff9ff;
-	}
+  /* Your CSS styles for smartphones in portrait */
 
+}
+
+// ======================================================
+// AI EDITORIAL — Dark editorial style for AI/tech posts
+// Usage: add class="ai-editorial" to the post wrapper
+//        or wrap sections with {:.ai-editorial} in MD
+// ======================================================
+
+// --- Variables ---
+$ai-black: #0a0a0a;
+$ai-surface: #181818;
+$ai-surface-2: #242424;
+$ai-surface-3: #2e2e2e;
+$ai-white: #f4f0e8;
+$ai-white-muted: rgba(244, 240, 232, 0.65);
+$ai-white-dim: rgba(244, 240, 232, 0.35);
+$ai-red: #e63030;
+$ai-amber: #f5a623;
+$ai-teal: #00c9a7;
+$ai-mono: 'Space Mono', 'Courier New', monospace;
+$ai-serif: 'Georgia', 'Times New Roman', serif;
+
+// Theme-aware AI colors
+:root {
+  --ai-background: #0a0a0a;
+  --ai-text: #f4f0e8;
+  --ai-surface: #181818;
+  --ai-surface-2: #242424;
+  --ai-surface-3: #2e2e2e;
+  --ai-muted: rgba(244, 240, 232, 0.65);
+}
+
+[data-theme="light"] {
+  --ai-background: #fdfdfd;
+  --ai-text: #111;
+  --ai-surface: #f0f0f0;
+  --ai-surface-2: #e0e0e0;
+  --ai-surface-3: #d0d0d0;
+  --ai-muted: rgba(17, 17, 17, 0.65);
+}
+
+
+// --- Google Fonts import (add to <head> or _includes) ---
+// <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+// -------------------------------------------------------
+// POST WRAPPER  —  .post-content wrapping the whole post
+// when front matter has  layout: post  and uses ai classes
+// -------------------------------------------------------
+
+.post-content {
+
+  // ---- Hero title ----------------------------------------
+  .hero-title {
+    font-family: $ai-serif;
+    font-size: clamp(32px, 5vw, 64px);
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.025em;
+    color: var(--ai-text);
+    background: var(--ai-background);
+    padding: 48px 40px 36px;
+    margin: 0 calc(-1 * $spacing-unit) 0;
+    border-bottom: 4px solid;
+    border-image: linear-gradient(90deg, $ai-red 0%, $ai-amber 45%, $ai-teal 100%) 1;
+
+    .cs-highlight {
+      color: $ai-teal;
+      font-style: italic;
+    }
+
+
+    @include media-query($on-palm) {
+      padding: 32px 20px 24px;
+      font-size: 28px;
+    }
+  }
+
+  // ---- Eyebrow label  ------------------------------------
+  .eyebrow-label {
+    font-family: $ai-mono;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: $ai-teal;
+    background: var(--ai-background);
+    padding: 12px 40px 24px;
+    margin: 0 calc(-1 * $spacing-unit) $spacing-unit;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.1);
+
+
+    @include media-query($on-palm) {
+      padding: 10px 20px 18px;
+      font-size: 10px;
+    }
+  }
+
+  // ---- Lead paragraph  -----------------------------------
+  .ai-lead {
+    font-family: $ai-serif;
+    font-size: clamp(17px, 2.2vw, 21px);
+    font-style: italic;
+    color: var(--ai-muted);
+    background: var(--ai-background);
+    border-left: 3px solid $ai-teal;
+    padding: 20px 28px;
+    margin: 0 0 $spacing-unit;
+    line-height: 1.7;
+
+  }
+
+  // ---- Section tags  -------------------------------------
+  .section-tag {
+    font-family: $ai-mono;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: $ai-red;
+    margin-top: $spacing-unit * 2;
+    margin-bottom: -$spacing-unit * 0.4;
+
+    +h3 {
+      font-family: $ai-serif;
+      font-size: clamp(20px, 3vw, 32px);
+      font-weight: 700;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      color: var(--ai-text);
+      margin-top: 8px;
+      margin-bottom: 20px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.1);
+
+    }
+  }
+
+  // ---- Blockquote — AI editorial style  ------------------
+  .ai-blockquote,
+  blockquote {
+    background: var(--ai-surface-2);
+    border: none;
+    border-left: 4px solid $ai-amber;
+    padding: 28px 36px;
+    margin: $spacing-unit 0;
+    font-family: $ai-serif;
+    font-size: clamp(17px, 2vw, 22px);
+    font-style: italic;
+    font-weight: 300;
+    color: var(--ai-text);
+    line-height: 1.6;
+
+    p {
+      color: var(--ai-text);
+      margin-bottom: 0;
+    }
+
+
+    cite {
+      display: block;
+      font-family: $ai-mono;
+      font-size: 10px;
+      font-style: normal;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: $ai-white-dim;
+      margin-top: 16px;
+    }
+  }
+
+  // ---- Error / code box  ---------------------------------
+  .ai-error-box {
+    background: #110000;
+    border: 1px solid rgba(230, 48, 48, 0.4);
+    padding: 24px 28px;
+    margin: $spacing-unit 0;
+
+    strong {
+      color: $ai-red !important;
+    }
+
+    pre,
+    code {
+      color: var(--ai-text);
+    }
+  }
+
+
+  // highlight correct answers in teal via JS or manual span
+  .correct {
+    color: $ai-teal;
+  }
+
+  .wrong {
+    color: #ff6b6b;
+  }
+
+  .comment {
+    color: rgba(244, 240, 232, 0.28);
+  }
+
+  // ---- Solutions grid table  -----------------------------
+  .ai-sol-grid {
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 2px;
+      margin: $spacing-unit 0;
+      font-size: 14px;
+
+      thead tr {
+        background: var(--ai-surface-3);
+
+        th {
+          color: $ai-amber;
+        }
+      }
+
+      tbody tr {
+        td {
+          background: var(--ai-surface-2);
+          color: var(--ai-muted);
+
+          &:first-child {
+            color: var(--ai-text);
+          }
+        }
+      }
+    }
+
+    @include media-query($on-palm) {
+
+      table,
+      thead,
+      tbody,
+      th,
+      td,
+      tr {
+        display: block;
+      }
+
+      thead {
+        display: none;
+      }
+
+      tbody tr {
+        margin-bottom: 12px;
+
+        td:first-child {
+          background: $ai-surface-3;
+          padding: 10px 14px;
+          font-size: 10px;
+        }
+
+        td {
+          padding: 10px 14px;
+        }
+      }
+    }
+  }
+
+  // ---- Pipeline display  ---------------------------------
+  .ai-pipeline {
+    background: var(--ai-surface);
+    padding: 32px;
+    text-align: center;
+    font-family: $ai-mono;
+    font-size: clamp(18px, 3vw, 28px);
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--ai-muted);
+    margin: $spacing-unit 0 4px;
+
+    code {
+      background: rgba(245, 166, 35, 0.15);
+      border: 1px solid $ai-amber;
+      color: $ai-amber;
+      padding: 8px 20px;
+      border-radius: 0;
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: 700;
+    }
+
+    .cs-step {
+      background: rgba(230, 48, 48, 0.18);
+      border: 1px solid $ai-red;
+      color: $ai-red;
+      padding: 8px 20px;
+    }
+  }
+
+  .ai-pipeline-labels {
+    text-align: center;
+    font-family: $ai-mono;
+    font-size: 10px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ai-muted);
+    background: var(--ai-surface);
+    padding: 0 32px 28px;
+    margin: 0 0 $spacing-unit;
+  }
+
+  // ---- CS Definition box  --------------------------------
+  .ai-definition {
+    border: 1px solid $ai-teal;
+    padding: 32px 36px;
+    margin: $spacing-unit 0;
+    position: relative;
+    font-family: $ai-serif;
+    font-size: clamp(16px, 1.8vw, 19px);
+    font-style: italic;
+    color: var(--ai-text);
+    line-height: 1.65;
+    background: var(--ai-surface);
+
+    &::before {
+      content: 'Definition · Continuous Supervision (CS)';
+      position: absolute;
+      top: -11px;
+      left: 28px;
+      background: var(--background-color);
+      padding: 0 10px;
+      font-family: $ai-mono;
+      font-size: 9px;
+      font-style: normal;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: $ai-teal;
+    }
+
+    strong {
+      color: var(--ai-text) !important;
+    }
+  }
+
+  // ---- CS Layers  ----------------------------------------
+  .ai-layers {
+    background: var(--ai-surface-2);
+    margin: 2px 0;
+    padding: 18px 24px;
+    border-left: 4px solid $ai-teal;
+
+    strong {
+      font-family: $ai-mono;
+      font-size: 10px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: $ai-teal !important;
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    &:nth-of-type(1) {
+      border-left-color: $ai-amber;
+
+      strong {
+        color: $ai-amber !important;
+      }
+    }
+
+    &:nth-of-type(2) {
+      border-left-color: $ai-teal;
+    }
+
+    &:nth-of-type(3) {
+      border-left-color: $ai-red;
+
+      strong {
+        color: $ai-red !important;
+      }
+    }
+
+    p {
+      margin: 0;
+      font-size: 15px;
+      color: rgba(244, 240, 232, 0.72);
+      line-height: 1.6;
+    }
+  }
+
+  // ---- Horizontal rule styling  --------------------------
+  hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.12), transparent);
+    margin: $spacing-unit * 1.5 0;
+  }
+
+  // ---- Inline code inside dark post  ---------------------
+  code {
+    font-family: $ai-mono;
+    font-size: 13px;
+    background: var(--ai-surface-3);
+    color: $ai-amber;
+    padding: 2px 7px;
+    border-radius: 0;
+  }
+
+  // ---- Strong in context  --------------------------------
+  // Override global blue for b/strong inside editorial posts
+  em {
+    color: $ai-amber;
+    font-style: italic;
+  }
+
+}
+
+// end .post-content
+
+
+
+
+// -------------------------------------------------------
+// BODY-LEVEL DARK BACKGROUND for AI editorial posts
+// Add class "ai-post" to <body> via Jekyll layout or
+// use a post-specific layout that wraps content in
+// <div class="ai-editorial-wrapper">
+// -------------------------------------------------------
+
+.ai-editorial-wrapper {
+  background: var(--ai-background);
+  color: var(--ai-text);
+  padding: $spacing-unit * 1.5 $spacing-unit;
+  margin: 0 calc(-1 * $spacing-unit);
+
+  p {
+    color: var(--ai-muted);
+    line-height: 1.78;
+    margin-bottom: 20px;
+  }
+
+  b,
+  strong {
+    color: var(--ai-text);
+  }
+
+  @include media-query($on-palm) {
+
+    padding: $spacing-unit 16px;
+    margin: 0 -16px;
+  }
+}
+
+// -------------------------------------------------------
+// Utility: .cs-highlight  (inline teal italic for CS logo)
+// -------------------------------------------------------
+.cs-highlight {
+  color: $ai-teal;
+  font-style: italic;
 }

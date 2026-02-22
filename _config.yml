@@ -58,6 +58,7 @@ permalink: /:categories/:year/:month/:day/:title
 
 
 # Exclude from processing.
+include: [.well-known]
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #

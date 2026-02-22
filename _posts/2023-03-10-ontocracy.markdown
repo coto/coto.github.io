@@ -16,7 +16,7 @@ author: "Rodrigo Cancino A."
 This is an essay that describes an alternative society that inhabits the planet, replacing the current Republic. With the arrival of the age of Aquarius and access to information, a new society dawns, where the political animal that inhabits the planet is capable of living in a system built from the learning inherited from the Roman Empire and the French Revolution.
 
 | ![Sphinx](/assets/posts/as-within-is-without.jpeg "as it is inside so it is outside") |
-|:--:|
+| :----------------------------------------------------------------------------: |
 | *as it is inside so it is outside* |
 
 ## Introduction
@@ -75,7 +75,7 @@ The company mainly seeks the following metrics for making its decisions:
 
 Although at the beginning of the Ontocracy, citizens can make wrong decisions, which can be objectively evaluated according to "result signals", corrected and forgiven, and in the same way that a group of people, including the present reader, would not climb to a bus driven by a 16-year-old person, with no experience or driver's license, it should not allow citizens without the minimum preparation to be the ones who choose the representatives, experts and laws that the latter propose.
 
-### Minimum preparation:
+### Minimum preparation
 
 Citizens eligible to vote in Ontocracy meet the following requirements:
 

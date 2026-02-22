@@ -18,12 +18,12 @@ Escribo este artículo desde un punto de vista imparcial, como un chileno deslig
 
 El artículo está dividido en 6 puntos, y para su fácil lectura contiene un punteo de argumentos cuando se refiere a mejoras recomendadas, busque unos 15 minutes en calma para leerlo, lo cual además es el tiempo estimado de lectura:
 
-* <a href="#1">1. ¿Quién soy yo y por qué me permito entregar algunos humildes tips para mejorar en Chile temas como la Educación?</a>
-* <a href="#2">2. ¿Cómo mejorar la Educación en Chile?</a>
-* <a href="#3">3. ¿Cómo mejorar las Pensiones, Salud, Justicia y otros ejes principales de preocupación de un Estado?</a>
-* <a href="#4">4. ¿Cómo entender la Política para tomar una buena decisión para votar en el plebiscito del 25 de Octubre?</a>
-* <a href="#5">5. ¿Qué debería tener en cuenta un Chileno antes de Votar?</a>
-* <a href="#6">6. ¿Cómo debería votar un Chileno este 25 de Octubre?</a>
+- <a href="#1">1. ¿Quién soy yo y por qué me permito entregar algunos humildes tips para mejorar en Chile temas como la Educación?</a>
+- <a href="#2">2. ¿Cómo mejorar la Educación en Chile?</a>
+- <a href="#3">3. ¿Cómo mejorar las Pensiones, Salud, Justicia y otros ejes principales de preocupación de un Estado?</a>
+- <a href="#4">4. ¿Cómo entender la Política para tomar una buena decisión para votar en el plebiscito del 25 de Octubre?</a>
+- <a href="#5">5. ¿Qué debería tener en cuenta un Chileno antes de Votar?</a>
+- <a href="#6">6. ¿Cómo debería votar un Chileno este 25 de Octubre?</a>
 
 ## <span id="1">1. ¿Quién soy yo y por qué me permito entregar algunos humildes tips para mejorar temas como la Educación?</span>
 
@@ -70,14 +70,14 @@ Existen muchos endeudados por educación en Chile, algo que no debería ocurrir,
 
 Les contaré una historia que tuve cercana a la política en el año 2000, un compañero de Universidad me invitó a un asado organizado por juventud RN (partido político de derecha en Chile), participé a pesar de que no tengo ninguna afinidad o aversión contra ese partido político u otro, además en época de estudiante se agradece una invitación a un asado. En la reunión me uní a la conversación de un grupo, la cual fue algo así:
 
-* Persona 1 : ¡Oye, supieron que gana nuestro candidato en La Calera!
-* "Todos celebraron"
-* Yo: ¿Cómo se llama el candidato? - pregunte inocentemente.
-* "Silencio de algunos segundos"
-* Persona 1: ¡No me recuerdo! ¿Cómo se llama el de La Calera? - preguntó a viva voz.
-* Persona 2: No se! creo que 'persona 3' (que estaba a pocos metros en otro grupo) debe saber!
-* Persona 2: ¡Oye! - le pregunta viva voz a Persona 3 - ¿Cómo se llama el candidato de La Calera?
-* Persona 3: Se llama 'x'.
+- Persona 1 : ¡Oye, supieron que gana nuestro candidato en La Calera!
+- "Todos celebraron"
+- Yo: ¿Cómo se llama el candidato? - pregunte inocentemente.
+- "Silencio de algunos segundos"
+- Persona 1: ¡No me recuerdo! ¿Cómo se llama el de La Calera? - preguntó a viva voz.
+- Persona 2: No se! creo que 'persona 3' (que estaba a pocos metros en otro grupo) debe saber!
+- Persona 2: ¡Oye! - le pregunta viva voz a Persona 3 - ¿Cómo se llama el candidato de La Calera?
+- Persona 3: Se llama 'x'.
 
 Perdón que no recuerde el nombre de las personas, fue la primera y única vez que los veía y los nombres no influyen en lo que les quiero contar, ya que lo que me sorprendió no fue que varios no supieran el nombre del candidato de La Calera estando en Viña del Mar, sino que sin importar quién es, qué tan honesto o corrupto sea, cuales son sus capacidades de administración, lo celebraban simplemente por ser de su mismo partido. Un fanatismo irracional sólo comparable al de las barras bravas en el fútbol y que seguro aplica en partidos políticos de Izquierda, Centro y Derecha. Sin embargo, me gustaría que no pierda de vista su poder de organización durante los años, llegando por ejemplo a sabotear instituciones que no deberían tener color político, ni someterse a sus instrucciones, tales como la Central Unitaria de Trabajadores (CUT) o Federaciones de Estudiantes.
 
@@ -107,14 +107,14 @@ Luego del análisis anterior y al comprobar que este cambio constitucional en el
 
 1. **Entender la importancia de ir a votar.** ¿por qué cree que al político le acomoda tanto un plebiscito en pandemia? No quieren que vayan muchos a votar, ni menos los adultos mayores.
 
-    <img src="/assets/posts/referendum-venezuela-1999.png" />
+    <img src="/assets/posts/referendum-venezuela-1999.png" alt="referendum venezuela 1999">
 
-2. **Vaya a las urnas bien protegido y en calma.** Si es posible utilice guantes, su propio lápiz y protector facial además de la obligatoria mascarilla y no tocarse la cara. Mantenga distancia de otros y utilice antes, durante y después su alcohol gel o spray de mezclas de alcohol con agua. Al regresar a su hogar recuerde desinfectar la suela de sus zapatos, su ropa y manos.
+1. **Vaya a las urnas bien protegido y en calma.** Si es posible utilice guantes, su propio lápiz y protector facial además de la obligatoria mascarilla y no tocarse la cara. Mantenga distancia de otros y utilice antes, durante y después su alcohol gel o spray de mezclas de alcohol con agua. Al regresar a su hogar recuerde desinfectar la suela de sus zapatos, su ropa y manos.
 
-3. **Dentro de la Urna marque claramente una línea en el #Rechazo**, "los partidos políticos que hayan articulado este plebiscito, lo entenderán como rechazo a la última carta de poder cambiar el sistema económico a su gusto en un país libre como Chile".
+1. **Dentro de la Urna marque claramente una línea en el #Rechazo**, "los partidos políticos que hayan articulado este plebiscito, lo entenderán como rechazo a la última carta de poder cambiar el sistema económico a su gusto en un país libre como Chile".
 
-4. **Respecto al otro voto de Cómo se escribiría una nueva Carta Magna, <s>déjelo en Blanco</s> ANULE.** Entienda que del otro lado de la mesa están personas con muchas habilidades para hacer trampa (políticos actuales)... en el futuro cercano, cuando las arcas fiscales estén pasando por mejores momentos económicos y no se ponga en riesgo a la población, "haremos una reforma Constitucional", la cual deje claro que 'si eres un servidor público o político, vas a trabajar para la ciudadanía de forma honesta, eficiente y transparente por lo cual serás remunerado según nuevas reglas, además deberás ser elegido entre los mejores con cualificaciones técnicas para dirigir dentro de nuestro territorio y por sobre todo, estar al servicio de la ciudadanía".
+1. **Respecto al otro voto de Cómo se escribiría una nueva Carta Magna, <s>déjelo en Blanco</s> ANULE.** Entienda que del otro lado de la mesa están personas con muchas habilidades para hacer trampa (políticos actuales)... en el futuro cercano, cuando las arcas fiscales estén pasando por mejores momentos económicos y no se ponga en riesgo a la población, "haremos una reforma Constitucional", la cual deje claro que 'si eres un servidor público o político, vas a trabajar para la ciudadanía de forma honesta, eficiente y transparente por lo cual serás remunerado según nuevas reglas, además deberás ser elegido entre los mejores con cualificaciones técnicas para dirigir dentro de nuestro territorio y por sobre todo, estar al servicio de la ciudadanía".
 
-5. **Cuando gane el Rechazo, no participe de protestas violentas.** Ahí es donde darán la cara quienes articularon el Plebiscito y tenga fé en 'la actual' inteligencia y respeto a los derechos humanos con que nuestras fuerzas armadas y carabineros harán su trabajo. Pronto volveremos a tener paz gracias a ellos.
+1. **Cuando gane el Rechazo, no participe de protestas violentas.** Ahí es donde darán la cara quienes articularon el Plebiscito y tenga fé en 'la actual' inteligencia y respeto a los derechos humanos con que nuestras fuerzas armadas y carabineros harán su trabajo. Pronto volveremos a tener paz gracias a ellos.
 
-6. **Espere a que estén mejor las condiciones económicas y sanitarias**, y sobretodo espere a que personas sin nexos a los políticos sean quienes hagan los cambios Constitucionales, también espere de forma inteligente para saber "Cuáles serán esos cambios" y sólo hasta ese entonces, volvamos a enfrentar a los políticos Chilenos en un nuevo plebiscito, pero esa vez para cambiarlos a ellos de una vez por ·servidores públicos políticos·.
+1. **Espere a que estén mejor las condiciones económicas y sanitarias**, y sobretodo espere a que personas sin nexos a los políticos sean quienes hagan los cambios Constitucionales, también espere de forma inteligente para saber "Cuáles serán esos cambios" y sólo hasta ese entonces, volvamos a enfrentar a los políticos Chilenos en un nuevo plebiscito, pero esa vez para cambiarlos a ellos de una vez por ·servidores públicos políticos·.

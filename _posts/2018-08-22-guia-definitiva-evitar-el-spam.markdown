@@ -9,7 +9,7 @@ tags: mailchimp spam guia
 author: "Rodrigo Cancino A."
 ---
 
-### Los filtros de spam de los proveedores de correo hacen su trabajo, y se espera que continuamente mejoren. Al mismo tiempo los spamers mejorarán sus prácticas. Las siguientes recomendaciones ayudarán a disminuir el spam en tu correo, y dado a que corresponden a hábitos recurrentes, espero te sirvan por siempre.
+<h3>Los filtros de spam de los proveedores de correo hacen su trabajo, y se espera que continuamente mejoren. Al mismo tiempo los spamers mejorarán sus prácticas. Las siguientes recomendaciones ayudarán a disminuir el spam en tu correo, y dado a que corresponden a hábitos recurrentes, espero te sirvan por siempre.</h3>
 
 Es esperable que proveedores de correo electrónico, tales como gmail, hotmail, zoho, entre otros, ofrezcan servicios para protegerte del spam, pero no son suficientes considerando que al mismo tiempo, los spamers mejoran sus prácticas. El punto final **at eternum** corresponde a integrar el hábito de las siguientes prácticas:
 

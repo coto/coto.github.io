@@ -18,12 +18,12 @@ I write this article from an impartial point of view, as a Chilean detached from
 
 The article is divided into 6 points, and for easy reading it contains a list of arguments when it refers about improvements recommended, find a quiet 15 minutes to read it, which is also the estimated reading time:
 
-* <a href="#1">1. Who am I and why do I allow myself to give some humble tips to improve issues such as Education in Chile? </a>
-* <a href="#2">2. How to improve Education in Chile? </a>
-* <a href="#3">3. How to improve Pensions, Health, Justice and other main areas of concern for a State? </a>
-* <a href="#4">4. How to understand Politics to make a good decision to vote on October 25th? </a>
-* <a href="#5">5. What should a Chilean bear in mind before voting? </a>
-* <a href="#6">6. What's better for Chile this October 25th? </a>
+- <a href="#1">1. Who am I and why do I allow myself to give some humble tips to improve issues such as Education in Chile? </a>
+- <a href="#2">2. How to improve Education in Chile? </a>
+- <a href="#3">3. How to improve Pensions, Health, Justice and other main areas of concern for a State? </a>
+- <a href="#4">4. How to understand Politics to make a good decision to vote on October 25th? </a>
+- <a href="#5">5. What should a Chilean bear in mind before voting? </a>
+- <a href="#6">6. What's better for Chile this October 25th? </a>
 
 ## <span id = "1">1. Who am I and why do I allow myself to deliver some humble tips to improve topics such as Education? </span>
 
@@ -74,15 +74,15 @@ To understand how god or bad is education and economic in middle of 2020 in Chil
 
 I will tell you a story that I had close to politics in 2000, a college classmate invited me to a barbecue organized by RN youth (right-wing political party in Chile), I participated even though I have no affinity or aversion against any political party, also in student days an invitation to a barbecue is very appreciated. At the meeting I joined a group conversation, which went something like this:
 
-* Person 1: Hey, you knew our candidate won in La Calera! (La Calere is a small town in fifth region Chile)
-* "Everyone celebrated"
-* Me: Sorry! What is the name of the candidate? - I asked innocently.
-* "... few seconds of silence"
-* Person 1: I don't remember! What's the name of La Calera? - he asked loudly.
-* Person 2: I don't know! I think 'person 3' knows!
-* Person 2: Hey!  (Asks out loud )... What's La Calera candidate?
+- Person 1: Hey, you knew our candidate won in La Calera! (La Calere is a small town in fifth region Chile)
+- "Everyone celebrated"
+- Me: Sorry! What is the name of the candidate? - I asked innocently.
+- "... few seconds of silence"
+- Person 1: I don't remember! What's the name of La Calera? - he asked loudly.
+- Person 2: I don't know! I think 'person 3' knows!
+- Person 2: Hey!  (Asks out loud )... What's La Calera candidate?
 (Person 3 a few meters away in another group)
-* Person 3: He is 'x'.
+- Person 3: He is 'x'.
 
 Sorry I don't remember the names are not important, it was the first and only time I saw them and the names do not influence, since what surprised me was not that several did not know the name of the candidate from La Calera being in Viña del Mar, but regardless of who he is, how honest or corrupt is, what his administration capacities are, they celebrated him simply for being from the same party. An irrational fanaticism only comparable to hooligans in football and that surely applies in all sides (Left, Center and Right).
 

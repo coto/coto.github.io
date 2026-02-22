@@ -16,7 +16,7 @@ author: "Rodrigo Cancino A."
 Este é um ensaio que descreve uma sociedade alternativa que habita o planeta, substituindo a atual República. Com a chegada da era de Aquário e o acesso à informação, desponta uma nova sociedade, onde o animal político que habita o planeta é capaz de viver em um sistema construído a partir do aprendizado herdado do Império Romano e da Revolução Francesa.
 
 | ![Esfinge](/assets/posts/as-within-is-without.jpeg "como está dentro assim está fora") |
-|:--:|
+| :----------------------------------------------------------------------------: |
 | *como está dentro assim está fora* |
 
 ## Introdução
@@ -75,7 +75,7 @@ A empresa busca principalmente as seguintes métricas para a tomada de suas deci
 
 Embora no início da Ontocracia os cidadãos possam tomar decisões erradas, que podem ser avaliadas objetivamente segundo "sinais de resultado", corrigidas e perdoadas, e da mesma forma que um grupo de pessoas, inclusive o presente leitor, não escalaria para um autocarro conduzido por um jovem de 16 anos, sem experiência nem carta de condução, não deveria permitir que cidadãos sem o mínimo de preparação sejam os que escolhem os representantes, peritos e leis que estes propõem.
 
-### Preparação mínima:
+### Preparação mínima
 
 Os cidadãos elegíveis para votar na Ontocracia cumprem os seguintes requisitos:
 

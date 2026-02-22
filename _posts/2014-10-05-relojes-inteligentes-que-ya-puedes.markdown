@@ -28,9 +28,6 @@ El Metawatch es un competidor directo del Pebble en cuanto a que comparten basta
 
 Fue quizás el primero de este tipo de dispositivos que se lanzó al mercado. Salió el año pasado y en principio parecía una buena idea. Un reloj con una pantalla OLED multitouch, que corría Android y que era hasta compatible con aplicaciones. Todo lo que sobre el papel podía ser un buen reloj inteligente, pero que en la práctica funcionó increíblemente mal. Pantalla con poca resolución y colores que se veían fatal, respuesta al toque nula, un tamaño inmenso gracias a la inclusión de un clip en la parte trasera y una interfaz de usuario poco pensada hicieron que alguno lo llamara "el peor producto que Sony ha hecho jamás". Si alguien quiere arriesgarse está a la venta por 129,00€.
 
-
 ## Neptune Pine
 
-
 El Neptune Pine es un desarrollo que promete mucho y que veremos en que queda. Antes que nadie diga nada, no, no está a la venta todavía pero se puede hacer una reserva y lo envían en Julio. La primera ventaja y diferencia con los otros relojes mencionados es que no se conecta al teléfono, con lo que funciona de manera independiente. Tiene una ranura para insertar una Micro SIM. Sus creadores dicen que permitirá hacer llamadas, enviar emails, reproducir música, navegar por internet y navegar con GPS. Incorporará una cámara de 5MP y un monitor cardíaco, radio FM y brújula magnética. Todo en una pantalla de 2.5 pulgadas que soportará todas las aplicaciones Android y contará un teclado diseñado para hacer que escribir sea muy natural. Lo único que parece que tendremos que cuidar es la batería. Los aventureros lo podéis pedir a un precio de $325.
-

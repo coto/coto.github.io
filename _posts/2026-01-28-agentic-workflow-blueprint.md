@@ -7,7 +7,7 @@ lang: eng
 author: "Rodrigo Cancino A."
 ---
 
-### Deterministic Multi-Agent Orchestration
+<h3>Deterministic Multi-Agent Orchestration</h3>
 
 A production-grade state machine architecture using LangGraph and the Agent2Agent protocol, designed for 99.9% reliability in non-linear logic loops.
 

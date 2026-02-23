@@ -80,6 +80,32 @@ The problem is amplified in complex RAG systems, agent chains or flows with mult
 
 The industry has not stood idle. In the last two years a rich ecosystem of techniques has emerged to improve quality in AI systems. I know them well — I have implemented them, evaluated them and, in several cases, suffered their limitations in production.
 
+<style>
+  table.ai-sol-grid {
+    border-collapse: collapse !important;
+    width: 100% !important;
+    border: 1px solid var(--ai-border) !important;
+    margin: 2em 0 !important;
+  }
+  table.ai-sol-grid th, table.ai-sol-grid td {
+    border: 1px solid var(--ai-border) !important;
+    padding: 12px 16px !important;
+  }
+  table.ai-sol-grid thead th {
+    background: var(--ai-surface-3) !important;
+    color: var(--ai-amber) !important;
+  }
+  @media (max-width: 600px) {
+    table.ai-sol-grid, table.ai-sol-grid thead, table.ai-sol-grid tbody, table.ai-sol-grid th, table.ai-sol-grid td, table.ai-sol-grid tr {
+      display: block !important;
+    }
+    table.ai-sol-grid thead { display: none !important; }
+    table.ai-sol-grid tr { margin-bottom: 20px !important; border-bottom: 2px solid var(--ai-border) !important; }
+    table.ai-sol-grid td { border: none !important; border-left: 1px solid var(--ai-border) !important; border-right: 1px solid var(--ai-border) !important; }
+    table.ai-sol-grid td:first-child { background: var(--ai-surface-3) !important; font-weight: bold !important; }
+  }
+</style>
+
 {:.ai-sol-grid}
 
 | Technique | Strength | Limitation |

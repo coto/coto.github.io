@@ -682,6 +682,7 @@ $ai-serif: $post-font-family;
   --ai-surface-2: #242424;
   --ai-surface-3: #2e2e2e;
   --ai-muted: rgba(244, 240, 232, 0.65);
+  --ai-border: rgba(244, 240, 232, 0.2);
 }
 
 [data-theme="light"] {
@@ -691,6 +692,7 @@ $ai-serif: $post-font-family;
   --ai-surface-2: #e0e0e0;
   --ai-surface-3: #d0d0d0;
   --ai-muted: rgba(17, 17, 17, 0.65);
+  --ai-border: rgba(17, 17, 17, 0.15);
 }
 
 
@@ -853,37 +855,39 @@ $ai-serif: $post-font-family;
   }
 
   // ---- Solutions grid table  -----------------------------
-  .ai-sol-grid {
-    table {
-      width: 100%;
-      border-collapse: separate;
-      border-spacing: 2px;
-      margin: $spacing-unit 0;
-      font-size: 14px;
+  table.ai-sol-grid {
+    width: 100%;
+    border-collapse: collapse;
+    margin: $spacing-unit 0;
+    font-size: 14px;
+    border: 1px solid var(--ai-border);
 
-      thead tr {
-        background: var(--ai-surface-3);
+    thead tr {
+      background: var(--ai-surface-3);
 
-        th {
-          color: $ai-amber;
-        }
+      th {
+        color: $ai-amber;
+        border: 1px solid var(--ai-border);
+        padding: 12px 14px;
       }
+    }
 
-      tbody tr {
-        td {
-          background: var(--ai-surface-2);
-          color: var(--ai-muted);
+    tbody tr {
+      td {
+        background: var(--ai-surface-2);
+        color: var(--ai-muted);
+        border: 1px solid var(--ai-border);
+        padding: 12px 14px;
 
-          &:first-child {
-            color: var(--ai-text);
-          }
+        &:first-child {
+          color: var(--ai-text);
         }
       }
     }
 
     @include media-query($on-palm) {
 
-      table,
+      &,
       thead,
       tbody,
       th,
@@ -897,16 +901,20 @@ $ai-serif: $post-font-family;
       }
 
       tbody tr {
-        margin-bottom: 12px;
+        margin-bottom: 24px;
+        border-bottom: 2px solid var(--ai-border);
 
         td:first-child {
-          background: $ai-surface-3;
+          background: var(--ai-surface-3);
           padding: 10px 14px;
-          font-size: 10px;
+          font-size: 12px;
+          border-bottom: 1px solid var(--ai-surface-2);
         }
 
         td {
           padding: 10px 14px;
+          border-left: 1px solid var(--ai-border);
+          border-right: 1px solid var(--ai-border);
         }
       }
     }
@@ -1029,7 +1037,7 @@ $ai-serif: $post-font-family;
       margin: 0;
       font-size: 15px;
       color: rgba(244, 240, 232, 0.72);
-      line-height: 1.6;
+      line-height: 1.75;
     }
   }
 

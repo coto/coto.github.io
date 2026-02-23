@@ -11,7 +11,9 @@ $base-font-family: -apple-system, 'Source Sans Pro', Tahoma, Arial, sans-serif !
 $base-font-size: 17px !default;
 $base-font-weight: 400 !default;
 $small-font-size: $base-font-size * 0.875 !default;
-$base-line-height: 1.5 !default;
+$base-line-height: 1.75 !default;
+$ai-mono: 'Space Mono', 'Courier New', monospace;
+$post-font-family: 'Fraunces', Georgia, serif;
 
 $spacing-unit: 30px !default;
 
@@ -495,6 +497,7 @@ em.por {
 .post-title,
 .post-content h1 {
   @include relative-font-size(2.625);
+  font-family: $post-font-family;
   letter-spacing: -1px;
   line-height: 1;
 
@@ -505,6 +508,7 @@ em.por {
 
 .post-content {
   margin-bottom: $spacing-unit;
+  font-family: $post-font-family;
 
   h2 {
     @include relative-font-size(2);
@@ -667,8 +671,8 @@ $ai-white-dim: rgba(244, 240, 232, 0.35);
 $ai-red: #e63030;
 $ai-amber: #f5a623;
 $ai-teal: #00c9a7;
-$ai-mono: 'Space Mono', 'Courier New', monospace;
-$ai-serif: 'Georgia', 'Times New Roman', serif;
+// $ai-mono defined at top
+$ai-serif: $post-font-family;
 
 // Theme-aware AI colors
 :root {
@@ -762,12 +766,12 @@ $ai-serif: 'Georgia', 'Times New Roman', serif;
   // ---- Section tags  -------------------------------------
   .section-tag {
     font-family: $ai-mono;
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: $ai-red;
     margin-top: $spacing-unit * 2;
-    margin-bottom: -$spacing-unit * 0.4;
+    margin-bottom: -$spacing-unit * 0.2;
 
     +h3 {
       font-family: $ai-serif;
@@ -1031,10 +1035,9 @@ $ai-serif: 'Georgia', 'Times New Roman', serif;
 
   // ---- Horizontal rule styling  --------------------------
   hr {
-    border: none;
     height: 1px;
     background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.12), transparent);
-    margin: $spacing-unit * 1.5 0;
+    margin: $spacing-unit * 1 0;
   }
 
   // ---- Inline code inside dark post  ---------------------

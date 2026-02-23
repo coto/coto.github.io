@@ -17,7 +17,7 @@ author: "Rodrigo Cancino A."
 // Software Architecture & AI Engineering · New Concept · February 2026
 
 {:.ai-lead}
-LangChain published a reflection that resonated in the community: quality in AI systems cannot reach the same level we have achieved in traditional software development. As a senior developer with years in the trenches of quality gates, my first reaction was... to agree. But only halfway.
+LangChain [published][langchain]{:target="_blank"} a reflection that resonated in the community: quality in AI systems cannot reach the same level we have achieved in traditional software development. As a senior developer with years in the trenches of quality gates, my first reaction was... to agree. But only halfway.
 
 The premise is correct. The problem is that the implicit conclusion — that we must simply accept this limitation — is not. There is something fundamentally new to propose. Something that, in twenty years of software engineering, we never needed. And it has a name: **Continuous Supervision**.
 
@@ -177,3 +177,5 @@ Non-determinism is not an excuse. It is the specification of the problem. And en
 
 {:.footnotes}
 *Published February 2026 · AI Systems Quality · Tags: Continuous Supervision, RAG, LLM Engineering, CI/CD, AI Architecture*
+
+[langchain]: https://blog.langchain.com/agent-observability-powers-agent-evaluation/

@@ -43,20 +43,34 @@ description3: >-
   -
   Carl Sagan
 
+# ---- Multi-Language Settings ----
+languages: ["en", "es", "pt"]
+default_lang: "en"
+exclude_from_localization:
+  - "images"
+  - "css"
+  - "scripts"
+  - "favicon.ico"
+  - "assets"
+parallel_localization: true
+
+# Language names for UI
+language_names:
+  en: English
+  es: Español
+  pt: Português
+
 # ---- Jekyll settings ----
 markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title
+# permalink: /:categories/:year/:month/:day/:title:output_ext
 
 disqus:
   shortname: coto
 
-permalink: /:categories/:year/:month/:day/:title
-# permalink: /:categories/:year/:month/:day/:title:output_ext
-
 # Exclude from processing.
 include: [.well-known]
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
+
 # Exclude directories and files
 exclude:
   - Gemfile

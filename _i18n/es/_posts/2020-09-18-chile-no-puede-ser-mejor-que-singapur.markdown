@@ -4,7 +4,6 @@ title:  "¿Qué está pasando en Chile, por qué podría ser un ejemplo a nivel 
 comments: false
 date:   2020-09-18 17:51:00 -0300
 categories: coto blog chile
-lang: esp
 tags: blog chile singapur plebiscito apruebo rechazo político política udi comunista marxista capitalismo neoliberalismo estudiantes
 author: "Rodrigo (Coto) Augosto Cancino"
 ---

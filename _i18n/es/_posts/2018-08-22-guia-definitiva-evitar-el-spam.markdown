@@ -4,7 +4,6 @@ title:  "Guía para evitar el Spam (Correo No Deseado)"
 comments: false
 date:   2018-08-22 14:17:20 -0300
 categories: coto blog recommendations
-lang: esp
 tags: mailchimp spam guia
 author: "Rodrigo (Coto) Augosto Cancino"
 ---

@@ -4,12 +4,11 @@ title:  "Ontocracy"
 comments: false
 date:   2023-03-10 12:35:35 -0300
 categories: coto blog society  
-lang: eng
 tags: system ontocracy
 author: "Rodrigo (Coto) Augosto Cancino"
 ---
 
-[Español](/coto/blog/society/2023/03/10/ontocracia) | **English** | [Français](/coto/blog/society/2023/03/10/ontocratie) | [Português](/coto/blog/society/2023/03/10/ontocracia-pt)
+[Español](/coto/blog/society/2023/03/10/ontocracia) | **English** | [Português](/coto/blog/society/2023/03/10/ontocracia-pt)
 
 ## Abstract
 

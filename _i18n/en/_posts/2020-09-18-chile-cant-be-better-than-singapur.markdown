@@ -4,7 +4,6 @@ title:  "What is happening in Chile, why could it be a worldwide example and wha
 comments: false
 date:   2020-09-18 17:51:00 -0300
 categories: coto blog chile
-lang: eng
 tags: blog chile singapur plebiscito apruebo rechazo político política udi comunista marxista capitalismo neoliberalismo estudiantes
 author: "Rodrigo (Coto) Augosto Cancino"
 ---

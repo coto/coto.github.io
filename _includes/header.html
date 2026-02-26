@@ -30,15 +30,43 @@
               d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-3.03 0-5.5-2.47-5.5-5.5 0-1.82.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z" />
           </svg>
         </button>
-
-        {%- if page_paths -%}
-        <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        {%- endif -%}
       </div>
+
+      {%- if page_paths -%}
+      <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      {%- endif -%}
+
+      <!-- Language Selector Dropdown -->
+      <div class="d-block btn-group ms-3 text-end">
+        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="languageDropdown"
+          data-bs-toggle="dropdown" aria-expanded="false">
+          {{ site.language_names[site.lang] | default: site.lang | capitalize }}
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+          {% for lang in site.languages %}
+          {% unless site.lang == lang %}
+          <li>
+            {% if lang == site.default_lang %}
+            <a class="dropdown-item" href="{{ site.baseurl_root }}{{ page.url }}">
+              {{ site.language_names[lang] }}
+            </a>
+            {% else %}
+            <a class="dropdown-item" href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}">
+              {{ site.language_names[lang] }}
+            </a>
+            {% endif %}
+          </li>
+          {% endunless %}
+          {% endfor %}
+        </ul>
+      </div>
+      <!-- End Language Selector -->
+
+    </div>
     </div>
 
   </nav>

@@ -3,7 +3,6 @@ layout: post
 title:  "Agentic Workflow Blueprint"
 date:   2026-01-28 17:35:00 -0300
 categories: coto blog technology LangGraph Agent2Agent
-lang: eng
 author: "Rodrigo (Coto) Augosto Cancino"
 ---
 

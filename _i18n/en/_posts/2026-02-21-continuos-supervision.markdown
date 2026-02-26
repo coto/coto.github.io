@@ -3,7 +3,6 @@ layout: post
 title: "CI/CD/CS — The Silver Bullet for Quality in AI Systems"
 date: 2026-02-22 09:00:00 -0300
 categories: ai engineering quality architecture
-lang: eng
 author: "Rodrigo (Coto) Augosto Cancino"
 ---
 

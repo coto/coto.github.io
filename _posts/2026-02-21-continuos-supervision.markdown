@@ -47,27 +47,15 @@ This is not a defect that can be patched with a better prompt. It is the direct 
 This point deserves attention because it is counterintuitive and, at the same time, perfectly illuminates the quality problem. An LLM can explain Gödel's proof, summarize linear algebra or generate Python code that solves equations. But if you ask it to *calculate*, in the strict sense of the term, the result can be spectacularly wrong — and it will present it with the same confidence as when it is right.
 
 {:.ai-error-box}
-**⚠ Real examples of mathematical errors in top-tier LLMs**
+**⚠ Example of a "Silent Failure" in a multi-agent system**
 
-```
-// Prompt: "9.11 vs 9.9 — which is greater?"
-GPT-4: "9.11 is greater because 11 > 9"
-// Correct: 9.9 > 9.11 — confusion between decimal notation and integer comparison
-
-// Prompt: "How many 'r's does the word 'strawberry' have?"
-GPT-4: "It has 2 letters 'r'."
-// Correct: it has 3. The model does not count individual tokens, it infers.
-
-// Prompt: "A train at 120 km/h and another at 80 km/h head toward each other, 400 km apart. When do they meet?"
-Claude 2: "They will meet in 2.5 hours."
-// Correct: 400 / (120 + 80) = 2 hours exactly.
-
-// Prompt: "Days between January 15 and March 10?"
-Multiple LLMs: "54 days" → sometimes "55" or "53" depending on the run
-// Non-determinism at its finest: same question, different answers.
+```text
+Scenario: A multi-agent RAG system is asked to synthesize financial disclosures for a specific ticker. 
+The Error: The agent follows the reasoning chain perfectly and produces a professional summary. However, it uses a non-existent API parameter to fetch the data or misinterprets a subtle semantic nuance in the disclosure, leading to a factually wrong but logically "perfect" conclusion. 
+The Verdict: This isn't a bug you can patch with a unit test. It’s an inherent byproduct of probabilistic architecture. 
 ```
 
-These are not bugs in a "bad" model. They are emergent behaviors of architectures trained to predict the most likely next token, not to execute formal operations on a precise internal state. The model *remembers having seen* many contexts where "9.11" is associated with large numbers (software versions, dates), and that diffuse association contaminates formal reasoning.
+These are not bugs in a "bad" model. They are emergent behaviors of architectures trained to predict the most likely next token, not to execute formal operations on a precise internal state.
 
 The problem is amplified in complex RAG systems, agent chains or flows with multiple calls where a small intermediate reasoning error propagates and amplifies. Quality is not just non-deterministic — it can be **chaotic in the mathematical sense**: small variations in input produce large variations in output.
 
@@ -108,7 +96,7 @@ The industry has not stood idle. In the last two years a rich ecosystem of techn
 
 {:.ai-sol-grid}
 
-| LLM Observability | Strength | Limitation |
+| Current Components | Strength | Limitation |
 |-------------------|----------|------------|
 | **Self-RAG** | Model evaluates in real-time if it needs additional retrieval and critiques its own response | Reduces hallucinations but increases latency and cost |
 | **CRAG** | Adds document relevance evaluation; falls back to web search if quality is low | Improves edge cases but not the core of the problem |
@@ -117,7 +105,7 @@ The industry has not stood idle. In the last two years a rich ecosystem of techn
 | **RAGAS** | Measures faithfulness, answer relevancy, context precision and recall | Powerful for offline evaluation — blind to drift in production |
 | **Arize Phoenix** | LLM observability: spans, latency, tokens and evaluations | Excellent monitoring layer — reactive, not predictive or corrective |
 
-Why are they insufficient? Not because they are bad tools — they are excellent. The problem is that none of them proposes a **lifecycle paradigm**. They are point solutions in the problem space. None defines how they should relate to each other, how the system should learn from its own past errors, or how to integrate all of this into the DNA of the development process.
+Why are they insufficient? Not because they are bad techniques and tools—they are excellent. But we are currently mixing architectural patterns (like Self-RAG and CoT) with observability platforms (like Arize Phoenix).  The problem is that neither category proposes a lifecycle paradigm. They are point solutions in the problem space. None defines how they should relate to each other, how the system should learn from its own past errors, or how to integrate all of this into the DNA of the development process.
 
 It is like having antibiotics, vaccines and operating rooms, but without preventive medicine, without clinical records, without epidemiology. The tools exist. The healthcare system, not yet.
 
@@ -175,9 +163,9 @@ Analysis of meaning and relevance in context. Is the response faithful to the re
 
 **Post-inference Evaluation →** RAGAS, Arize Phoenix and internal/external evaluators process the complete response. They generate a multidimensional score that is recorded in the supervision history.
 
-**Post-mortem Analysis →** The truly new component. Periodic analysis of error patterns over time: what type of questions consistently fail? In which domain does the system degrade? Is there temporal drift in the base model?
+**Post-mortem Analysis →** The transformation of error logs into Guardrail Layers. This is where the system analyzes error patterns over time to identify temporal drift.
 
-**Supervised Feedback Loop →** Findings from post-mortem analysis feed the next cycle: prompt system refinement, RAG index updates, reranking threshold adjustments, or signal for fine-tuning. **The system learns from itself.**
+**Supervised Feedback Loop →** Findings from the post-mortem are not just archived; they feed the next cycle by updating RAG index weights or refining the system prompt to prevent the same error from recurring. The system builds a "semantic memory" of its own failures to prevent future drift.
 
 This cycle transforms supervision from a one-time event into an **evolutionary process**. A system under CS is not only evaluated — *it improves structurally over time* as a direct result of its own supervision. That is what distinguishes CS from existing evaluation tools.
 
@@ -197,7 +185,9 @@ LangChain is right that we cannot simply transfer TDD rigor or quality gates to 
 
 Non-determinism is not an excuse. It is the specification of the problem. And engineering, at its best, has always transformed problem specifications into the foundations of the solution.
 
-**CI/CD/CS. Start saying it.**
+**CI/CD/CS. The contract is broken. It’s time to build a new one.**
+
+![CI/CD/CS](/assets/posts/ci-cd-cs.png "CI/CD/CS")
 
 ---
 

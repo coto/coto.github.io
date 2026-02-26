@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://www.beecoss.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.beecoss.com/" rel="alternate" type="text/html" /><updated>2026-02-26T17:12:32+00:00</updated><id>https://www.beecoss.com/feed.xml</id><title type="html">Beecoss</title><subtitle>Personal site, it includes Blog Posts of Free Topics  with undetermined update frequency.</subtitle><author><name>Rodrigo Cancino (Coto)</name></author><entry xml:lang="eng"><title type="html">CI/CD/CS — The Silver Bullet for Quality in AI Systems</title><link href="https://www.beecoss.com/ai/engineering/quality/architecture/2026/02/22/continuos-supervision" rel="alternate" type="text/html" title="CI/CD/CS — The Silver Bullet for Quality in AI Systems" /><published>2026-02-22T12:00:00+00:00</published><updated>2026-02-22T12:00:00+00:00</updated><id>https://www.beecoss.com/ai/engineering/quality/architecture/2026/02/22/continuos-supervision</id><content type="html" xml:base="https://www.beecoss.com/ai/engineering/quality/architecture/2026/02/22/continuos-supervision"><![CDATA[<h1 id="cicdcs--the-silver-bullet-for-quality-in-ai">CI/CD/<strong class="cs-highlight">CS</strong> — The Silver Bullet for Quality in AI</h1>
+
+<p class="hero-title eyebrow-label">// Software Architecture &amp; AI Engineering · New Concept · February 2026</p>
+
+<p class="ai-lead">LangChain <a href="https://blog.langchain.com/agent-observability-powers-agent-evaluation/" target="_blank">published</a> a reflection that resonated in the community: quality in AI systems cannot reach the same level we have achieved in traditional software development. As a senior developer with years in the trenches of quality gates, my first reaction was… to agree. But only halfway.</p>
+
+<p>The premise is correct. The problem is that the implicit conclusion — that we must simply accept this limitation — is not. There is something fundamentally new to propose. Something that, in twenty years of software engineering, we never needed. And it has a name: <strong>Continuous Supervision</strong>.</p>
+
+<hr />
+
+<p class="section-tag">// 01</p>
+
+<h3 id="the-original-sin-llms-are-not-deterministic">The Original Sin: LLMs Are Not Deterministic</h3>
+
+<p>When we implement a quality gate in a traditional CI/CD pipeline, we are betting on a sacred principle of engineering: <strong>given the same input, we will get the same output</strong>. That promise allowed us to build unit tests, integration tests, smoke tests, automated regressions. The entire cathedral of modern quality rests on that deterministic foundation.</p>
+
+<p>Large Language Models do not live in that cathedral. They were born in a different building — one constructed on transformers, attention mechanisms and probabilistic token prediction in a vector space of thousands of dimensions. Their fundamental nature is <strong>fuzzy analysis</strong>: approximating, completing, inferring patterns in a world where “meaning” is not a fixed point but a cloud of probabilities.</p>
+
+<blockquote class="ai-blockquote">
+  <p>“An LLM does not calculate. An LLM <em>talks</em> about calculations. The difference is not philosophical — it is architectural, and it has devastating practical consequences when we try to apply the quality standards of classical software to it.”</p>
+</blockquote>
+
+<p>This is not a defect that can be patched with a better prompt. It is the direct consequence of these models being trained primarily on <strong>text</strong> — human discourse, narrative, argumentation — not on formal axioms or symbolic rewriting systems.</p>
+
+<hr />
+
+<p class="section-tag">// 02</p>
+
+<h3 id="why-ai-cannot-do-math--but-can-talk-about-it">Why AI Cannot Do Math — But Can Talk About It</h3>
+
+<p>This point deserves attention because it is counterintuitive and, at the same time, perfectly illuminates the quality problem. An LLM can explain Gödel’s proof, summarize linear algebra or generate Python code that solves equations. But if you ask it to <em>calculate</em>, in the strict sense of the term, the result can be spectacularly wrong — and it will present it with the same confidence as when it is right.</p>
+
+<p class="ai-error-box"><strong>⚠ Example of a “Silent Failure” in a multi-agent system</strong></p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Scenario: A multi-agent RAG system is asked to synthesize financial disclosures for a specific ticker. 
+The Error: The agent follows the reasoning chain perfectly and produces a professional summary. However, it uses a non-existent API parameter to fetch the data or misinterprets a subtle semantic nuance in the disclosure, leading to a factually wrong but logically "perfect" conclusion. 
+The Verdict: This isn't a bug you can patch with a unit test. It’s an inherent byproduct of probabilistic architecture. 
+</code></pre></div></div>
+
+<p>These are not bugs in a “bad” model. They are emergent behaviors of architectures trained to predict the most likely next token, not to execute formal operations on a precise internal state.</p>
+
+<p>The problem is amplified in complex RAG systems, agent chains or flows with multiple calls where a small intermediate reasoning error propagates and amplifies. Quality is not just non-deterministic — it can be <strong>chaotic in the mathematical sense</strong>: small variations in input produce large variations in output.</p>
+
+<hr />
+
+<p class="section-tag">// 03</p>
+
+<h3 id="current-solutions-necessary-insufficient">Current Solutions: Necessary, Insufficient</h3>
+
+<p>The industry has not stood idle. In the last two years a rich ecosystem of techniques has emerged to improve quality in AI systems. I know them well — I have implemented them, evaluated them and, in several cases, suffered their limitations in production.</p>
+
+<style>
+  table.ai-sol-grid {
+    border-collapse: collapse !important;
+    width: 100% !important;
+    border: 1px solid var(--ai-border) !important;
+    margin: 2em 0 !important;
+  }
+  table.ai-sol-grid th, table.ai-sol-grid td {
+    border: 1px solid var(--ai-border) !important;
+    padding: 12px 16px !important;
+  }
+  table.ai-sol-grid thead th {
+    background: var(--ai-surface-3) !important;
+    color: var(--ai-amber) !important;
+  }
+  @media (max-width: 600px) {
+    table.ai-sol-grid, table.ai-sol-grid thead, table.ai-sol-grid tbody, table.ai-sol-grid th, table.ai-sol-grid td, table.ai-sol-grid tr {
+      display: block !important;
+    }
+    table.ai-sol-grid thead { display: none !important; }
+    table.ai-sol-grid tr { margin-bottom: 20px !important; border-bottom: 2px solid var(--ai-border) !important; }
+    table.ai-sol-grid td { border: none !important; border-left: 1px solid var(--ai-border) !important; border-right: 1px solid var(--ai-border) !important; }
+    table.ai-sol-grid td:first-child { background: var(--ai-surface-3) !important; font-weight: bold !important; }
+  }
+</style>
+
+<table class="ai-sol-grid">
+  <thead>
+    <tr>
+      <th>Current Components</th>
+      <th>Strength</th>
+      <th>Limitation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Self-RAG</strong></td>
+      <td>Model evaluates in real-time if it needs additional retrieval and critiques its own response</td>
+      <td>Reduces hallucinations but increases latency and cost</td>
+    </tr>
+    <tr>
+      <td><strong>CRAG</strong></td>
+      <td>Adds document relevance evaluation; falls back to web search if quality is low</td>
+      <td>Improves edge cases but not the core of the problem</td>
+    </tr>
+    <tr>
+      <td><strong>Rerank + CoT</strong></td>
+      <td>Reordering by semantic relevance combined with Chain-of-Thought forces explicit reasoning</td>
+      <td>Excellent for logical coherence, does not guarantee factual correctness</td>
+    </tr>
+    <tr>
+      <td><strong>Inject Memory</strong></td>
+      <td>Persistence of relevant context between sessions</td>
+      <td>Improves longitudinal consistency but does not protect against real-time errors</td>
+    </tr>
+    <tr>
+      <td><strong>RAGAS</strong></td>
+      <td>Measures faithfulness, answer relevancy, context precision and recall</td>
+      <td>Powerful for offline evaluation — blind to drift in production</td>
+    </tr>
+    <tr>
+      <td><strong>Arize Phoenix</strong></td>
+      <td>LLM observability: spans, latency, tokens and evaluations</td>
+      <td>Excellent monitoring layer — reactive, not predictive or corrective</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Why are they insufficient? Not because they are bad techniques and tools—they are excellent. But we are currently mixing architectural patterns (like Self-RAG and CoT) with observability platforms (like Arize Phoenix).  The problem is that neither category proposes a lifecycle paradigm. They are point solutions in the problem space. None defines how they should relate to each other, how the system should learn from its own past errors, or how to integrate all of this into the DNA of the development process.</p>
+
+<p>It is like having antibiotics, vaccines and operating rooms, but without preventive medicine, without clinical records, without epidemiology. The tools exist. The healthcare system, not yet.</p>
+
+<hr />
+
+<p class="section-tag">// 04</p>
+
+<h3 id="the-proposal-extending-cicd-to-cicdcs">The Proposal: Extending CI/CD to CI/CD/CS</h3>
+
+<p>Here I propose something that, as far as I can see, has not been explicitly articulated as a paradigm: the extension of the modern development pipeline with a third continuous dimension.</p>
+
+<p class="ai-pipeline"><code class="language-plaintext highlighter-rouge">CI</code> <strong>→</strong> <code class="language-plaintext highlighter-rouge">CD</code> <strong>→</strong> <code class="language-plaintext cs-step highlighter-rouge">CS</code></p>
+
+<p class="ai-pipeline-labels">Continuous Integration <strong>·</strong> Continuous Delivery <strong>·</strong> Continuous Supervision</p>
+
+<p>CI and CD are well known. We have lived in them for two decades. CS is different in nature — not as a cosmetic extension, but as a structural response to the non-deterministic nature of AI systems.</p>
+
+<p class="ai-definition"><strong>Continuous Supervision (CS)</strong> is the continuous process of lexical, syntactic and semantic analysis of an AI system’s responses, operating both in real-time during inference and in post-mortem feedback cycles, with the goal of detecting, classifying and <em>learning</em> from the system’s errors throughout its entire production lifecycle.</p>
+
+<p>The key is in the adverb: <em>continuous</em>. This is not about evaluating the system before deployment — we already do that with RAGAS and similar tools. It is about the system developing, over time, <strong>memory of its own failures</strong>. Post-mortem analysis must be a first-class citizen in the architecture, not an afterthought from the QA team.</p>
+
+<hr />
+
+<p class="section-tag">// 05</p>
+
+<h3 id="the-three-layers-of-continuous-supervision">The Three Layers of Continuous Supervision</h3>
+
+<p class="ai-layers"><strong>Lexical Analysis</strong>
+Analysis of the vocabulary and tokens in the response. Detects terminological hallucinations, use of non-existent entities, inconsistencies in proper names, dates or figures. Operates at the token stream level — can be integrated in real-time as a post-processing guardrail.</p>
+
+<p class="ai-layers"><strong>Syntactic Analysis</strong>
+Analysis of the logical and discursive structure of the response. Do the conclusions follow from the premises? Does the reasoning have formal coherence? Is the chain of arguments valid? This is where much of CoT’s value lives as a supervision tool, not just a generation technique.</p>
+
+<p class="ai-layers"><strong>Semantic Analysis</strong>
+Analysis of meaning and relevance in context. Is the response faithful to the retrieved documents? Is there drift from the user’s intent? Is the system answering what was asked or what it expected to be asked? This level requires vector comparison and evaluators with access to full context.</p>
+
+<hr />
+
+<p class="section-tag">// 06</p>
+
+<h3 id="the-continuous-learning-cycle-where-cs-becomes-systemic">The Continuous Learning Cycle: Where CS Becomes Systemic</h3>
+
+<p><strong>Pre-inference Guard →</strong> Validation of the incoming query: detection of ambiguous intent, prompt injection, or queries outside the system’s domain. First checkpoint of CS.</p>
+
+<p><strong>Real-time Supervision →</strong> Self-RAG, CRAG, Reranking and CoT act as real-time supervisors. In the CS model, these are not isolated techniques — they are sensors at the inference layer that feed the supervision system.</p>
+
+<p><strong>Post-inference Evaluation →</strong> RAGAS, Arize Phoenix and internal/external evaluators process the complete response. They generate a multidimensional score that is recorded in the supervision history.</p>
+
+<p><strong>Post-mortem Analysis →</strong> The transformation of error logs into Guardrail Layers. This is where the system analyzes error patterns over time to identify temporal drift.</p>
+
+<p><strong>Supervised Feedback Loop →</strong> Findings from the post-mortem are not just archived; they feed the next cycle by updating RAG index weights or refining the system prompt to prevent the same error from recurring. The system builds a “semantic memory” of its own failures to prevent future drift.</p>
+
+<p>This cycle transforms supervision from a one-time event into an <strong>evolutionary process</strong>. A system under CS is not only evaluated — <em>it improves structurally over time</em> as a direct result of its own supervision. That is what distinguishes CS from existing evaluation tools.</p>
+
+<hr />
+
+<p class="section-tag">// 07</p>
+
+<h3 id="what-this-changes-for-engineering-teams">What This Changes for Engineering Teams</h3>
+
+<p>Adopting CI/CD/CS implies organizational changes, not just technical ones. It requires AI teams to have explicit supervision roles, that production logs are treated as first-class training data, and that the concept of “technical debt” extends to the domain of <strong>supervision debt</strong>: the accumulated unanalyzed errors that the system repeats because it never learned from them.</p>
+
+<p>LangChain is right that we cannot simply transfer TDD rigor or quality gates to the LLM world. But the answer is not resignation — it is invention. CI/CD was invented because manual integration methods did not scale. CS must be invented because static evaluation methods do not capture the dynamic and evolving nature of AI systems in production.</p>
+
+<blockquote class="ai-blockquote">
+  <p>“We cannot apply the same quality standards of classical software to AI. But we can — and must — build new standards worthy of the complexity of the problem.”</p>
+</blockquote>
+
+<p>Non-determinism is not an excuse. It is the specification of the problem. And engineering, at its best, has always transformed problem specifications into the foundations of the solution.</p>
+
+<p><strong>CI/CD/CS. The contract is broken. It’s time to build a new one.</strong></p>
+
+<p><img src="/assets/posts/ci-cd-cs.png" alt="CI/CD/CS" title="CI/CD/CS" width="80%" /></p>
+
+<hr />
+
+<p class="footnotes"><em>Published February 2026 · AI Systems Quality · Tags: Continuous Supervision, RAG, LLM Engineering, CI/CD, AI Architecture</em></p>]]></content><author><name>Rodrigo Cancino A.</name></author><category term="ai" /><category term="engineering" /><category term="quality" /><category term="architecture" /></entry><entry xml:lang="eng"><title type="html">Agentic Workflow Blueprint</title><link href="https://www.beecoss.com/coto/blog/technology/langgraph/agent2agent/2026/01/28/agentic-workflow-blueprint" rel="alternate" type="text/html" title="Agentic Workflow Blueprint" /><published>2026-01-28T20:35:00+00:00</published><updated>2026-01-28T20:35:00+00:00</updated><id>https://www.beecoss.com/coto/blog/technology/langgraph/agent2agent/2026/01/28/agentic-workflow-blueprint</id><content type="html" xml:base="https://www.beecoss.com/coto/blog/technology/langgraph/agent2agent/2026/01/28/agentic-workflow-blueprint"><![CDATA[<h3>Deterministic Multi-Agent Orchestration</h3>
+
+<p>A production-grade state machine architecture using LangGraph and the Agent2Agent protocol, designed for 99.9% reliability in non-linear logic loops.</p>
+
+<p><img src="/assets/posts/Agentic-Workflow-Blueprint.svg" alt="Agentic Workflow Blueprint" title="Agentic Workflow Blueprint" /></p>]]></content><author><name>Rodrigo Cancino A.</name></author><category term="coto" /><category term="blog" /><category term="technology" /><category term="LangGraph" /><category term="Agent2Agent" /><summary type="html"><![CDATA[Deterministic Multi-Agent Orchestration]]></summary></entry><entry xml:lang="por"><title type="html">Ontocracia</title><link href="https://www.beecoss.com/coto/blog/society/2023/03/10/ontocracia-pt" rel="alternate" type="text/html" title="Ontocracia" /><published>2023-03-10T15:35:35+00:00</published><updated>2023-03-10T15:35:35+00:00</updated><id>https://www.beecoss.com/coto/blog/society/2023/03/10/ontocracia-pt</id><content type="html" xml:base="https://www.beecoss.com/coto/blog/society/2023/03/10/ontocracia-pt"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td><a href="/coto/blog/society/2023/03/10/ontocracia">Español</a></td>
+      <td><a href="/coto/blog/society/2023/03/10/ontocracy">English</a></td>
+      <td><a href="/coto/blog/society/2023/03/10/ontocratie">Français</a></td>
+      <td><strong>Português</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>Este é um ensaio que descreve uma sociedade alternativa que habita o planeta, substituindo a atual República. Com a chegada da era de Aquário e o acesso à informação, desponta uma nova sociedade, onde o animal político que habita o planeta é capaz de viver em um sistema construído a partir do aprendizado herdado do Império Romano e da Revolução Francesa.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="/assets/posts/as-within-is-without.jpeg" alt="Esfinge" title="como está dentro assim está fora" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><em>como está dentro assim está fora</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="introdução">Introdução</h2>
+
+<p>Os seguintes sintomas de uma sociedade nos permitem concluir se ela é saudável:</p>
+
+<ol>
+  <li>Policiais incorruptíveis.</li>
+  <li>Cidadãos generosos e respeitosos no trânsito rodoviário.</li>
+</ol>
+
+<p>A polícia é a pele do poder, capaz de interagir diretamente com o cidadão, enquanto o poder maior que a comanda, encontra-se nas sedes de um parlamento ou casa de governo.</p>
+
+<p>Para que os dois sintomas de uma sociedade saudável ocorram, muitos outros problemas sociais devem primeiro ser sanados, por exemplo, chegar a policiais incorruptíveis, antes que o problema dos políticos ou governantes corruptíveis fosse resolvido.</p>
+
+<p>Um novo sistema potencializa a sua existência quando baseia a sua criação nas principais fragilidades do anterior, e no caso da República são a corrupção, a existência de cidadãos em extrema pobreza e o mau uso do poder e dos recursos económicos.</p>
+
+<h2 id="sistema">Sistema</h2>
+
+<p>Em uma sociedade onde os cidadãos são os verdadeiros donos do poder da nação, o poder é distribuído da seguinte forma:</p>
+
+<p><strong>Primeiro</strong>: Os cidadãos através de uma ontocracia digital possuem o poder absoluto das decisões da nação, especialmente as econômicas, apoiados por um painel de especialistas e campanhas de informação independentes.</p>
+
+<p><strong>Segundo</strong>: As decisões dos cidadãos, consoante o local onde residam, algumas serão obrigatórias e outras opcionais, e serão realizadas a nível nacional, regional ou comunitário.</p>
+
+<p><strong>Terceiro</strong>: Não há presidente, primeiro-ministro ou governante a quem culpar por más decisões, pois todas elas serão tomadas pelo soberano representado pelos cidadãos da nação com poder de voto.</p>
+
+<p>a nação. O representante terá o respeito e o orgulho de representar a nação e deverá ser escolhido por suas habilidades altruístas, éticas e corteses, mas nenhum poder recairá sobre esse representante a não ser carregar com orgulho a honra de ser o representante que a nação escolheu.</p>
+
+<p><strong>Quinto</strong>: O painel de especialistas que apoiará os cidadãos na tomada de decisões eleitorais substituirá o atual parlamento, e também não terá poder, exceto para informar os cidadãos sobre assuntos técnicos e complexos quando justificado. .</p>
+
+<p><strong>Sexto</strong>: Periodicamente, os cidadãos escolhem o painel de especialistas, por seu domínio, experiência e sabedoria nos assuntos em que uma decisão deve ser tomada. Da mesma forma, os cidadãos devem avaliar o desempenho das recomendações dos especialistas, em indicadores como crescimento económico, paz e segurança social e igualdade de direitos e oportunidades.</p>
+
+<p><strong>Sétimo</strong>: O judiciário se concentra em seu papel de proferir sentenças de acordo com a lei vigente, e será profunda e periodicamente avaliado pelo soberano, que é assessorado por especialistas, que permitem uma avaliação crítica sobre se as sentenças estão ajustados ou não à lei.</p>
+
+<p><strong>Oitavo</strong>: O poder do soberano, por não sofrer interferência de parlamentos ou governantes, será mais amplo e maior do que qualquer empresa multimilionária do país, permitindo que os promotores garantam que tanto as empresas quanto os trabalhadores atuem de forma ética e colaborativamente, onde a dignidade e o igual respeito prevalecem.</p>
+
+<p><strong>Nona</strong>: O poder do soberano, por não sofrer interferência de parlamentos ou governantes, será mais amplo e maior do que qualquer organização criminosa, permitindo que o poder do Estado, que reside em suas forças armadas e ordem, estar sempre ao serviço e defesa da nação.</p>
+
+<p><strong>Décima</strong>: As campanhas para eleger o representante da nação e o painel de especialistas são realizadas por cidadãos qualificados e melhor preparados para votar, livres e independentes, não receberão nenhum subsídio financeiro público e seu apoio será limitado a dar a conhecer aos cidadãos de forma equitativa a experiência, preparação e percurso de todos os que decidem candidatar-se.</p>
+
+<p><strong>Décima primeira</strong>: As forças armadas e a aplicação da lei continuarão a ser instituições independentes de gestão política. Limitando as suas funções a proteger e ajudar os cidadãos em situações extremas, e estar ao serviço da Nação, respeitando os cidadãos de forma igualitária.</p>
+
+<h2 id="sinais-de-resultado">Sinais de Resultado</h2>
+
+<p>Uma sociedade ontocrática é capaz de medir e comparar o resultado de suas decisões e, da mesma forma, uma região ou comuna dentro da nação usará a mesma solução que outra região ou comuna aplicou com sucesso, tratando, via de regra, do bem-estar da cidadão versus seu custo.</p>
+
+<p>É importante que os cidadãos recebam periodicamente resumos ou sinais dos resultados das decisões tomadas em todo o país, além de acessar os detalhes, se assim o desejarem.</p>
+
+<p>A empresa busca principalmente as seguintes métricas para a tomada de suas decisões:</p>
+
+<ul>
+  <li>Elevados índices de Paz e Segurança.</li>
+  <li>Baixas taxas de pobreza.</li>
+  <li>Índices saudáveis ​​de atividade e crescimento econômico.</li>
+  <li>Altos índices de liberdade e bem-estar social.</li>
+</ul>
+
+<h2 id="mais-preparado">Mais preparado</h2>
+
+<p>Embora no início da Ontocracia os cidadãos possam tomar decisões erradas, que podem ser avaliadas objetivamente segundo “sinais de resultado”, corrigidas e perdoadas, e da mesma forma que um grupo de pessoas, inclusive o presente leitor, não escalaria para um autocarro conduzido por um jovem de 16 anos, sem experiência nem carta de condução, não deveria permitir que cidadãos sem o mínimo de preparação sejam os que escolhem os representantes, peritos e leis que estes propõem.</p>
+
+<h3 id="preparação-mínima">Preparação mínima</h3>
+
+<p>Os cidadãos elegíveis para votar na Ontocracia cumprem os seguintes requisitos:</p>
+
+<ol>
+  <li>Cidadãos que tenham concluído com aproveitamento o ensino mínimo gratuito e obrigatório para ser cidadão eleitor, constituído pela Educação Cívica, Educação Financeira e Educação Universal. Todo cidadão recebe esta Educação gratuitamente e em qualquer idade, de instituições credenciadas, sejam elas públicas ou privadas, para o cumprimento do direito de voto.</li>
+  <li>Os cidadãos maiores de 18 anos, ou independentemente da idade, tratando-se de pessoas que se tenham destacado em actividades académicas ou intelectuais e que, pelas suas características de cidadãos excepcionais, possam votar sem discriminação de idade.</li>
+  <li>Cidadãos que não tenham cometido crimes que a Nação puna com a perda da cidadania.</li>
+</ol>
+
+<h2 id="segurança-cidadã">Segurança cidadã</h2>
+
+<p>As forças armadas e policiais, estando ao serviço da nação representada pelo soberano, zelarão pela ordem e segurança públicas, fomentando uma atitude de solidariedade, sendo o único órgão do Estado capaz de exercer a força em caso de necessidade.</p>
+
+<p>É permitida a utilização de despesas reservadas pelas forças armadas e agentes da lei, estimulando-se a devolução dos recursos remanescentes não utilizados.</p>
+
+<h2 id="educação">Educação</h2>
+
+<p>É prioridade da Ontocracia informar que a educação é um dever e não um direito. Onde se promova a igualdade de acesso e qualidade de educação para todos os cidadãos sem qualquer tipo de discriminação, promovendo a liberdade de escolha do tipo de educação limitada ao núcleo familiar e o estado em nenhuma hipótese poderá exercer doutrinação ou submissão ao culto nos órgãos educacionais .</p>
+
+<p>Os professores são escolhidos por seus conhecimentos, habilidades acadêmicas e pedagógicas, com a mesma seriedade com que um cirurgião é avaliado antes de exercer sua profissão, e como para ensinar são exigidas grandes qualidades, os professores receberão o mesmo reconhecimento social dos especialistas e representantes que a nação elegeu. Os principais professores serão pagos como representantes e especialistas da nação.</p>
+
+<p>O Estado assume um papel fiscalizador da educação, promovendo um ensino gratuito e sem doutrinação, onde os alunos podem seguir percursos profissionais de acordo com as suas competências identificadas desde tenra idade, e as organizações educativas assegurarão que as competências sejam detectadas desde tenra idade e encaminhadas para a sua promoção. habilidades, habilidades ou desejos dos alunos, permitindo a existência de escolas de especialidades, artes, ciências e cultura.</p>
+
+<p>Todas as organizações educacionais enfrentam o desafio de ensinar a todos igualmente as seguintes disciplinas:</p>
+
+<ul>
+  <li><strong>Educação Cívica</strong>, onde são ensinados os direitos e deveres dos cidadãos. Ética e generosidade. Destaca-se nessa modalidade de ensino a prestação de informações sobre o custo de bens e serviços prestados pelo Estado ou privados, entendendo a importância de uma correta administração dos recursos. A educação cívica é responsável por educar sobre o sistema eleitoral de uma Ontocracia digital, onde os cidadãos devem participar periodicamente, e dependendo do seu local de recenseamento eleitoral, em eleições obrigatórias ou facultativas nos níveis nacional/federal, regional/estadual e comunitário/municipal. onde é promovido o acesso a meios de validação digital.</li>
+  <li><strong>Educação Financeira</strong>, onde é ensinada a importância do bom uso dos recursos, com ênfase nos fluxos e equilíbrios financeiros, que se aplicam a pessoas físicas e jurídicas. A importância de apoiar causas altruístas, poupar e investir.</li>
+  <li><strong>Educação Universal</strong>, sob a premissa de um ser humano espiritual, emocional e racional em primeiro lugar, a conexão do planeta humano é ensinada como um único ser como um todo, aprendendo a interagir em seus ciclos, entrando em uma relação de respeito e cuidadoso. Temas como descontaminação, reciclagem são fundamentais nesse quesito.</li>
+</ul>
+
+<h2 id="serviços-públicos">Serviços públicos</h2>
+
+<p>Da mesma forma que o feminismo não é a solução para o machismo, a igualdade não é a solução para a desigualdade, razão pela qual na Ontocracia existe a liberdade de iniciar ou gerar negócios por meio de bens ou serviços que agreguem valor à sociedade. desejam gerar negócios ou investimentos, em hipótese alguma podem cair na pobreza extrema, uma vez que aqueles que não têm recursos para pagar serviços ou bens sociais, a Ontocracia garantirá o bom uso dos recursos econômicos e, assim, subsidiará aqueles que não tiverem pode em:</p>
+
+<ul>
+  <li>Educação de igual qualidade para quem pode financiá-la.</li>
+  <li>Cuidados de saúde de qualidade igual a quem os pode financiar.</li>
+  <li>Promoção e subsídios para cidadãos que optem por iniciar negócios que agreguem valor à sociedade.</li>
+  <li>Subsídios de promoção e solidariedade com os cidadãos em situações de emergência ou tragédia.</li>
+</ul>
+
+<h2 id="pensões">Pensões</h2>
+
+<p>Todo cidadão, desde a infância, ao fazer compras que incluam o pagamento de impostos sobre o valor agregado, no máximo um quarto desse imposto irá para a conta de pensão pessoal do cidadão, que será adicionado ao que é economizado por outros meios, como remuneração ou pensão voluntária poupança, entre outros. Fomentar a poupança previdenciária dos cidadãos com pequenos valores e desde tenra idade, somada ao correto investimento dessa poupança por meio da concorrência livre e fiscalizada entre os sistemas público e privado. Isto permite não só proporcionar pensões adequadas ao custo de vida do país, mas também dinamizar a sua economia e poder desempenhar de forma sustentável o seu papel de estado solidário.</p>
+
+<p>Todo cidadão terá o direito, ao longo de sua vida, de sacar até 30% de sua poupança previdenciária sem devolução ou justificativa, que descontará proporcionalmente no que recebeu como aposentadoria caso não reponha os recursos voluntariamente.</p>
+
+<p>Todo cidadão terá direito a receber até 20% de sua poupança previdenciária como empréstimo e cujos recursos deverão ser repostos sem juros e voluntariamente pelo cidadão contribuinte.</p>
+
+<p>Deve ser do conhecimento de todos os cidadãos com poupanças-reforma qual é o seu desejo de utilização da poupança em caso de falecimento e que restam poupanças, indicando se a pretendem dar a um familiar, pessoa ou causa em particular.</p>
+
+<p>As administradoras de fundos de pensões, sejam elas públicas ou privadas, terão em primeiro lugar o objetivo de rentabilizar a poupança através de, no máximo, 5 fundos de investimento, em que as taxas de risco/retorno de uma aplicação dos fundos respeitem:</p>
+
+<ul>
+  <li>Fundo 1: aluguel <strong>pelo menos</strong> inflação mais 0% (renda fixa).</li>
+  <li>Fundo 2: aluguel <strong>pelo menos</strong> inflação ±2%.</li>
+  <li>Fundo 3: aluguel <strong>pelo menos</strong> inflação ±5%.</li>
+  <li>Fundo 4: aluguel <strong>pelo menos</strong> inflação ±10%.</li>
+  <li>Fundo 5: aluguel <strong>pelo menos</strong> inflação ±15%.</li>
+</ul>
+
+<p>As instituições administradoras de fundos de pensão, sejam elas públicas ou privadas, terão fiscalização cidadã, por meio de servidores públicos pertencentes ou não a órgãos estatais.</p>]]></content><author><name>Rodrigo Cancino A.</name></author><category term="coto" /><category term="blog" /><category term="society" /><category term="sistema" /><category term="ontocracia" /><summary type="html"><![CDATA[Español English Français Português]]></summary></entry><entry xml:lang="esp"><title type="html">Ontocracia</title><link href="https://www.beecoss.com/coto/blog/society/2023/03/10/ontocracia" rel="alternate" type="text/html" title="Ontocracia" /><published>2023-03-10T15:35:35+00:00</published><updated>2023-03-10T15:35:35+00:00</updated><id>https://www.beecoss.com/coto/blog/society/2023/03/10/ontocracia</id><content type="html" xml:base="https://www.beecoss.com/coto/blog/society/2023/03/10/ontocracia"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td><strong>Español</strong></td>
+      <td><a href="/coto/blog/society/2023/03/10/ontocracy">English</a></td>
+      <td><a href="/coto/blog/society/2023/03/10/ontocratie">Français</a></td>
+      <td><a href="/coto/blog/society/2023/03/10/ontocracia-pt">Português</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>El presente es un ensayo que describe una alternativa de sociedad que habita el planeta, reemplazando a la actual República. Con la llegada de la era de acuario y el acceso a la información amanece una nueva sociedad, donde el animal político<sup id="fnref:socialanimal" role="doc-noteref"><a href="#fn:socialanimal" class="footnote" rel="footnote">1</a></sup> que habita el planeta, es capaz de vivir en un sistema construido a partir de los aprendizajes heredados del imperio romano y revolución francesa.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="/assets/posts/as-within-is-without.jpeg" alt="Esfinge" title="como es adentro es afuera" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><em>como es adentro es afuera</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="intro">Intro</h2>
+
+<p>Los siguientes síntomas de una sociedad, permiten concluir si ésta se encuentra sana:</p>
+
+<ol>
+  <li>Policias incorruptibles.</li>
+  <li>Ciudadanos generosos y respetuosos en el tránsito vial.</li>
+</ol>
+
+<p>Los policías son la piel del poder, capaz de interactuar directamente con el ciudadano, mientras que el poder mayor que le ordena, subyace en oficinas de un parlamento o casa de gobierno.</p>
+
+<p>Para que ocurran los dos sintomas de una sociedad sana, antes deben sanar muchos otros problemas sociales, por ejemplo para llegar a policias incorruptibles, antes se resolvió el problema de políticos o gobernadores corruptibles.</p>
+
+<p>Un nuevo sistema potencia su existencia cuando basa su creación en los principales flaquezas del que le antecede, y en el caso de la República son la corrupción, la existencia de ciudadanos en extrema pobreza y el mal uso del poder y recursos económicos.</p>
+
+<h2 id="sistema">Sistema</h2>
+
+<p>En una sociedad donde los ciudadanos son quienes realmente poseen el poder de la nación, el poder se distribuye de la siguiente manera:</p>
+
+<p><strong>Primero</strong>: Los Ciudadanos a través de una ontocracia digital poseen el absoluto poder de las decisiones de la nación, sobre todo las económicas, apoyados por panel de expertos y campañas de información independientes.</p>
+
+<p><strong>Segundo</strong>: Las decisiones de los ciudadanos, según el lugar que resida, algunas serán obligatorias y otras opcionales, y se llevarán a cabo a nivel nacional, regional o comunal.</p>
+
+<p><strong>Tercero</strong>: No existe un presidente, primer ministro o gobernante a quien culpar por las malas decisiones, ya que todas las tomará el soberano representado por los ciudadanos de la nación habilitados para votar.</p>
+
+<p><strong>Cuarto</strong>: Existirá un representante de la nación para reuniones y eventos internacionales, el cual es elegido por el soberano, y reemplazará al indicado en punto Tercero en sus actividades protocolares, siendo remunerado por no más de 10 veces el sueldo mínimo de la nación. En el representante recaerá el respeto y orgullo de representar a la nación y debería ser elegido por sus capacidades altruistas, éticas y de cortesía, más no recaerá poder alguno en este representante más que llevar con orgullo el honor de ser el representante que la nación eligió.</p>
+
+<p><strong>Quinto</strong>: El panel de expertos que apoyará a la ciudadanía en tomar las decisiones electorales ocupará el lugar del actual parlamento, y en ellos tampoco recaerá poder, más que el de informar a la ciudadanía en materias técnicas y complejas cuando lo amerite.</p>
+
+<p><strong>Sexto</strong>: De modo periódico la ciudadanía elige al panel de expertos, por su dominio, experiencia y sabiduría en materias en las que se deba tomar decisión. Del mismo modo, los ciudadanos deberán evaluar el desempeño de las recomendaciones de los expertos, en indicadores como crecimiento económico, paz y seguridad social e igualdad de derechos y oportunidades.</p>
+
+<p><strong>Séptimo</strong>: El poder judicial enfoca su rol de emitir sentencia acorde a la ley vigente, y será profunda y periódicamente evaluado por el soberano, el cual es asesorado por expertos, que permitan realizar una evaluación crítica respecto a si las sentencias se han ajustado o no a derecho.</p>
+
+<p><strong>Octavo</strong>: El poder del soberano al no estar interferido por parlamentos o gobernantes, será más amplio y grande que cualquier Empresa Multimillonaria dentro de la nación, permitiendo que los fiscales puedan velar porque tanto empresas como trabajadores actuen de manera ética y colaborativa donde prime dignidad y respeto igualitario.</p>
+
+<p><strong>Noveno</strong>: El poder del soberano al no estar interferido por parlamentos o gobernantes, será más amplio y grande que cualquier Organización criminal, permitiendo que el poder del estado, que yace en sus fuerzas armadas y de orden, siempre esté al servicio y defensa de la nación.</p>
+
+<p><strong>Décimo</strong>: Las campañas para elegir al representante de la nación y panel de expertos son llevadas a cabo por ciudadanos habilitados y mejor preparados para votar, de manera libre e independiente, no recibirán subsidio económico público alguno y su apoyo se limitará al de informar a la ciudadanía de manera igualitaria la experiencia, preparación y antecedentes de todos quienes decidan ser candidatos.</p>
+
+<p><strong>Undécimo</strong>: Las fuerzas armadas y de orden continuarán siendo instituciones independientes de gestiones políticas. Limitando sus funciones al de proteger y ayudar a la ciudadanía en situaciones extremas, y estar al servicio de la nación, respetando a los ciudadanos de manera igualitaria.</p>
+
+<h2 id="señales-de-resultado">Señales de Resultado</h2>
+
+<p>Una sociedad ontocrática es capaz de medir y comparar el resultado de sus decisiones y de la misma manera, una región o comuna dentro de la nación utilizará la misma solución que otra región o comuna haya aplicado exitosamente, ocupando como regla el bienestar del ciudadano versus su costo.</p>
+
+<p>Es importante que los ciudadanos reciban periódicamente resúmenes o señales de resultados de decisiones tomadas en toda la nación, además de acceder al detalle si así lo quisiesen.</p>
+
+<p>La sociedad procura principalmente las siguientes métricas para la toma de sus deciciones:</p>
+
+<ul>
+  <li>Indices altos de Paz y Seguridad.</li>
+  <li>Índices bajos de pobreza.</li>
+  <li>Índices sanos de actividad y crecimiento económico.</li>
+  <li>Índices altos de libertad y bienestar social.</li>
+</ul>
+
+<h2 id="mejor-preparados">Mejor preparados</h2>
+
+<p>Si bien al principio de la Ontocracia los ciudadanos puedan tomar decisiones equivocadas, las cuales podrán evaluarse  objetivamente según las “señales de resultado”, corregirse y perdonarse, y de la misma manera que un grupo de personas, incluyendo el presente lector, no se subiría a un autobús conducido por una persona de 16 años, sin experiencia ni licencia de conducir, tampoco debería permitir que ciudadanos sin la preparación mínima sean quienes eligen a representantes, expertos y leyes que estos últimos propongan.</p>
+
+<h3 id="preparación-mínima">Preparación mínima</h3>
+
+<p>Los ciudadanos habilitados para votar en Ontocracia cumplen los siguientes requisitos:</p>
+
+<ol>
+  <li>Ciudadanos que han completado satisfactoriamente la educación mínima gratuita y obligatoria para ser un ciudano habilitado para votar, compuesta por Educación cívica, Educación Financiera y Educación Universal. Todo ciudadano recibe esta Educación de manera gratuita y a cualquier edad, de parte del instituciones autorizadas, ya sean publicas o privadas, para cumplir con el derecho de sufragar.</li>
+  <li>Ciudadanos mayores a 18 años, o Sin importar su edad, en caso personas que se hayan destacado en actividades académicas o intelectuales, y que por sus características de ciudadanos destacados podrán votar sin discriminación etárea.</li>
+  <li>Ciudadanos que no hayan cometido delitos que la nación castigue con la pérdida de la ciudadanía.</li>
+</ol>
+
+<h2 id="seguridad-ciudadana">Seguridad Ciudadana</h2>
+
+<p>Las fuerzas armadas y de orden, estando al servicio de la nación representada por el soberano, velarán por el orden y seguridad pública, fomentando una actitud solidaria, y ser el único organismo del estado capaz de ejercer la fuerza si fuese necesario.</p>
+
+<p>Se permite el uso de gastos reservados por parte de las fuerzas armadas y de orden, fomentando la devolución de los recursos remanentes no utilizados.</p>
+
+<h2 id="educación">Educación</h2>
+
+<p>Es prioridad de la Ontocracia informar que la educación es un deber y no un derecho. En donde se fomentará la igualdad de acceso y calidad de educación a todos los ciudadanos sin ningún tipo de discriminación, fomentando la libertad de elección del tipo de educación limitado al nucleo familiar y el estado bajo ningún motivo podrá ejercer adoctrinamiento ni sometimiento de culto en los organismos educativos.</p>
+
+<p>Los profesores son elegidos por sus conocimientos, capacidades académicas y de docencia, con la misma seriedad que un médico cirujano es evaluado antes de ejercer su profesión, y dado que para ejercer docencia se requerirán de grandes cualidades, los profesores tomarán el mismo reconocimiento social que los expertos y representante que la nación eligió. Llevando a los docentes a ser remunerados tal como representantes y expertos de la nación.</p>
+
+<p>El estado toma un rol fiscalizador en la educación, fomentando una educación libre y sin adoctrinamiento, donde los alumnos puedan seguir caminos profesionales acorde a sus habilidades identificadas en edades tempranas, y los organismos educacionales velarán por detectar habilidades en edades tempranas y derivar para potenciar dichas habilidades o deseos de los estudiantes, permitiendo la existencia de escuelas de especialidades, artes, ciencias y cultura.</p>
+
+<p>Todos los organismos educativos enfrentan como base el desafío de enseñar a todos por igual las siguientes materias:</p>
+
+<ul>
+  <li><strong>Educación Cívica</strong>, donde se enseñe los derechos y obligaciones de los ciudadanos. La ética y generosidad. Destacan en este tipo de educación la entrega de información respecto al costo de los bienes y servicios provistos por el estado o privados, entendiendo la importancia de una correcta administración de los recursos. En educación cívica recae la responsabilidad de educar respecto al sistema electoral de una Ontocracia digital, donde los ciudadanos deberán participar periódicamente, y según su lugar de inscripción electoral, en elecciones obligatorias u opcionales a nivel nacional/federal, regional/estatal y comunal/condados donde se potencia el acceso a medios de validación digitales.</li>
+  <li><strong>Educación Financiera</strong>, donde se enseña la importancia del buen uso de recursos, poniendo énfasis en los flujos y balances financieros, que apliquen en personas naturales como jurídicas. La importancia del apoyo a causas altruistas, del ahorro y la inversión.</li>
+  <li><strong>Educación Universal</strong>, bajo la premisa de un ser humano primero espiritual, emocional y racional, se enseña la conexión humano planeta como un único ser en su conjunto, aprendiendo a interactuar en sus ciclos, entrando en una relación de respeto y cuidado. Temarios como la descontaminación, reciclaje son fundamentales en esta materia.</li>
+</ul>
+
+<h2 id="servicios-públicos">Servicios Públicos</h2>
+
+<p>De la misma manera que el feminismo no es la solución al machismo, la igualdad no es la solución para la desigualdad, por lo que en Ontocracia existe la libertad de emprender o generar negocios a través de bienes o servicios que provean valor a la sociedad, sin embargo quien no desee generar negocios o inversiones, bajo ninguna circunstancia podrá caer en pobreza extrema, dado que a quienes no possen recursos para pagar los servicios o bienes sociales la Ontocracia velará por el buen uso de los recursos económicos y así subsidiar a quien no pueda en:</p>
+
+<ul>
+  <li>Educación de igual calidad de quien la puede financiar.</li>
+  <li>Atención de salud de igual calidad que alguien que la puede financiar.</li>
+  <li>Fomento y subsidios para ciudadanos que elijan emprender negocios que aporten valor a la sociedad.</li>
+  <li>Fomento y subsidios solidarios con ciudadanos en situaciones de emergencia o tragedia.</li>
+</ul>
+
+<h2 id="pensiones">Pensiones</h2>
+
+<p>Todo ciudadano, desde su infancia, al realizar compras que incluyan pago de impuestos al valor agregado, a lo más una cuarta parte de dicho impuesto irá a la cuenta personal previsional del ciudadano, la cual se sumará a lo ahorrado por otros medios tales como remuneración o ahorro previsional voluntarios, entre otros. El fomentar en los ciudadanos el ahorro previsional con pequeños montos y desde edades tempranas, sumado a la correcta inversión de dichos ahorros a través de una competencia libre y supervisada, entre sistemas públicos y privados. Esto no solo permite entregar pensiones adecuadas al costo de vida de la nación, sino además impulsar su economía y poder tomar un rol de estado solidario de manera sustentable.</p>
+
+<p>Todo ciudadano tendrá derecho, durante el transcurso de su vida, a retirar sin devolución ni justificación hasta el 30% de sus ahorros previsionales, lo que descontará proporcionalmente en lo recibido como jubilación en caso de no reponer los fondos de manera voluntaria.</p>
+
+<p>Todo ciudadano tendrá derecho a recibir a modo de préstamo, hasta un 20% de su ahorro previsional y cuyos fondos deberá reponer sin interés y de manera voluntaria por el cidadano cotizante.</p>
+
+<p>Se deberá conocer de todos los ciudadanos con ahorro previsional cual es su deseo para la utilización de los ahorros en caso de muerte y que existan remanentes de ahorro, indicando si se desea entregar a un familiar, persona o causa en particular.</p>
+
+<p>Las instituciones administradoras de fondos previsionales, ya sean públicas o privadas, tendrán como objetivo primero el de rentabilizar los ahorros a través de no más de 5 fondos de inversión, donde las tasas riesgo/retorno de una inversión de los fondos cumplen con:</p>
+
+<ul>
+  <li>Fondo 1: rentar <strong>a lo menos</strong> inflación más un 0% (renta fija).</li>
+  <li>Fondo 2: rentar <strong>a lo menos</strong> inflación ±2%.</li>
+  <li>Fondo 3: rentar <strong>a lo menos</strong> inflación ±5%.</li>
+  <li>Fondo 4: rentar <strong>a lo menos</strong> inflación ±10%.</li>
+  <li>Fondo 5: rentar <strong>a lo menos</strong> inflación ±15%.</li>
+</ul>
+
+<p>Las instituciones administradoras de fondos previsionales, ya sean públicas o privadas, tendrán supervisión ciudadana, a través de servidores públicos pertenecientes o no a organismos estatales.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:socialanimal" role="doc-endnote">
+      <p>el hombre se diferencia de los animales, entre otras cosas, porque vive en sociedades organizadas políticamente - Aristóteles. <a href="#fnref:socialanimal" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Rodrigo Cancino A.</name></author><category term="coto" /><category term="blog" /><category term="society" /><category term="sistema" /><category term="ontocracia" /><summary type="html"><![CDATA[Español English Français Português]]></summary></entry><entry xml:lang="eng"><title type="html">Ontocracy</title><link href="https://www.beecoss.com/coto/blog/society/2023/03/10/ontocracy" rel="alternate" type="text/html" title="Ontocracy" /><published>2023-03-10T15:35:35+00:00</published><updated>2023-03-10T15:35:35+00:00</updated><id>https://www.beecoss.com/coto/blog/society/2023/03/10/ontocracy</id><content type="html" xml:base="https://www.beecoss.com/coto/blog/society/2023/03/10/ontocracy"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td><a href="/coto/blog/society/2023/03/10/ontocracia">Español</a></td>
+      <td><strong>English</strong></td>
+      <td><a href="/coto/blog/society/2023/03/10/ontocratie">Français</a></td>
+      <td><a href="/coto/blog/society/2023/03/10/ontocracia-pt">Português</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>This is an essay that describes an alternative society that inhabits the planet, replacing the current Republic. With the arrival of the age of Aquarius and access to information, a new society dawns, where the political animal that inhabits the planet is capable of living in a system built from the learning inherited from the Roman Empire and the French Revolution.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="/assets/posts/as-within-is-without.jpeg" alt="Sphinx" title="as it is inside so it is outside" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><em>as it is inside so it is outside</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>The following symptoms of a society allow us to conclude if it is healthy:</p>
+
+<ol>
+  <li>Incorruptible policemen.</li>
+  <li>Generous and respectful citizens in road traffic.</li>
+</ol>
+
+<p>The police are the skin of power, capable of interacting directly with the citizen, while the greater power that orders them, lies in the offices of a parliament or government house.</p>
+
+<p>For the two symptoms of a healthy society to occur, many other social problems must first be cured, for example, to reach incorruptible police officers, before the problem of corruptible politicians or governors was resolved.</p>
+
+<p>A new system enhances its existence when it bases its creation on the main weaknesses of the previous one, and in the case of the Republic they are corruption, the existence of citizens in extreme poverty and the misuse of power and economic resources.</p>
+
+<h2 id="system">System</h2>
+
+<p>In a society where the citizens are the ones who really own the power of the nation, power is distributed as follows:</p>
+
+<p><strong>First</strong>: Citizens through a digital ontocracy possess the absolute power of the nation’s decisions, especially economic ones, supported by a panel of experts and independent information campaigns.</p>
+
+<p><strong>Second</strong>: The decisions of citizens, depending on where they reside, some will be mandatory and others optional, and will be carried out at the national, regional or community level.</p>
+
+<p><strong>Third</strong>: There is no president, prime minister or ruler to blame for bad decisions, since they will all be made by the sovereign represented by the nation’s citizens empowered to vote.</p>
+
+<p><strong>Fourth</strong>: There will be a representative of the nation for international meetings and events, who is chosen by the sovereign, and will replace the one indicated in point Three in their protocol activities, being paid no more than 10 times the minimum salary of the nation. The representative will have the respect and pride of representing the nation and should be chosen for his altruistic, ethical and courteous abilities, but no power will fall on this representative other than to proudly carry the honor of being the representative that the nation chose .</p>
+
+<p><strong>Fifth</strong>: The panel of experts that will support the citizens in making electoral decisions will take the place of the current parliament, and they will not have power either, other than to inform the citizens on technical and complex matters when warranted. .</p>
+
+<p><strong>Sixth</strong>: Periodically, the citizens choose the panel of experts, for their mastery, experience and wisdom in matters in which a decision must be made. In the same way, citizens should evaluate the performance of the experts’ recommendations, in indicators such as economic growth, peace and social security, and equal rights and opportunities.</p>
+
+<p><strong>Seventh</strong>: The judiciary focuses on its role of issuing sentences in accordance with current law, and will be deeply and periodically evaluated by the sovereign, who is advised by experts, which allow a critical evaluation to be made regarding whether the sentences are have adjusted or not to law.</p>
+
+<p><strong>Eighth</strong>: The power of the sovereign, as it is not interfered with by parliaments or rulers, will be broader and bigger than any Multimillion-Dollar Company within the nation, allowing prosecutors to ensure that both companies and workers act ethically and collaboratively where dignity and equal respect prevail.</p>
+
+<p><strong>Ninth</strong>: The power of the sovereign, as it is not interfered with by parliaments or rulers, will be broader and greater than any criminal organization, allowing the power of the state, which lies in its armed forces and order, to always be at the service and defense of the nation.</p>
+
+<p><strong>Tenth</strong>: The campaigns to elect the representative of the nation and panel of experts are carried out by qualified citizens and better prepared to vote, freely and independently, they will not receive any public financial subsidy and their support will be limited to to inform the citizenry in an equal manner the experience, preparation and background of all those who decide to be candidates.</p>
+
+<p><strong>Eleventh</strong>: The armed forces and law enforcement will continue to be independent institutions of political management. Limiting its functions to protecting and helping citizens in extreme situations, and being at the service of the nation, respecting citizens equally.</p>
+
+<h2 id="signs-of-result">Signs of Result</h2>
+
+<p>An ontocratic society is capable of measuring and comparing the result of its decisions and in the same way, a region or commune within the nation will use the same solution that another region or commune has applied successfully, dealing as a rule with the welfare of the citizen versus his cost.</p>
+
+<p>It is important that citizens periodically receive summaries or signals of the results of decisions made throughout the nation, in addition to accessing the details if they so wish.</p>
+
+<p>The company mainly seeks the following metrics for making its decisions:</p>
+
+<ul>
+  <li>High indices of Peace and Security.</li>
+  <li>Low poverty rates.</li>
+  <li>Healthy indices of activity and economic growth.</li>
+  <li>High indices of freedom and social welfare.</li>
+</ul>
+
+<h2 id="better-prepared">Better prepared</h2>
+
+<p>Although at the beginning of the Ontocracy, citizens can make wrong decisions, which can be objectively evaluated according to “result signals”, corrected and forgiven, and in the same way that a group of people, including the present reader, would not climb to a bus driven by a 16-year-old person, with no experience or driver’s license, it should not allow citizens without the minimum preparation to be the ones who choose the representatives, experts and laws that the latter propose.</p>
+
+<h3 id="minimum-preparation">Minimum preparation</h3>
+
+<p>Citizens eligible to vote in Ontocracy meet the following requirements:</p>
+
+<ol>
+  <li>Citizens who have satisfactorily completed the minimum free and compulsory education to be a citizen eligible to vote, made up of Civic Education, Financial Education and Universal Education. Every citizen receives this Education free of charge and at any age, from authorized institutions, whether public or private, to comply with the right to vote.</li>
+  <li>Citizens over 18 years of age, or regardless of their age, in the case of people who have excelled in academic or intellectual activities, and who, due to their characteristics as outstanding citizens, may vote without age discrimination.</li>
+  <li>Citizens who have not committed crimes that the nation punishes with the loss of citizenship.</li>
+</ol>
+
+<h2 id="citizen-security">Citizen security</h2>
+
+<p>The armed forces and law enforcement, being at the service of the nation represented by the sovereign, will ensure public order and safety, fostering an attitude of solidarity, and being the only state body capable of exercising force if necessary.</p>
+
+<p>The use of reserved expenses by the armed forces and law enforcement is allowed, encouraging the return of the remaining unused resources.</p>
+
+<h2 id="education">Education</h2>
+
+<p>It is a priority of the Ontocracy to inform that education is a duty and not a right. Where equal access and quality of education will be promoted for all citizens without any type of discrimination, promoting freedom of choice of the type of education limited to the family nucleus and the state under no circumstances may exercise indoctrination or submission to worship in the educational bodies.</p>
+
+<p>The professors are chosen for their knowledge, academic and teaching abilities, with the same seriousness that a surgeon is evaluated before practicing his profession, and given that great qualities are required to teach, the professors will receive the same social recognition as the experts and representative that the nation elected. Leading teachers to be paid as representatives and experts of the nation.</p>
+
+<p>The state takes a supervisory role in education, promoting a free education without indoctrination, where students can follow professional paths according to their skills identified at an early age, and educational organizations will ensure that skills are detected at an early age and referred to promote said skills. abilities or desires of the students, allowing the existence of schools of specialties, arts, sciences and culture.</p>
+
+<p>All educational organizations face the challenge of teaching everyone equally the following subjects:</p>
+
+<ul>
+  <li><strong>Civic Education</strong>, where the rights and obligations of citizens are taught. Ethics and generosity. Outstanding in this type of education is the delivery of information regarding the cost of goods and services provided by the state or private, understanding the importance of a correct administration of resources. Civic education is responsible for educating about the electoral system of a digital Ontocracy, where citizens must participate periodically, and depending on their place of voter registration, in mandatory or optional elections at the national/federal, regional/state and community/county levels. where access to digital validation means is promoted.</li>
+  <li><strong>Financial Education</strong>, where the importance of the proper use of resources is taught, emphasizing financial flows and balances, which apply to natural and legal persons. The importance of supporting altruistic causes, saving and investing.</li>
+  <li><strong>Universal Education</strong>, under the premise of a spiritual, emotional and rational human being first, the human planet connection is taught as a single being as a whole, learning to interact in its cycles, entering into a relationship of respect and careful. Topics such as decontamination, recycling are fundamental in this matter.</li>
+</ul>
+
+<h2 id="public-services">Public services</h2>
+
+<p>In the same way that feminism is not the solution to machismo, equality is not the solution to inequality, which is why in Ontocracy there is the freedom to start or generate businesses through goods or services that provide value to society, However, whoever does not wish to generate business or investment, under no circumstances may fall into extreme poverty, given that those who do not have the resources to pay for social services or goods, the Ontocracy will ensure the proper use of economic resources and thus subsidize those who do not can in:</p>
+
+<ul>
+  <li>Education of equal quality to those who can finance it.</li>
+  <li>Health care of equal quality to someone who can finance it.</li>
+  <li>Promotion and subsidies for citizens who choose to start businesses that add value to society.</li>
+  <li>Promotion and solidarity subsidies with citizens in emergency or tragedy situations.</li>
+</ul>
+
+<h2 id="pensions">Pensions</h2>
+
+<p>Every citizen, from childhood, when making purchases that include payment of value added taxes, at most a quarter of said tax will go to the citizen’s personal pension account, which will be added to what is saved by other means such as remuneration or voluntary pension savings, among others. Fostering pension savings in citizens with small amounts and from an early age, added to the correct investment of said savings through free and supervised competition between public and private systems. This not only makes it possible to provide pensions that are adequate for the nation’s cost of living, but also to boost its economy and be able to play a role as a state of solidarity in a sustainable manner.</p>
+
+<p>Every citizen will have the right, during the course of his life, to withdraw up to 30% of his pension savings without return or justification, which will discount proportionally in what he received as retirement in case of not replenishing the funds voluntarily.</p>
+
+<p>Every citizen will have the right to receive up to 20% of their pension savings as a loan and whose funds they must replace without interest and voluntarily by the contributing citizen.</p>
+
+<p>It must be known from all citizens with pension savings what their desire is for the use of savings in the event of death and that there are remaining savings, indicating if they wish to give it to a family member, person or cause in particular.</p>
+
+<p>The pension fund administrators, whether public or private, will first have the objective of making savings profitable through no more than 5 investment funds, where the risk/return rates of an investment of the funds comply with:</p>
+
+<ul>
+  <li>Fund 1: rent <strong>at least</strong> inflation plus 0% (fixed income).</li>
+  <li>Fund 2: rent <strong>at least</strong> inflation ±2%.</li>
+  <li>Fund 3: rent <strong>at least</strong> inflation ±5%.</li>
+  <li>Fund 4: rent <strong>at least</strong> inflation ±10%.</li>
+  <li>Fund 5: rent <strong>at least</strong> inflation ±15%.</li>
+</ul>
+
+<p>The institutions that administer pension funds, whether public or private, will have citizen supervision, through public servants belonging or not to state agencies.</p>]]></content><author><name>Rodrigo Cancino A.</name></author><category term="coto" /><category term="blog" /><category term="society" /><category term="system" /><category term="ontocracy" /><summary type="html"><![CDATA[Español English Français Português]]></summary></entry><entry xml:lang="fra"><title type="html">Ontocratie</title><link href="https://www.beecoss.com/coto/blog/society/2023/03/10/ontocratie" rel="alternate" type="text/html" title="Ontocratie" /><published>2023-03-10T15:35:35+00:00</published><updated>2023-03-10T15:35:35+00:00</updated><id>https://www.beecoss.com/coto/blog/society/2023/03/10/ontocratie</id><content type="html" xml:base="https://www.beecoss.com/coto/blog/society/2023/03/10/ontocratie"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td><a href="/coto/blog/society/2023/03/10/ontocracia">Español</a></td>
+      <td><a href="/coto/blog/society/2023/03/10/ontocracy">English</a></td>
+      <td><strong>Français</strong></td>
+      <td><a href="/coto/blog/society/2023/03/10/ontocracia-pt">Português</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="abstrait">Abstrait</h2>
+
+<p>Il s’agit d’un essai qui décrit une société alternative qui habite la planète, en remplacement de la République actuelle. Avec l’arrivée de l’ère du Verseau et de l’accès à l’information, une nouvelle société se lève, où l’animal politique qui habite la planète est capable de vivre dans un système construit à partir des connaissances héritées de l’Empire romain et de la Révolution française.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="/assets/posts/as-within-is-without.jpeg" alt="Sphinx" title="comme c'est à l'intérieur donc c'est à l'extérieur" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><em>comme c’est à l’intérieur donc c’est à l’extérieur</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Les symptômes suivants d’une société nous permettent de conclure si elle est saine:</p>
+
+<ol>
+  <li>Policiers incorruptibles.</li>
+  <li>Des citoyens généreux et respectueux dans la circulation routière.</li>
+</ol>
+
+<p>La police est la peau du pouvoir, capable d’interagir directement avec le citoyen, tandis que le plus grand pouvoir qui les commande réside dans les bureaux d’un parlement ou d’une maison du gouvernement.</p>
+
+<p>Pour que les deux symptômes d’une société saine se manifestent, de nombreux autres problèmes sociaux doivent d’abord être résolus, par exemple pour atteindre des policiers incorruptibles, avant que le problème des politiciens ou des gouverneurs corruptibles ne soit résolu.</p>
+
+<p>Un nouveau système renforce son existence lorsqu’il fonde sa création sur les principales faiblesses du précédent, et dans le cas de la République, ce sont la corruption, l’existence de citoyens dans l’extrême pauvreté et l’abus du pouvoir et des ressources économiques.</p>
+
+<h2 id="système">Système</h2>
+
+<p>Dans une société où les citoyens sont les véritables détenteurs du pouvoir de la nation, le pouvoir est réparti comme suit:</p>
+
+<p><strong>Première</strong>: Les citoyens à travers une ontocratie numérique détiennent le pouvoir absolu des décisions de la nation, notamment économiques, soutenus par un panel d’experts et des campagnes d’information indépendantes.</p>
+
+<p><strong>Deuxièmement</strong>: Les décisions des citoyens, selon leur lieu de résidence, certaines seront obligatoires et d’autres facultatives, et seront exécutées au niveau national, régional ou communautaire.</p>
+
+<p><strong>Troisième</strong>: Il n’y a pas de président, de premier ministre ou de dirigeant à blâmer pour les mauvaises décisions, car elles seront toutes prises par le souverain représenté par les citoyens de la nation habilités à voter.</p>
+
+<p>la nation. Le représentant aura le respect et la fierté de représenter la nation et devra être choisi pour ses capacités altruistes, éthiques et courtoises, mais aucun pouvoir ne reviendra à ce représentant autre que celui de porter fièrement l’honneur d’être le représentant que la nation a choisi.</p>
+
+<p><strong>Cinquièmement</strong>: Le groupe d’experts qui soutiendra les citoyens dans la prise de décisions électorales remplacera le parlement actuel, et ils n’auront pas non plus le pouvoir, si ce n’est d’informer les citoyens sur des questions techniques et complexes lorsque cela est justifié. .</p>
+
+<p><strong>Sixième</strong>: Périodiquement, les citoyens choisissent le panel d’experts, pour leur maîtrise, leur expérience et leur sagesse dans les dossiers où une décision doit être prise. De la même manière, les citoyens devraient évaluer la performance des recommandations des experts, dans des indicateurs tels que la croissance économique, la paix et la sécurité sociale, et l’égalité des droits et des chances.</p>
+
+<p><strong>Septième</strong>: Le pouvoir judiciaire se concentre sur son rôle de prononcer des peines conformément au droit en vigueur, et sera évalué en profondeur et périodiquement par le souverain, qui est conseillé par des experts, ce qui permet une évaluation critique quant à savoir si les peines se sont adaptés ou non à la loi.</p>
+
+<p><strong>Huitième</strong>: Le pouvoir du souverain, car il n’est pas entravé par les parlements ou les dirigeants, sera plus large et plus grand que n’importe quelle entreprise multimillionnaire au sein du pays, permettant aux procureurs de s’assurer que les entreprises et les travailleurs agissent de manière éthique et collaboration où la dignité et le respect égal prévalent.</p>
+
+<p><strong>Neuvième</strong>: Le pouvoir du souverain, car il n’est pas entravé par les parlements ou les dirigeants, sera plus large et plus grand que toute organisation criminelle, permettant au pouvoir de l’État, qui réside dans ses forces armées et son ordre, de être toujours au service et à la défense de la nation.</p>
+
+<p><strong>Dixième</strong>: Les campagnes pour élire le représentant de la nation et le panel d’experts sont menées par des citoyens qualifiés et mieux préparés à voter, librement et en toute indépendance, ils ne recevront aucune subvention financière publique et leur soutien sera limité à informer les citoyens de manière égale de l’expérience, de la préparation et des antécédents de tous ceux qui décident d’être candidats.</p>
+
+<p><strong>Onzième</strong>: Les forces armées et les forces de l’ordre continueront d’être des institutions indépendantes de gestion politique. Limitant ses fonctions à protéger et aider les citoyens dans des situations extrêmes, et être au service de la nation, en respectant les citoyens de la même manière.</p>
+
+<h2 id="signes-de-résultat">Signes de résultat</h2>
+
+<p>Une société ontocratique est capable de mesurer et de comparer le résultat de ses décisions et de la même manière, une région ou une commune au sein de la nation utilisera la même solution qu’une autre région ou commune a appliquée avec succès, s’occupant en règle générale du bien-être de la citoyen contre son coût.</p>
+
+<p>Il est important que les citoyens reçoivent périodiquement des résumés ou des signaux des résultats des décisions prises dans tout le pays, en plus d’accéder aux détails s’ils le souhaitent.</p>
+
+<p>La société recherche principalement les paramètres suivants pour prendre ses décisions:</p>
+
+<ul>
+  <li>Indices élevés de paix et de sécurité.</li>
+  <li>Faible taux de pauvreté.</li>
+  <li>Indices sains d’activité et de croissance économique.</li>
+  <li>Indices élevés de liberté et de bien-être social.</li>
+</ul>
+
+<h2 id="mieux-préparé">Mieux préparé</h2>
+
+<p>Bien qu’au début de l’Ontocratie, les citoyens puissent prendre de mauvaises décisions, qui peuvent être objectivement évaluées selon des “signaux de résultat”, corrigés et pardonnés, et de la même manière qu’un groupe de personnes, y compris le lecteur actuel, ne monterait pas à un bus conduit par une personne de 16 ans, sans expérience ni permis de conduire, il ne devrait pas permettre aux citoyens sans le minimum de préparation d’être ceux qui choisissent les représentants, les experts et les lois que ces derniers proposent.</p>
+
+<h3 id="préparation-minimale">Préparation minimale:</h3>
+
+<p>Les citoyens éligibles au vote en Ontocratie remplissent les conditions suivantes :</p>
+
+<ol>
+  <li>Citoyens ayant suivi de manière satisfaisante l’enseignement minimum gratuit et obligatoire pour être citoyen électeur, composé de l’éducation civique, de l’éducation financière et de l’éducation universelle. Chaque citoyen reçoit cette éducation gratuitement et à tout âge, auprès d’institutions autorisées, publiques ou privées, à respecter le droit de vote.</li>
+  <li>Les citoyens de plus de 18 ans, ou quel que soit leur âge, s’il s’agit de personnes qui ont excellé dans des activités académiques ou intellectuelles et qui, en raison de leurs caractéristiques de citoyens éminents, peuvent voter sans discrimination d’âge.</li>
+  <li>Les citoyens qui n’ont pas commis des crimes que la nation punit de la perte de la citoyenneté.</li>
+</ol>
+
+<h2 id="sécurité-publique">Sécurité publique</h2>
+
+<p>Les forces armées et les forces de l’ordre, étant au service de la nation représentée par le souverain, assureront l’ordre et la sécurité publics, favorisant une attitude de solidarité, et étant le seul corps étatique capable d’exercer la force si nécessaire.</p>
+
+<p>L’utilisation des dépenses réservées par les forces armées et les forces de l’ordre est autorisée, ce qui encourage le retour des ressources restantes inutilisées.</p>
+
+<h2 id="éducation">Éducation</h2>
+
+<p>C’est une priorité de l’Ontocratie d’informer que l’éducation est un devoir et non un droit. Là où l’égalité d’accès et la qualité de l’éducation seront promues pour tous les citoyens sans aucune forme de discrimination, la promotion de la liberté de choix du type d’éducation limitée au noyau familial et l’État ne pourra en aucun cas exercer d’endoctrinement ou de soumission au culte dans les organismes éducatifs .</p>
+
+<p>Les professeurs sont choisis pour leurs connaissances, leurs capacités académiques et pédagogiques, avec le même sérieux qu’un chirurgien est évalué avant d’exercer son métier, et étant donné que de grandes qualités sont requises pour enseigner, les professeurs recevront la même reconnaissance sociale que les experts et représentants que la nation a élu. Principaux enseignants à payer en tant que représentants et experts de la nation.</p>
+
+<p>L’État assume un rôle de tutelle en matière d’éducation, en promouvant une éducation gratuite sans endoctrinement, où les élèves peuvent suivre des parcours professionnels en fonction de leurs compétences identifiées dès le plus jeune âge, et les organismes éducatifs veilleront à ce que les compétences soient détectées dès le plus jeune âge et référées pour promouvoir lesdites compétences. capacités ou désirs des étudiants, permettant l’existence d’écoles de spécialités, d’arts, de sciences et de culture.</p>
+
+<p>Toutes les organisations éducatives sont confrontées au défi d’enseigner à tous de manière égale les matières suivantes :</p>
+
+<ul>
+  <li><strong>Éducation civique</strong>, où les droits et obligations des citoyens sont enseignés. Éthique et générosité. Ce qui est remarquable dans ce type d’éducation est la fourniture d’informations sur le coût des biens et services fournis par l’État ou le privé, en comprenant l’importance d’une bonne administration des ressources. L’éducation civique est chargée d’éduquer sur le système électoral d’une Ontocratie numérique, où les citoyens doivent participer périodiquement, et en fonction de leur lieu d’inscription sur les listes électorales, aux élections obligatoires ou facultatives aux niveaux national/fédéral, régional/étatique et communautaire/comté. où l’accès aux moyens de validation numérique est promu.</li>
+  <li><strong>Education Financière</strong>, où l’on enseigne l’importance du bon usage des ressources, en mettant l’accent sur les flux et les équilibres financiers, qui s’appliquent aux personnes physiques et morales. L’importance de soutenir des causes altruistes, d’épargner et d’investir.</li>
+  <li><strong>Éducation universelle</strong>, sous la prémisse d’un être humain spirituel, émotionnel et rationnel d’abord, la connexion de la planète humaine est enseignée comme un être unique dans son ensemble, apprenant à interagir dans ses cycles, entrant dans une relation de respect et minutieux. Des sujets tels que la décontamination, le recyclage sont fondamentaux en la matière.</li>
+</ul>
+
+<h2 id="services-publics">Services publics</h2>
+
+<p>De la même manière que le féminisme n’est pas la solution au machisme, l’égalité n’est pas la solution à l’inégalité, c’est pourquoi dans Ontocracy il y a la liberté de démarrer ou de générer des entreprises à travers des biens ou des services qui apportent de la valeur à la société. souhaitent générer des affaires ou des investissements, ne peuvent en aucun cas tomber dans l’extrême pauvreté, étant donné que ceux qui n’ont pas les ressources nécessaires pour payer des services ou des biens sociaux, l’Ontocratie veillera à la bonne utilisation des ressources économiques et subventionnera ainsi ceux qui n’en ont pas peut dans :</p>
+
+<ul>
+  <li>Une éducation de qualité égale pour ceux qui peuvent la financer.</li>
+  <li>Des soins de santé de qualité égale à quelqu’un qui peut les financer.</li>
+  <li>Promotion et subventions pour les citoyens qui choisissent de créer des entreprises qui ajoutent de la valeur à la société.</li>
+  <li>Subventions de promotion et de solidarité avec les citoyens en situation d’urgence ou de tragédie.</li>
+</ul>
+
+<h2 id="retraites">Retraites</h2>
+
+<p>Chaque citoyen, dès l’enfance, lors d’achats incluant le paiement de taxes sur la valeur ajoutée, au plus un quart de ladite taxe ira au compte de pension personnel du citoyen, qui s’ajoutera à ce qui est épargné par d’autres moyens tels que la rémunération ou la pension volontaire économies, entre autres. Favoriser l’épargne-retraite des citoyens disposant de petits montants et dès leur plus jeune âge, complétée par le bon placement de cette épargne par une concurrence libre et encadrée entre les systèmes publics et privés. Cela permet non seulement d’assurer des retraites adaptées au coût de la vie de la nation, mais aussi de dynamiser son économie et de pouvoir jouer durablement un rôle d’État solidaire.</p>
+
+<p>Tout citoyen aura le droit, au cours de sa vie, de retirer jusqu’à 30% de son épargne-retraite sans retour ni justification, ce qui sera déduit proportionnellement de ce qu’il a reçu à la retraite en cas de non-reconstitution volontaire des fonds.</p>
+
+<p>Chaque citoyen aura le droit de recevoir jusqu’à 20% de son épargne-pension sous forme de prêt et dont les fonds devront être remplacés sans intérêt et volontairement par le citoyen cotisant.</p>
+
+<p>Il doit être connu de tous les citoyens disposant d’une épargne-pension quel est leur désir d’utiliser l’épargne en cas de décès et qu’il reste de l’épargne, en indiquant s’ils souhaitent la donner à un membre de la famille, à une personne ou à une cause en particulier.</p>
+
+<p>Les administrateurs de fonds de pension, qu’ils soient publics ou privés, auront d’abord pour objectif de rentabiliser l’épargne à travers pas plus de 5 fonds d’investissement, lorsque les rapports risque/rendement d’un placement des fonds respectent:</p>
+
+<ul>
+  <li>Fonds 1: loyer <strong>au moins</strong> inflation plus 0% (revenu fixe).</li>
+  <li>Fonds 2: loyer <strong>au moins</strong> inflation ±2%.</li>
+  <li>Fonds 3: loyer <strong>au moins</strong> inflation ±5%.</li>
+  <li>Fonds 4: loyer <strong>au moins</strong> inflation ±10%.</li>
+  <li>Fonds 5: loyer <strong>au moins</strong> inflation ±15%.</li>
+</ul>
+
+<p>Les institutions qui administrent les fonds de pension, qu’elles soient publiques ou privées, auront un contrôle citoyen, par l’intermédiaire de fonctionnaires appartenant ou non à des agences de l’État.</p>]]></content><author><name>Rodrigo Cancino A.</name></author><category term="coto" /><category term="blog" /><category term="society" /><category term="système" /><category term="ontocratie" /><summary type="html"><![CDATA[Español English Français Português]]></summary></entry><entry xml:lang="eng"><title type="html">What is happening in Chile, why could it be a worldwide example and what should a Chilean take into consideration for next October Referendum?</title><link href="https://www.beecoss.com/coto/blog/chile/2020/09/18/chile-cant-be-better-than-singapur" rel="alternate" type="text/html" title="What is happening in Chile, why could it be a worldwide example and what should a Chilean take into consideration for next October Referendum?" /><published>2020-09-18T20:51:00+00:00</published><updated>2020-09-18T20:51:00+00:00</updated><id>https://www.beecoss.com/coto/blog/chile/2020/09/18/chile-cant-be-better-than-singapur</id><content type="html" xml:base="https://www.beecoss.com/coto/blog/chile/2020/09/18/chile-cant-be-better-than-singapur"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td><a href="/coto/blog/chile/2020/09/18/chile-no-puede-ser-mejor-que-singapur.html">Español</a></td>
+      <td><strong>English</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Chile lives a reality that I would like to express in first person to my foreign friends and especially to Chileans, on last October 16th, 2019 a social movement began that got out of our hands, going through moments of great confusion and ignorance regarding what was happening, and with that generating a lot of fear and damage to the country itself, then a series of events occurred that allowed us to have greater clarity regarding what was happening. However, at the beginning of 2020, the no lesser problem of the Pandemic that we share worldwide was added, and that despite being a small and apparently intelligent population (according to external visions regarding how we have built our society) we are within more infected countries. In addition to the above, this October 25th, Chileans face what some intellectuals define as a change of society to a next generation or commit a mistake and go back several years. Fortunately, the time of confinement made it possible to clarify what is happening and have more clarity regarding what to do.</p>
+
+<h2 id="tl-tr">TL; TR</h2>
+
+<p>I write this article from an impartial point of view, as a Chilean detached from political or social classes. I am someone who cannot be called either a fascist or a communist, I hope to express my opinions with respect, objectively, based on my personal experience and economic numbers, however at the end of this post, and after the analysis itself, I indicate which one is my alternative and I consider it better for Chile in the next Referendum on October 25th, respecting the winning option. This post was written on an important date for Chileans “September 18th”, a date that represents the beginning of something that all Chileans are proud of, our Freedom.</p>
+
+<p>The article is divided into 6 points, and for easy reading it contains a list of arguments when it refers about improvements recommended, find a quiet 15 minutes to read it, which is also the estimated reading time:</p>
+
+<ul>
+  <li><a href="#1">1. Who am I and why do I allow myself to give some humble tips to improve issues such as Education in Chile? </a></li>
+  <li><a href="#2">2. How to improve Education in Chile? </a></li>
+  <li><a href="#3">3. How to improve Pensions, Health, Justice and other main areas of concern for a State? </a></li>
+  <li><a href="#4">4. How to understand Politics to make a good decision to vote on October 25th? </a></li>
+  <li><a href="#5">5. What should a Chilean bear in mind before voting? </a></li>
+  <li><a href="#6">6. What’s better for Chile this October 25th? </a></li>
+</ul>
+
+<h2 id="1-who-am-i-and-why-do-i-allow-myself-to-deliver-some-humble-tips-to-improve-topics-such-as-education-"><span id="1">1. Who am I and why do I allow myself to deliver some humble tips to improve topics such as Education? </span></h2>
+
+<p>I am a Chilean, born in the Atacama region, together with my mother, Rosario and my older sister for 7 years, Valeska, we are fortunate to be a small family, of humble origins and that to this day continue to harvest fruits and enjoy a quiet life through honest, balanced and dignified work that my Mother has given us as an example. Today I work on my own focused on science and technology.</p>
+
+<p>As a Chilean, today in the midst of a pandemic, I ask myself: Would a Chilean be willing to live with the repression and lack of freedom of Singapore, China or Germany? It is true that some of these countries are very beautiful and represent the face of a country that has managed to carry the country’s wallet and politics in a good way, which is what ultimately solves the problems, but in terms of freedom that exists in those countries, A true Chilean would not be able to tolerate the lack of freedom for long, unless the cost is worth it and it goes with his personality and missing Chile a lot, a country that, in addition to being advanced, is free and that is what it does it better than Germany, said German friends whom I host for a few months in Santiago at the beginning of 2019.</p>
+
+<p>However, there are things that the State of Chile should improve and I would like to share some ideas of what and how Chile should improve in Education, and the fundamental idea to improve the main axes of a State such as Health, Pensions and others.</p>
+
+<h3 id="2-how-to-improve-education-in-chile-"><span id="2">2. How to improve Education in Chile? </span></h3>
+
+<p>In my Primary and High Schools, I was never the best in the class, nor the worst, in fact I remember that I was always in the third or fourth place in grades in the course, I liked the anonymity of not offering expectations and it never worried me. At the end of High School, at 17 years old, I received a book about the Federico Santa María Technical University (in Chile) from the High School vocational counselor, Mr. Patricio Jorquiera. It changed my life, the only thing I wanted at that time was to study at that University, I didn’t know what to, but I did know where to, even though I didn’t have the resources to cover my studies.</p>
+
+<p>A few time before the registration for the National University Access Test began, at the time the PAA and Actual PSU, I received from the same Vocational Counselor, one of the scholarships that the Ministry of Education distributed to take the test free of payment ; Mr. Jorquiera himself also motivated me to contact the University Social Assistants to learn about the available alternatives to study. Thank you Professor Jorquiera. From there everything was in my hands.</p>
+
+<p>Short story, at the beginning of the year 2000, the state of Chile covered 95% of my first degree through the Mineduc Scholarship, I received monthly about $40 USD a month as a President of the Republic Scholarship and also, from the Santa University María, a food grant 3 days a week in his valued casino, and financial help to pay the student residence (about 900 kilometers / 560 miles from home). In return, I knew that I had to pass the subjects, that is, dedicate myself to studying and not having fun. I do recognize that in my last year of my degree, when I had approved the most important signatures and I was certain that my degree was going to end very soon, I went to all the parties organized by the student federation.</p>
+
+<p>Today I return the hand to the State being a taxpayer who pays its taxes pleasantly and I look for ways to pay more taxes by generating employment and thereby contributing my grain to move the economy. And above all, being a citizen who supervises the good use of fiscal resources.</p>
+
+<p>Therefore, I can tell many politicians face to face that <strong>It is a lie that in Chile there is no access to quality education if you do not have the means</strong>. In a pragmatic way I attest that for many years, if a Chilean wants to study, he can do it and in good Universities. Different thing are the students who ask to have free education as in neighboring countries, where since it is free, many students take more than 10 years to finish their careers, bleeding the state’s wallet and ignoring the consequences that this takes for the country in the medium and long term. In Chile there is also a minority of students who do not understand the social danger that comes with living off the teat of the state as a Right <em>in aeternum</em> (for eternity).</p>
+
+<p>Given that after finishing my first degree, I finished, by my means, studies at two other Universities (USACH and Universidad de Chile), I can say that I know closely the reality that exists in them. I can tell you with certainty that the Chilean is very humble in general and does not boast of the quality of Education that we have, ahead of South American countries in about 10 years thanks to the academic infrastructure that the country has, except for the difference with Uruguay which is more limited, if you do not believe me, I invite you to take a tour of some institutions such as the Beauchef Campus of the University of Chile, or the mythical University of Concepción in the South of Chile, in mining matters, the University de Atacama has worldclass profesional and scenario, not to mention the infrastructure in private universities in Chile, there are many, in the meantime I will write a list of what, in my humble opinion, should be improved in Education in Chile:</p>
+
+<ol>
+  <li><strong>Student representative must take a supportive role.</strong> The work as Student representative would be much more noble to collectively support students who are going through some need, to achieve their studies. The functions of a Student representative cannot be allowed to be limited solely to mobilizing strikes, takings and organizing parties, even going so far sometimes, as to harm their own classmates by making lose them a full academic Year (A year of their life wasted in unnecessary causes or political interest).</li>
+  <li><strong>Student representative who lead the Federations must maintain an approval rate of signatures within the 2 best quintiles.</strong> In simple words, student representatives, theu who are going to represent you, must be also interested and above all, in <code class="language-plaintext highlighter-rouge">to study</code>.</li>
+  <li><strong>Improve language teaching, by Obligation 3 languages ​​must be taught.</strong> Chinese, because inevitably and fortunately the future is integrated with the other side of the planet also some original language, in case of Chile for example, Mapudungun connect society together with its origins, then English, what has been and will be for a while, another International language.</li>
+  <li><strong>The National Accreditation Commission (CNA) must urgently correct “the Accreditation requirement for a low failure rate in careers”.</strong> It is absurd not to understand that improving the quality of education precisely consists of delivering good professionals and for this, those who do not have the skills should be rejected and guide them to different professional areas.</li>
+  <li><strong>Understand as citizens that as better tax wallet, better benefits in education and more.</strong> The country must be able to produce resources, prevent money from leaving the country, and above all prevent money from arriving at criminal or corrupt hands (reality of other countries in the 20th century).</li>
+  <li><strong>Give teachers the importance and living conditions they deserve.</strong> In Chile students MUST CONTINUE WITH ONLINE CLASSES while there is a risk of contagion, understanding all the pain and problems that this could means and as long as respect for academic authority is not regained, lost when politics met the student federations during last decade, students are a risk for the weakest population (retired) by gathering in strikes that some students still support wrongly.</li>
+  <li><strong>Prohibit student representatives from relating to political parties.</strong> Good students in universities are concerned about performing well academically and what a job! They cannot be concerned about what student representatives do or did. They must to prove detached from politics and demonstrate good academic performance. Most of the students are smart enough to realize that politics is too discredited and has caused a lot of damage, how to also allow it to be ‘the politician’ who represents the students while they focus on studying. There are a few students who go to the University only to pursue a political career, this reality can be seen in current Chilean Deputies such as Camila Vallejo, Gabriel Boric, Giorgio Jackson, Karol Cariola, among others.</li>
+</ol>
+
+<p>There are many indebted for education in Chile, something that should not happen, and the only solution to avoid this, it is to have a state with an strong financial situation to distribute wealth into education.</p>
+
+<p>In last 2 decades the benefits in Education have only improved, thanks to the fact that the Chilean economy grew constantly, except in the last government of Michelle Bachelet, where communist policies were implemented that almost damaged country’s economy. It is not a personal opinion, the numbers say it.</p>
+
+<p>To understand how god or bad is education and economic in middle of 2020 in Chile, should know that emblematic public universities such as University of Santiago de Chile, among others, when pademic began, in a period of 2 weeks delivered computers and internet connection to all students who did not have wherever they are, and clases continues during 2020.</p>
+
+<h3 id="3-how-to-improve-pensions-health-justice-and-other-main-areas-of-concern-of-a-state-"><span id="3">3. How to improve Pensions, Health, Justice and other main areas of concern of a State? </span></h3>
+
+<ol>
+  <li>Changing bad public employees and politicians and filtering new ones according to technical and altruistic abilities.</li>
+  <li>Supervise in an unprecedented way the entire Legislative Power and have efficient procedures to sanction Corruption, Nepotism and Lack of Capacities for its work.</li>
+  <li>Supervise in an unprecedented manner the entire Judicial Power and have efficient procedures to sanction Corruption, Trafficking of Influences and Political Operators.</li>
+  <li>Foster an economy that encourages entrepreneurship by preventing large companies from attacking small ones with practices such as dumping, for example.</li>
+  <li>Understand that the State, with help of private sectors (we), must take care of <strong>Pensions</strong>, with a look of gratitude towards our ancestors; of <strong>Health</strong>, <strong>Education</strong>, and <strong>Security</strong>, with a view of justice towards the citizens, and above all <strong>Promote the production and entrepreneurship</strong> so that its citizens are free and can live according to the fruit of their own work. Along with recognizing that we all together produces what makes a better country, a better world.</li>
+  <li>Require to public employees to be as effective as it is in private companies, and this is achieved by eliminating the bureaucracy that prevails mainly in the public sector. In addition to ensuring that unions work on common sense ideas, where productivity is the axis to generate more dignified and better quality work and it is understood that the Union is the company as the Company is the union.</li>
+</ol>
+
+<h3 id="4-how-to-understand-politics-to-make-a-good-decision-to-vote-on-october-25th-"><span id="4">4. How to understand politics to make a good decision to vote on October 25th? </span></h3>
+
+<p>I will tell you a story that I had close to politics in 2000, a college classmate invited me to a barbecue organized by RN youth (right-wing political party in Chile), I participated even though I have no affinity or aversion against any political party, also in student days an invitation to a barbecue is very appreciated. At the meeting I joined a group conversation, which went something like this:</p>
+
+<ul>
+  <li>Person 1: Hey, you knew our candidate won in La Calera! (La Calere is a small town in fifth region Chile)</li>
+  <li>“Everyone celebrated”</li>
+  <li>Me: Sorry! What is the name of the candidate? - I asked innocently.</li>
+  <li>“… few seconds of silence”</li>
+  <li>Person 1: I don’t remember! What’s the name of La Calera? - he asked loudly.</li>
+  <li>Person 2: I don’t know! I think ‘person 3’ knows!</li>
+  <li>Person 2: Hey!  (Asks out loud )… What’s La Calera candidate?
+(Person 3 a few meters away in another group)</li>
+  <li>Person 3: He is ‘x’.</li>
+</ul>
+
+<p>Sorry I don’t remember the names are not important, it was the first and only time I saw them and the names do not influence, since what surprised me was not that several did not know the name of the candidate from La Calera being in Viña del Mar, but regardless of who he is, how honest or corrupt is, what his administration capacities are, they celebrated him simply for being from the same party. An irrational fanaticism only comparable to hooligans in football and that surely applies in all sides (Left, Center and Right).</p>
+
+<p>Last October 16th, 2019, in Chile, an organized movement began, much more organized than some have realized, first pieces to move were, students. Two days later, those who are organizing (a political sector), coordinated destructive and criminal protests, even burning Santiago Metro stations <strong>in a coordinated in a short period</strong>, among other damages to public property and private in various parts of the country. It is not that Chileans are stupid and when we proteste we destroy everything in our path, what happened is that we did not realize that this was politically and criminally articulated and what was seen on TV was as if the Chileans were doing that, but it was not so.</p>
+
+<p>I am sure that the students were not the ones who committed the destructions, because we students mobilized as a healthy purpose to express our annoyances, our complaints to the system, but the limit is that a true student will not destroy property of someone else or less public. However, the mobilization of students was necessary to trigger the second phase of coordinated destruction, to then force the President, as a third step, to do the same thing that Hugo Chavez did at the beginning of his government in Venezuela just over a decade back, propose a new Constitution.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ghakxsYg0cE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>I am sure that you do not know, and neither do I, how much was the fortune that moved political-military power in Venezuela in corruption and drug trafficking. just to say some safe topics. Because if you understood, you would be doing something to supervise his own “current and future” politicians.</p>
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr">Señores cooperativa 3 observaciones: <br />1) &#39;tienen&#39; en vez de &#39;tenían&#39; <br />2) Ese mismo poder criminal está tirando sus manitos en nuestro querido Chile &#39;Hoy&#39;.<br />3) El informe tuvo que hacerlo una oficina ONU distinta a la de la Sra. Bachelet. <a href="https://t.co/GoGrP6Db7y">https://t.co/GoGrP6Db7y</a></p>&mdash; Coto .🖌 (@coto) <a href="https://twitter.com/coto/status/1308085945208537088?ref_src=twsrc%5Etfw">September 21, 2020</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h3 id="5-what-should-a-chilean-bear-in-mind-before-voting-on-october-25th-"><span id="5">5. What should a Chilean bear in mind before voting on October 25th? </span></h3>
+
+<ol>
+  <li>
+    <p><strong>On This Referendum Only politicians would write a new Constitution.</strong> There are some people who are unaware that a Non Political Person, also know as normal person or simple citizen will not be able to participate in writing “THIS” constitution. The politicians have armed apparatus to prevent a normal person from being elected for these cases, which in a month will not be able to be changed, since an non political person will not only have to deal with not receiving millions of pesos to spend on the campaign that those who belong to political parties will, and a normal person should also forget about putting political propaganda on public roads, since the politician of the sector (councilor, core, mayor) will be in charge of removing it and fining him/her, and as if that were not enough and no less important It must win not only by being a majority, but also by adding more than the total votes that politicians from the same party add, something like an electoral gang that adds their votes to eliminate normal people. Did you know that reality of Chile? Neither did I until this Referendum, but I expected it from politicians.</p>
+  </li>
+  <li>
+    <p><strong>The majority of Chileans reject, but it is in the politician’s interest that older adults do not vote.</strong> If you don’t believe me about the majority, do the exercise yourself of reading the comments receive on social networks Politicians of both parties, then count them. In Chile there are thousands of people who do participate in peaceful protests, but we keep silent about our vote until the time for voting comes, since we understand there are irrational people that if they don’t like what you think, they respond in a bada way, we prefer to live in peace and speak by voting. We are also millions of Chileans who understand that both the majority of the media and surveys are and have been owned by the same political powers. That is why I am calm, since as Chileans like to learn, we make our judgment through the Internet, at our own discretion, instead of consuming traditional media that hide the political side to which they work.</p>
+  </li>
+  <li>
+    <p><strong>This change of constitution is planned only to give more political power to the politicians themselves</strong>, if you don’t believe me, count on your own the times France, Norway vs Argentina and Venezuela have changed their Constitution, Just as an example and also consider the aforementioned little secret to avoid Non-Politicians people on the road.</p>
+  </li>
+  <li>
+    <p><strong>It is a lie that Chile’s problems are solved by changing the current constitution.</strong> <a href="#3"> Here I share </a> some humble recommendations to solve Chile’s problems and They do not need constitutional changes now. Chile has a very good and improvable economic model, in other side, a bad political model that must be replaced in “next” Constitutions assemblies. To do so Today is to spend a double parliamentary diet (several million of dollars) and to have two congresses under pandemic and crisis, economically it is not a good idea, including the USD$ 40,000,000 (forty millions of dollars) of cost for this referendum.</p>
+  </li>
+</ol>
+
+<h2 id="6-whats-better-for-chile-this-october-25th-"><span id="6">6. What’s better for Chile this October 25th? </span></h2>
+
+<p>After the previous analysis and when verifying that this constitutional change in 2020 only serves politicians with clear influences of well-know Latin American politics, and that a constitutional change should be carried out in a near future, under safe and wealthier conditions and written by Majority of Non Related to Politics People. So, <strong>The best thing to do for Chile IMHO this October 25th</strong> is:</p>
+
+<ol>
+  <li>
+    <p><strong>Understand the importance of going to vote.</strong> Why do you think a politician like to do a Referendum in a pandemic? They do not want too many people vote, nor that older adults vote.</p>
+
+    <p><img src="/assets/posts/referendum-venezuela-1999.png" alt="referendum venezuela 1999" /></p>
+  </li>
+  <li>
+    <p><strong>Go to Vote well protected and in calm.</strong> If possible use gloves, your own pencil and face shield in addition to the mandatory mask, do not touch your face, Keep your distance from others and use your alcohol gel or alcohol-water spray before, during and after. When you return home, remember to disinfect the soles of your shoes, clothes, and hands.</p>
+  </li>
+  <li>
+    <p><strong>In your vote, clearly mark a line in the #Rejection</strong>, “Whoever has articulated this plebiscite will understand it as a rejection of the last chance to be able to change the economic as to they want.”</p>
+  </li>
+  <li>
+    <p><strong>Regarding the second vote on ‘How would a new Constitution be written’, mark both votes, write anything over the vote.</strong> BUnderstand that on the other side of the table are people with many skills to cheat (current politicians) … in the near future, when the fiscal coffers are going through better economic times and the public is not put at risk population, “we will carry out a Constitutional reform”, which makes it clear that if you are a <code class="language-plaintext highlighter-rouge">public or political servant</code>, you are going to work for the citizens in an honest, efficient and transparent way, for which you will be paid according to new rules, and you must also be the best with technical qualifications to lead within our territory and, above all, to be at the service of citizens.</p>
+  </li>
+  <li>
+    <p><strong>When the Rejection wins, do not participate in violent protests.</strong> That is where those who articulated the Plebiscite will show their faces and have faith in ‘current’ intelligence and respect for human rights with which our armed forces and the police will do their job. Soon we will have peace again.</p>
+  </li>
+  <li>
+    <p><strong>Wait a while economic and health conditions</strong> to be better, and for normal people without political ties to make changes, wait intelligently to know “What those changes will be” and then, let’s face politicians again, this time to change them for · political public servants ·.</p>
+  </li>
+</ol>]]></content><author><name>Rodrigo Cancino A.</name></author><category term="coto" /><category term="blog" /><category term="chile" /><category term="blog" /><category term="chile" /><category term="singapur" /><category term="plebiscito" /><category term="apruebo" /><category term="rechazo" /><category term="político" /><category term="política" /><category term="udi" /><category term="comunista" /><category term="marxista" /><category term="capitalismo" /><category term="neoliberalismo" /><category term="estudiantes" /><summary type="html"><![CDATA[Español English]]></summary></entry><entry xml:lang="esp"><title type="html">¿Qué está pasando en Chile, por qué podría ser un ejemplo a nivel mundial y Qué debería un Chileno tener en consideración para el plebiscito de Octubre?</title><link href="https://www.beecoss.com/coto/blog/chile/2020/09/18/chile-no-puede-ser-mejor-que-singapur" rel="alternate" type="text/html" title="¿Qué está pasando en Chile, por qué podría ser un ejemplo a nivel mundial y Qué debería un Chileno tener en consideración para el plebiscito de Octubre?" /><published>2020-09-18T20:51:00+00:00</published><updated>2020-09-18T20:51:00+00:00</updated><id>https://www.beecoss.com/coto/blog/chile/2020/09/18/chile-no-puede-ser-mejor-que-singapur</id><content type="html" xml:base="https://www.beecoss.com/coto/blog/chile/2020/09/18/chile-no-puede-ser-mejor-que-singapur"><![CDATA[<table>
+  <tbody>
+    <tr>
+      <td><strong>Español</strong></td>
+      <td><a href="/coto/blog/chile/2020/09/18/chile-cant-be-better-than-singapur.html">English</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Chile vive una realidad que me gustaría expresar en primera persona a mis amigos extranjeros y sobre todo a los Chilenos, el 16 de Octubre de 2019 comenzó un movimiento social que se nos fue de las manos, pasando de momentos de mucha confusión e ignorancia respecto a lo que estaba pasando, y con eso generar bastante miedo y daño al propio país, luego ocurrieron una serie de sucesos que permitieron tener mayor claridad respecto a lo que sucedía. Sin embargo, a principios del año 2020 se sumó el no menor problema de la Pandemia que compartimos mundialmente, y que a pesar de ser una población pequeña y aparentemente inteligente (según visiones externas respecto a cómo hemos construido nuestra sociedad) estamos dentro de los países más contagiados. Sumado a lo anterior, este 25 de Octubre los Chilenos nos enfrentamos a lo que algunos intelectuales definen como cambio de sociedad a una tercera generación o equivocarnos y retroceder varios años. Afortunadamente el tiempo de confinamiento permitió aclarar lo que está sucediendo y tener más claridad respecto a qué hacer.</p>
+
+<h2 id="tltr">TL;TR</h2>
+
+<p>Escribo este artículo desde un punto de vista imparcial, como un chileno desligado de clases políticas o sociales. Soy a quien no se puede llamar ni facho ni comunacho, espero expresar mis opiniones con respeto, de forma imparcial y objetiva, basadas en mi experiencia personal y en números económicos, sin embargo al final de este post, y luego del propio análisis, indico cuál es mi alternativa y considero mejor para Chile en el próximo Plebiscito del 25 de octubre, respetando a la opción ganadora. Este post fue escrito en una importante fecha para los Chilenos “18 de Septiembre”, fecha que representa el inicio de algo de lo que todos los chilenos nos sentimos orgullosos, nuestra libertad.</p>
+
+<p>El artículo está dividido en 6 puntos, y para su fácil lectura contiene un punteo de argumentos cuando se refiere a mejoras recomendadas, busque unos 15 minutes en calma para leerlo, lo cual además es el tiempo estimado de lectura:</p>
+
+<ul>
+  <li><a href="#1">1. ¿Quién soy yo y por qué me permito entregar algunos humildes tips para mejorar en Chile temas como la Educación?</a></li>
+  <li><a href="#2">2. ¿Cómo mejorar la Educación en Chile?</a></li>
+  <li><a href="#3">3. ¿Cómo mejorar las Pensiones, Salud, Justicia y otros ejes principales de preocupación de un Estado?</a></li>
+  <li><a href="#4">4. ¿Cómo entender la Política para tomar una buena decisión para votar en el plebiscito del 25 de Octubre?</a></li>
+  <li><a href="#5">5. ¿Qué debería tener en cuenta un Chileno antes de Votar?</a></li>
+  <li><a href="#6">6. ¿Cómo debería votar un Chileno este 25 de Octubre?</a></li>
+</ul>
+
+<h2 id="1-quién-soy-yo-y-por-qué-me-permito-entregar-algunos-humildes-tips-para-mejorar-temas-como-la-educación"><span id="1">1. ¿Quién soy yo y por qué me permito entregar algunos humildes tips para mejorar temas como la Educación?</span></h2>
+
+<p>Soy un Chileno, nacido en la región de Atacama, junto a mi madre, Rosario y mi hermana mayor por 7 años, Valeska, somos afortunados de ser una familia pequeña, de orígenes humildes y que al día de hoy cosecha frutos y continúa disfrutando una vida tranquila a través del trabajo honesto, equilibrado y digno que nos ha dado como ejemplo mi Madre. Hoy trabajo en lo propio enfocado en ciencia y tecnología.</p>
+
+<p>Como Chileno, hoy en plena pandemia, me pregunto ¿Estaría un Chileno dispuesto a vivir con la represión y falta de libertad con la que se vive en Singapur, China o Alemania? Es cierto que alguno de esos países están muy lindos y representan la cara de un país que ha sabido llevar de buena manera la billetera y política del país, que es lo que al fin y al cabo resuelve los problemas, pero en términos de la libertad que existe en esos Países, un verdadero Chileno no sería capaz de tolerar mucho tiempo la falta de libertad, salvo que el costo le valga la pena y vaya con su personalidad y extrañando mucho a Chile, un país, que además de ser avanzado, es libre y eso es lo que lo hace mejor que Alemania, decían mis amigos alemanes a quienes recibí unos meses en Chile a principios de 2019.</p>
+
+<p>Sin embargo, hay cosas que el Estado de Chile debe mejorar y me gustaría compartir algunas ideas de qué y cómo Chile debe mejorar en Educación, y la idea fundamental para mejorar ejes principales de un Estado tales como la Salud, Pensiones y otros.</p>
+
+<h3 id="2-cómo-mejorar-la-educación-en-chile"><span id="2">2. ¿Cómo mejorar la Educación en Chile?</span></h3>
+
+<p>En la educación básica y media, nunca fui el mejor de la clase, tampoco el peor, de hecho recuerdo que siempre estaba en el tercer o cuarto lugar de notas del curso, me agradaba el anonimato de no estar ofreciendo expectativas y nunca me preocupaba mucho ser primero. En cuarto medio, a los 17 años recibí del orientador vocacional del Liceo, señor Patricio Jorquiera, un libro de la Universidad Técnica Federico Santa María. Me cambió la vida, lo único que quería en ese momento era estudiar en esa Universidad, no sabía qué, pero si sabía dónde y estaba entusiasmado sin importar que no teníamos los recursos para cubrir mis estudios.</p>
+
+<p>Pocos tiempo antes de que comenzaran las inscripciones para la Prueba nacional de acceso a las Universidades, en su momento la PAA y Actual PSU, recibí del mismo Orientador Vocacional, una de las becas que el Ministerio de Educación repartía para rendir la prueba exento de pago; el mismo Señor Jorquiera, también me motivó para contactar a las Asistentes Sociales de la Universidad para conocer las alternativas disponibles para estudiar. Gracias Profesor Jorquiera. De ahí todo quedó en mis manos.</p>
+
+<p>Cuento corto, a principios del año 2000, el estado de Chile me pagó el 95% de mi primera carrera a través de Beca Mineduc, recibía mensualmente cerca de $30.000 pesos Chilenos cómo Beca Presidente de la República y además, de parte de la Universidad Santa María, una beca de alimentación de 3 días a la semana en su valorado casino, y una ayuda económica para pagar la pensión donde vivía en la quinta región (a unos 900 kilómetros de mi hogar). A cambio, sabía que tenía que aprobar las asignaturas, es decir, dedicarme a estudiar y no a <strike>weviar</strike> pasarlo bien. Reconozco sí, que en el último año de carrera, ya cuando los ramos más importantes los había aprobado y tenía certeza que iba a terminar muy pronto mi carrera, fui a todas las fiestas que organizaban la federación de estudiantes.</p>
+
+<p>Hoy le devuelvo la mano al Estado siendo un contribuyente que paga gratamente sus impuestos y busco formas de pagar más impuestos generando empleo y con ello aportar mi granito a mover la economía. Tengo una hija y una sobrina estudiando en la Educación Superior pagado con nuestros recursos. Y sobre todo, siendo un ciudadano que supervisa el buen uso de los recursos fiscales.</p>
+
+<p>Por lo tanto le puedo decir a la cara a muchos políticos que <strong>Es mentira que en Chile no hay acceso a la educación de calidad si no tienes los medios</strong>. De forma pragmática doy fe que desde hace muchos años, si un Chileno quiere estudiar, puede hacerlo y en buenas Universidades. Otra cosa son los estudiantes que piden tener educación gratuita como en Países vecinos, donde dado que es gratis, muchos alumnos toman más de 10 años en terminar sus carreras, desangrando la billetera del estado e ignorando las consecuencias que eso toma para el país en el mediano y largo plazo. En Chile también existe una minoría de estudiantes que no entienden el peligro social que conlleva vivir de la teta del estado como un Derecho <em>in aeternum</em> (por la eternidad).</p>
+
+<p>Dado que después de terminar mi primera carrera, terminé, por mis medios, estudios en otras dos Universidades (USACH y Universidad de Chile), puedo decir que conozco de cerca la realidad que se vive en ellas. Te puedo decir con certeza que el Chileno es muy humilde en general y no hace alarde de la calidad de Educación que tenemos, adelantados a países de sudamérica en cerca de 10 años gracias a la infraestructura académica que posee el país, salvo la diferencia con Uruguay que es más acotada, si no me cree le invito a darse una vuelta por algunas instituciones como el Campus Beauchef de la Universidad de Chile, o la mítica Universidad de Concepción en el Sur de Chile, acaso piensas que en temas de minería, la Universidad de Atacama tiene algo que envidiarle a un egresado de una universidad Europea, ni hablar de la infraestructura en Universidades privadas en Chile, hay muchas, yo mientras tanto escribiré una lista de lo que, en mi humilde opinión, si se debería mejorar en la Educación en Chile:</p>
+
+<ol>
+  <li><strong>Obligar a las federaciones de estudiantes a tomar un rol solidario.</strong> Sería mucho más noble la labor de las federaciones apoyando colectivamente a los estudiantes que estén pasando por alguna necesidad, a cumplir con sus estudios. No se puede permitir que las funciones de una federación estudiantil se limiten únicamente a movilizar paros, tomas y organizar fiestas, llegando incluso a dañar a sus compañeros perdiendo un año académico completo en algunos casos (Un año de su vida desperdiciado en causas innecesarias o de interés político).</li>
+  <li><strong>Los Dirigentes Estudiantiles que dirijan las Federaciones deben mantener una tasa de aprobación de ramos dentro de los 2 mejores quintiles.</strong> En palabras simples, que el dirigente estudiantil que te va a representar, le interese, también y por sobretodo, estudiar.</li>
+  <li><strong>Mejorar la enseñanza de Idiomas, por Obligación se debe enseñar 3 idiomas.</strong> Chino, porque inevitable y afortunadamente el futuro es integrado con el otro lado del planeta; Algún idioma originario, en el caso de Chile por ejemplo Mapudungun para conectar a la sociedad con sus orígenes, e Inglés que ha sido y será por por un tiempo, la lengua internacional.</li>
+  <li><strong>La Comisión Nacional de Acreditación (CNA) debe corregir de forma urgente la exigencia de Acreditación de baja tasa de reprobación en carreras.</strong> Es absurdo no entender que mejorar la calidad de la educación, justamente consiste en entregar buenos profesionales y para ello se debe reprobar a quienes no tengan las capacidades, luego orientar a quienes reprueben a áreas profesionales distintas.</li>
+  <li><strong>Entender como ciudadanos que a mejor billetera fiscal, mejores beneficios y educación para sus ciudadanos</strong> El país debe ser capaz de producir recursos, evitar que el dinero salga del país, y por sobre todo evitar que llegue dinero a manos criminales o corruptas (realidad de otros países en Siglo XX).</li>
+  <li><strong>Darle a los Docentes la importancia y condiciones de vida que se merecen.</strong> En Chile los estudiantes DEBEN CONTINUAR CON CLASES ONLINE mientras haya riesgo de contagio, con todo el dolor y problema que eso significa para algunas familias, pero mientras no se recupere el respeto por la autoridad académica, perdido cuando la política conoció a las federaciones estudiantiles, los estudiantes somos un riesgo para la población más débil (los pensionados) al aglomerarse en manifestaciones que algunos estudiantes aún apañan.</li>
+  <li><strong>Prohibir a dirigentes estudiantiles la relación a partidos político.</strong> Los estudiantes de bien en las Universidades están preocupados de rendir bien académicamente y vaya trabajo!, y no pueden estar preocupados de lo que hacen los dirigentes estudiantiles, quienes además de estar desligados de la política, deben demostrar buen rendimiento académico. <strong>La mayoría de los estudiantes son bastante inteligentes como para darse cuenta del daño que ha hecho la ‘política actual’ en varios países</strong>, cómo para además permitir que sea ‘La Política’ quien los represente mientras se enfocan en estudiar. Existe una realidad de unos pocos estudiantes que van a la Universidad únicamente a hacer carrera política, la cual puedes ver en actuales parlamentarios Chilenos como Camila Vallejo, Gabriel Boric, Giorgio Jackson, Karol Cariola, entre otros.</li>
+</ol>
+
+<p>Existen muchos endeudados por educación en Chile, algo que no debería ocurrir, y la única solución a eso es que el Estado mejore sus arcas a través de la productividad en general y la supervisión minuciosa de los recursos, a pesar de ello, en las últimas 2 décadas los beneficios en Educación han mejorado, gracias al crecimiento constante de la economía Chilena, excepto en uno de los gobierno de Michelle Bachelet, donde se implementaron políticas económicas (aumentar los impuestos, por ejemplo) que dañaron fuerte a la economía del país. No es una opinión personal, lo dicen los números. De todos modos y gracias al crecimiento acumulado, en pleno 2020, Universidades públicas emblemáticas como la Universidad de Santiago de Chile, entre otras públicas, en un lapso de tan solo 2 semanas entregaron computadores y conexión a internet a todos los alumnos que no tuviesen, eso además de aumentar el número de beneficiarios de las mismas y mejores becas que yo algún día recibí.</p>
+
+<h3 id="3-cómo-mejorar-las-pensiones-salud-justicia-y-otros-ejes-principales-de-preocupación-de-un-estado"><span id="3">3. ¿Cómo mejorar las Pensiones, Salud, Justicia y otros ejes principales de preocupación de un Estado?</span></h3>
+
+<ol>
+  <li>Cambiando a los empleados públicos y políticos malos y filtrando a los nuevos según capacidades técnicas y altruistas.</li>
+  <li>Supervisar de manera sin precedentes al Poder Legislativo completo y tener medios eficientes para sancionar Corrupción, Nepotismo y Falta de Capacidades para su labor.</li>
+  <li>Supervisar de manera sin precedentes al Poder Judicial completo y tener medios eficientes para sancionar Corrupción, Tráfico de Influencias y Operadores Políticos.</li>
+  <li>Fomentar una economía que impulse el emprendimiento evitando que grandes empresas atenten contra los pequeños con prácticas como el Dumping, por ejemplo.</li>
+  <li>Entender que el Estado debe preocuparse de las <strong>Pensiones</strong>, con una mirada de gratitud hacia nuestros ancestros; de la <strong>Salud</strong>, <strong>Educación</strong>, y <strong>Seguridad</strong>, con una mirada de justicia hacia sus ciudadanos, y por sobre todo <strong>Fomentar la producción y emprendimiento</strong> para que sus ciudadanos sean libres y puedan vivir acorde al fruto de su propio trabajo. Junto con reconocer que lo que cada uno produce, sumado entre todos, nos convierte en un mejor País.</li>
+  <li>Exigir a los empleados de empresas públicas sean tan efectivos como lo es en la empresa privada, y esto se logra eliminando la burocracia que reina principalmente en el sector público. Además de velar que los sindicatos trabajen en ideas de sentido común, donde sea la productividad el eje para generar más trabajo digno y de mejor calidad y se entienda que el Sindicato es la empresa como la Empresa es al sindicato.</li>
+</ol>
+
+<h3 id="4-cómo-entender-la-política-para-tomar-una-buena-decisión-para-votar-en-el-plebiscito-del-25-de-octubre"><span id="4">4. ¿Cómo entender la Política para tomar una buena decisión para votar en el plebiscito del 25 de Octubre?</span></h3>
+
+<p>Les contaré una historia que tuve cercana a la política en el año 2000, un compañero de Universidad me invitó a un asado organizado por juventud RN (partido político de derecha en Chile), participé a pesar de que no tengo ninguna afinidad o aversión contra ese partido político u otro, además en época de estudiante se agradece una invitación a un asado. En la reunión me uní a la conversación de un grupo, la cual fue algo así:</p>
+
+<ul>
+  <li>Persona 1 : ¡Oye, supieron que gana nuestro candidato en La Calera!</li>
+  <li>“Todos celebraron”</li>
+  <li>Yo: ¿Cómo se llama el candidato? - pregunte inocentemente.</li>
+  <li>“Silencio de algunos segundos”</li>
+  <li>Persona 1: ¡No me recuerdo! ¿Cómo se llama el de La Calera? - preguntó a viva voz.</li>
+  <li>Persona 2: No se! creo que ‘persona 3’ (que estaba a pocos metros en otro grupo) debe saber!</li>
+  <li>Persona 2: ¡Oye! - le pregunta viva voz a Persona 3 - ¿Cómo se llama el candidato de La Calera?</li>
+  <li>Persona 3: Se llama ‘x’.</li>
+</ul>
+
+<p>Perdón que no recuerde el nombre de las personas, fue la primera y única vez que los veía y los nombres no influyen en lo que les quiero contar, ya que lo que me sorprendió no fue que varios no supieran el nombre del candidato de La Calera estando en Viña del Mar, sino que sin importar quién es, qué tan honesto o corrupto sea, cuales son sus capacidades de administración, lo celebraban simplemente por ser de su mismo partido. Un fanatismo irracional sólo comparable al de las barras bravas en el fútbol y que seguro aplica en partidos políticos de Izquierda, Centro y Derecha. Sin embargo, me gustaría que no pierda de vista su poder de organización durante los años, llegando por ejemplo a sabotear instituciones que no deberían tener color político, ni someterse a sus instrucciones, tales como la Central Unitaria de Trabajadores (CUT) o Federaciones de Estudiantes.</p>
+
+<p>El día 16 de Octubre de 2019, en Chile, comenzó un movimiento organizado, mucho más organizado de lo que algunos se han dado cuenta, primero, mover las piezas más fáciles de mover, los estudiantes. Dos días después, quienes están organizando (sector político que usted podrá identificar históricamente), coordinando protestas destructivas y delictuales, llegando a quemar estaciones del Metro de Santiago <strong>de forma coordinada</strong>, entre otros daños a la propiedad pública y privada en varios lugares del país. No es que los Chilenos seamos weones y cuando protestamos destruimos todo a nuestro paso, lo que ocurrió es que no nos dimos cuenta que esto venía articulado políticamente y lo que se vió en TV fue como si los Chilenos de bien hicieran eso, lo cual no es así.</p>
+
+<p>Estoy seguro que los estudiantes no fueron quienes cometieron las destrucciones, porque los estudiantes nos movilizamos como un fin sano de expresar nuestras molestias, nuestras quejas al sistema, pero el límite está en que un verdadero estudiante no va a destruir propiedad de otro ni menos pública, sin embargo la movilización de estudiantes era necesaria para dar paso a la segunda fase de destrucción coordinada, para luego forzar al ejecutivo, como tercer paso, que hiciera lo mismo que Hugo Chavez hizo al principio de su Gobierno en Venezuela poco más de una década atrás, proponer una nueva Constitución.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ghakxsYg0cE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>También estoy seguro que usted no sabe, ni yo tampoco, cuánto fue el dineral que ha movido el poder político-militar en Venezuela en corrupción y narcotráfico. sólo por decir algunos temas seguros. Ya que si lo entendiera, estaría haciendo algo pronto para supervisar a sus propios políticos “actuales y futuros”.</p>
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr">Señores cooperativa 3 observaciones: <br />1) &#39;tienen&#39; en vez de &#39;tenían&#39; <br />2) Ese mismo poder criminal está tirando sus manitos en nuestro querido Chile &#39;Hoy&#39;.<br />3) El informe tuvo que hacerlo una oficina ONU distinta a la de la Sra. Bachelet. <a href="https://t.co/GoGrP6Db7y">https://t.co/GoGrP6Db7y</a></p>&mdash; Coto .🖌 (@coto) <a href="https://twitter.com/coto/status/1308085945208537088?ref_src=twsrc%5Etfw">September 21, 2020</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h3 id="5-qué-debería-tener-en-cuenta-un-chileno-antes-de-votar"><span id="5">5. ¿Qué debería tener en cuenta un Chileno antes de Votar?</span></h3>
+
+<ol>
+  <li>
+    <p><strong>En 2020 Sólo políticos escribirían una nueva Constitución.</strong> Existen algunas personas que ignoran que un ciudadano de pie no podrá participar en escribir una constitución. Los políticos tienen aparataje armado para evitar que alguien ajeno a la política sea electo para estos casos, los que en un mes no será corregido, ya que un Ajeno a la Política no solo deberá lidiar con no recibir los millones de pesos para gastar en campaña que Sí recibirán partidarios políticos, además debe olvidarse de poner propaganda política en vía pública, ya que el político (concejal, core, alcalde) de turno en la alcaldía respectiva, se encargará de quitarla y multarlo, y por si fuera poco y no menos importante, debe ganar no solo siendo mayoría, sino además sumar más que el total de votos que sumen los políticos de un mismo partido, algo así como una pandilla electoral que suma sus votos para eliminar a los independientes. ¿Conocías esa realidad de Chile? Yo tampoco hasta este plebiscito, pero me la esperaba de los políticos. Por cierto no se confunda con el concepto ‘Independiente’, ya que en algunos casos representa a personas que no fueron elegidas en votaciones anteriores pero de todas maneras tienen nexos políticos.</p>
+  </li>
+  <li>
+    <p><strong>La mayoría de los Chilenos Rechaza, pero al político le conviene que adultos mayores no voten.</strong> Si no me cree lo de la mayoría, haga el ejercicio usted mismo de leer en redes sociales los comentarios que reciben políticos del apruebo versus los comentarios a los pocos políticos del rechazo, luego cuéntelos. En Chile existen miles de personas que si participamos en protestas pacíficas, pero nos callamos nuestro voto hasta que llegue el momento de las urnas, ya que entendemos existen irracionales que si no les gusta lo que piensas, responden con violencia y dado que en una democracia mandan los votos, preferimos vivir en Paz y hablar en las urnas. También somos millones de Chilenos quienes entendemos que tanto la mayoría de los medios y encuestas son y han sido propiedad de esos mismos poderes políticos. Por eso estoy tranquilo, ya que como nos gusta aprender, nos hacemos juicio propio a través de medios abiertos, en vez de consumir medios de prensa tradicionales que ocultan el lado político para el que trabajan. Los medios en USA al menos declaran su postura política, sin querer indicar que por allá sea el camino.</p>
+  </li>
+  <li>
+    <p><strong>El cambio de constitución está planeado sólo para entregar más poder político a los mismos políticos</strong>, si no me cree, contabilice por su cuenta las veces que han cambiado de Constitución Francia, Noruega vs Argentina y Venezuela, sólo como ejemplo y considere además el secretito antes mencionado para evitar independientes en el camino.</p>
+  </li>
+  <li>
+    <p><strong>Es mentira que los problemas de Chile se resuelven cambiando la actual constitución.</strong> <a href="#3">Aquí comparto</a> algunas humildes recomendaciones para resolver los problemas de Chile, los cuales No necesitan de cambios constitucionales inmediatos. Chile tiene un modelo económico bueno y mejorable, a su vez, un modelo político malo y reemplazable en “próximas” asambleas constituyentes, hacerlo en este momento es Gastar doble dieta parlamentaria (varios millones de dólares) y tener dos congresos en pandemia y crisis. Ésto económicamente no es buena idea.</p>
+  </li>
+</ol>
+
+<h2 id="6-cómo-debería-votar-un-chileno-este-25-de-octubre"><span id="6">6. ¿Cómo debería votar un Chileno este 25 de Octubre?</span></h2>
+
+<p>Luego del análisis anterior y al comprobar que este cambio constitucional en el 2020 sólo les sirve a los políticos con claras influencias de la política Latinoamericana, y que un verdadero cambio constitucional se debería realizar en un futuro, y con una Asamblea con la “mayoría representada por ciudadanos” asegurada (Ojo con los independientes que tienen nexos políticos). <strong>Lo mejor que se puede hacer por Chile este 25 de Octubre</strong> es:</p>
+
+<ol>
+  <li>
+    <p><strong>Entender la importancia de ir a votar.</strong> ¿por qué cree que al político le acomoda tanto un plebiscito en pandemia? No quieren que vayan muchos a votar, ni menos los adultos mayores.</p>
+
+    <p><img src="/assets/posts/referendum-venezuela-1999.png" alt="referendum venezuela 1999" /></p>
+  </li>
+  <li>
+    <p><strong>Vaya a las urnas bien protegido y en calma.</strong> Si es posible utilice guantes, su propio lápiz y protector facial además de la obligatoria mascarilla y no tocarse la cara. Mantenga distancia de otros y utilice antes, durante y después su alcohol gel o spray de mezclas de alcohol con agua. Al regresar a su hogar recuerde desinfectar la suela de sus zapatos, su ropa y manos.</p>
+  </li>
+  <li>
+    <p><strong>Dentro de la Urna marque claramente una línea en el #Rechazo</strong>, “los partidos políticos que hayan articulado este plebiscito, lo entenderán como rechazo a la última carta de poder cambiar el sistema económico a su gusto en un país libre como Chile”.</p>
+  </li>
+  <li>
+    <p><strong>Respecto al otro voto de Cómo se escribiría una nueva Carta Magna, <s>déjelo en Blanco</s> ANULE.</strong> Entienda que del otro lado de la mesa están personas con muchas habilidades para hacer trampa (políticos actuales)… en el futuro cercano, cuando las arcas fiscales estén pasando por mejores momentos económicos y no se ponga en riesgo a la población, “haremos una reforma Constitucional”, la cual deje claro que ‘si eres un servidor público o político, vas a trabajar para la ciudadanía de forma honesta, eficiente y transparente por lo cual serás remunerado según nuevas reglas, además deberás ser elegido entre los mejores con cualificaciones técnicas para dirigir dentro de nuestro territorio y por sobre todo, estar al servicio de la ciudadanía”.</p>
+  </li>
+  <li>
+    <p><strong>Cuando gane el Rechazo, no participe de protestas violentas.</strong> Ahí es donde darán la cara quienes articularon el Plebiscito y tenga fé en ‘la actual’ inteligencia y respeto a los derechos humanos con que nuestras fuerzas armadas y carabineros harán su trabajo. Pronto volveremos a tener paz gracias a ellos.</p>
+  </li>
+  <li>
+    <p><strong>Espere a que estén mejor las condiciones económicas y sanitarias</strong>, y sobretodo espere a que personas sin nexos a los políticos sean quienes hagan los cambios Constitucionales, también espere de forma inteligente para saber “Cuáles serán esos cambios” y sólo hasta ese entonces, volvamos a enfrentar a los políticos Chilenos en un nuevo plebiscito, pero esa vez para cambiarlos a ellos de una vez por ·servidores públicos políticos·.</p>
+  </li>
+</ol>]]></content><author><name>Rodrigo Cancino A.</name></author><category term="coto" /><category term="blog" /><category term="chile" /><category term="blog" /><category term="chile" /><category term="singapur" /><category term="plebiscito" /><category term="apruebo" /><category term="rechazo" /><category term="político" /><category term="política" /><category term="udi" /><category term="comunista" /><category term="marxista" /><category term="capitalismo" /><category term="neoliberalismo" /><category term="estudiantes" /><summary type="html"><![CDATA[Español English]]></summary></entry><entry xml:lang="esp"><title type="html">Guía para evitar el Spam (Correo No Deseado)</title><link href="https://www.beecoss.com/coto/blog/recommendations/2018/08/22/guia-definitiva-evitar-el-spam" rel="alternate" type="text/html" title="Guía para evitar el Spam (Correo No Deseado)" /><published>2018-08-22T17:17:20+00:00</published><updated>2018-08-22T17:17:20+00:00</updated><id>https://www.beecoss.com/coto/blog/recommendations/2018/08/22/guia-definitiva-evitar-el-spam</id><content type="html" xml:base="https://www.beecoss.com/coto/blog/recommendations/2018/08/22/guia-definitiva-evitar-el-spam"><![CDATA[<h3>Los filtros de spam de los proveedores de correo hacen su trabajo, y se espera que continuamente mejoren. Al mismo tiempo los spamers mejorarán sus prácticas. Las siguientes recomendaciones ayudarán a disminuir el spam en tu correo, y dado a que corresponden a hábitos recurrentes, espero te sirvan por siempre.</h3>
+
+<p>Es esperable que proveedores de correo electrónico, tales como gmail, hotmail, zoho, entre otros, ofrezcan servicios para protegerte del spam, pero no son suficientes considerando que al mismo tiempo, los spamers mejoran sus prácticas. El punto final <strong>at eternum</strong> corresponde a integrar el hábito de las siguientes prácticas:</p>
+
+<p>-<strong>Utiliza cuentas alias alternativos.</strong> Si tu proveedor de correo te permite crear alias de correo para los usuarios y eres el admin, puedes crear y eliminar alias de correo, los cuales son correos que llegan a la bandeja principal, mientras que el remitente solo conoce ese alias. Utiliza los <strong>alias de correo</strong> para registrarte en sitios nuevos o sospechosos.
+  La regla importante es <strong>eliminar y crear nuevos alias periódicamente</strong>.</p>
+
+<ul>
+  <li>Utiliza el <a href="https://support.google.com/mail/answer/1366858?co=GENIE.Platform%3DiOS&amp;hl=es">Report Spam</a> o <a href="https://support.google.com/mail/answer/8253?hl=es">Report Phishing</a> <strong>propio del lector de correo</strong> (e.g Gmail, Office, etc) para eliminar estos mensajes. En otras palabras, <strong>nunca te des-subscribas de un email no deseado haciendo click en algún link dentro del email</strong>, ya que un buen spamer registrará ese click para validar que el email existe, por lo tanto, sólo utiliza el botón marcar como Spam o Phishing del lector de correo.</li>
+  <li><strong>No carges las imágenes de los emails</strong>. Al cargar las imágenes de un correo electrónico, notificas al spammer que el correo fue leído. Herramientas que realizan “envíos masivos de emails” utilizan esta técnica, en algunos casos cargando sólo imágenes invisbles cuyo único propósito es notificar al emisor que tu has recibido y mirado el email.</li>
+</ul>]]></content><author><name>Rodrigo Cancino A.</name></author><category term="coto" /><category term="blog" /><category term="recommendations" /><category term="mailchimp" /><category term="spam" /><category term="guia" /><summary type="html"><![CDATA[Los filtros de spam de los proveedores de correo hacen su trabajo, y se espera que continuamente mejoren. Al mismo tiempo los spamers mejorarán sus prácticas. Las siguientes recomendaciones ayudarán a disminuir el spam en tu correo, y dado a que corresponden a hábitos recurrentes, espero te sirvan por siempre.]]></summary></entry><entry xml:lang="esp"><title type="html">5 relojes inteligentes que ya puedes comprar</title><link href="https://www.beecoss.com/coto/blog/smartwatch/2014/10/15/relojes-inteligentes-que-ya-puedes" rel="alternate" type="text/html" title="5 relojes inteligentes que ya puedes comprar" /><published>2014-10-15T20:51:00+00:00</published><updated>2014-10-15T20:51:00+00:00</updated><id>https://www.beecoss.com/coto/blog/smartwatch/2014/10/15/relojes-inteligentes-que-ya-puedes</id><content type="html" xml:base="https://www.beecoss.com/coto/blog/smartwatch/2014/10/15/relojes-inteligentes-que-ya-puedes"><![CDATA[<h3>Los relojes inteligentes parece que serán lo próximo en tecnología pero hay algunas marcas que ya tienen su modelo en el mercado. Aquí tienes 5 ejemplos.</h3>
+
+<p>Por lo que parece, el iWatch de Apple será una realidad este año. Apple está poniendo muchos recursos en hacer un buen producto y podría comercializarse a final de año. Pero no serán los primeros en llegar al mundo del reloj inteligente. Mientras todo este concepto de smartwatch empieza a crecer algunas marcas ya tienen dispositivos en la calle que podemos comprar y probar. La mayoría funcionan como un centro de notificaciones de pulsera que conectamos a nuestro smartphone vía Bluetooth. Cuentan con una aplicación que se sincroniza con el reloj y gracias a la cual podemos personalizarlos. Algunos llevan Android, otros un sistema operativo más rudimentario pero todos quieren conseguir que no tengamos que sacar nuestro teléfono del bolsillo. Aquí tenemos 5 de estos relojes inteligentes.</p>
+
+<h2 id="basis">Basis</h2>
+
+<p>El Basis es un verdadero SmartWatch. Es un dispositivo que controla nuestra vida lleno de sensores. Contiene un sensor óptico de pulso cardíaco, monitor de transpiración y monitor de temperatura de la piel, entre otros. Todo unido a un sensor de 3 ejes para determinar nuestro movimiento y actividad. Como una Nike Fuelband pero potenciada. Luego se conecta a internet y nos da nuestras estadísticas así como un plan para seguir y objetivos que conseguir. El Basis tiene una batería que dura 4 días y se vende por $199. ¡Ah! Y da la hora.</p>
+
+<h2 id="pebble">Pebble</h2>
+
+<p>Quizás el más famoso. Ha sido el dispositivo que ha hecho despertar la fiebre del smartwatch. Fue un proyecto que consiguió una finaciación récord en Kickstarter y gracias a ello sus creadores han ido añadiendo algunas características demandadas por los usuarios. Yo lo describiría como un centro de notificaciones en nuestra muñeca. Se conecta mediante Bluetooth a nuestro smartphone iPhone oAndroid y recibe las notificaciones de llamadas, mensajes e email, además de controlar nuestra música. Su pantalla de epaper hace que su batería dure hasta 7 días con una sola carga y también consigue una alta visibilidad en exteriores. El Pebble tiene una tienda en la que podemos bajar aplicaciones y temas para el reloj. Se vende por $150.</p>
+
+<h2 id="metawatch">Metawatch</h2>
+
+<p>El Metawatch es un competidor directo del Pebble en cuanto a que comparten bastantes características. Pantalla monocroma con buena visibilidad en exteriores, temas para poder personalizar la manera en la que vemos la hora y una funcionalidad centrada en recibir notificaciones, las cuales las puede notificar mediante un motor vibratorio. También se puede mojar, su batería dura más o menos lo mismo y también soporta Bluetooth 4.0 para recibir las notificaciones. Si hablamos de diferencias estas son mínimas. Quizás la más significativa sea al apoyo de la comunidad y desarrolladores. Mientras que el Pebble es un producto conocido, Metawatch está un poco bajo el radar con lo que el soporte de aplicaciones quizás no sea tan grande. Su precio es parecido ya que se puede comprar por $179.</p>
+
+<h2 id="sony-smartwatch">Sony Smartwatch</h2>
+
+<p>Fue quizás el primero de este tipo de dispositivos que se lanzó al mercado. Salió el año pasado y en principio parecía una buena idea. Un reloj con una pantalla OLED multitouch, que corría Android y que era hasta compatible con aplicaciones. Todo lo que sobre el papel podía ser un buen reloj inteligente, pero que en la práctica funcionó increíblemente mal. Pantalla con poca resolución y colores que se veían fatal, respuesta al toque nula, un tamaño inmenso gracias a la inclusión de un clip en la parte trasera y una interfaz de usuario poco pensada hicieron que alguno lo llamara “el peor producto que Sony ha hecho jamás”. Si alguien quiere arriesgarse está a la venta por 129,00€.</p>
+
+<h2 id="neptune-pine">Neptune Pine</h2>
+
+<p>El Neptune Pine es un desarrollo que promete mucho y que veremos en que queda. Antes que nadie diga nada, no, no está a la venta todavía pero se puede hacer una reserva y lo envían en Julio. La primera ventaja y diferencia con los otros relojes mencionados es que no se conecta al teléfono, con lo que funciona de manera independiente. Tiene una ranura para insertar una Micro SIM. Sus creadores dicen que permitirá hacer llamadas, enviar emails, reproducir música, navegar por internet y navegar con GPS. Incorporará una cámara de 5MP y un monitor cardíaco, radio FM y brújula magnética. Todo en una pantalla de 2.5 pulgadas que soportará todas las aplicaciones Android y contará un teclado diseñado para hacer que escribir sea muy natural. Lo único que parece que tendremos que cuidar es la batería. Los aventureros lo podéis pedir a un precio de $325.</p>]]></content><author><name>Rodrigo Cancino A.</name></author><category term="coto" /><category term="blog" /><category term="smartwatch" /><category term="smartwatch" /><category term="reloj" /><category term="inteligente" /><summary type="html"><![CDATA[Los relojes inteligentes parece que serán lo próximo en tecnología pero hay algunas marcas que ya tienen su modelo en el mercado. Aquí tienes 5 ejemplos.]]></summary></entry></feed>

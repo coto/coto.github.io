@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="esp"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <script>
+    (function () {
+      const theme = localStorage.getItem('theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+  <script src="/assets/js/theme-selector.js" defer></script><title>Ontocracia - Beecoss</title><meta name="description" content="Personal site, it includes Blog Posts of Free Topics  with undetermined update frequency.">
+  <meta name="keywords" content="Blog, resume, project, contact, Rodrigo Cancino, Software and Hardware Engineer, Personal Site, CDMP, PMP">
+
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.google.com https://www.gstatic.com https://www.googletagmanager.com https://static.cloudflareinsights.com https://www.recaptcha.net https://www.gstatic.com/recaptcha/ https://coto.disqus.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https://i.ytimg.com; frame-src http://127.0.0.1:4000 https://www.beecoss.com https://www.google.com https://www.gstatic.com https://www.youtube.com https://www.recaptcha.net https://recaptcha.net; connect-src 'self' https://docs.google.com https://www.google.com; font-src 'self' https://fonts.gstatic.com">
+
+  <!-- styles -->
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;1,9..144,400;1,9..144,700&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet"><link type="application/atom+xml" rel="alternate" href="https://www.beecoss.com/feed.xml" title="Beecoss" /><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E96XRP4SSC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E96XRP4SSC');
+</script>
+
+
+
+
+
+  
+<meta name="apple-mobile-web-app-title" content="Beecoss">
+  <meta name="msapplication-TileImage" content="/assets/img/icon-192x192.png">
+  <meta name="msapplication-TileColor" content="#091C99">
+  <meta name="theme-color" content="#091C99">
+  <link rel="mask-icon" href="/favicon.svg" color="#091C99">
+  <link rel="canonical" href="https://www.beecoss.com">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- icons -->
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" href='/assets/img/icon-16x16.png' type="image/png"
+    sizes="16x16">
+  <link rel="icon" href="/assets/img/icon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="/assets/img/icon-192x192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icon-180x180.png">
+  <link rel="apple-touch-icon-precomposed" href="/assets/img/icon-180x180.png">
+
+  <!-- Facebook Open Graph -->
+  <meta property="og:locale" content="esp">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ontocracia - Beecoss">
+  <meta property="og:description" content="Personal site, it includes Blog Posts of Free Topics  with undetermined update frequency.">
+  <meta property="og:url" content="https://www.beecoss.com">
+  <meta property="og:site_name" content="Beecoss">
+
+  <!-- twitter card --><meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Ontocracia - Beecoss">
+  <meta name="twitter:description" content="Personal site, it includes Blog Posts of Free Topics  with undetermined update frequency.">
+  <meta name="twitter:site" content="coto">
+  <meta name="twitter:image" content="https://coto.github.io/assets/img/logo.png">
+  <meta name="twitter:creator" content="coto"><script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</head><body><header class="site-header">
+  <nav class="navbar navbar-expand-sm">
+    <div class="container-fluid header d-flex align-items-center"><a class="site-title" rel="author" href="/">Beecoss</a><div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto d-flex align-items-center">
+          
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/blog/">Blog</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/contact/">Contact</a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/resume/">Resume</a>
+          </li>
+          
+          
+          
+          
+        </ul>
+      </div><div class="d-flex align-items-center ms-auto ms-sm-2">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+          <svg class="sun-icon" viewBox="0 0 24 24">
+            <path
+              d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41l-1.06-1.06zm1.06-10.96c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z" />
+          </svg>
+          <svg class="moon-icon" viewBox="0 0 24 24">
+            <path
+              d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-3.03 0-5.5-2.47-5.5-5.5 0-1.82.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z" />
+          </svg>
+        </button><button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button></div>
+    </div>
+
+  </nav>
+</header><main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Ontocracia</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2023-03-10T15:35:35+00:00" itemprop="datePublished">10-Mar-2023
+      </time>
+      <em class="esp"></em>• by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Rodrigo Cancino A.</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <table>
+  <tbody>
+    <tr>
+      <td><strong>Español</strong></td>
+      <td><a href="/coto/blog/society/2023/03/10/ontocracy">English</a></td>
+      <td><a href="/coto/blog/society/2023/03/10/ontocratie">Français</a></td>
+      <td><a href="/coto/blog/society/2023/03/10/ontocracia-pt">Português</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>El presente es un ensayo que describe una alternativa de sociedad que habita el planeta, reemplazando a la actual República. Con la llegada de la era de acuario y el acceso a la información amanece una nueva sociedad, donde el animal político<sup id="fnref:socialanimal" role="doc-noteref"><a href="#fn:socialanimal" class="footnote" rel="footnote">1</a></sup> que habita el planeta, es capaz de vivir en un sistema construido a partir de los aprendizajes heredados del imperio romano y revolución francesa.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="/assets/posts/as-within-is-without.jpeg" alt="Esfinge" title="como es adentro es afuera" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><em>como es adentro es afuera</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="intro">Intro</h2>
+
+<p>Los siguientes síntomas de una sociedad, permiten concluir si ésta se encuentra sana:</p>
+
+<ol>
+  <li>Policias incorruptibles.</li>
+  <li>Ciudadanos generosos y respetuosos en el tránsito vial.</li>
+</ol>
+
+<p>Los policías son la piel del poder, capaz de interactuar directamente con el ciudadano, mientras que el poder mayor que le ordena, subyace en oficinas de un parlamento o casa de gobierno.</p>
+
+<p>Para que ocurran los dos sintomas de una sociedad sana, antes deben sanar muchos otros problemas sociales, por ejemplo para llegar a policias incorruptibles, antes se resolvió el problema de políticos o gobernadores corruptibles.</p>
+
+<p>Un nuevo sistema potencia su existencia cuando basa su creación en los principales flaquezas del que le antecede, y en el caso de la República son la corrupción, la existencia de ciudadanos en extrema pobreza y el mal uso del poder y recursos económicos.</p>
+
+<h2 id="sistema">Sistema</h2>
+
+<p>En una sociedad donde los ciudadanos son quienes realmente poseen el poder de la nación, el poder se distribuye de la siguiente manera:</p>
+
+<p><strong>Primero</strong>: Los Ciudadanos a través de una ontocracia digital poseen el absoluto poder de las decisiones de la nación, sobre todo las económicas, apoyados por panel de expertos y campañas de información independientes.</p>
+
+<p><strong>Segundo</strong>: Las decisiones de los ciudadanos, según el lugar que resida, algunas serán obligatorias y otras opcionales, y se llevarán a cabo a nivel nacional, regional o comunal.</p>
+
+<p><strong>Tercero</strong>: No existe un presidente, primer ministro o gobernante a quien culpar por las malas decisiones, ya que todas las tomará el soberano representado por los ciudadanos de la nación habilitados para votar.</p>
+
+<p><strong>Cuarto</strong>: Existirá un representante de la nación para reuniones y eventos internacionales, el cual es elegido por el soberano, y reemplazará al indicado en punto Tercero en sus actividades protocolares, siendo remunerado por no más de 10 veces el sueldo mínimo de la nación. En el representante recaerá el respeto y orgullo de representar a la nación y debería ser elegido por sus capacidades altruistas, éticas y de cortesía, más no recaerá poder alguno en este representante más que llevar con orgullo el honor de ser el representante que la nación eligió.</p>
+
+<p><strong>Quinto</strong>: El panel de expertos que apoyará a la ciudadanía en tomar las decisiones electorales ocupará el lugar del actual parlamento, y en ellos tampoco recaerá poder, más que el de informar a la ciudadanía en materias técnicas y complejas cuando lo amerite.</p>
+
+<p><strong>Sexto</strong>: De modo periódico la ciudadanía elige al panel de expertos, por su dominio, experiencia y sabiduría en materias en las que se deba tomar decisión. Del mismo modo, los ciudadanos deberán evaluar el desempeño de las recomendaciones de los expertos, en indicadores como crecimiento económico, paz y seguridad social e igualdad de derechos y oportunidades.</p>
+
+<p><strong>Séptimo</strong>: El poder judicial enfoca su rol de emitir sentencia acorde a la ley vigente, y será profunda y periódicamente evaluado por el soberano, el cual es asesorado por expertos, que permitan realizar una evaluación crítica respecto a si las sentencias se han ajustado o no a derecho.</p>
+
+<p><strong>Octavo</strong>: El poder del soberano al no estar interferido por parlamentos o gobernantes, será más amplio y grande que cualquier Empresa Multimillonaria dentro de la nación, permitiendo que los fiscales puedan velar porque tanto empresas como trabajadores actuen de manera ética y colaborativa donde prime dignidad y respeto igualitario.</p>
+
+<p><strong>Noveno</strong>: El poder del soberano al no estar interferido por parlamentos o gobernantes, será más amplio y grande que cualquier Organización criminal, permitiendo que el poder del estado, que yace en sus fuerzas armadas y de orden, siempre esté al servicio y defensa de la nación.</p>
+
+<p><strong>Décimo</strong>: Las campañas para elegir al representante de la nación y panel de expertos son llevadas a cabo por ciudadanos habilitados y mejor preparados para votar, de manera libre e independiente, no recibirán subsidio económico público alguno y su apoyo se limitará al de informar a la ciudadanía de manera igualitaria la experiencia, preparación y antecedentes de todos quienes decidan ser candidatos.</p>
+
+<p><strong>Undécimo</strong>: Las fuerzas armadas y de orden continuarán siendo instituciones independientes de gestiones políticas. Limitando sus funciones al de proteger y ayudar a la ciudadanía en situaciones extremas, y estar al servicio de la nación, respetando a los ciudadanos de manera igualitaria.</p>
+
+<h2 id="señales-de-resultado">Señales de Resultado</h2>
+
+<p>Una sociedad ontocrática es capaz de medir y comparar el resultado de sus decisiones y de la misma manera, una región o comuna dentro de la nación utilizará la misma solución que otra región o comuna haya aplicado exitosamente, ocupando como regla el bienestar del ciudadano versus su costo.</p>
+
+<p>Es importante que los ciudadanos reciban periódicamente resúmenes o señales de resultados de decisiones tomadas en toda la nación, además de acceder al detalle si así lo quisiesen.</p>
+
+<p>La sociedad procura principalmente las siguientes métricas para la toma de sus deciciones:</p>
+
+<ul>
+  <li>Indices altos de Paz y Seguridad.</li>
+  <li>Índices bajos de pobreza.</li>
+  <li>Índices sanos de actividad y crecimiento económico.</li>
+  <li>Índices altos de libertad y bienestar social.</li>
+</ul>
+
+<h2 id="mejor-preparados">Mejor preparados</h2>
+
+<p>Si bien al principio de la Ontocracia los ciudadanos puedan tomar decisiones equivocadas, las cuales podrán evaluarse  objetivamente según las “señales de resultado”, corregirse y perdonarse, y de la misma manera que un grupo de personas, incluyendo el presente lector, no se subiría a un autobús conducido por una persona de 16 años, sin experiencia ni licencia de conducir, tampoco debería permitir que ciudadanos sin la preparación mínima sean quienes eligen a representantes, expertos y leyes que estos últimos propongan.</p>
+
+<h3 id="preparación-mínima">Preparación mínima</h3>
+
+<p>Los ciudadanos habilitados para votar en Ontocracia cumplen los siguientes requisitos:</p>
+
+<ol>
+  <li>Ciudadanos que han completado satisfactoriamente la educación mínima gratuita y obligatoria para ser un ciudano habilitado para votar, compuesta por Educación cívica, Educación Financiera y Educación Universal. Todo ciudadano recibe esta Educación de manera gratuita y a cualquier edad, de parte del instituciones autorizadas, ya sean publicas o privadas, para cumplir con el derecho de sufragar.</li>
+  <li>Ciudadanos mayores a 18 años, o Sin importar su edad, en caso personas que se hayan destacado en actividades académicas o intelectuales, y que por sus características de ciudadanos destacados podrán votar sin discriminación etárea.</li>
+  <li>Ciudadanos que no hayan cometido delitos que la nación castigue con la pérdida de la ciudadanía.</li>
+</ol>
+
+<h2 id="seguridad-ciudadana">Seguridad Ciudadana</h2>
+
+<p>Las fuerzas armadas y de orden, estando al servicio de la nación representada por el soberano, velarán por el orden y seguridad pública, fomentando una actitud solidaria, y ser el único organismo del estado capaz de ejercer la fuerza si fuese necesario.</p>
+
+<p>Se permite el uso de gastos reservados por parte de las fuerzas armadas y de orden, fomentando la devolución de los recursos remanentes no utilizados.</p>
+
+<h2 id="educación">Educación</h2>
+
+<p>Es prioridad de la Ontocracia informar que la educación es un deber y no un derecho. En donde se fomentará la igualdad de acceso y calidad de educación a todos los ciudadanos sin ningún tipo de discriminación, fomentando la libertad de elección del tipo de educación limitado al nucleo familiar y el estado bajo ningún motivo podrá ejercer adoctrinamiento ni sometimiento de culto en los organismos educativos.</p>
+
+<p>Los profesores son elegidos por sus conocimientos, capacidades académicas y de docencia, con la misma seriedad que un médico cirujano es evaluado antes de ejercer su profesión, y dado que para ejercer docencia se requerirán de grandes cualidades, los profesores tomarán el mismo reconocimiento social que los expertos y representante que la nación eligió. Llevando a los docentes a ser remunerados tal como representantes y expertos de la nación.</p>
+
+<p>El estado toma un rol fiscalizador en la educación, fomentando una educación libre y sin adoctrinamiento, donde los alumnos puedan seguir caminos profesionales acorde a sus habilidades identificadas en edades tempranas, y los organismos educacionales velarán por detectar habilidades en edades tempranas y derivar para potenciar dichas habilidades o deseos de los estudiantes, permitiendo la existencia de escuelas de especialidades, artes, ciencias y cultura.</p>
+
+<p>Todos los organismos educativos enfrentan como base el desafío de enseñar a todos por igual las siguientes materias:</p>
+
+<ul>
+  <li><strong>Educación Cívica</strong>, donde se enseñe los derechos y obligaciones de los ciudadanos. La ética y generosidad. Destacan en este tipo de educación la entrega de información respecto al costo de los bienes y servicios provistos por el estado o privados, entendiendo la importancia de una correcta administración de los recursos. En educación cívica recae la responsabilidad de educar respecto al sistema electoral de una Ontocracia digital, donde los ciudadanos deberán participar periódicamente, y según su lugar de inscripción electoral, en elecciones obligatorias u opcionales a nivel nacional/federal, regional/estatal y comunal/condados donde se potencia el acceso a medios de validación digitales.</li>
+  <li><strong>Educación Financiera</strong>, donde se enseña la importancia del buen uso de recursos, poniendo énfasis en los flujos y balances financieros, que apliquen en personas naturales como jurídicas. La importancia del apoyo a causas altruistas, del ahorro y la inversión.</li>
+  <li><strong>Educación Universal</strong>, bajo la premisa de un ser humano primero espiritual, emocional y racional, se enseña la conexión humano planeta como un único ser en su conjunto, aprendiendo a interactuar en sus ciclos, entrando en una relación de respeto y cuidado. Temarios como la descontaminación, reciclaje son fundamentales en esta materia.</li>
+</ul>
+
+<h2 id="servicios-públicos">Servicios Públicos</h2>
+
+<p>De la misma manera que el feminismo no es la solución al machismo, la igualdad no es la solución para la desigualdad, por lo que en Ontocracia existe la libertad de emprender o generar negocios a través de bienes o servicios que provean valor a la sociedad, sin embargo quien no desee generar negocios o inversiones, bajo ninguna circunstancia podrá caer en pobreza extrema, dado que a quienes no possen recursos para pagar los servicios o bienes sociales la Ontocracia velará por el buen uso de los recursos económicos y así subsidiar a quien no pueda en:</p>
+
+<ul>
+  <li>Educación de igual calidad de quien la puede financiar.</li>
+  <li>Atención de salud de igual calidad que alguien que la puede financiar.</li>
+  <li>Fomento y subsidios para ciudadanos que elijan emprender negocios que aporten valor a la sociedad.</li>
+  <li>Fomento y subsidios solidarios con ciudadanos en situaciones de emergencia o tragedia.</li>
+</ul>
+
+<h2 id="pensiones">Pensiones</h2>
+
+<p>Todo ciudadano, desde su infancia, al realizar compras que incluyan pago de impuestos al valor agregado, a lo más una cuarta parte de dicho impuesto irá a la cuenta personal previsional del ciudadano, la cual se sumará a lo ahorrado por otros medios tales como remuneración o ahorro previsional voluntarios, entre otros. El fomentar en los ciudadanos el ahorro previsional con pequeños montos y desde edades tempranas, sumado a la correcta inversión de dichos ahorros a través de una competencia libre y supervisada, entre sistemas públicos y privados. Esto no solo permite entregar pensiones adecuadas al costo de vida de la nación, sino además impulsar su economía y poder tomar un rol de estado solidario de manera sustentable.</p>
+
+<p>Todo ciudadano tendrá derecho, durante el transcurso de su vida, a retirar sin devolución ni justificación hasta el 30% de sus ahorros previsionales, lo que descontará proporcionalmente en lo recibido como jubilación en caso de no reponer los fondos de manera voluntaria.</p>
+
+<p>Todo ciudadano tendrá derecho a recibir a modo de préstamo, hasta un 20% de su ahorro previsional y cuyos fondos deberá reponer sin interés y de manera voluntaria por el cidadano cotizante.</p>
+
+<p>Se deberá conocer de todos los ciudadanos con ahorro previsional cual es su deseo para la utilización de los ahorros en caso de muerte y que existan remanentes de ahorro, indicando si se desea entregar a un familiar, persona o causa en particular.</p>
+
+<p>Las instituciones administradoras de fondos previsionales, ya sean públicas o privadas, tendrán como objetivo primero el de rentabilizar los ahorros a través de no más de 5 fondos de inversión, donde las tasas riesgo/retorno de una inversión de los fondos cumplen con:</p>
+
+<ul>
+  <li>Fondo 1: rentar <strong>a lo menos</strong> inflación más un 0% (renta fija).</li>
+  <li>Fondo 2: rentar <strong>a lo menos</strong> inflación ±2%.</li>
+  <li>Fondo 3: rentar <strong>a lo menos</strong> inflación ±5%.</li>
+  <li>Fondo 4: rentar <strong>a lo menos</strong> inflación ±10%.</li>
+  <li>Fondo 5: rentar <strong>a lo menos</strong> inflación ±15%.</li>
+</ul>
+
+<p>Las instituciones administradoras de fondos previsionales, ya sean públicas o privadas, tendrán supervisión ciudadana, a través de servidores públicos pertenecientes o no a organismos estatales.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:socialanimal" role="doc-endnote">
+      <p>el hombre se diferencia de los animales, entre otras cosas, porque vive en sociedades organizadas políticamente - Aristóteles. <a href="#fnref:socialanimal" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div><a class="u-url" href="/coto/blog/society/2023/03/10/ontocracia" hidden></a>
+</article>
+    </div>
+  </main><footer class="site-footer h-card">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Beecoss</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Rodrigo Cancino (Coto)</li>
+          <li><a class="u-email" href="/contact/">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a target="_blank" rel="noreferrer" href="https://feeds.feedburner.com/coto"><svg class="svg-icon">
+        <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+      </svg> <span>RSS</span></a></li><li><a target="_blank"
+      href="https://github.com/coto"><svg class="svg-icon">
+        <use xlink:href="/assets/minima-social-icons.svg#github"></use>
+      </svg> <span class="username">coto</span></a></li><li><a target="_blank"
+      href="https://www.linkedin.com/in/cancino-rodrigo"><svg class="svg-icon">
+        <use xlink:href="/assets/minima-social-icons.svg#linkedin"></use>
+      </svg> <span class="username">LinkedIn</span></a></li><li><a target="_blank"
+      href="https://twitter.com/coto"><svg class="svg-icon">
+        <use xlink:href="/assets/minima-social-icons.svg#twitter"></use>
+      </svg> <span class="username">coto</span></a></li><li><a target="_blank"
+      href="https://www.quora.com/Coto-Augosto"><img src="/assets/quora.jpg"
+        alt="quora" width="16" height="16" style="float: left; margin-right: 10px;" /> <span
+        class="username">Quora</span></a></li></ul></div>
+
+      <div class="footer-col footer-col-3">
+        <p>
+          <script>
+            var foot = [];
+            foot.push('Lo que más me sorprende del hombre occidental, es que pierden la salud para ganar dinero para recuperar su salud. Y por pensar ansiosamente en el futuro no disfrutan el presente, por lo que no viven ni el presente ni el futuro. Y viven como si no tuviesen que morir nunca y mueren como si nunca hubieran vivido. --  Dalai Lama')
+            foot.push('Who are we? We find that we live on an insignificant planet of a humdrum star lost in a galaxy tucked away in some forgotten corner of a universe in which there are far more galaxies than people. -- Carl Sagan');
+            foot.push('La persona que no esté en paz consigo misma, será una persona en guerra con el mundo entero. -- Mahatma Gandhi');
+            foot.push('Felix qui potuit rerum cognoscere causas -- Virgilius')
+            foot.push('Time erodes variance and guesswork.');
+            const random = Math.floor(Math.random() * foot.length);
+            document.write(`&laquo; "${foot[random]}" &raquo;`);
+          </script>
+
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+<script src="/assets/js/jquery-3.5.1.min.js"></script>
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/js/jquery.viewportchecker.min.js"></script>
+  <script src="/assets/js/formConfirmation.js?v=201707221115"></script>
+  <script src="/assets/js/script.js?v=201708221114"></script>
+  </body>
+</html>

@@ -6,7 +6,7 @@ date:   2018-08-22 14:17:20 -0300
 categories: coto blog recommendations
 lang: esp
 tags: mailchimp spam guia
-author: "Rodrigo Cancino A."
+author: "Rodrigo (Coto) Augosto Cancino"
 ---
 
 <h3>Los filtros de spam de los proveedores de correo hacen su trabajo, y se espera que continuamente mejoren. Al mismo tiempo los spamers mejorarán sus prácticas. Las siguientes recomendaciones ayudarán a disminuir el spam en tu correo, y dado a que corresponden a hábitos recurrentes, espero te sirvan por siempre.</h3>

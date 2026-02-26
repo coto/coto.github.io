@@ -2,7 +2,7 @@
 layout: home
 ---
 
-Hey, I'm Rodrigo Cancino Augosto (also know as Coto). This is my personal site, it includes [Blog Posts of Free Topics][blog]{:target="_blank"} with undetermined update frequency. All the content is my own and has no relation to third parties.
+Hey, I'm Rodrigo (Coto) Augosto Cancino (also know as Coto). This is my personal site, it includes [Blog Posts of Free Topics][blog]{:target="_blank"} with undetermined update frequency. All the content is my own and has no relation to third parties.
 
 If you would like to reach me, use this [Contact Form][contact]. In case you would mind to encrypt the information, please use [this Key][pgp_key]{:target="_blank"}.
 

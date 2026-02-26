@@ -6,7 +6,7 @@ date:   2014-10-15 17:51:00 -0300
 categories: coto blog smartwatch 
 lang: esp
 tags: smartwatch reloj inteligente
-author: "Rodrigo Cancino A."
+author: "Rodrigo (Coto) Augosto Cancino"
 ---
 <h3>Los relojes inteligentes parece que serán lo próximo en tecnología pero hay algunas marcas que ya tienen su modelo en el mercado. Aquí tienes 5 ejemplos.</h3>
 

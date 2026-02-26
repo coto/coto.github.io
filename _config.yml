@@ -1,13 +1,13 @@
-# beecoss site
+# Beecoss site
 name: Beecoss
-author: Rodrigo Cancino (Coto)
+author: Rodrigo (Coto) Augosto Cancino
 
 # ---- Main settings ----
 title: Beecoss
 description: >-
   Personal site, it includes Blog Posts of Free Topics 
   with undetermined update frequency.
-keywords: "Blog, resume, project, contact, Rodrigo Cancino, Software and Hardware Engineer, Personal Site, CDMP, PMP"
+keywords: "Blog, resume, project, contact, Rodrigo (Coto) Augosto Cancino, Software and Hardware Engineer, Personal Site, CDMP, PMP"
 slogan: "Personal site"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.beecoss.com" # the base hostname & protocol for your site, e.g. http://example.com

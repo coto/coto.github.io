@@ -6,7 +6,7 @@ date:   2020-09-18 17:51:00 -0300
 categories: coto blog chile
 lang: esp
 tags: blog chile singapur plebiscito apruebo rechazo político política udi comunista marxista capitalismo neoliberalismo estudiantes
-author: "Rodrigo Cancino A."
+author: "Rodrigo (Coto) Augosto Cancino"
 ---
 **Español** | [English](/coto/blog/chile/2020/09/18/chile-cant-be-better-than-singapur.html)
 

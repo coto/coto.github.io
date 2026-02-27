@@ -28,7 +28,7 @@ layout: default
       </header>
 
       <div class="post-content" itemprop="articleBody">
-        <p>{{ last_post.content | strip_html | truncatewords: 150 }}</p>
+        <p>{{ last_post.content | truncatewords: 150 }}</p>
         <p>
           <a href="{{ last_post.url | relative_url }}" class="btn btn-outline-primary btn-sm mt-3">Read more &rarr;</a>
         </p>

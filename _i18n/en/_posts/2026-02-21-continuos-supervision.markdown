@@ -6,6 +6,8 @@ categories: ai engineering quality architecture
 author: "Rodrigo (Coto) Augosto Cancino"
 ---
 
+[Español](/es/ai/engineering/quality/architecture/2026/02/22/continuos-supervision) \| **English** \| [Português](/pt/ai/engineering/quality/architecture/2026/02/22/continuos-supervision)
+
 {:.ai-editorial}
 
 # CI/CD/**CS**{:.cs-highlight} — The Silver Bullet for Quality in AI

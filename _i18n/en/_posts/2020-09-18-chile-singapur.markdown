@@ -7,7 +7,7 @@ categories: coto blog chile
 tags: blog chile singapur plebiscito apruebo rechazo político política udi comunista marxista capitalismo neoliberalismo estudiantes
 author: "Rodrigo (Coto) Augosto Cancino"
 ---
-[Español](/coto/blog/chile/2020/09/18/chile-no-puede-ser-mejor-que-singapur.html) | **English**
+[Español](/es/coto/blog/chile/2020/09/18/chile-singapur) \| **English** \| [Português](/pt/coto/blog/chile/2020/09/18/chile-singapur)
 
 Chile lives a reality that I would like to express in first person to my foreign friends and especially to Chileans, on last October 16th, 2019 a social movement began that got out of our hands, going through moments of great confusion and ignorance regarding what was happening, and with that generating a lot of fear and damage to the country itself, then a series of events occurred that allowed us to have greater clarity regarding what was happening. However, at the beginning of 2020, the no lesser problem of the Pandemic that we share worldwide was added, and that despite being a small and apparently intelligent population (according to external visions regarding how we have built our society) we are within more infected countries. In addition to the above, this October 25th, Chileans face what some intellectuals define as a change of society to a next generation or commit a mistake and go back several years. Fortunately, the time of confinement made it possible to clarify what is happening and have more clarity regarding what to do.
 

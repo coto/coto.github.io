@@ -7,7 +7,7 @@ categories: coto blog chile
 tags: blog chile singapur plebiscito apruebo rechazo político política udi comunista marxista capitalismo neoliberalismo estudiantes
 author: "Rodrigo (Coto) Augosto Cancino"
 ---
-**Español** | [English](/coto/blog/chile/2020/09/18/chile-cant-be-better-than-singapur.html)
+**Español** \| [English](/coto/blog/chile/2020/09/18/chile-singapur) \| [Português](/pt/coto/blog/chile/2020/09/18/chile-singapur)
 
 Chile vive una realidad que me gustaría expresar en primera persona a mis amigos extranjeros y sobre todo a los Chilenos, el 16 de Octubre de 2019 comenzó un movimiento social que se nos fue de las manos, pasando de momentos de mucha confusión e ignorancia respecto a lo que estaba pasando, y con eso generar bastante miedo y daño al propio país, luego ocurrieron una serie de sucesos que permitieron tener mayor claridad respecto a lo que sucedía. Sin embargo, a principios del año 2020 se sumó el no menor problema de la Pandemia que compartimos mundialmente, y que a pesar de ser una población pequeña y aparentemente inteligente (según visiones externas respecto a cómo hemos construido nuestra sociedad) estamos dentro de los países más contagiados. Sumado a lo anterior, este 25 de Octubre los Chilenos nos enfrentamos a lo que algunos intelectuales definen como cambio de sociedad a una tercera generación o equivocarnos y retroceder varios años. Afortunadamente el tiempo de confinamiento permitió aclarar lo que está sucediendo y tener más claridad respecto a qué hacer.
 

@@ -6,6 +6,8 @@ categories: ai engineering quality architecture
 author: "Rodrigo (Coto) Augusto Cancino"
 ---
 
+**Español** \| [English](/ai/engineering/quality/architecture/2026/02/22/continuos-supervision) \| [Português](/pt/ai/engineering/quality/architecture/2026/02/22/continuos-supervision)
+
 {:.ai-editorial}
 
 # CI/CD/**CS**{:.cs-highlight} — La Bala de Plata para la Calidad en IA

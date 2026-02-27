@@ -6,6 +6,8 @@ categories: coto blog technology LangGraph Agent2Agent
 author: "Rodrigo (Coto) Augusto Cancino"
 ---
 
+[Español](/es/coto/blog/technology/langgraph/agent2agent/2026/01/28/agentic-workflow-blueprint) \| [English](/coto/blog/technology/langgraph/agent2agent/2026/01/28/agentic-workflow-blueprint) \| **Português**
+
 <h3>Orquestração Determinística Multi-Agente</h3>
 
 Uma arquitetura de máquina de estados de nível de produção usando LangGraph e o protocolo Agent2Agent, projetada para 99,9% de confiabilidade em loops lógicos não lineares.

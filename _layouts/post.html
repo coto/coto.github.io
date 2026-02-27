@@ -42,8 +42,11 @@ layout: default
         background-color: transparent;
       }
 
-      .recent-posts-sidebar h4 {
+      .recent-posts-sidebar .headrp {
         text-decoration: none !important;
+        background-color: var(--grey-color-light, rgba(128, 128, 128, 0.1));
+        padding: 0.25rem 0.5rem;
+        border-radius: 0.25rem;
       }
 
       .recent-posts-list {
@@ -105,8 +108,9 @@ layout: default
       }
     </style>
     <aside class="recent-posts-sidebar mt-4 mb-4">
-      <div class="d-flex justify-content-between align-items-center mb-4">
-        <h4 class="my-0 fw-bold">{{ page.list_title | default: "Recent Posts" }}</h4>
+      <div class="d-flex justify-content-between align-items-center mb-4 headrp">
+        {% capture default_recent_posts %}{% t recent_posts %}{% endcapture %}
+        <h4 class="my-0 fw-bold">{{ page.list_title | default: default_recent_posts }}</h4>
         <a target="_blank" rel="noreferrer" href="{{ site.rss | relative_url }}" class="rss-icon-link"
           aria-label="RSS Feed">
           <svg class="svg-icon m-0 p-0" viewBox="0 0 16 16">

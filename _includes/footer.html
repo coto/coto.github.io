@@ -14,7 +14,8 @@
             {{ site.title | escape }}
             {%- endif -%}
           </li>
-          <li><a class="u-email" href="/contact/">Contact</a></li>
+          <li><a class="u-email" href="{% if site.lang != site.default_lang %}/{{ site.lang }}{% endif %}/contact/">{% t
+              menu.contact %}</a></li>
         </ul>
       </div>
 

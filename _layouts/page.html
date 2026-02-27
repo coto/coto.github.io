@@ -2,9 +2,12 @@
 layout: default
 ---
 <article class="page">
-	{%- if page.title -%}
-    	<h1 class="page-heading">{{ page.title | escape }}</h1>
-  	{%- endif -%}
+  {%- if page.title -%}
+  {% assign t_key = "menu." | append: page.title | downcase %}
+  {% capture translated_title %}{% t t_key %}{% endcapture %}
+  <h1 class="page-heading">{% if translated_title != "" %}{{ translated_title }}{% else %}{{ page.title | escape }}{%
+    endif %}</h1>
+  {%- endif -%}
 
   <div class="page-content">
     {{ content }}

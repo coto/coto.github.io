@@ -3,7 +3,8 @@
     <div class="container-fluid header d-flex align-items-center">
       {%- assign default_paths = site.pages | map: "path" -%}
       {%- assign page_paths = site.header_pages | default: default_paths -%}
-      <a class="site-title" rel="author" href="/">{{ site.title | escape }}</a>
+      <a class="site-title" rel="author" href="/{% if site.lang != site.default_lang %}{{ site.lang }}/{% endif %}">{{
+        site.title | escape }}</a>
 
       {%- if page_paths -%}
       <style>
@@ -17,13 +18,20 @@
           {% for page_loop in site.pages %}
           {% if page_loop.title %}
           {% assign is_active = false %}
+
+          {% assign lang_page_url = page_loop.url %}
+          {% if site.lang != site.default_lang %}
+          {% assign lang_page_url = "/" | append: site.lang | append: page_loop.url | replace: '//', '/' %}
+          {% endif %}
+
           {% if page.url == page_loop.url %}
           {% assign is_active = true %}
           {% elsif page_loop.url == '/blog/' and page.url contains '/blog/' %}
           {% assign is_active = true %}
           {% endif %}
           <li class="nav-item {% if is_active %}active{% endif %}">
-            <a class="nav-link" href="{{ page_loop.url | relative_url }}">{{ page_loop.title | escape }}</a>
+            {% assign t_key = "menu." | append: page_loop.title | downcase %}
+            <a class="nav-link" href="{{ site.baseurl_root }}{{ lang_page_url }}">{% t t_key %}</a>
           </li>
           {% endif %}
           {% endfor %}
@@ -62,12 +70,28 @@
           {% for lang in site.languages %}
           {% unless site.lang == lang %}
           <li>
+            {% assign clean_url = page.url %}
+            {% assign unlocalized_baseurl = site.baseurl_root %}
+
+            {% if site.lang != site.default_lang %}
+            {% assign lang_prefix = "/" | append: site.lang | append: "/" %}
+            {% assign lang_prefix_no_trailing = "/" | append: site.lang %}
+
+            {% if clean_url == lang_prefix_no_trailing %}
+            {% assign clean_url = "/" %}
+            {% else %}
+            {% assign clean_url = clean_url | replace_first: lang_prefix, "/" %}
+            {% endif %}
+
+            {% assign unlocalized_baseurl = site.baseurl_root | replace_first: lang_prefix_no_trailing, "" %}
+            {% endif %}
+
             {% if lang == site.default_lang %}
-            <a class="dropdown-item" href="{{ site.baseurl_root }}{{ page.url }}">
+            <a class="dropdown-item" href="/{{ clean_url | remove_first: '/' | replace: '//', '/' }}">
               {{ site.language_names[lang] }}
             </a>
             {% else %}
-            <a class="dropdown-item" href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}">
+            <a class="dropdown-item" href="/{{ lang }}/{{ clean_url | remove_first: '/' | replace: '//', '/' }}">
               {{ site.language_names[lang] }}
             </a>
             {% endif %}

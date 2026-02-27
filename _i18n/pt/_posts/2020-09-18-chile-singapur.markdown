@@ -88,7 +88,7 @@ Estou certo de que os estudantes não foram os que cometeram as destruições, p
 
 Também estou certo de que você não sabe, nem eu, quanto dinheiro o poder político-militar movimentou na Venezuela em corrupção e narcotráfico — apenas para citar alguns temas seguros. Pois, se entendesse, estaria fazendo algo logo para fiscalizar seus próprios políticos "atuais e futuros".
 
-<blockquote class="twitter-tweet"><p lang="es" dir="ltr">Señores cooperativa 3 observaciones: <br>1) &#39;tienen&#39; en vez de &#39;tenían&#39; <br>2) Ese mismo poder criminal está tirando sus manitos en nuestro querido Chile &#39;Hoy&#39;.<br>3) El informe tuvo que hacerlo una oficina ONU distinta a la de la Sra. Bachelet. <a href="https://t.co/GoGrP6Db7y">https://t.co/GoGrP6Db7y</a></p>&mdash; Coto .🖌 (@coto) <a href="https://twitter.com/coto/status/1308085945208537088?ref_src=twsrc%5Etfw">September 21, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr">Señores cooperativa 3 observaciones: <br>1) &#39;tienen&#39; en vez de &#39;tenían&#39; <br>2) Ese mismo poder criminal está tirando sus manitos en nuestro querido Chile &#39;Hoy&#39;.<br>3) El informe tuvo que hacerlo una oficina ONU distinta a la de la Sra. Bachelet. <a href="https://t.co/GoGrP6Db7y" target="_blank" rel="noreferrer">https://t.co/GoGrP6Db7y</a></p>&mdash; Coto .🖌</blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### <span id="5">5. O que um Chileno deve ter em conta antes de votar?</span>
 

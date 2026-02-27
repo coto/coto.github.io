@@ -4,7 +4,7 @@
 
 15+ Yrs Technology Leadership (Former CTO) \| LangGraph, PyTorch, TypeScript & Python
 
----
+<hr style="padding-bottom: 20px;">
 
 Most AI agents are easy to demo but hard to scale. I bridge that gap by building production-ready **Intelligent Automation** systems that are deterministic, secure, and mathematically grounded.
 

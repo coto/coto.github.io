@@ -4,7 +4,7 @@
 
 Más de 15 Años de Liderazgo Tecnológico (Ex CTO) \| LangGraph, PyTorch, TypeScript y Python
 
----
+<hr style="padding-bottom: 20px;">
 
 La mayoría de los agentes de IA son fáciles de demostrar pero difíciles de escalar. Yo cierro esa brecha construyendo sistemas de **Automatización Inteligente** listos para producción que son deterministas, seguros y matemáticamente fundamentados.
 

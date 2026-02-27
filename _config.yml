@@ -14,6 +14,7 @@ url: "https://www.beecoss.com" # the base hostname & protocol for your site, e.g
 logo: "https://coto.github.io/assets/img/logo.png"
 color_main: "#091C99"
 google_analytics: "G-E96XRP4SSC"
+show_excerpts: true
 
 # ---- Secondary settings ----
 ga4: "353152933"

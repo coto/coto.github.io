@@ -3,3 +3,22 @@ menu:
   contact: "Contact"
   resume: "Resume"
 recent_posts: "Recent Posts"
+rss_modal:
+  title: "Stay Updated"
+  email_label: "Get insights in your inbox"
+  email_placeholder: "your@email.com"
+  subscribe_btn: "Subscribe"
+  rss_label: "For Power Users (RSS)"
+  copy_btn: "Copy Link"
+  copied: "Copied!"
+  or: "OR"
+  tooltip: "Subscribe via RSS"
+  success_toast: "You're all set! Thanks for joining our newsletter. 🚀"
+
+pages:
+  forms:
+    thanks_default: "Thanks for your message!"
+    thanks_response: "Thanks! Your message has been sent successfully."
+    email_empty: "Please enter your email address."
+    email_novalid: "is not a valid email address."
+    will_close: "This window will close in 3 seconds."

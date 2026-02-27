@@ -4,9 +4,9 @@ Se você quiser falar comigo, use este [Formulário de Contato][contact]. Caso v
 
 ### Quem sou eu?
 
-Nascido no Atacama, Chile, Rei da minha Liberdade. Paixão por viajar (Wanderlust). Sou bom com Tecnologia, Física, Matemática e em criar aplicativos com interfaces de usuário simples para infraestruturas de alta demanda. Gosto de me envolver desde as entranhas de silício (Hardware) até os sinais elétricos circulando por seus reils[^reils] (Software). Meus principais interesses são contribuir para Soluções de Software e Hardware por meio da Pesquisa e desenvolvimento de projetos de alto impacto. Gosto de viajar por este 🌎 belo planeta e conhecer diferentes culturas.
+Nascido no Atacama, Chile, Rei da minha Liberdade. Paixão por viajar (Wanderlust). Sou bom com Tecnologia, Física, Matemática e em criar aplicativos com interfaces de usuário simples para infraestruturas de alta demanda. Gosto de me envolver desde as entranhas de silício (Hardware) até os sinais elétricos circulando por seus reils[^reils] (Software). Meus principais interesses são contribuir para Soluções de Software e Hardware por meio da Pesquisa e desenvolvimento de projetos de alto impacto. Gosto de viajar por este belo 🌎 planeta e conhecer diferentes culturas.
 
-Livre de religiões e Política.
+Livre de religiões, seitas e política.
 
 [^reils]: Reils: Um termo pessoal usado para se referir a Rails (trilhos) + Veins (veias).
 

@@ -3,3 +3,22 @@ menu:
   contact: "Contacto"
   resume: "Currículum"
 recent_posts: "Entradas Recientes"
+rss_modal:
+  title: "Mantente Actualizado"
+  email_label: "Recibe insights en tu inbox"
+  email_placeholder: "tu@email.com"
+  subscribe_btn: "Suscribirse"
+  rss_label: "Para Power Users (RSS)"
+  copy_btn: "Copiar Enlace"
+  copied: "¡Copiado!"
+  or: "O"
+  tooltip: "Suscríbete vía RSS"
+  success_toast: "¡Listo! Gracias por unirte a nuestro newsletter. 🚀"
+
+pages:
+  forms:
+    thanks_default: "¡Gracias por tu mensaje!"
+    thanks_response: "¡Gracias! Tu mensaje ha sido enviado con éxito."
+    email_empty: "Por favor, introduce tu correo electrónico."
+    email_novalid: "no es una dirección de correo válida."
+    will_close: "Esta ventana se cerrará en 3 segundos."

@@ -16,11 +16,92 @@
 
   {%- include footer.html -%}
 
+  <!-- scripts -->
+  <script>
+    window.siteTranslations = {
+      "{{ site.lang }}": {{ site.translations[site.lang] | jsonify }}
+    };
+    const currentLang = document.documentElement.lang || 'en';
+    const translations = window.siteTranslations[currentLang];
+  </script>
   <script src="/assets/js/jquery-3.5.1.min.js"></script>
   <script src="/assets/js/bootstrap.bundle.min.js"></script>
   <script src="/assets/js/jquery.viewportchecker.min.js"></script>
   <script src="/assets/js/formConfirmation.js?v=201707221115"></script>
   <script src="/assets/js/script.js?v=201708221114"></script>
+  <div class="modal fade" id="rssModal" tabindex="-1" aria-labelledby="rssModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content border-0 shadow" style="border-radius: 1.25rem;">
+        <div class="modal-header border-0 pb-0">
+          <h5 class="modal-title fw-bold text-black" id="rssModalLabel">{% t rss_modal.title %}</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <!-- Email Subscription -->
+          <div class="mb-4">
+            <label class="form-label fw-bold mb-2 text-black">{% t rss_modal.email_label %}</label>
+            <form id="rss-email-form" class="nea-formModal"
+              data-recaptcha-sitekey="6Le1PEsUAAAAAE9nZ1xNHYDupmR9b1HbSuMF_71f">
+              <div class="input-group">
+                <input type="email" id="form-field-email" class="form-control"
+                  placeholder="{% t rss_modal.email_placeholder %}" required
+                  style="border-radius: 0.75rem 0 0 0.75rem;">
+                <button type="submit" class="btn btn-primary px-4"
+                  style="border-radius: 0 0.75rem 0.75rem 0; background-color: #3b5998; border-color: #3b5998;">
+                  <span class="feature-icon d-none"><i class="bi bi-arrow-repeat fa-spin"></i></span>
+                  {% t rss_modal.subscribe_btn %}
+                </button>
+              </div>
+              <!-- Hidden fields for RSS subscriber logic -->
+              <input type="hidden" id="form-field-name" value="RSS subscriber">
+              <input type="hidden" id="form-field-message" value="RSS subscriber">
+              <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response" value="">
+            </form>
+          </div>
+
+          <div class="text-center my-3 text-secondary">
+            <hr class="w-100">
+            <span class="bg-white px-2 text-black" style="position: relative; top: -0.8rem;">
+              {% t rss_modal.or %}
+            </span>
+          </div>
+
+          <!-- RSS Copy -->
+          <div>
+            <label class="form-label fw-bold mb-2 text-black">{% t rss_modal.rss_label %}</label>
+            <div class="input-group">
+              <input type="text" id="rss-url-input" class="form-control bg-light"
+                value="https://coto.github.io/feed.xml" readonly style="border-radius: 0.75rem 0 0 0.75rem;">
+              <button class="btn btn-outline-primary px-4" id="copy-rss-btn" type="button"
+                style="border-radius: 0 0.75rem 0.75rem 0;">
+                <span id="copy-btn-text">{% t rss_modal.copy_btn %}</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Success Toast -->
+  <div class="toast-container position-fixed top-0 end-0 p-3" style="z-index: 1060;">
+    <div id="successToast" class="toast border-0 shadow" role="alert" aria-live="assertive" aria-atomic="true"
+      style="border-radius: 1rem; background-color: #3b5998; color: white;">
+      <div class="d-flex align-items-center p-3">
+        <div class="toast-body">
+          <svg width="20" height="20" fill="currentColor" class="bi bi-check-circle-fill me-2" viewBox="0 0 16 16">
+            <path
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+          </svg>
+          {% t rss_modal.success_toast %}
+        </div>
+        <button type="button" class="btn-close btn-close-white ms-auto me-2" data-bs-dismiss="toast"
+          aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
+
+  <div id="recaptcha-container" style="display: none;"></div>
 </body>
 
 </html>

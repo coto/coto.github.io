@@ -37,6 +37,7 @@
             "main",
             "ol",
             "p",
+            "path",
             "s",
             "script",
             "section",
@@ -47,6 +48,7 @@
             "section",
             "span",
             "summary",
+            "svg",
             "textarea",
             "ul"
         ]

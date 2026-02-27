@@ -98,7 +98,7 @@ A indústria não ficou parada. Nos últimos dois anos, surgiu um rico ecossiste
 {:.ai-sol-grid}
 
 | Componentes Atuais | Ponto Forte | Limitação |
-|-------------------|----------|------------|
+|:-------------------|:------------|:----------|
 | **Self-RAG** | O modelo avalia em tempo real se precisa de recuperação adicional e critica sua própria resposta | Reduz alucinações, mas aumenta a latência e o custo |
 | **CRAG** | Adiciona avaliação de relevância de documentos; recorre à pesquisa na web se a qualidade for baixa | Melhora casos extremos, mas não o núcleo do problema |
 | **Rerank + CoT** | O reordenamento por relevância semântica combinado com a Cadeia de Pensamento (CoT) força o raciocínio explícito | Excelente para coerência lógica, não garante a correção factual |

@@ -98,7 +98,7 @@ The industry has not stood idle. In the last two years a rich ecosystem of techn
 {:.ai-sol-grid}
 
 | Current Components | Strength | Limitation |
-|-------------------|----------|------------|
+|:-------------------|:---------|:-----------|
 | **Self-RAG** | Model evaluates in real-time if it needs additional retrieval and critiques its own response | Reduces hallucinations but increases latency and cost |
 | **CRAG** | Adds document relevance evaluation; falls back to web search if quality is low | Improves edge cases but not the core of the problem |
 | **Rerank + CoT** | Reordering by semantic relevance combined with Chain-of-Thought forces explicit reasoning | Excellent for logical coherence, does not guarantee factual correctness |

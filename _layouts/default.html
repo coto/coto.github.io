@@ -8,7 +8,8 @@
   {%- include header.html -%}
 
   <main class="page-content" aria-label="Content">
-    <div class="wrapper">
+    <div
+      class="{% if page.layout == 'home' or page.layout == 'blog' or page.layout == 'post' %}container{% else %}wrapper{% endif %}">
       {{ content }}
     </div>
   </main>
@@ -20,5 +21,6 @@
   <script src="/assets/js/jquery.viewportchecker.min.js"></script>
   <script src="/assets/js/formConfirmation.js?v=201707221115"></script>
   <script src="/assets/js/script.js?v=201708221114"></script>
-  </body>
+</body>
+
 </html>

@@ -8,13 +8,13 @@ tags: sistema ontocracia
 author: "Rodrigo (Coto) Augosto Cancino"
 ---
 
-**Español** | [English](/coto/blog/society/2023/03/10/ontocracy) | [Português](/coto/blog/society/2023/03/10/ontocracia-pt)
+**Español** \| [English](/coto/blog/society/2023/03/10/ontocracy) \| [Português](/coto/blog/society/2023/03/10/ontocracia-pt)
 
 ## Abstract
 
 El presente es un ensayo que describe una alternativa de sociedad que habita el planeta, reemplazando a la actual República. Con la llegada de la era de acuario y el acceso a la información amanece una nueva sociedad, donde el animal político[^socialanimal] que habita el planeta, es capaz de vivir en un sistema construido a partir de los aprendizajes heredados del imperio romano y revolución francesa.
 
-| ![Esfinge](/assets/posts/as-within-is-without.jpeg "como es adentro es afuera") |
+| ![Esfinge](/assets/posts/as-within-is-without.jpeg "como es adentro es afuera"){: width="80%" } |
 | :----------------------------------------------------------------------------: |
 | *como es adentro es afuera* |
 

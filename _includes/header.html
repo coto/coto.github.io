@@ -6,12 +6,24 @@
       <a class="site-title" rel="author" href="/">{{ site.title | escape }}</a>
 
       {%- if page_paths -%}
+      <style>
+        .navbar-nav .nav-item.active .nav-link {
+          color: var(--link-color) !important;
+          border-bottom: 2px solid var(--link-color);
+        }
+      </style>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto d-flex align-items-center">
-          {% for page in site.pages %}
-          {% if page.title %}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+          {% for page_loop in site.pages %}
+          {% if page_loop.title %}
+          {% assign is_active = false %}
+          {% if page.url == page_loop.url %}
+          {% assign is_active = true %}
+          {% elsif page_loop.url == '/blog/' and page.url contains '/blog/' %}
+          {% assign is_active = true %}
+          {% endif %}
+          <li class="nav-item {% if is_active %}active{% endif %}">
+            <a class="nav-link" href="{{ page_loop.url | relative_url }}">{{ page_loop.title | escape }}</a>
           </li>
           {% endif %}
           {% endfor %}

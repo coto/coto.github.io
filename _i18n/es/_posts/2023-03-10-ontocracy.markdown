@@ -8,7 +8,7 @@ tags: sistema ontocracia
 author: "Rodrigo (Coto) Augosto Cancino"
 ---
 
-**Español** \| [English](/coto/blog/society/2023/03/10/ontocracy) \| [Português](/coto/blog/society/2023/03/10/ontocracia-pt)
+**Español** \| [English](/coto/blog/society/2023/03/10/ontocracy) \| [Português](/pt/coto/blog/society/2023/03/10/ontocracy)
 
 ## Abstract
 

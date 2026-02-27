@@ -13,7 +13,7 @@ rss_modal:
   copied: "¡Copiado!"
   or: "O"
   tooltip: "Suscríbete vía RSS"
-  success_toast: "¡Listo! Gracias por unirte a nuestro newsletter. 🚀"
+  success_toast: "¡Listo! Gracias por unirte al newsletter. 🚀"
 
 pages:
   forms:

@@ -1,4 +1,4 @@
-Si deseas comunicarte conmigo, por favor usa este Formulario de Contacto. En caso de que te importe encriptar alguna información, por favor usa [esta Llave][pgp_key]{:target="_blank"}.
+Si deseas comunicarte conmigo, por favor usa este Formulario de Contacto.
 
 <form class="contact-form" method="post" id="contact-form" data-recaptcha-sitekey="6Le1PEsUAAAAAE9nZ1xNHYDupmR9b1HbSuMF_71f">
    <p><input name="Name" type="text" placeholder="Tu Nombre" required="required" id="form-field-name" /></p>
@@ -25,4 +25,3 @@ Si deseas comunicarte conmigo, por favor usa este Formulario de Contacto. En cas
    </p>
 </form>
 
-[pgp_key]: /es/public-key/

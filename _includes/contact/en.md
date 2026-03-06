@@ -1,4 +1,4 @@
-If you would like to reach me, please use this Contact Form. In case you would mind to encrypt any information, please use [this Key][pgp_key]{:target="_blank"}.
+If you would like to reach me, please use this Contact Form.
 
 <form class="contact-form" method="post" id="contact-form" data-recaptcha-sitekey="6Le1PEsUAAAAAE9nZ1xNHYDupmR9b1HbSuMF_71f">
    <p><input name="Name" type="text" placeholder="Your Name" required="required" id="form-field-name" /></p>
@@ -25,4 +25,3 @@ If you would like to reach me, please use this Contact Form. In case you would m
    </p>
 </form>
 
-[pgp_key]: /public-key/

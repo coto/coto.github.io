@@ -24,4 +24,3 @@ If you would like to reach me, please use this Contact Form.
       </button>
    </p>
 </form>
-

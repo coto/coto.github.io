@@ -1,0 +1,125 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Home Page -->
+  <url>
+    <loc>{{ site.url }}</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}"/>
+    <xhtml:link rel="alternate" hreflang="es" href="{{ site.url }}/es"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="{{ site.url }}/pt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- Blog Index -->
+  <url>
+    <loc>{{ site.url }}/blog</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}/blog"/>
+    <xhtml:link rel="alternate" hreflang="es" href="{{ site.url }}/es/blog"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="{{ site.url }}/pt/blog"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}/blog"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>{{ site.url }}/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}/contact"/>
+    <xhtml:link rel="alternate" hreflang="es" href="{{ site.url }}/es/contact"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="{{ site.url }}/pt/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}/contact"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Resume Page -->
+  <url>
+    <loc>{{ site.url }}/resume</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}/resume"/>
+    <xhtml:link rel="alternate" hreflang="es" href="{{ site.url }}/es/resume"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="{{ site.url }}/pt/resume"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}/resume"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Public Key Page -->
+  <url>
+    <loc>{{ site.url }}/public-key</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}/public-key"/>
+    <xhtml:link rel="alternate" hreflang="es" href="{{ site.url }}/es/public-key"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="{{ site.url }}/pt/public-key"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}/public-key"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <!-- Post: Agentic Workflow Blueprint -->
+  <url>
+    <loc>{{ site.url }}/coto/blog/technology/langgraph/agent2agent/2026/01/28/agentic-workflow-blueprint</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}/coto/blog/technology/langgraph/agent2agent/2026/01/28/agentic-workflow-blueprint"/>
+    <xhtml:link rel="alternate" hreflang="es" href="{{ site.url }}/es/coto/blog/technology/langgraph/agent2agent/2026/01/28/agentic-workflow-blueprint"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="{{ site.url }}/pt/coto/blog/technology/langgraph/agent2agent/2026/01/28/agentic-workflow-blueprint"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}/coto/blog/technology/langgraph/agent2agent/2026/01/28/agentic-workflow-blueprint"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Post: Continuous Supervision -->
+  <url>
+    <loc>{{ site.url }}/ai/engineering/quality/architecture/2026/02/22/continuos-supervision</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}/ai/engineering/quality/architecture/2026/02/22/continuos-supervision"/>
+    <xhtml:link rel="alternate" hreflang="es" href="{{ site.url }}/es/ai/engineering/quality/architecture/2026/02/22/continuos-supervision"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="{{ site.url }}/pt/ai/engineering/quality/architecture/2026/02/22/continuos-supervision"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}/ai/engineering/quality/architecture/2026/02/22/continuos-supervision"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Post: Ontocracy -->
+  <url>
+    <loc>{{ site.url }}/coto/blog/society/2023/03/10/ontocracy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}/coto/blog/society/2023/03/10/ontocracy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="{{ site.url }}/es/coto/blog/society/2023/03/10/ontocracy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="{{ site.url }}/pt/coto/blog/society/2023/03/10/ontocracy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}/coto/blog/society/2023/03/10/ontocracy"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Post: Chile Singapur -->
+  <url>
+    <loc>{{ site.url }}/coto/blog/chile/2020/09/18/chile-singapur</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}/coto/blog/chile/2020/09/18/chile-singapur"/>
+    <xhtml:link rel="alternate" hreflang="es" href="{{ site.url }}/es/coto/blog/chile/2020/09/18/chile-singapur"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="{{ site.url }}/pt/coto/blog/chile/2020/09/18/chile-singapur"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}/coto/blog/chile/2020/09/18/chile-singapur"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Post: Avoiding Spam -->
+  <url>
+    <loc>{{ site.url }}/coto/blog/recommendations/2018/08/22/ultimate-guide-avoiding-spam</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}/coto/blog/recommendations/2018/08/22/ultimate-guide-avoiding-spam"/>
+    <xhtml:link rel="alternate" hreflang="es" href="{{ site.url }}/es/coto/blog/recommendations/2018/08/22/ultimate-guide-avoiding-spam"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="{{ site.url }}/pt/coto/blog/recommendations/2018/08/22/ultimate-guide-avoiding-spam"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}/coto/blog/recommendations/2018/08/22/ultimate-guide-avoiding-spam"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Post: Relojes Inteligentes (Spanish Only) -->
+  <url>
+    <loc>{{ site.url }}/es/coto/blog/smartwatch/2014/10/15/relojes-inteligentes-que-ya-puedes</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="{{ site.url }}/es/coto/blog/smartwatch/2014/10/15/relojes-inteligentes-que-ya-puedes"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+</urlset>

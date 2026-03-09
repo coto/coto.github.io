@@ -188,7 +188,9 @@ Non-determinism is not an excuse. It is the specification of the problem. And en
 
 **CI/CD/CS. The contract is broken. It’s time to build a new one.**
 
-![CI/CD/CS](/assets/posts/ci-cd-cs.png "CI/CD/CS"){: width="80%" }
+| !![CI/CD/CS](/assets/posts/ci-cd-cs.png "CI/CD/CS"){: width="80%" } |
+| :----------------------------------------------------------------------------: |
+| *CI/CD/CS* |
 
 ---
 

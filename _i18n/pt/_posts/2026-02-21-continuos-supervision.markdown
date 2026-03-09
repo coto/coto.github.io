@@ -188,7 +188,9 @@ Não-determinismo não é uma desculpa. É a especificação do problema. E a en
 
 **CI/CD/CS. O contrato está quebrado. É hora de construir um novo.**
 
-![CI/CD/CS](/assets/posts/ci-cd-cs.png "CI/CD/CS"){: width="80%" }
+| !![CI/CD/CS](/assets/posts/ci-cd-cs.png "CI/CD/CS"){: width="80%" } |
+| :----------------------------------------------------------------------------: |
+| *CI/CD/CS* |
 
 ---
 

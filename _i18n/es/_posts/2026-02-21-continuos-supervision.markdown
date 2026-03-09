@@ -188,7 +188,9 @@ El no determinismo no es una excusa. Es la especificación del problema. Y la in
 
 **CI/CD/CS. El contrato está roto. Es hora de construir uno nuevo.**
 
-![CI/CD/CS](/assets/posts/ci-cd-cs.png "CI/CD/CS"){: width="80%" }
+| !![CI/CD/CS](/assets/posts/ci-cd-cs.png "CI/CD/CS"){: width="80%" } |
+| :----------------------------------------------------------------------------: |
+| *CI/CD/CS* |
 
 ---
 

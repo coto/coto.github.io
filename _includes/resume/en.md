@@ -1,6 +1,6 @@
 <h3>Rodrigo (Coto) Augosto Cancino</h3>
 
-### AI & Machine Learning Technical Lead \| Agentic Systems Architect
+### AI, Machine Learning and Agentic Systems Architect \| Technical Lead
 
 15+ Yrs Technology Leadership (Former CTO) \| LangGraph, PyTorch, TypeScript & Python
 
@@ -19,8 +19,6 @@ With over 15 years in technology leadership —including tenure as a **Fintech C
 - ⚡ **Edge AI**: Leveraging an Electronics Engineering foundation to optimize model inference and latency for high-performance real-time environments.
 
 **The Impact**: I consistently deliver 40%+ gains in operational ROI by aligning emerging AI research with scalable engineering excellence.
-
-[Let’s connect](/contact/) if you are looking to scale your AI infrastructure or build a high-performing engineering culture around Generative AI.
 
 ---
 

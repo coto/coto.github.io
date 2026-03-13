@@ -1,6 +1,6 @@
 <h3>Rodrigo (Coto) Augosto Cancino</h3>
 
-### Líder Técnico de IA e Machine Learning \| Arquiteto de Sistemas Agênticos
+### Arquiteto de IA, Aprendizado de Máquina e Sistemas Agentes \| Líder Técnico
 
 Mais de 15 Anos de Liderança Tecnológica (Ex-CTO) \| LangGraph, PyTorch, TypeScript e Python
 
@@ -19,8 +19,6 @@ Com mais de 15 anos de liderança tecnológica —incluindo experiência como **
 - ⚡ **IA na Borda (Edge AI)**: Aproveitando uma base em Engenharia Eletrônica para otimizar a inferência de modelos e a latência para ambientes de tempo real de alto desempenho.
 
 **O Impacto**: Eu consistentemente entrego ganhos de 40%+ no ROI operacional, alinhando a pesquisa emergente de IA com a excelência em engenharia escalável.
-
-[Vamos nos conectar](/contact/) se você procura escalar a sua infraestrutura de IA ou construir uma cultura de engenharia de alto desempenho em torno da IA Generativa.
 
 ---
 

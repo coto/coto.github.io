@@ -3,7 +3,7 @@ layout: post
 title:  "Plano de Flujo de Trabajo Agéntico"
 date:   2026-01-28 17:35:00 -0300
 categories: coto blog technology LangGraph Agent2Agent
-author: "Rodrigo (Coto) Augusto Cancino"
+author: "Rodrigo (Coto) Augosto Cancino"
 ---
 
 **Español** \| [English](/coto/blog/technology/langgraph/agent2agent/2026/01/28/agentic-workflow-blueprint) \| [Português](/pt/coto/blog/technology/langgraph/agent2agent/2026/01/28/agentic-workflow-blueprint)

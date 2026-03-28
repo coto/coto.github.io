@@ -3,16 +3,12 @@ layout: post
 title: "Kiro: A Prova de que ser \"IA First\" é o caminho do medo e o atalho para o fracasso"
 date: 2026-03-28 09:00:00 -0300
 categories: ai engineering leadership opinion
-author: "Rodrigo (Coto) Augusto Cancino"
+author: "Rodrigo (Coto) Augosto Cancino"
 ---
 
 [Español](/es/ai/engineering/leadership/opinion/2026/03/28/kiro-ia-first-camino-miedo) \| [English](/ai/engineering/leadership/opinion/2026/03/28/kiro-ia-first-camino-miedo) \| **Português**
 
 {:.ai-editorial}
-
-## Kiro: A Prova de que ser "IA First" é o caminho do medo e o atalho para o fracasso
-
-{:.hero-title}
 
 {:.eyebrow-label}
 // Liderança em IA · Opinião Técnica · Março de 2026

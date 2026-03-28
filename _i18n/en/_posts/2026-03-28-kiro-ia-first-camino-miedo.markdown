@@ -3,16 +3,12 @@ layout: post
 title: "Kiro: Proof That \"AI First\" Is the Path of Fear and the Shortcut to Failure"
 date: 2026-03-28 09:00:00 -0300
 categories: ai engineering leadership opinion
-author: "Rodrigo (Coto) Augusto Cancino"
+author: "Rodrigo (Coto) Augosto Cancino"
 ---
 
 [Español](/es/ai/engineering/leadership/opinion/2026/03/28/kiro-ia-first-camino-miedo) \| **English** \| [Português](/pt/ai/engineering/leadership/opinion/2026/03/28/kiro-ia-first-camino-miedo)
 
 {:.ai-editorial}
-
-## Kiro: Proof That "AI First" Is the Path of Fear and the Shortcut to Failure
-
-{:.hero-title}
 
 {:.eyebrow-label}
 // AI Leadership · Technical Opinion · March 2026

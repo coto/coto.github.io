@@ -5,7 +5,7 @@ comments: false
 date:   2020-09-18 17:51:00 -0300
 categories: coto blog chile
 tags: blog chile singapur plebiscito apruebo rechazo político política udi comunista marxista capitalismo neoliberalismo estudantes
-author: "Rodrigo (Coto) Augusto Cancino"
+author: "Rodrigo (Coto) Augosto Cancino"
 ---
 [Español](/es/coto/blog/chile/2020/09/18/chile-singapur) \| [English](/coto/blog/chile/2020/09/18/chile-singapur) \| **Português**
 

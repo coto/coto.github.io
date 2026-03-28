@@ -3,7 +3,7 @@ layout: post
 title: "CI/CD/CS — A Bala de Prata para a Qualidade em Sistemas de IA"
 date: 2026-02-22 09:00:00 -0300
 categories: ai engineering quality architecture
-author: "Rodrigo (Coto) Augusto Cancino"
+author: "Rodrigo (Coto) Augosto Cancino"
 ---
 
 [Español](/es/ai/engineering/quality/architecture/2026/02/22/continuos-supervision)\| [English](/ai/engineering/quality/architecture/2026/02/22/continuos-supervision) \| **Português**

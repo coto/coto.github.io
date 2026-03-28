@@ -18,7 +18,7 @@ author: "Rodrigo (Coto) Augusto Cancino"
 // Liderazgo en IA · Opinión Técnica · Marzo 2026
 
 {:.ai-lead}
-En los últimos meses, el término **"IA First"** ha pasado de ser una visión estratégica a convertirse en el epitafio de la sensatez empresarial. Muchas compañías, cegadas por el brillo de la eficiencia teórica y el ahorro de costos, han decidido entregar las llaves del reino a algoritmos que, si bien son excelentes loros estocásticos, carecen de lo que realmente sostiene a una industria: el **juicio**.
+En los últimos meses, el término **"IA First"** ha pasado de ser una visión estratégica a convertirse en el epitafio de la sensatez empresarial. Muchas compañías, cegadas por el brillo de la eficiencia teórica y el ahorro de costos, o a veces por el miedo a ser comidos vivos por la competencia, han decidido entregar las llaves del reino a algoritmos que, si bien son excelentes loros estocásticos, carecen de lo que realmente sostiene a una industria: el **juicio**.
 
 ---
 
@@ -65,7 +65,7 @@ crítica con la misma serenidad con la que redacta un correo electrónico.
 
 ### La Fábrica de Colaboradores "Huecos"
 
-La filosofía *IA First* está creando una generación de profesionales atrofiados. La ciencia ya le ha puesto nombre a esto: **"Rendición Cognitiva"**. Estudios recientes del MIT y Harvard demuestran que el uso excesivo de IA reduce la conectividad neuronal en áreas relacionadas con la atención y la memoria en casi un **50%**.
+La filosofía *IA First* está creando una generación de profesionales atrofiados. La ciencia ya le ha puesto nombre a esto: **"Rendición Cognitiva"**. Estudios recientes del [MIT](https://www.nextgov.com/artificial-intelligence/2025/07/new-mit-study-suggests-too-much-ai-use-could-increase-cognitive-decline/406521/) y [Harvard](https://news.harvard.edu/gazette/story/2025/11/is-ai-dulling-our-minds/) demuestran que el uso excesivo de IA reduce la conectividad neuronal en áreas relacionadas con la atención y la memoria en casi un **50%**.
 
 Al delegar el razonamiento, el cerebro humano —que es el músculo más eficiente y a la vez más perezoso que conocemos— entra en un estado de descarga cognitiva. Si no hay fricción, no hay aprendizaje. Si el programador se limita a ser un "copia-pega" de lo que sugiere Copilot, pierde la musculatura necesaria para detectar cuándo la IA está a punto de borrar un centro de datos entero.
 

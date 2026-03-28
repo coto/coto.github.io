@@ -18,7 +18,7 @@ author: "Rodrigo (Coto) Augusto Cancino"
 // Liderança em IA · Opinião Técnica · Março de 2026
 
 {:.ai-lead}
-Nos últimos meses, o termo **"IA First"** passou de ser uma visão estratégica a se tornar o epitáfio do bom senso empresarial. Muitas empresas, ofuscadas pelo brilho da eficiência teórica e pela redução de custos, decidiram entregar as chaves do reino a algoritmos que, embora sejam excelentes papagaios estocásticos, carecem do que realmente sustenta uma indústria: o **julgamento**.
+Nos últimos meses, o termo **"IA First"** passou de ser uma visão estratégica a se tornar o epitáfio do bom senso empresarial. Muitas empresas, ofuscadas pelo brilho da eficiência teórica e pela redução de custos, ou às vezes pelo medo de serem comidas vivas pela concorrência, decidiram entregar as chaves do reino a algoritmos que, embora sejam excelentes papagaios estocásticos, carecem do que realmente sustenta uma indústria: o **julgamento**.
 
 ---
 
@@ -65,7 +65,7 @@ com a mesma serenidade com que redige um e-mail.
 
 ### A Fábrica de Colaboradores "Ocos"
 
-A filosofia *IA First* está criando uma geração de profissionais atrofiados. A ciência já deu um nome a isso: **"Rendição Cognitiva"**. Estudos recentes do MIT e de Harvard demonstram que o uso excessivo de IA reduz a conectividade neural em áreas relacionadas à atenção e à memória em quase **50%**.
+A filosofia *IA First* está criando uma geração de profissionais atrofiados. A ciência já deu um nome a isso: **"Rendição Cognitiva"**. Estudos recentes do [MIT](https://www.nextgov.com/artificial-intelligence/2025/07/new-mit-study-suggests-too-much-ai-use-could-increase-cognitive-decline/406521/) e [Harvard](https://news.harvard.edu/gazette/story/2025/11/is-ai-dulling-our-minds/) demonstram que o uso excessivo de IA reduz a conectividade neural em áreas relacionadas à atenção e à memória em quase **50%**.
 
 Ao delegar o raciocínio, o cérebro humano — o músculo mais eficiente e ao mesmo tempo mais preguiçoso que conhecemos — entra em um estado de descarga cognitiva. Se não há fricção, não há aprendizado. Se o programador se limita a "copiar e colar" as sugestões do Copilot, perde a musculatura necessária para detectar quando a IA está prestes a apagar um data center inteiro.
 

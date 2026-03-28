@@ -18,7 +18,7 @@ author: "Rodrigo (Coto) Augusto Cancino"
 // AI Leadership · Technical Opinion · March 2026
 
 {:.ai-lead}
-In recent months, the term **"AI First"** has gone from being a strategic vision to becoming the epitaph of corporate common sense. Many companies, blinded by the gleam of theoretical efficiency and cost savings, have decided to hand the keys of the kingdom to algorithms that, while excellent stochastic parrots, lack what truly sustains an industry: **judgment**.
+In recent months, the term **"AI First"** has gone from being a strategic vision to becoming the epitaph of corporate common sense. Many companies, blinded by the gleam of theoretical efficiency and cost savings, or sometimes by the fear of being eaten alive by the competition, have decided to hand the keys of the kingdom to algorithms that, while excellent stochastic parrots, lack what truly sustains an industry: **judgment**.
 
 ---
 
@@ -65,7 +65,7 @@ with the same serenity with which it drafts an email.
 
 ### The Factory of "Hollow" Collaborators
 
-The *AI First* philosophy is creating a generation of atrophied professionals. Science has already given this a name: **"Cognitive Surrender"**. Recent studies from MIT and Harvard demonstrate that excessive AI use reduces neural connectivity in areas related to attention and memory by nearly **50%**.
+The *AI First* philosophy is creating a generation of atrophied professionals. Science has already given this a name: **"Cognitive Surrender"**. Recent studies from [MIT](https://www.nextgov.com/artificial-intelligence/2025/07/new-mit-study-suggests-too-much-ai-use-could-increase-cognitive-decline/406521/) and [Harvard](https://news.harvard.edu/gazette/story/2025/11/is-ai-dulling-our-minds/) demonstrate that excessive AI use reduces neural connectivity in areas related to attention and memory by nearly **50%**.
 
 When reasoning is delegated, the human brain—the most efficient and simultaneously laziest muscle we know—enters a state of cognitive offloading. If there is no friction, there is no learning. If the programmer is reduced to "copy-pasting" Copilot suggestions, they lose the muscular memory needed to detect when AI is about to wipe out an entire data center.
 

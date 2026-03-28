@@ -130,8 +130,8 @@ h6 {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width: -webkit-calc(#{$content-width});
+  max-width: calc(#{$content-width});
   margin-right: auto;
   margin-left: auto;
   padding-right: $spacing-unit;
@@ -510,7 +510,8 @@ em.por {
   margin-bottom: $spacing-unit;
   font-family: $post-font-family;
 
-  ul, ol {
+  ul,
+  ol {
     padding-left: 15px;
   }
 

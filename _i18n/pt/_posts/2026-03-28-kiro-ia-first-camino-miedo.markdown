@@ -10,7 +10,7 @@ author: "Rodrigo (Coto) Augusto Cancino"
 
 {:.ai-editorial}
 
-# Kiro: A Prova de que ser "IA First" é o caminho do medo e o atalho para o fracasso
+## Kiro: A Prova de que ser "IA First" é o caminho do medo e o atalho para o fracasso
 
 {:.hero-title}
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What is happening in Chile, why could it be a worldwide example and what should a Chilean take into consideration for next October Referendum?"
+title:  "What is happening in Chile, why could it be a worldwide example and what should a Chilean take into consideration for next October 25th, 2020, Referendum?"
 comments: false
 date:   2020-09-18 17:51:00 -0300
 categories: coto blog chile

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "O que está acontecendo no Chile, por que poderia ser um exemplo mundial e o que um chileno deve levar em consideração para o plebiscito de Outubro?"
+title:  "O que está acontecendo no Chile, por que poderia ser um exemplo mundial e o que um chileno deve levar em consideração para o plebiscito de Outubro 25, 2020?"
 comments: false
 date:   2020-09-18 17:51:00 -0300
 categories: coto blog chile

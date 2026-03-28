@@ -10,7 +10,7 @@ author: "Rodrigo (Coto) Augosto Cancino"
 
 {:.ai-editorial}
 
-# CI/CD/**CS**{:.cs-highlight} — The Silver Bullet for Quality in AI
+## CI/CD/**CS**{:.cs-highlight} — The Silver Bullet for Quality in AI
 
 {:.hero-title}
 

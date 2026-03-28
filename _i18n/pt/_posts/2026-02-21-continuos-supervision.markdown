@@ -10,7 +10,7 @@ author: "Rodrigo (Coto) Augusto Cancino"
 
 {:.ai-editorial}
 
-# CI/CD/**CS**{:.cs-highlight} — A Bala de Prata para a Qualidade em IA
+## CI/CD/**CS**{:.cs-highlight} — A Bala de Prata para a Qualidade em IA
 
 {:.hero-title}
 

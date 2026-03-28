@@ -10,7 +10,7 @@ author: "Rodrigo (Coto) Augusto Cancino"
 
 {:.ai-editorial}
 
-# Kiro: Proof That "AI First" Is the Path of Fear and the Shortcut to Failure
+## Kiro: Proof That "AI First" Is the Path of Fear and the Shortcut to Failure
 
 {:.hero-title}
 

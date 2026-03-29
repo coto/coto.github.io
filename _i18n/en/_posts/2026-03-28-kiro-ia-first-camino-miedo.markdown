@@ -43,16 +43,10 @@ AI was not developed to be a logical mind; it is a statistical predictor of the 
 
 Newton, Euclid, or Archimedes were not seeking what was probable—they were seeking what was immutable. Delegating crucial processes to an entity that cannot distinguish between a coherent hallucination and an axiom is, quite simply, technical suicide.
 
-{:.ai-error-box}
-**⚠ The industry's most expensive category error**
-
-```text
-False assumption: "AI reasons like a mathematician."
-Architectural reality: AI predicts the most probable next token in a vector
+AI does not reason like a mathematician, but predicts the most probable next token in a vector
 space. It does not operate on axioms; it operates on statistical co-occurrence.
-Production consequence: A "confident" AI can destroy critical infrastructure
-with the same serenity with which it drafts an email.
-```
+
+Production consequence: A "confident" AI can destroy critical infrastructure with the same serenity with which it drafts an email.
 
 ---
 
@@ -82,7 +76,7 @@ Designing an agent system is not just throwing prompts at an API. It requires a 
 
 {:.ai-layers}
 **2. Quality Assurance (QA) with Empathy**
-Real QA is not measured in *test coverage*. No one is better positioned than a human end user to feel the friction, fear, or satisfaction of a product. AI can tell you that the code "works," but only a human can tell you whether the product is "valuable" or merely "consumable."
+Real QA is not measured in *test coverage*. No one is better positioned than a human end user to feel the friction, fear, or satisfaction of a product. AI can tell you that the code "works," but only a human can tell you whether the product is "the expected" or merely "consumable."
 
 {:.ai-layers}
 **3. Managing the "Black Swan" (Unforeseen Events)**

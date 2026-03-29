@@ -43,16 +43,9 @@ A IA não foi desenvolvida para ser uma mente lógica; ela é um preditor estat�
 
 Newton, Euclides ou Arquimedes não buscavam o provável, buscavam o imutável. Delegar processos cruciais a uma entidade que não distingue entre uma alucinação coerente e um axioma é, simplesmente, um suicídio técnico.
 
-{:.ai-error-box}
-**⚠ O erro de categoria mais caro da indústria**
+A IA não raciocina como um matemático, mas prediz o próximo token mais provável em um espaço vetorial. Ela não opera sobre axiomas; opera sobre co-ocorrência estatística.
 
-```text
-Suposição falsa: "A IA raciocina como um matemático."
-Realidade arquitetônica: A IA prevê o próximo token mais provável em um espaço
-vetorial. Ela não opera sobre axiomas; opera sobre co-ocorrência estatística.
-Consequência em produção: Uma IA "confiante" pode destruir infraestrutura crítica
-com a mesma serenidade com que redige um e-mail.
-```
+Consequência em produção: Uma IA "confiante" pode destruir infraestrutura crítica com a mesma serenidade com que redige um e-mail.
 
 ---
 
@@ -82,7 +75,7 @@ Projetar um sistema de agentes não é apenas lançar prompts em uma API. Requer
 
 {:.ai-layers}
 **2. Quality Assurance (QA) com Empatia**
-O QA real não se mede em *test coverage*. Ninguém melhor do que um usuário final humano para sentir a fricção, o medo ou a satisfação diante de um produto. A IA pode dizer que o código "funciona", mas somente um humano pode dizer se o produto é "valioso" ou apenas "consumível".
+O QA real não se mede em *test coverage*. Ninguém melhor do que um usuário final humano para sentir a fricção, o medo ou a satisfação diante de um produto. A IA pode dizer que o código "funciona", mas somente um humano pode dizer se o produto é "o esperado" ou apenas "consumível".
 
 {:.ai-layers}
 **3. A Gestão do "Cisne Negro" (Eventos Imprevistos)**

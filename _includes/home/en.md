@@ -1,6 +1,6 @@
 Hey, I'm Rodrigo (Coto) Augosto Cancino (also know as Coto). This is my personal site, it includes [Blog Posts of Free Topics][blog] with undetermined update frequency ([RSS Feed][rss]{: .rss-icon-link}). All the content is my own and has no relation to third parties.
 
-If you would like to reach me, use this [Contact Form][contact]. In case you would mind to encrypt the information, please use [this Key][pgp_key]{:target="_blank"}.
+If you would like to reach me, use this [Contact Form][contact]. In case you would mind to encrypt the information, please ask me for a Key beforehand.
 
 ### Who am I?
 
@@ -13,4 +13,3 @@ Free of religions, sects and politics.
 [blog]: /blog/
 [rss]: https://feeds.feedburner.com/coto
 [contact]: /contact/
-[pgp_key]: /public-key/

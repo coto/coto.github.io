@@ -1,6 +1,6 @@
 Olá, eu sou Rodrigo (Coto) Augosto Cancino (também conhecido como Coto). Este é o meu site pessoal, ele inclui [Postagens de Blog de Tópicos Livres][blog] com frequência de atualização indeterminada ([RSS Feed][rss]{: .rss-icon-link}). Todo o conteúdo é de minha autoria e não tem relação com terceiros.
 
-Se você quiser falar comigo, use este [Formulário de Contato][contact]. Caso você se importe em criptografar as informações, por favor use [esta Chave][pgp_key]{:target="_blank"}.
+Se você quiser falar comigo, use este [Formulário de Contato][contact]. Caso você se importe em criptografar alguma informação, por favor me peça uma Key previamente.
 
 ### Quem sou eu?
 
@@ -13,4 +13,3 @@ Livre de religiões, seitas e política.
 [blog]: /pt/blog/
 [rss]: https://feeds.feedburner.com/coto
 [contact]: /pt/contact/
-[pgp_key]: /pt/public-key/

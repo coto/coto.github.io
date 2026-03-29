@@ -66,9 +66,6 @@ markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title
 # permalink: /:categories/:year/:month/:day/:title:output_ext
 
-disqus:
-  shortname: coto
-
 # Exclude from processing.
 include: [.well-known]
 

@@ -1,0 +1,9 @@
+{
+  "[scss]": {
+    "editor.formatOnSave": false
+  },
+  "scss.validate": false,
+  "css.validate": false,
+  "stylelint.enable": false,
+  "stylelint.validate": []
+}

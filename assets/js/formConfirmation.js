@@ -1,3 +1,17 @@
+let clientIp = 'Pending';
+fetch('https://api64.ipify.org?format=json')
+  .then(res => {
+    if (res.ok) return res.json();
+    throw new Error('api64 failed');
+  })
+  .then(data => { clientIp = data.ip; })
+  .catch(err => {
+    fetch('https://api.ipify.org?format=json')
+      .then(res => res.json())
+      .then(data => { clientIp = data.ip; })
+      .catch(() => { clientIp = 'Unavailable'; });
+  });
+
 function ValidateEmail(email) {
 	if (email.indexOf("@agenciasubido.com") >= 0) {
 		alert("spam detected.");
@@ -61,12 +75,23 @@ function postForm(form, modal = false) {
 	}
 
 	// Add reference metadata
+	const screenRes = `${window.screen.width}x${window.screen.height}`;
+	const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone || 'Unknown';
+	const clientLang = navigator.language || 'Unknown';
+	const clientTime = new Date().toLocaleString();
+
 	message = ` 
 	${message} <br><br>
 	---
 	<hr>
 	<p><b>**Reference**</b>: ${href}</p>
 	<p><b>**Language**</b>: ${currentLang}</p>
+	<p><b>**Client Lang**</b>: ${clientLang}</p>
+	<p><b>**IP**</b>: ${clientIp}</p>
+	<p><b>**Timezone**</b>: ${userTimeZone}</p>
+	<p><b>**Screen**</b>: ${screenRes}</p>
+	<p><b>**Submitted**</b>: ${clientTime}</p>
+	<p><b>**UA**</b>: ${navigator.userAgent}</p>
 	`;
 
 	$.ajax({

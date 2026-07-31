@@ -19,6 +19,7 @@ $spacing-unit: 30px !default;
 
 // Theme variables (CSS custom properties)
 :root {
+  --bg: #111;
   --background-color: #111;
   --text-color: #fdfdfd;
   --code-background-color: #181818;
@@ -32,6 +33,7 @@ $spacing-unit: 30px !default;
 }
 
 [data-theme="light"] {
+  --bg: #fdfdfd;
   --background-color: #fdfdfd;
   --text-color: #111;
   --code-background-color: #eeeeee;
@@ -595,8 +597,13 @@ em.por {
   }
 }
 
+html {
+  scrollbar-color: #283A90 var(--bg);
+}
+
 body {
-  font-size: 19px;
+  font-size: 17px;
+  line-height: 27px;
   font-family: $post-font-family;
   background-color: var(--background-color);
   color: var(--text-color);

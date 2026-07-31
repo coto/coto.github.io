@@ -13,7 +13,7 @@ $base-font-weight: 400 !default;
 $small-font-size: $base-font-size * 0.875 !default;
 $base-line-height: 1.75 !default;
 $ai-mono: 'Space Mono', 'Courier New', monospace;
-$post-font-family: 'Source Serif Pro', Georgia, Cambria, "Times New Roman", Times, serif;
+$post-font-family: "Iowan Old Style BT", Georgia, serif;
 
 $spacing-unit: 30px !default;
 
@@ -597,7 +597,7 @@ em.por {
 
 body {
   font-size: 19px;
-  font-family: 'Source Serif Pro', Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: $post-font-family;
   background-color: var(--background-color);
   color: var(--text-color);
   transition: background-color 0.3s ease, color 0.3s ease;

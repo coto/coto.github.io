@@ -2,7 +2,7 @@
 
 ### [Google Cloud Certified Generative AI Leader](https://www.credly.com/badges/20c316e6-18b7-455d-8043-06cb41c04743/public_url) \| AI, Machine Learning and Agentic Systems Architect
 
-15+ Yrs Technology Leadership (Former CTO) \| LangGraph, PyTorch, TypeScript & Python
+15+ Yrs Technology Leadership (Former CTO) \| ADK, LangGraph, PyTorch, TypeScript & Python
 
 <hr style="padding-bottom: 20px;">
 

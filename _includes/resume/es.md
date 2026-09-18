@@ -1,6 +1,6 @@
 <h3>Rodrigo (Coto) Augosto Cancino</h3>
 
-### <a href="https://www.credly.com/badges/20c316e6-18b7-455d-8043-06cb41c04743/public_url" target="_blank" rel="noopener noreferrer">Líder en IA Generativa Certificado por Google Cloud</a> \| Arquitecto de IA, Aprendizaje Automático y Sistemas Agenciales
+### <a href="https://www.credly.com/badges/20c316e6-18b7-455d-8043-06cb41c04743/public_url" target="_blank" rel="noopener noreferrer">Líder en IA Generativa Certificado por Google Cloud</a> \| Arquitecto de IA, Aprendizaje Automático y Sistemas Agénticos
 
 Más de 15 Años de Liderazgo Tecnológico (Ex CTO) \| ADK, LangGraph, PyTorch, TypeScript y Python
 

@@ -18,7 +18,7 @@ Mi trabajo reciente incluye la arquitectura de soluciones SaaS impulsadas por IA
 - 🧠 **Deep Learning y Visión Computacional**: Desarrollo de pipelines de ML integrales (PyTorch) para reconocimiento de patrones financieros, utilizando Gramian Angular Fields (GAF) y Redes Neuronales Convolucionales (CNN) para análisis de tendencias de alta precisión.
 - 📚 **RAG Avanzado**: Construcción de sistemas de Generación Aumentada por Recuperación (RAG) de alta precisión para automatizar la recuperación de conocimiento mediante Model Context Protocol (MCP).
 - 🛡️ **Gobernanza y Confianza**: Establecimiento de "Capas de Confianza" seguras, depuración de PII y pipelines de evaluación de modelos (RAGAS/TruLens) para sectores regulados.
-- ⚡ **Nube y Automatización**: Aprovechamiento de la <a href="https://www.credly.com/badges/20c316e6-18b7-455d-8043-06cb41c04743/public_url" target="_blank" rel="noopener noreferrer">certificación oficial de Google Cloud</a> para optimizar la inferencia de modelos en entornos de nube, combinado con integraciones avanzadas de flujos de trabajo en n8n para operaciones de negocio.
+- ⚡ **Nube y Automatización**: Aprovechamiento de la <a href="https://www.credly.com/badges/20c316e6-18b7-455d-8043-06cb41c04743/public_url" target="_blank" rel="noopener noreferrer">certificación oficial de Google Cloud</a> para optimizar la inferencia de modelos y la latencia en entornos multicloud **(GCP, AWS y Azure)**, combinado con integraciones avanzadas de flujos de trabajo en n8n para operaciones de negocio.
 
 **El Impacto**: Constantemente entrego mejoras del 40%+ en el ROI operativo alineando la investigación de IA emergente con la excelencia en ingeniería escalable.
 

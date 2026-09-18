@@ -18,7 +18,7 @@ My recent work includes architecting AI-driven SaaS solutions, engineering RAG-b
 - 🧠 **Deep Learning & Computer Vision**: Developed end-to-end ML pipelines (PyTorch) for financial pattern recognition, utilizing Gramian Angular Fields (GAF) and CNNs for high-precision trend analysis.
 - 📚 **Advanced RAG**: Building high-precision Retrieval-Augmented Generation systems to automate knowledge retrieval via Model Context Protocol (MCP).
 - 🛡️ **Governance & Trust**: Establishing secure "Trust Layers," PII-scrubbing, and model evaluation pipelines (RAGAS/TruLens) for regulated sectors.
-- ⚡ **Cloud & Automation**: Leveraging official <a href="https://www.credly.com/badges/20c316e6-18b7-455d-8043-06cb41c04743/public_url" target="_blank" rel="noopener noreferrer">Google Cloud certification</a> to optimize model inference across cloud environments, combined with advanced n8n workflow integrations for business operations.
+- ⚡ **Cloud & Automation**: Leveraging official <a href="https://www.credly.com/badges/20c316e6-18b7-455d-8043-06cb41c04743/public_url" target="_blank" rel="noopener noreferrer">Google Cloud certification</a> to optimize model inference and latency across multicloud environments **(GCP, AWS, and Azure)**, combined with advanced n8n workflow integrations for business operations.
 
 **The Impact**: I consistently deliver 40%+ gains in operational ROI by aligning emerging AI research with scalable engineering excellence.
 

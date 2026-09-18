@@ -2,7 +2,7 @@
 
 ### <a href="https://www.credly.com/badges/20c316e6-18b7-455d-8043-06cb41c04743/public_url" target="_blank" rel="noopener noreferrer">Líder en IA Generativa Certificado por Google Cloud</a> \| Arquitecto de IA, Aprendizaje Automático y Sistemas Agénticos
 
-Más de 15 Años de Liderazgo Tecnológico (Ex CTO) \| ADK, LangGraph, PyTorch, TypeScript y Python
+Más de 15 Años de Liderazgo Tecnológico (Trayectoria de CTO) \| ADK, Agent2Agent, LangGraph, PyTorch, TypeScript y Python
 
 <hr style="padding-bottom: 20px;">
 

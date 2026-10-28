@@ -16,10 +16,12 @@ permalink: /resume/
     color: var(--link-color);
   }
   ul {
-    list-style: none;
+    list-style: disc;
+    margin-left: 12px;
+    font-size: 17px;
   }
   ul li {
-    padding-bottom: 10px;
+    padding-bottom: 0px;
   }
 </style>
 {% if site.lang == 'es' %}

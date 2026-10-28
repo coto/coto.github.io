@@ -1,26 +1,28 @@
 <h3>Rodrigo (Coto) Augosto Cancino</h3>
 
-### <a href="https://www.credly.com/badges/20c316e6-18b7-455d-8043-06cb41c04743/public_url" target="_blank" rel="noopener noreferrer">Líder en IA Generativa Certificado por Google Cloud</a> \| Arquitecto de IA, Aprendizaje Automático y Sistemas Agénticos
+### Arquitecto de IA y Sistemas Agénticos \| <a href="https://www.credly.com/badges/20c316e6-18b7-455d-8043-06cb41c04743/public_url" target="_blank" rel="noopener noreferrer">Google Cloud Certified Generative AI Leader</a>
 
-Más de 15 Años de Liderazgo Tecnológico (Trayectoria de CTO) \| ADK, Agent2Agent, LangGraph, PyTorch, TypeScript y Python
+15+ Años de Liderazgo Tecnológico (CTO Background) \| ADK, Agent2Agent, LangGraph, PyTorch, TypeScript & Python
 
 <hr style="padding-bottom: 20px;">
 
-La mayoría de los agentes de IA son fáciles de demostrar pero difíciles de escalar. Yo cierro esa brecha construyendo sistemas de **Automatización Inteligente** listos para producción que son deterministas, seguros y matemáticamente fundamentados.
+La mayoría de los agentes de IA son fáciles de demostrar, pero fallan al escalar. Cerrar esa brecha requiere construir sistemas de **Automatización Inteligente** listos para producción que sean deterministas, seguros y con fundamentos matemáticos.
 
-Con más de 15 años de liderazgo tecnológico —incluyendo experiencia como **CTO de Fintech**— y reconocido como <a href="https://www.credly.com/badges/20c316e6-18b7-455d-8043-06cb41c04743/public_url" target="_blank" rel="noopener noreferrer"><strong>Líder en IA Generativa Certificado por Google Cloud</strong></a>, me especializo en llevar las iniciativas de IA desde chatbots experimentales a **Flujos de Trabajo Agénticos** de nivel empresarial. Mi enfoque combina la estrategia de negocio de alto nivel con una profunda experiencia arquitectónica en **LangGraph**, **PyTorch**, **Google ADK** y el protocolo **Agent2Agent**.
+Con más de 15 años de liderazgo tecnológico, incluyendo una extensa **trayectoria como CTO en Fintech**, y el reconocimiento como <a href="https://www.credly.com/badges/20c316e6-18b7-455d-8043-06cb41c04743/public_url" target="_blank" rel="noopener noreferrer"><strong>Google Cloud Certified Generative AI Leader</strong></a>, **me enfoco en la transición** de iniciativas de IA desde chatbots experimentales hacia **Flujos de Trabajo Agénticos** de grado empresarial. Este enfoque fusiona la estrategia directiva de alto nivel con una ejecución arquitectónica profunda utilizando **LangGraph**, **PyTorch**, **Google ADK** y el protocolo **Agent2Agent**.
 
-Mi trabajo reciente incluye la arquitectura de soluciones SaaS impulsadas por IA, la ingeniería de sistemas conversacionales basados en RAG, y el liderazgo de equipos técnicos en automatizaciones complejas de flujos de trabajo y migraciones multi-agente.
+Los hitos de ingeniería recientes incluyen el diseño de arquitecturas SaaS impulsadas por IA, el despliegue de sistemas conversacionales RAG de baja latencia y la dirección de equipos técnicos a través de automatizaciones de flujos de trabajo complejos e integraciones multi-agente.
 
-**Experiencia Principal:**
+### Competencias Principales y Arquitectura
 
-- 🤖 **Orquestación Agéntica**: Diseño de flujos de trabajo de máquinas de estado confiables para resolver desafíos complejos de lógica no lineal con un 99.9% de confiabilidad.
-- 🧠 **Deep Learning y Visión Computacional**: Desarrollo de pipelines de ML integrales (PyTorch) para reconocimiento de patrones financieros, utilizando Gramian Angular Fields (GAF) y Redes Neuronales Convolucionales (CNN) para análisis de tendencias de alta precisión.
-- 📚 **RAG Avanzado**: Construcción de sistemas de Generación Aumentada por Recuperación (RAG) de alta precisión para automatizar la recuperación de conocimiento mediante Model Context Protocol (MCP).
-- 🛡️ **Gobernanza y Confianza**: Establecimiento de "Capas de Confianza" seguras, depuración de PII y pipelines de evaluación de modelos (RAGAS/TruLens) para sectores regulados.
-- ⚡ **Nube y Automatización**: Aprovechamiento de la <a href="https://www.credly.com/badges/20c316e6-18b7-455d-8043-06cb41c04743/public_url" target="_blank" rel="noopener noreferrer">certificación oficial de Google Cloud</a> para optimizar la inferencia de modelos y la latencia en entornos multicloud **(GCP, AWS y Azure)**, combinado con integraciones avanzadas de flujos de trabajo en n8n para operaciones de negocio.
+<ul>
+  <li style="margin-bottom: 8px;"><strong>Orquestación Agéntica:</strong> Diseño de flujos de trabajo confiables basados en máquinas de estado para resolver desafíos lógicos complejos y no lineales con un 99.9% de confiabilidad.</li>
+  <li style="margin-bottom: 8px;"><strong>Deep Learning y Visión por Computadora:</strong> Desarrollo de pipelines de ML de extremo a extremo (PyTorch) para el reconocimiento de patrones financieros, utilizando Campos Angulares de Gram (GAF) y redes neuronales convolucionales (CNNs) para proyecciones de tendencias de alta precisión.</li>
+  <li style="margin-bottom: 8px;"><strong>RAG Avanzado y MCP:</strong> Construcción de infraestructura de Generación Aumentada por Recuperación de alta precisión para automatizar la recuperación de conocimiento a través del Protocolo de Contexto de Modelos (MCP).</li>
+  <li style="margin-bottom: 8px;"><strong>Gobernanza, MLOps y Confianza:</strong> Establecimiento de "Capas de Confianza" seguras, limpieza de datos de identificación personal (PII) y pipelines rigurosos de evaluación de modelos (RAGAS/Arize Phoenix) para entornos regulados.</li>
+  <li style="margin-bottom: 8px;"><strong>Automatización Cloud y Edge:</strong> Aprovechamiento de la <a href="https://www.credly.com/badges/20c316e6-18b7-455d-8043-06cb41c04743/public_url" target="_blank" rel="noopener noreferrer">certificación oficial de Google Cloud</a> para optimizar la inferencia y latencia de modelos en infraestructuras multi-nube (GCP, AWS, Azure), integradas con orquestadores de flujos de trabajo n8n a gran escala.</li>
+</ul>
 
-**El Impacto**: Constantemente entrego mejoras del 40%+ en el ROI operativo alineando la investigación de IA emergente con la excelencia en ingeniería escalable.
+**El Impacto:** Entrega constante de un retorno de inversión (ROI) operativo significativo al alinear la investigación emergente en IA con la excelencia en ingeniería escalable.
 
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
   <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="20c316e6-18b7-455d-8043-06cb41c04743" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
@@ -28,10 +30,10 @@ Mi trabajo reciente incluye la arquitectura de soluciones SaaS impulsadas por IA
 
 ---
 
-He migrado mi currículum detallado a LinkedIn para asegurar que siempre esté actualizado con mis últimos proyectos y habilidades.
+Para consultar un registro exhaustivo y continuamente actualizado de la experiencia profesional, arquitecturas desplegadas y habilidades, por favor visite LinkedIn.
 
 <div style="text-align: center; margin-top: 2rem;">
   <a href="https://www.linkedin.com/in/cancino-rodrigo/" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #0077b5; color: white; border-radius: 12px; text-decoration: none; font-weight: bold;">
-    Ver mi Perfil en LinkedIn
+    Ver Perfil de LinkedIn
   </a>
 </div>

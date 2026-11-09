@@ -5,5 +5,28 @@
   "scss.validate": false,
   "css.validate": false,
   "stylelint.enable": false,
-  "stylelint.validate": []
+  "stylelint.validate": [],
+  "peacock.color": "#091c99",
+  "workbench.colorCustomizations": {
+    "activityBar.activeBorder": "#4a9eff",
+    "activityBar.background": "#091c99",
+    "activityBar.border": "#283a90",
+    "activityBar.foreground": "#fdfdfd",
+    "activityBar.inactiveForeground": "#fdfdfd99",
+    "activityBarBadge.background": "#4a9eff",
+    "activityBarBadge.foreground": "#111111",
+    "commandCenter.border": "#4a9eff55",
+    "statusBar.background": "#091c99",
+    "statusBar.border": "#283a90",
+    "statusBar.foreground": "#fdfdfd",
+    "statusBarItem.hoverBackground": "#172cac",
+    "statusBarItem.remoteBackground": "#172cac",
+    "statusBarItem.remoteForeground": "#fdfdfd",
+    "tab.activeBorder": "#4a9eff",
+    "titleBar.activeBackground": "#4a9eff",
+    "titleBar.activeForeground": "#fdfdfd",
+    "titleBar.border": "#283a90",
+    "titleBar.inactiveBackground": "#091c99cc",
+    "titleBar.inactiveForeground": "#fdfdfd99"
+  }
 }

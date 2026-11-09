@@ -48,17 +48,6 @@ layout: null
     <priority>0.80</priority>
   </url>
 
-  <!-- Public Key Page -->
-  <url>
-    <loc>{{ site.url }}/public-key</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="{{ site.url }}/public-key"/>
-    <xhtml:link rel="alternate" hreflang="es" href="{{ site.url }}/es/public-key"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="{{ site.url }}/pt/public-key"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}/public-key"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.50</priority>
-  </url>
-
   <!-- Post: 500 Milliseconds Between Global Collapse and Security -->
   <url>
     <loc>{{ site.url }}/security/engineering/leadership/opinion/2026/11/11/500ms-between-global-collapse-and-security</loc>

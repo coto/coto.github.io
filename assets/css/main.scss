@@ -809,6 +809,7 @@ $ai-serif: $post-font-family;
     margin-top: $spacing-unit * 2;
     margin-bottom: -$spacing-unit * 0.2;
 
+    +h2,
     +h3 {
       font-family: $ai-serif;
       font-size: clamp(20px, 3vw, 32px);

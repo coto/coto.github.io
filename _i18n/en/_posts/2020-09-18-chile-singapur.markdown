@@ -89,8 +89,6 @@ Last October 16th, 2019, in Chile, an organized movement began, much more organi
 
 I am sure that the students were not the ones who committed the destructions, because we students mobilized as a healthy purpose to express our annoyances, our complaints to the system, but the limit is that a true student will not destroy property of someone else or less public. However, the mobilization of students was necessary to trigger the second phase of coordinated destruction, to then force the President, as a third step, to do the same thing that Hugo Chavez did at the beginning of his government in Venezuela just over a decade back, propose a new Constitution.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ghakxsYg0cE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 I am sure that you do not know, and neither do I, how much was the fortune that moved political-military power in Venezuela in corruption and drug trafficking. just to say some safe topics. Because if you understood, you would be doing something to supervise his own "current and future" politicians.
 
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr">Señores cooperativa 3 observaciones: <br>1) &#39;tienen&#39; en vez de &#39;tenían&#39; <br>2) Ese mismo poder criminal está tirando sus manitos en nuestro querido Chile &#39;Hoy&#39;.<br>3) El informe tuvo que hacerlo una oficina ONU distinta a la de la Sra. Bachelet. <a href="https://t.co/GoGrP6Db7y" target="_blank" rel="noreferrer">https://t.co/GoGrP6Db7y</a></p>&mdash; Coto .🖌</blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

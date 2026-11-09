@@ -4,7 +4,7 @@ Si deseas comunicarte conmigo, por favor usa este Formulario de Contacto.
    <p><input name="Name" type="text" placeholder="Tu Nombre" required="required" id="form-field-name" /></p>
    <p><input name="_replyto" type="email" placeholder="Tu Correo" required="required" id="form-field-email" /></p>
    <p><label for="form-field-message">Mensaje:</label>
-   	<textarea name="message" required="required" placeholder="Escribe tu mensaje" rows="4" cols="50" id="form-field-message"></textarea>
+    <textarea name="message" required="required" placeholder="Escribe tu mensaje" rows="4" cols="50" id="form-field-message"></textarea>
    </p>
 
    <!-- Hidden field for reCAPTCHA token -->

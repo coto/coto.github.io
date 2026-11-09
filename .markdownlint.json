@@ -1,63 +1,76 @@
 {
-    "MD001": false,
-    "MD003": false,
-    "MD004": {
-        "style": "dash"
-    },
-    "MD007": {
-        "indent": 2
-    },
-    "MD013": false,
-    "MD022": false,
-    "MD024": false,
-    "MD029": false,
-    "MD032": false,
-    "MD033": {
-        "allowed_elements": [
-            "a",
-            "article",
-            "b",
-            "blockquote",
-            "br",
-            "button",
-            "details",
-            "div",
-            "embed",
-            "form",
-            "header",
-            "hr",
-            "h1",
-            "h2",
-            "h3",
-            "h4",
-            "i",
-            "iframe",
-            "img",
-            "input",
-            "label",
-            "li",
-            "main",
-            "ol",
-            "p",
-            "path",
-            "s",
-            "script",
-            "section",
-            "small",
-            "strike",
-            "style",
-            "strong",
-            "section",
-            "span",
-            "summary",
-            "svg",
-            "textarea",
-            "ul"
-        ]
-    },
-    "MD036": false,
-    "MD040": false,
-    "MD041": false,
-    "MD045": false,
-    "MD060": false
+  "MD001": true,
+  "MD003": {
+    "style": "atx"
+  },
+  "MD004": {
+    "style": "dash"
+  },
+  "MD007": {
+    "indent": 2
+  },
+  "MD013": false,
+  "MD022": true,
+  "MD024": false,
+  "MD029": {
+    "style": "ordered"
+  },
+  "MD032": true,
+  "MD033": {
+    "allowed_elements": [
+      "a",
+      "assistant",
+      "b",
+      "blockquote",
+      "br",
+      "button",
+      "code",
+      "details",
+      "div",
+      "form",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "header",
+      "hr",
+      "i",
+      "img",
+      "input",
+      "kbd",
+      "label",
+      "li",
+      "main",
+      "ol",
+      "p",
+      "path",
+      "s",
+      "script",
+      "section",
+      "small",
+      "strike",
+      "strong",
+      "style",
+      "span",
+      "summary",
+      "svg",
+      "table",
+      "tbody",
+      "td",
+      "textarea",
+      "th",
+      "thead",
+      "tr",
+      "ul",
+      "user"
+    ]
+  },
+  "MD036": false,
+  "MD040": true,
+  "MD041": false,
+  "MD045": true,
+  "MD047": true,
+  "MD060": {
+    "style": "any"
+  }
 }

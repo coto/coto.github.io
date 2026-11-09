@@ -71,6 +71,7 @@ include: [.well-known]
 
 # Exclude directories and files
 exclude:
+  - "**/*.xcf"
   - Gemfile
   - Gemfile.lock
   - node_modules
